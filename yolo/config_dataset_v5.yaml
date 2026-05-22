@@ -1,0 +1,37 @@
+# Пример под структуру final_dataset_v5 (как в test_images.py):
+#   train/<sample_id>/target/left_fwd.jpg
+#   train/<sample_id>/input/t1/left_fwd.jpg
+
+dataset_dir: "data/dataset"
+output_dir: "runs/detect"
+
+model: "yolo26s.pt"
+device: ""
+conf: 0.25
+iou: 0.45
+imgsz: 640
+
+image_globs:
+  - "**/*.jpg"
+  - "**/*.png"
+
+# Только GT-кадры; для input раскомментируйте вторую строку или поставьте "all"
+path_filters:
+  - "/target/"
+
+classes:
+  - person
+  - bicycle
+  - car
+  - motorcycle
+  - bus
+  - truck
+  - traffic light
+  - stop sign
+  - fire hydrant
+  - parking meter
+
+save_images: true
+save_labels: true
+save_json: true
+save_csv: true

@@ -1,1 +1,7 @@
 final_dataset_v5_participants_small
+
+# YOLO / датасеты и артефакты
+data/dataset/*
+!data/dataset/.gitkeep
+runs/
+*.pt

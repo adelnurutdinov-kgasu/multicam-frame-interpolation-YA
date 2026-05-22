@@ -1,0 +1,7 @@
+# YOLO26 / сегментация (нужен свежий ultralytics, см. README_YOLO.md)
+ultralytics>=8.4.53
+opencv-python>=4.8.0
+numpy>=1.24.0
+PyYAML>=6.0
+tqdm>=4.66.0
+pandas>=2.0.0

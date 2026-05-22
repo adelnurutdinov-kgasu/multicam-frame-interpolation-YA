@@ -1,0 +1,51 @@
+# cv_dataset — final_dataset_v5_participants (~19k jpg)
+# Картинки НЕ копируются; сохраняются только метки и JSON (без визуализаций)
+
+dataset_dir: "C:/Users/adel/Downloads/cv_dataset/final_dataset_v5_participants"
+output_dir: "C:/Users/adel/Downloads/cv_dataset/annotations/detect"
+flat_output: true
+
+model: "yolo26s.pt"
+device: ""
+
+image_globs:
+  - "**/*.jpg"
+  - "**/*.jpeg"
+  - "**/*.png"
+
+exclude_dirs:
+  - "annotations"
+  - "runs"
+  - ".git"
+  - "__pycache__"
+
+path_filters: "all"
+
+conf: 0.25
+iou: 0.45
+imgsz: 640
+max_det: 300
+half: false
+
+# Только лёгкие артефакты — без дублирования картинок
+save_images: false
+save_labels: true
+save_json: true
+save_csv: true
+
+classes:
+  - person
+  - bicycle
+  - car
+  - motorcycle
+  - bus
+  - truck
+  - traffic light
+  - stop sign
+  - fire hydrant
+  - parking meter
+  - bench
+  - backpack
+  - umbrella
+  - handbag
+  - suitcase
