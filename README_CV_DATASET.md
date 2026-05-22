@@ -12,18 +12,22 @@ pip install -r requirements-yolo.txt
 python yolo/detect_dataset.py --config yolo/config_cv_dataset.yaml --dry-run
 python yolo/detect_dataset.py --config yolo/config_cv_dataset.yaml
 python yolo/segment_dataset.py --config yolo/config_cv_dataset_seg.yaml
+
+# семантика сцены: road, sky, vegetation, pole, building… (Cityscapes)
+python yolo/sem_dataset.py --config yolo/config_cv_dataset_sem.yaml
 ```
 
 Результаты:
 
 | Путь | Содержимое |
 |------|------------|
-| `annotations/detect/labels/` | YOLO bbox `.txt` |
-| `annotations/detect/detections.jsonl` | боксы для viewer |
-| `annotations/segment/labels_seg/` | полигоны YOLO-seg |
-| `annotations/segment/segments.jsonl` | полигоны для viewer |
+| `annotations/detect/` | боксы (COCO) |
+| `annotations/segment/` | маски объектов (inst-seg) |
+| `annotations/semantic/` | **вся сцена**: road, sky, vegetation, pole… |
 
-`save_images: false`, `save_masks: false` — визуализации на диск не пишутся.
+Семантика — **`semantic.jsonl`** (контуры классов, без PNG на диск).
+
+`save_images: false` — визуализации на диск не пишутся.
 
 GPU: `--device cuda:0`  
 Тест: `--limit 100`

@@ -9,6 +9,8 @@ from pathlib import Path
 import cv2
 import numpy as np
 
+from yolo.cityscapes_classes import CITYSCAPES_COLORS
+
 CLASS_COLORS: dict[str, tuple[int, int, int]] = {
     "person": (0, 255, 0),
     "bicycle": (255, 128, 0),
@@ -23,7 +25,9 @@ CLASS_COLORS: dict[str, tuple[int, int, int]] = {
 }
 
 
-def color_for(name: str) -> tuple[int, int, int]:
+def color_for(name: str, semantic: bool = False) -> tuple[int, int, int]:
+    if semantic and name in CITYSCAPES_COLORS:
+        return CITYSCAPES_COLORS[name]
     if name in CLASS_COLORS:
         return CLASS_COLORS[name]
     h = abs(hash(name)) % 180
@@ -49,20 +53,30 @@ class AnnotationStore:
     dataset_dir: Path
     detect_jsonl: Path
     segment_jsonl: Path
+    semantic_jsonl: Path
     detections: dict[str, dict] = field(default_factory=dict)
     segments: dict[str, dict] = field(default_factory=dict)
+    semantics: dict[str, dict] = field(default_factory=dict)
     images: list[str] = field(default_factory=list)
 
     @classmethod
-    def open(cls, dataset_dir: Path, detect_jsonl: Path, segment_jsonl: Path) -> "AnnotationStore":
+    def open(
+        cls,
+        dataset_dir: Path,
+        detect_jsonl: Path,
+        segment_jsonl: Path,
+        semantic_jsonl: Path,
+    ) -> "AnnotationStore":
         store = cls(
             dataset_dir=dataset_dir.resolve(),
             detect_jsonl=detect_jsonl.resolve(),
             segment_jsonl=segment_jsonl.resolve(),
+            semantic_jsonl=semantic_jsonl.resolve(),
         )
         store.detections = load_jsonl(store.detect_jsonl)
         store.segments = load_jsonl(store.segment_jsonl)
-        keys = set(store.detections) | set(store.segments)
+        store.semantics = load_jsonl(store.semantic_jsonl)
+        keys = set(store.detections) | set(store.segments) | set(store.semantics)
         if keys:
             store.images = sorted(keys)
         else:
@@ -77,6 +91,7 @@ class AnnotationStore:
         path_substr: str = "",
         only_with_boxes: bool = False,
         only_with_segments: bool = False,
+        only_with_semantic: bool = False,
     ) -> list[str]:
         items = self.images
         if path_substr.strip():
@@ -86,7 +101,33 @@ class AnnotationStore:
             items = [i for i in items if self.detections.get(i, {}).get("detections")]
         if only_with_segments:
             items = [i for i in items if self.segments.get(i, {}).get("instances")]
+        if only_with_semantic:
+            items = [i for i in items if self.semantics.get(i, {}).get("regions")]
         return items
+
+
+def _draw_polygons(
+    overlay: np.ndarray,
+    polygons: list[tuple[list, str, float]],
+    alpha: float,
+    semantic: bool,
+) -> int:
+    count = 0
+    for poly, name, _conf in polygons:
+        if len(poly) < 3:
+            continue
+        pts = np.array(poly, dtype=np.int32)
+        color = color_for(name, semantic=semantic)
+        mask = np.zeros(overlay.shape[:2], dtype=np.uint8)
+        cv2.fillPoly(mask, [pts], 255)
+        tint = np.zeros_like(overlay)
+        tint[:] = color
+        m = mask > 0
+        overlay[m] = cv2.addWeighted(overlay, 1 - alpha, tint, alpha, 0)[m]
+        if not semantic:
+            cv2.polylines(overlay, [pts], True, color, 2, cv2.LINE_AA)
+        count += 1
+    return count
 
 
 def render_overlay(
@@ -94,6 +135,7 @@ def render_overlay(
     rel_path: str,
     show_boxes: bool,
     show_segments: bool,
+    show_semantic: bool,
     conf_min: float,
     class_names: list[str] | None,
 ) -> tuple[np.ndarray | None, str]:
@@ -108,31 +150,33 @@ def render_overlay(
         return None, f"Не удалось прочитать: {rel_path}"
 
     allowed = {c.lower() for c in class_names} if class_names else None
-    det_n = 0
-    seg_n = 0
     overlay = img.copy()
+    sem_n = 0
+    seg_n = 0
+    det_n = 0
+    sem_classes: list[str] = []
+
+    if show_semantic and rel_path in store.semantics:
+        rec = store.semantics[rel_path]
+        sem_classes = rec.get("classes_present") or []
+        polys = []
+        for reg in rec.get("regions", []):
+            name = reg.get("class_name", "")
+            if allowed and name.lower() not in allowed:
+                continue
+            polys.append((reg.get("polygon_xy") or [], name, 1.0))
+        sem_n = _draw_polygons(overlay, polys, alpha=0.35, semantic=True)
 
     if show_segments and rel_path in store.segments:
+        polys = []
         for inst in store.segments[rel_path].get("instances", []):
             if inst.get("confidence", 0) < conf_min:
                 continue
             name = inst.get("class_name", "")
             if allowed and name.lower() not in allowed:
                 continue
-            poly = inst.get("polygon_xy") or []
-            if len(poly) < 3:
-                continue
-            pts = np.array(poly, dtype=np.int32)
-            color = color_for(name)
-            mask = np.zeros(overlay.shape[:2], dtype=np.uint8)
-            cv2.fillPoly(mask, [pts], 255)
-            tint = np.zeros_like(overlay)
-            tint[:] = color
-            alpha = 0.4
-            m = mask > 0
-            overlay[m] = cv2.addWeighted(overlay, 1 - alpha, tint, alpha, 0)[m]
-            cv2.polylines(overlay, [pts], True, color, 2, cv2.LINE_AA)
-            seg_n += 1
+            polys.append((inst.get("polygon_xy") or [], name, inst.get("confidence", 0)))
+        seg_n = _draw_polygons(overlay, polys, alpha=0.4, semantic=False)
 
     if show_boxes and rel_path in store.detections:
         for d in store.detections[rel_path].get("detections", []):
@@ -151,8 +195,12 @@ def render_overlay(
             det_n += 1
 
     rgb = cv2.cvtColor(overlay, cv2.COLOR_BGR2RGB)
+    sem_info = ", ".join(sem_classes[:8]) if sem_classes else "—"
+    if len(sem_classes) > 8:
+        sem_info += "…"
     info = (
         f"{rel_path}\n"
-        f"боксов: {det_n} | сегментов: {seg_n} | conf>={conf_min:.2f}"
+        f"боксов: {det_n} | inst-seg: {seg_n} | sem-регионов: {sem_n}\n"
+        f"семантика на кадре: {sem_info}"
     )
     return rgb, info

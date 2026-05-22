@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta charset="utf-8">
+<title>Baseline visual comparison</title>
+<style>
+  body { font-family: system-ui, sans-serif; background:#111; color:#eee; margin:0; padding:20px; }
+  h1 { text-align:center; }
+  .sample { max-width:1400px; margin:40px auto; background:#1a1a1a; padding:16px; border-radius:8px; }
+  .sample img { width:100%; border-radius:4px; cursor:zoom-in; }
+  table { border-collapse:collapse; margin-top:8px; }
+  td, th { border:1px solid #444; padding:4px 10px; }
+  th { background:#333; }
+  summary { cursor:pointer; color:#8cf; margin-top:8px; }
+</style></head><body>
+<h1>Сравнение бейзлайнов с TARGET (GT)</h1>
+<p style="text-align:center;color:#aaa">
+  Строка 1: предсказания &nbsp;|&nbsp; Строка 2: zoom на дорогу &nbsp;|&nbsp; Строка 3: карты ошибки |pred−GT|
+</p>
+
+        <section class="sample">
+          <h2>2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000</h2>
+          <p>camera: <b>front</b> &nbsp;|&nbsp; best: <b>ensemble</b> (19.73 dB)</p>
+          <a href="00_2025-10-01_11_45_46_12_19_35_robb_1759310438799892.png"><img src="00_2025-10-01_11_45_46_12_19_35_robb_1759310438799892.png" loading="lazy" alt="2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000"></a>
+          <details>
+            <summary>PSNR всех методов</summary>
+            <table>
+              <tr><th>метод</th><th>PSNR</th></tr>
+              <tr><td>ensemble</td><td>19.73</td></tr><tr><td>rife</td><td>19.54</td></tr><tr><td>dis_official</td><td>19.33</td></tr><tr><td>mean</td><td>18.69</td></tr><tr><td>adaptive_aggr</td><td>18.54</td></tr><tr><td>adaptive_soft</td><td>18.47</td></tr><tr><td>farneback_aggr</td><td>18.27</td></tr><tr><td>dis_half</td><td>18.21</td></tr><tr><td>global_blur</td><td>18.07</td></tr><tr><td>t0</td><td>18.03</td></tr><tr><td>farneback_half</td><td>18.00</td></tr><tr><td>t1</td><td>17.45</td></tr>
+            </table>
+          </details>
+        </section>
+        <section class="sample">
+          <h2>2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000</h2>
+          <p>camera: <b>right_fwd</b> &nbsp;|&nbsp; best: <b>ensemble</b> (18.27 dB)</p>
+          <a href="01_2025-10-26_18_34_10_18_54_23_jurita_17614941428000.png"><img src="01_2025-10-26_18_34_10_18_54_23_jurita_17614941428000.png" loading="lazy" alt="2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000"></a>
+          <details>
+            <summary>PSNR всех методов</summary>
+            <table>
+              <tr><th>метод</th><th>PSNR</th></tr>
+              <tr><td>ensemble</td><td>18.27</td></tr><tr><td>rife</td><td>18.16</td></tr><tr><td>dis_official</td><td>17.97</td></tr><tr><td>mean</td><td>17.71</td></tr><tr><td>t0</td><td>17.50</td></tr><tr><td>adaptive_aggr</td><td>16.49</td></tr><tr><td>adaptive_soft</td><td>16.26</td></tr><tr><td>dis_half</td><td>16.13</td></tr><tr><td>farneback_aggr</td><td>16.13</td></tr><tr><td>farneback_half</td><td>15.98</td></tr><tr><td>global_blur</td><td>15.98</td></tr><tr><td>t1</td><td>15.79</td></tr>
+            </table>
+          </details>
+        </section>
+        <section class="sample">
+          <h2>2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000</h2>
+          <p>camera: <b>rear</b> &nbsp;|&nbsp; best: <b>ensemble</b> (19.41 dB)</p>
+          <a href="02_2025-12-06_09_51_10_09_54_29_hetera_17650052683998.png"><img src="02_2025-12-06_09_51_10_09_54_29_hetera_17650052683998.png" loading="lazy" alt="2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000"></a>
+          <details>
+            <summary>PSNR всех методов</summary>
+            <table>
+              <tr><th>метод</th><th>PSNR</th></tr>
+              <tr><td>ensemble</td><td>19.41</td></tr><tr><td>dis_official</td><td>19.12</td></tr><tr><td>rife</td><td>19.09</td></tr><tr><td>adaptive_aggr</td><td>19.05</td></tr><tr><td>adaptive_soft</td><td>19.03</td></tr><tr><td>farneback_aggr</td><td>18.54</td></tr><tr><td>mean</td><td>18.53</td></tr><tr><td>global_blur</td><td>18.39</td></tr><tr><td>dis_half</td><td>18.21</td></tr><tr><td>farneback_half</td><td>18.13</td></tr><tr><td>t1</td><td>17.41</td></tr><tr><td>t0</td><td>17.29</td></tr>
+            </table>
+          </details>
+        </section>
+        <section class="sample">
+          <h2>2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001</h2>
+          <p>camera: <b>rear</b> &nbsp;|&nbsp; best: <b>ensemble</b> (20.26 dB)</p>
+          <a href="03_2025-12-20_10_29_31_10_38_36_right_176621751430007.png"><img src="03_2025-12-20_10_29_31_10_38_36_right_176621751430007.png" loading="lazy" alt="2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001"></a>
+          <details>
+            <summary>PSNR всех методов</summary>
+            <table>
+              <tr><th>метод</th><th>PSNR</th></tr>
+              <tr><td>ensemble</td><td>20.26</td></tr><tr><td>rife</td><td>19.63</td></tr><tr><td>adaptive_aggr</td><td>19.58</td></tr><tr><td>dis_official</td><td>19.58</td></tr><tr><td>adaptive_soft</td><td>19.33</td></tr><tr><td>mean</td><td>18.87</td></tr><tr><td>farneback_aggr</td><td>18.73</td></tr><tr><td>global_blur</td><td>18.40</td></tr><tr><td>farneback_half</td><td>18.38</td></tr><tr><td>dis_half</td><td>18.23</td></tr><tr><td>t1</td><td>17.62</td></tr><tr><td>t0</td><td>16.87</td></tr>
+            </table>
+          </details>
+        </section>
+        <section class="sample">
+          <h2>2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000</h2>
+          <p>camera: <b>left_fwd</b> &nbsp;|&nbsp; best: <b>ensemble</b> (27.10 dB)</p>
+          <a href="04_2026-03-11_09_50_58_09_57_28_greton_17732133181998.png"><img src="04_2026-03-11_09_50_58_09_57_28_greton_17732133181998.png" loading="lazy" alt="2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000"></a>
+          <details>
+            <summary>PSNR всех методов</summary>
+            <table>
+              <tr><th>метод</th><th>PSNR</th></tr>
+              <tr><td>ensemble</td><td>27.10</td></tr><tr><td>dis_official</td><td>26.77</td></tr><tr><td>rife</td><td>26.63</td></tr><tr><td>adaptive_soft</td><td>26.34</td></tr><tr><td>adaptive_aggr</td><td>26.18</td></tr><tr><td>mean</td><td>25.94</td></tr><tr><td>dis_half</td><td>25.93</td></tr><tr><td>farneback_aggr</td><td>25.89</td></tr><tr><td>farneback_half</td><td>25.62</td></tr><tr><td>global_blur</td><td>25.58</td></tr><tr><td>t1</td><td>24.90</td></tr><tr><td>t0</td><td>23.81</td></tr>
+            </table>
+          </details>
+        </section>
+        <section class="sample">
+          <h2>2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001</h2>
+          <p>camera: <b>right_fwd</b> &nbsp;|&nbsp; best: <b>ensemble</b> (18.33 dB)</p>
+          <a href="05_2026-03-14_07_09_08_09_19_03_jurgie_17734699797998.png"><img src="05_2026-03-14_07_09_08_09_19_03_jurgie_17734699797998.png" loading="lazy" alt="2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001"></a>
+          <details>
+            <summary>PSNR всех методов</summary>
+            <table>
+              <tr><th>метод</th><th>PSNR</th></tr>
+              <tr><td>ensemble</td><td>18.33</td></tr><tr><td>rife</td><td>18.13</td></tr><tr><td>dis_official</td><td>17.29</td></tr><tr><td>mean</td><td>17.03</td></tr><tr><td>adaptive_aggr</td><td>16.77</td></tr><tr><td>adaptive_soft</td><td>16.49</td></tr><tr><td>farneback_aggr</td><td>16.48</td></tr><tr><td>global_blur</td><td>16.26</td></tr><tr><td>farneback_half</td><td>15.86</td></tr><tr><td>t1</td><td>15.78</td></tr><tr><td>dis_half</td><td>15.42</td></tr><tr><td>t0</td><td>15.25</td></tr>
+            </table>
+          </details>
+        </section>
+        <section class="sample">
+          <h2>2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000</h2>
+          <p>camera: <b>front</b> &nbsp;|&nbsp; best: <b>ensemble</b> (22.52 dB)</p>
+          <a href="06_2026-03-15_06_46_31_12_47_10_helen_177356831290001.png"><img src="06_2026-03-15_06_46_31_12_47_10_helen_177356831290001.png" loading="lazy" alt="2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000"></a>
+          <details>
+            <summary>PSNR всех методов</summary>
+            <table>
+              <tr><th>метод</th><th>PSNR</th></tr>
+              <tr><td>ensemble</td><td>22.52</td></tr><tr><td>dis_official</td><td>22.00</td></tr><tr><td>rife</td><td>21.74</td></tr><tr><td>adaptive_aggr</td><td>21.21</td></tr><tr><td>adaptive_soft</td><td>20.97</td></tr><tr><td>mean</td><td>20.74</td></tr><tr><td>farneback_aggr</td><td>20.41</td></tr><tr><td>dis_half</td><td>20.21</td></tr><tr><td>farneback_half</td><td>19.99</td></tr><tr><td>global_blur</td><td>19.98</td></tr><tr><td>t0</td><td>19.29</td></tr><tr><td>t1</td><td>19.18</td></tr>
+            </table>
+          </details>
+        </section>
+        <section class="sample">
+          <h2>2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001</h2>
+          <p>camera: <b>right_bwd</b> &nbsp;|&nbsp; best: <b>ensemble</b> (16.15 dB)</p>
+          <a href="07_2026-03-15_12_22_06_12_28_47_shelly_17735698259998.png"><img src="07_2026-03-15_12_22_06_12_28_47_shelly_17735698259998.png" loading="lazy" alt="2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001"></a>
+          <details>
+            <summary>PSNR всех методов</summary>
+            <table>
+              <tr><th>метод</th><th>PSNR</th></tr>
+              <tr><td>ensemble</td><td>16.15</td></tr><tr><td>dis_official</td><td>15.69</td></tr><tr><td>rife</td><td>15.65</td></tr><tr><td>mean</td><td>15.21</td></tr><tr><td>adaptive_aggr</td><td>14.75</td></tr><tr><td>adaptive_soft</td><td>14.39</td></tr><tr><td>t0</td><td>14.24</td></tr><tr><td>farneback_aggr</td><td>14.11</td></tr><tr><td>dis_half</td><td>13.96</td></tr><tr><td>farneback_half</td><td>13.86</td></tr><tr><td>global_blur</td><td>13.86</td></tr><tr><td>t1</td><td>13.53</td></tr>
+            </table>
+          </details>
+        </section>
+</body></html>

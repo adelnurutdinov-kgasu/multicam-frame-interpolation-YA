@@ -1,0 +1,76 @@
+sample: 2026-03-16_15_59_49_18_43_54_lerita_1773678938500161000__000
+topology label iou after align: 0.004
+topology class iou: 0.685
+target depth topology iou: 0.402
+coarse topology pairs: 11
+matched pairs: 9 (topology-confirmed: 6)
+t0 zones: 18  t1 zones: 14
+unmatched t0: 9  unmatched t1: 5
+
+=== Coarse topology (class + depth rank) ===
+  C0 road z0=6 <-> road z1=20
+  C1 road z0=20 <-> road z1=3
+  C2 building z0=14 <-> building z1=21
+  C3 pole z0=16 <-> pole z1=22
+  C4 vegetation z0=12 <-> vegetation z1=21
+  C5 vegetation z0=16 <-> vegetation z1=25
+  C6 vegetation z0=25 <-> vegetation z1=40
+  C7 vegetation z0=78 <-> vegetation z1=75
+  C8 terrain z0=7 <-> terrain z1=10
+  C9 terrain z0=10 <-> terrain z1=16
+  C10 terrain z0=19 <-> terrain z1=7
+
+=== Final matched pairs ===
+  P0 [iou] road|road iou=0.15 flow=(-132.4,+26.8)
+  P1 [iou] building|building iou=0.13 flow=(-54.7,+39.0)
+  P2 [topo] terrain|terrain iou=0.41 flow=(-375.9,-21.4)
+  P3 [iou] terrain|terrain iou=0.27 flow=(-103.0,-2.3)
+  P4 [topo] vegetation|vegetation iou=0.36 flow=(-17.5,+2.3)
+  P5 [topo] vegetation|vegetation iou=0.02 flow=(-187.8,+29.7)
+  P6 [topo] vegetation|vegetation iou=0.11 flow=(-83.3,+13.2)
+  P7 [topo] vegetation|vegetation iou=0.08 flow=(-185.5,+47.2)
+  P8 [topo] pole|pole iou=0.77 flow=(-80.3,+28.4)
+
+=== Сегменты результата ===
+  id=   1  px=  85280  P0 road|road z0=20 z1=20 iou=0.15
+  id=   2  px=  46704  P1 building|building z0=15 z1=21 iou=0.13
+  id=   3  px=  28764  P2 terrain|terrain z0=7 z1=10 iou=0.41
+  id=   4  px=  23108  P3 terrain|terrain z0=19 z1=16 iou=0.27
+  id=   5  px=   3162  P4 vegetation|vegetation z0=78 z1=75 iou=0.36
+  id=   6  px=   5276  P5 vegetation|vegetation z0=16 z1=25 iou=0.02
+  id=   7  px=   1280  P6 vegetation|vegetation z0=25 z1=40 iou=0.11
+  id=   8  px=   1290  P7 vegetation|vegetation z0=12 z1=21 iou=0.08
+  id=   9  px=   1932  P8 pole|pole z0=16 z1=22 iou=0.77
+  id=  11  px=  34076  U0 road z=6m (t0 only)
+  id=  12  px=  10976  U0 terrain z=10m (t0 only)
+  id=  13  px=  24265  U0 building z=14m (t0 only)
+  id=  14  px=    337  U0 person z=18m (t0 only)
+  id=  15  px=    568  U0 building z=19m (t0 only)
+  id=  16  px=    346  U0 building z=20m (t0 only)
+  id=  17  px=    151  U0 building z=68m (t0 only)
+  id=  19  px= 126115  U1 road z=3m (t1 only)
+  id=  20  px=    237  U1 sidewalk z=6m (t1 only)
+  id=  21  px=  12162  U1 terrain z=7m (t1 only)
+  id=  22  px=     30  U1 car z=94m (t1 only)
+  id=  23  px=     33  U1 car z=128m (t1 only)
+  id=9999  px= 150964  fallback farneback
+
+=== Expected on target pose (t0→target) ===
+  id=   1  px=      0  T0#0 road z=3m
+  id=   2  px=  17804  T0#1 road z=6m
+  id=   3  px=  56908  T0#2 terrain z=7m
+  id=   4  px=   6334  T0#3 terrain z=10m
+  id=   5  px=  10051  T0#4 vegetation z=12m
+  id=   6  px=  21738  T0#5 building z=14m
+  id=   7  px=  44253  T0#6 building z=15m
+  id=   8  px=   5305  T0#7 vegetation z=16m
+  id=   9  px=   2086  T0#8 pole z=16m
+  id=  10  px=   1478  T0#9 person z=18m
+  id=  11  px=  16085  T0#10 terrain z=19m
+  id=  12  px=    577  T0#11 building z=19m
+  id=  13  px=    352  T0#12 building z=20m
+  id=  14  px=  65143  T0#13 road z=20m
+  id=  15  px=  14971  T0#14 vegetation z=25m
+  id=  16  px=    442  T0#15 building z=68m
+  id=  17  px=  13153  T0#16 vegetation z=78m
+  id=  18  px=   1185  T0#17 building z=121m

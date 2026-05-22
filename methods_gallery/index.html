@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta charset="utf-8">
+<title>Methods gallery</title>
+<style>
+  body { font-family: system-ui,sans-serif; background:#111; color:#eee; margin:0; padding:16px; }
+  h1 { text-align:center; }
+  table { border-collapse:collapse; margin:20px auto; }
+  td,th { border:1px solid #444; padding:6px 12px; }
+  th { background:#333; }
+  section { max-width:1600px; margin:40px auto; background:#1a1a1a; padding:16px; border-radius:8px; }
+  .row { display:flex; flex-wrap:wrap; gap:8px; }
+  .refs .card { max-width:280px; }
+  .card { flex:0 0 auto; width:200px; }
+  .card img { width:100%; border-radius:4px; }
+  .lbl { font-size:11px; color:#aaa; padding:4px 0; text-align:center; }
+</style></head><body>
+<h1>Галерея методов интерполяции</h1>
+<table><tr><th>#</th><th>Описание</th><th>avg PSNR</th><th>avg score</th></tr>
+<tr><td>01_t0</td><td>Копия кадра t0</td><td>17.78</td><td>38.9</td></tr><tr><td>02_t1</td><td>Копия кадра t1</td><td>17.71</td><td>38.5</td></tr><tr><td>03_mean</td><td>Среднее (t0+t1)/2</td><td>19.09</td><td>45.5</td></tr><tr><td>04_global_blur</td><td>Blur t1, sigma=2</td><td>18.31</td><td>41.6</td></tr><tr><td>05_farneback_half</td><td>Warp t1 на flow/2</td><td>18.23</td><td>41.1</td></tr><tr><td>06_farneback_alpha</td><td>Symmetric: t0 на alpha*flow, t1 на (1-alpha)*flow</td><td>19.26</td><td>46.3</td></tr><tr><td>07_farneback_aggr</td><td>Farneback + blur в bad zones</td><td>18.57</td><td>42.9</td></tr><tr><td>08_dis_half</td><td>DIS warp t1 на полпотока</td><td>18.29</td><td>41.4</td></tr><tr><td>09_adaptive_soft</td><td>Adaptive blur soft</td><td>18.91</td><td>44.5</td></tr><tr><td>10_adaptive_aggr</td><td>Adaptive blur aggressive</td><td>19.07</td><td>45.4</td></tr><tr><td>11_dis_official</td><td>DIS official (оба кадра)</td><td>19.72</td><td>48.6</td></tr><tr><td>12_rife</td><td>RIFE neural</td><td>19.82</td><td>49.1</td></tr><tr><td>13_ensemble</td><td>0.6 DIS + 0.4 RIFE</td><td>20.22</td><td>51.1</td></tr><tr><td>14_geo_perpixel</td><td>LiDAR geo warp per-pixel</td><td>19.28</td><td>46.4</td></tr><tr><td>15_layered_parallax</td><td>8 layers + tuned alpha + blur</td><td>19.43</td><td>47.1</td></tr><tr><td>16_phase_blocks</td><td>Phase correlation blocks</td><td>0.00</td><td>0.0</td></tr>
+</table>
+
+        <section>
+          <h2>2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000</h2>
+          <p>camera: <b>front</b></p>
+          <div class="row refs">
+            <div class="card"><img src="_meta/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000_t0.jpg"><div class="lbl">t0</div></div>
+            <div class="card"><img src="_meta/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000_t1.jpg"><div class="lbl">t1</div></div>
+            <div class="card"><img src="_meta/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000_gt.jpg"><div class="lbl">GT target</div></div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="01_t0/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="01_t0/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">01_t0<br>PSNR 18.03</div>
+            </div>
+            <div class="card">
+              <a href="02_t1/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="02_t1/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">02_t1<br>PSNR 17.45</div>
+            </div>
+            <div class="card">
+              <a href="03_mean/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="03_mean/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">03_mean<br>PSNR 18.69</div>
+            </div>
+            <div class="card">
+              <a href="04_global_blur/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="04_global_blur/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">04_global_blur<br>PSNR 18.07</div>
+            </div>
+            <div class="card">
+              <a href="05_farneback_half/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="05_farneback_half/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">05_farneback_half<br>PSNR 18.00</div>
+            </div>
+            <div class="card">
+              <a href="06_farneback_alpha/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="06_farneback_alpha/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">06_farneback_alpha<br>PSNR 19.01</div>
+            </div>
+            <div class="card">
+              <a href="07_farneback_aggr/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="07_farneback_aggr/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">07_farneback_aggr<br>PSNR 18.27</div>
+            </div>
+            <div class="card">
+              <a href="08_dis_half/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="08_dis_half/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">08_dis_half<br>PSNR 18.21</div>
+            </div>
+            <div class="card">
+              <a href="09_adaptive_soft/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="09_adaptive_soft/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">09_adaptive_soft<br>PSNR 18.47</div>
+            </div>
+            <div class="card">
+              <a href="10_adaptive_aggr/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="10_adaptive_aggr/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">10_adaptive_aggr<br>PSNR 18.54</div>
+            </div>
+            <div class="card">
+              <a href="11_dis_official/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="11_dis_official/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">11_dis_official<br>PSNR 19.33</div>
+            </div>
+            <div class="card">
+              <a href="12_rife/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="12_rife/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">12_rife<br>PSNR 19.54</div>
+            </div>
+            <div class="card">
+              <a href="13_ensemble/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="13_ensemble/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">13_ensemble<br>PSNR 19.73</div>
+            </div>
+            <div class="card">
+              <a href="14_geo_perpixel/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="14_geo_perpixel/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">14_geo_perpixel<br>PSNR 20.00</div>
+            </div>
+            <div class="card">
+              <a href="15_layered_parallax/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg"><img src="15_layered_parallax/2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000.jpg" loading="lazy"></a>
+              <div class="lbl">15_layered_parallax<br>PSNR 19.80</div>
+            </div></div>
+        </section>
+        <section>
+          <h2>2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000</h2>
+          <p>camera: <b>right_fwd</b></p>
+          <div class="row refs">
+            <div class="card"><img src="_meta/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000_t0.jpg"><div class="lbl">t0</div></div>
+            <div class="card"><img src="_meta/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000_t1.jpg"><div class="lbl">t1</div></div>
+            <div class="card"><img src="_meta/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000_gt.jpg"><div class="lbl">GT target</div></div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="01_t0/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="01_t0/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">01_t0<br>PSNR 17.50</div>
+            </div>
+            <div class="card">
+              <a href="02_t1/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="02_t1/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">02_t1<br>PSNR 15.79</div>
+            </div>
+            <div class="card">
+              <a href="03_mean/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="03_mean/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">03_mean<br>PSNR 17.71</div>
+            </div>
+            <div class="card">
+              <a href="04_global_blur/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="04_global_blur/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">04_global_blur<br>PSNR 15.98</div>
+            </div>
+            <div class="card">
+              <a href="05_farneback_half/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="05_farneback_half/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">05_farneback_half<br>PSNR 15.98</div>
+            </div>
+            <div class="card">
+              <a href="06_farneback_alpha/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="06_farneback_alpha/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">06_farneback_alpha<br>PSNR 17.62</div>
+            </div>
+            <div class="card">
+              <a href="07_farneback_aggr/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="07_farneback_aggr/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">07_farneback_aggr<br>PSNR 16.13</div>
+            </div>
+            <div class="card">
+              <a href="08_dis_half/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="08_dis_half/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">08_dis_half<br>PSNR 16.13</div>
+            </div>
+            <div class="card">
+              <a href="09_adaptive_soft/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="09_adaptive_soft/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">09_adaptive_soft<br>PSNR 16.26</div>
+            </div>
+            <div class="card">
+              <a href="10_adaptive_aggr/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="10_adaptive_aggr/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">10_adaptive_aggr<br>PSNR 16.49</div>
+            </div>
+            <div class="card">
+              <a href="11_dis_official/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="11_dis_official/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">11_dis_official<br>PSNR 17.97</div>
+            </div>
+            <div class="card">
+              <a href="12_rife/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="12_rife/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">12_rife<br>PSNR 18.16</div>
+            </div>
+            <div class="card">
+              <a href="13_ensemble/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="13_ensemble/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">13_ensemble<br>PSNR 18.27</div>
+            </div>
+            <div class="card">
+              <a href="14_geo_perpixel/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="14_geo_perpixel/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">14_geo_perpixel<br>PSNR 20.38</div>
+            </div>
+            <div class="card">
+              <a href="15_layered_parallax/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg"><img src="15_layered_parallax/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg" loading="lazy"></a>
+              <div class="lbl">15_layered_parallax<br>PSNR 19.96</div>
+            </div></div>
+        </section>
+        <section>
+          <h2>2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000</h2>
+          <p>camera: <b>rear</b></p>
+          <div class="row refs">
+            <div class="card"><img src="_meta/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000_t0.jpg"><div class="lbl">t0</div></div>
+            <div class="card"><img src="_meta/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000_t1.jpg"><div class="lbl">t1</div></div>
+            <div class="card"><img src="_meta/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000_gt.jpg"><div class="lbl">GT target</div></div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="01_t0/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="01_t0/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">01_t0<br>PSNR 17.29</div>
+            </div>
+            <div class="card">
+              <a href="02_t1/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="02_t1/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">02_t1<br>PSNR 17.41</div>
+            </div>
+            <div class="card">
+              <a href="03_mean/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="03_mean/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">03_mean<br>PSNR 18.53</div>
+            </div>
+            <div class="card">
+              <a href="04_global_blur/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="04_global_blur/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">04_global_blur<br>PSNR 18.39</div>
+            </div>
+            <div class="card">
+              <a href="05_farneback_half/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="05_farneback_half/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">05_farneback_half<br>PSNR 18.13</div>
+            </div>
+            <div class="card">
+              <a href="06_farneback_alpha/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="06_farneback_alpha/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">06_farneback_alpha<br>PSNR 18.75</div>
+            </div>
+            <div class="card">
+              <a href="07_farneback_aggr/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="07_farneback_aggr/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">07_farneback_aggr<br>PSNR 18.54</div>
+            </div>
+            <div class="card">
+              <a href="08_dis_half/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="08_dis_half/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">08_dis_half<br>PSNR 18.21</div>
+            </div>
+            <div class="card">
+              <a href="09_adaptive_soft/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="09_adaptive_soft/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">09_adaptive_soft<br>PSNR 19.03</div>
+            </div>
+            <div class="card">
+              <a href="10_adaptive_aggr/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="10_adaptive_aggr/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">10_adaptive_aggr<br>PSNR 19.05</div>
+            </div>
+            <div class="card">
+              <a href="11_dis_official/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="11_dis_official/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">11_dis_official<br>PSNR 19.12</div>
+            </div>
+            <div class="card">
+              <a href="12_rife/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="12_rife/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">12_rife<br>PSNR 19.09</div>
+            </div>
+            <div class="card">
+              <a href="13_ensemble/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="13_ensemble/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">13_ensemble<br>PSNR 19.41</div>
+            </div>
+            <div class="card">
+              <a href="14_geo_perpixel/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="14_geo_perpixel/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">14_geo_perpixel<br>PSNR 19.18</div>
+            </div>
+            <div class="card">
+              <a href="15_layered_parallax/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg"><img src="15_layered_parallax/2025-12-06_09_51_10_09_54_29_hetera_1765005268399847000__000.jpg" loading="lazy"></a>
+              <div class="lbl">15_layered_parallax<br>PSNR 19.03</div>
+            </div></div>
+        </section>
+        <section>
+          <h2>2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001</h2>
+          <p>camera: <b>rear</b></p>
+          <div class="row refs">
+            <div class="card"><img src="_meta/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001_t0.jpg"><div class="lbl">t0</div></div>
+            <div class="card"><img src="_meta/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001_t1.jpg"><div class="lbl">t1</div></div>
+            <div class="card"><img src="_meta/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001_gt.jpg"><div class="lbl">GT target</div></div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="01_t0/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="01_t0/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">01_t0<br>PSNR 16.87</div>
+            </div>
+            <div class="card">
+              <a href="02_t1/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="02_t1/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">02_t1<br>PSNR 17.62</div>
+            </div>
+            <div class="card">
+              <a href="03_mean/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="03_mean/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">03_mean<br>PSNR 18.87</div>
+            </div>
+            <div class="card">
+              <a href="04_global_blur/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="04_global_blur/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">04_global_blur<br>PSNR 18.40</div>
+            </div>
+            <div class="card">
+              <a href="05_farneback_half/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="05_farneback_half/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">05_farneback_half<br>PSNR 18.38</div>
+            </div>
+            <div class="card">
+              <a href="06_farneback_alpha/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="06_farneback_alpha/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">06_farneback_alpha<br>PSNR 19.20</div>
+            </div>
+            <div class="card">
+              <a href="07_farneback_aggr/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="07_farneback_aggr/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">07_farneback_aggr<br>PSNR 18.73</div>
+            </div>
+            <div class="card">
+              <a href="08_dis_half/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="08_dis_half/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">08_dis_half<br>PSNR 18.23</div>
+            </div>
+            <div class="card">
+              <a href="09_adaptive_soft/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="09_adaptive_soft/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">09_adaptive_soft<br>PSNR 19.33</div>
+            </div>
+            <div class="card">
+              <a href="10_adaptive_aggr/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="10_adaptive_aggr/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">10_adaptive_aggr<br>PSNR 19.58</div>
+            </div>
+            <div class="card">
+              <a href="11_dis_official/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="11_dis_official/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">11_dis_official<br>PSNR 19.58</div>
+            </div>
+            <div class="card">
+              <a href="12_rife/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="12_rife/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">12_rife<br>PSNR 19.63</div>
+            </div>
+            <div class="card">
+              <a href="13_ensemble/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="13_ensemble/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">13_ensemble<br>PSNR 20.26</div>
+            </div>
+            <div class="card">
+              <a href="14_geo_perpixel/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="14_geo_perpixel/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">14_geo_perpixel<br>PSNR 16.31</div>
+            </div>
+            <div class="card">
+              <a href="15_layered_parallax/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg"><img src="15_layered_parallax/2025-12-20_10_29_31_10_38_36_right_1766217514300079000__001.jpg" loading="lazy"></a>
+              <div class="lbl">15_layered_parallax<br>PSNR 16.91</div>
+            </div></div>
+        </section>
+        <section>
+          <h2>2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000</h2>
+          <p>camera: <b>left_fwd</b></p>
+          <div class="row refs">
+            <div class="card"><img src="_meta/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000_t0.jpg"><div class="lbl">t0</div></div>
+            <div class="card"><img src="_meta/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000_t1.jpg"><div class="lbl">t1</div></div>
+            <div class="card"><img src="_meta/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000_gt.jpg"><div class="lbl">GT target</div></div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="01_t0/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="01_t0/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">01_t0<br>PSNR 23.81</div>
+            </div>
+            <div class="card">
+              <a href="02_t1/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="02_t1/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">02_t1<br>PSNR 24.90</div>
+            </div>
+            <div class="card">
+              <a href="03_mean/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="03_mean/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">03_mean<br>PSNR 25.94</div>
+            </div>
+            <div class="card">
+              <a href="04_global_blur/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="04_global_blur/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">04_global_blur<br>PSNR 25.58</div>
+            </div>
+            <div class="card">
+              <a href="05_farneback_half/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="05_farneback_half/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">05_farneback_half<br>PSNR 25.62</div>
+            </div>
+            <div class="card">
+              <a href="06_farneback_alpha/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="06_farneback_alpha/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">06_farneback_alpha<br>PSNR 26.19</div>
+            </div>
+            <div class="card">
+              <a href="07_farneback_aggr/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="07_farneback_aggr/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">07_farneback_aggr<br>PSNR 25.89</div>
+            </div>
+            <div class="card">
+              <a href="08_dis_half/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="08_dis_half/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">08_dis_half<br>PSNR 25.93</div>
+            </div>
+            <div class="card">
+              <a href="09_adaptive_soft/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="09_adaptive_soft/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">09_adaptive_soft<br>PSNR 26.34</div>
+            </div>
+            <div class="card">
+              <a href="10_adaptive_aggr/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="10_adaptive_aggr/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">10_adaptive_aggr<br>PSNR 26.18</div>
+            </div>
+            <div class="card">
+              <a href="11_dis_official/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="11_dis_official/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">11_dis_official<br>PSNR 26.77</div>
+            </div>
+            <div class="card">
+              <a href="12_rife/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="12_rife/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">12_rife<br>PSNR 26.63</div>
+            </div>
+            <div class="card">
+              <a href="13_ensemble/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="13_ensemble/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">13_ensemble<br>PSNR 27.10</div>
+            </div>
+            <div class="card">
+              <a href="14_geo_perpixel/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="14_geo_perpixel/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">14_geo_perpixel<br>PSNR 23.42</div>
+            </div>
+            <div class="card">
+              <a href="15_layered_parallax/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg"><img src="15_layered_parallax/2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__000.jpg" loading="lazy"></a>
+              <div class="lbl">15_layered_parallax<br>PSNR 24.19</div>
+            </div></div>
+        </section>
+        <section>
+          <h2>2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001</h2>
+          <p>camera: <b>right_fwd</b></p>
+          <div class="row refs">
+            <div class="card"><img src="_meta/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001_t0.jpg"><div class="lbl">t0</div></div>
+            <div class="card"><img src="_meta/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001_t1.jpg"><div class="lbl">t1</div></div>
+            <div class="card"><img src="_meta/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001_gt.jpg"><div class="lbl">GT target</div></div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="01_t0/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="01_t0/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">01_t0<br>PSNR 15.25</div>
+            </div>
+            <div class="card">
+              <a href="02_t1/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="02_t1/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">02_t1<br>PSNR 15.78</div>
+            </div>
+            <div class="card">
+              <a href="03_mean/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="03_mean/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">03_mean<br>PSNR 17.03</div>
+            </div>
+            <div class="card">
+              <a href="04_global_blur/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="04_global_blur/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">04_global_blur<br>PSNR 16.26</div>
+            </div>
+            <div class="card">
+              <a href="05_farneback_half/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="05_farneback_half/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">05_farneback_half<br>PSNR 15.86</div>
+            </div>
+            <div class="card">
+              <a href="06_farneback_alpha/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="06_farneback_alpha/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">06_farneback_alpha<br>PSNR 16.95</div>
+            </div>
+            <div class="card">
+              <a href="07_farneback_aggr/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="07_farneback_aggr/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">07_farneback_aggr<br>PSNR 16.48</div>
+            </div>
+            <div class="card">
+              <a href="08_dis_half/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="08_dis_half/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">08_dis_half<br>PSNR 15.42</div>
+            </div>
+            <div class="card">
+              <a href="09_adaptive_soft/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="09_adaptive_soft/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">09_adaptive_soft<br>PSNR 16.49</div>
+            </div>
+            <div class="card">
+              <a href="10_adaptive_aggr/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="10_adaptive_aggr/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">10_adaptive_aggr<br>PSNR 16.77</div>
+            </div>
+            <div class="card">
+              <a href="11_dis_official/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="11_dis_official/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">11_dis_official<br>PSNR 17.29</div>
+            </div>
+            <div class="card">
+              <a href="12_rife/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="12_rife/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">12_rife<br>PSNR 18.13</div>
+            </div>
+            <div class="card">
+              <a href="13_ensemble/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="13_ensemble/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">13_ensemble<br>PSNR 18.33</div>
+            </div>
+            <div class="card">
+              <a href="14_geo_perpixel/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="14_geo_perpixel/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">14_geo_perpixel<br>PSNR 18.49</div>
+            </div>
+            <div class="card">
+              <a href="15_layered_parallax/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg"><img src="15_layered_parallax/2026-03-14_07_09_08_09_19_03_jurgie_1773469979799855000__001.jpg" loading="lazy"></a>
+              <div class="lbl">15_layered_parallax<br>PSNR 18.38</div>
+            </div></div>
+        </section>
+        <section>
+          <h2>2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000</h2>
+          <p>camera: <b>front</b></p>
+          <div class="row refs">
+            <div class="card"><img src="_meta/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000_t0.jpg"><div class="lbl">t0</div></div>
+            <div class="card"><img src="_meta/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000_t1.jpg"><div class="lbl">t1</div></div>
+            <div class="card"><img src="_meta/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000_gt.jpg"><div class="lbl">GT target</div></div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="01_t0/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="01_t0/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">01_t0<br>PSNR 19.29</div>
+            </div>
+            <div class="card">
+              <a href="02_t1/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="02_t1/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">02_t1<br>PSNR 19.18</div>
+            </div>
+            <div class="card">
+              <a href="03_mean/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="03_mean/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">03_mean<br>PSNR 20.74</div>
+            </div>
+            <div class="card">
+              <a href="04_global_blur/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="04_global_blur/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">04_global_blur<br>PSNR 19.98</div>
+            </div>
+            <div class="card">
+              <a href="05_farneback_half/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="05_farneback_half/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">05_farneback_half<br>PSNR 19.99</div>
+            </div>
+            <div class="card">
+              <a href="06_farneback_alpha/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="06_farneback_alpha/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">06_farneback_alpha<br>PSNR 21.16</div>
+            </div>
+            <div class="card">
+              <a href="07_farneback_aggr/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="07_farneback_aggr/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">07_farneback_aggr<br>PSNR 20.41</div>
+            </div>
+            <div class="card">
+              <a href="08_dis_half/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="08_dis_half/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">08_dis_half<br>PSNR 20.21</div>
+            </div>
+            <div class="card">
+              <a href="09_adaptive_soft/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="09_adaptive_soft/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">09_adaptive_soft<br>PSNR 20.97</div>
+            </div>
+            <div class="card">
+              <a href="10_adaptive_aggr/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="10_adaptive_aggr/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">10_adaptive_aggr<br>PSNR 21.21</div>
+            </div>
+            <div class="card">
+              <a href="11_dis_official/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="11_dis_official/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">11_dis_official<br>PSNR 22.00</div>
+            </div>
+            <div class="card">
+              <a href="12_rife/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="12_rife/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">12_rife<br>PSNR 21.74</div>
+            </div>
+            <div class="card">
+              <a href="13_ensemble/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="13_ensemble/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">13_ensemble<br>PSNR 22.52</div>
+            </div>
+            <div class="card">
+              <a href="14_geo_perpixel/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="14_geo_perpixel/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">14_geo_perpixel<br>PSNR 20.99</div>
+            </div>
+            <div class="card">
+              <a href="15_layered_parallax/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg"><img src="15_layered_parallax/2026-03-15_06_46_31_12_47_10_helen_1773568312900011000__000.jpg" loading="lazy"></a>
+              <div class="lbl">15_layered_parallax<br>PSNR 21.34</div>
+            </div></div>
+        </section>
+        <section>
+          <h2>2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001</h2>
+          <p>camera: <b>right_bwd</b></p>
+          <div class="row refs">
+            <div class="card"><img src="_meta/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001_t0.jpg"><div class="lbl">t0</div></div>
+            <div class="card"><img src="_meta/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001_t1.jpg"><div class="lbl">t1</div></div>
+            <div class="card"><img src="_meta/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001_gt.jpg"><div class="lbl">GT target</div></div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <a href="01_t0/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="01_t0/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">01_t0<br>PSNR 14.24</div>
+            </div>
+            <div class="card">
+              <a href="02_t1/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="02_t1/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">02_t1<br>PSNR 13.53</div>
+            </div>
+            <div class="card">
+              <a href="03_mean/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="03_mean/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">03_mean<br>PSNR 15.21</div>
+            </div>
+            <div class="card">
+              <a href="04_global_blur/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="04_global_blur/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">04_global_blur<br>PSNR 13.86</div>
+            </div>
+            <div class="card">
+              <a href="05_farneback_half/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="05_farneback_half/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">05_farneback_half<br>PSNR 13.86</div>
+            </div>
+            <div class="card">
+              <a href="06_farneback_alpha/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="06_farneback_alpha/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">06_farneback_alpha<br>PSNR 15.24</div>
+            </div>
+            <div class="card">
+              <a href="07_farneback_aggr/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="07_farneback_aggr/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">07_farneback_aggr<br>PSNR 14.11</div>
+            </div>
+            <div class="card">
+              <a href="08_dis_half/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="08_dis_half/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">08_dis_half<br>PSNR 13.96</div>
+            </div>
+            <div class="card">
+              <a href="09_adaptive_soft/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="09_adaptive_soft/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">09_adaptive_soft<br>PSNR 14.39</div>
+            </div>
+            <div class="card">
+              <a href="10_adaptive_aggr/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="10_adaptive_aggr/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">10_adaptive_aggr<br>PSNR 14.75</div>
+            </div>
+            <div class="card">
+              <a href="11_dis_official/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="11_dis_official/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">11_dis_official<br>PSNR 15.69</div>
+            </div>
+            <div class="card">
+              <a href="12_rife/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="12_rife/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">12_rife<br>PSNR 15.65</div>
+            </div>
+            <div class="card">
+              <a href="13_ensemble/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="13_ensemble/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">13_ensemble<br>PSNR 16.15</div>
+            </div>
+            <div class="card">
+              <a href="14_geo_perpixel/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="14_geo_perpixel/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">14_geo_perpixel<br>PSNR 15.47</div>
+            </div>
+            <div class="card">
+              <a href="15_layered_parallax/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg"><img src="15_layered_parallax/2026-03-15_12_22_06_12_28_47_shelly_1773569825999895000__001.jpg" loading="lazy"></a>
+              <div class="lbl">15_layered_parallax<br>PSNR 15.81</div>
+            </div></div>
+        </section>
+</body></html>

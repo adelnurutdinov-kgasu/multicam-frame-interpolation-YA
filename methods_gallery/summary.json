@@ -1,0 +1,119 @@
+{
+  "n_samples": 8,
+  "avg_psnr_db": {
+    "t0": 17.782885082784375,
+    "t1": 17.707123526447486,
+    "mean": 19.090091297867627,
+    "global_blur": 18.31463466567336,
+    "farneback_half": 18.22861321400534,
+    "farneback_alpha": 19.264888824474863,
+    "farneback_aggr": 18.570311523450677,
+    "dis_half": 18.28624589483772,
+    "adaptive_soft": 18.90933469582431,
+    "adaptive_aggr": 19.071252807315712,
+    "dis_official": 19.718943431238312,
+    "rife": 19.82225997174415,
+    "ensemble": 20.222130196679032,
+    "geo_perpixel": 19.27932621933153,
+    "layered": 19.425392133888774
+  },
+  "avg_score": {
+    "t0": 38.914425413921876,
+    "t1": 38.53561763223743,
+    "mean": 45.45045648933813,
+    "global_blur": 41.5731733283668,
+    "farneback_half": 41.1430660700267,
+    "farneback_alpha": 46.32444412237432,
+    "farneback_aggr": 42.851557617253384,
+    "dis_half": 41.4312294741886,
+    "adaptive_soft": 44.546673479121544,
+    "adaptive_aggr": 45.356264036578565,
+    "dis_official": 48.59471715619156,
+    "rife": 49.11129985872075,
+    "ensemble": 51.11065098339515,
+    "geo_perpixel": 46.39663109665765,
+    "layered": 47.126960669443875
+  },
+  "methods": [
+    {
+      "folder": "01_t0",
+      "key": "t0",
+      "desc": "Копия кадра t0"
+    },
+    {
+      "folder": "02_t1",
+      "key": "t1",
+      "desc": "Копия кадра t1"
+    },
+    {
+      "folder": "03_mean",
+      "key": "mean",
+      "desc": "Среднее (t0+t1)/2"
+    },
+    {
+      "folder": "04_global_blur",
+      "key": "global_blur",
+      "desc": "Blur t1, sigma=2"
+    },
+    {
+      "folder": "05_farneback_half",
+      "key": "farneback_half",
+      "desc": "Warp t1 на flow/2"
+    },
+    {
+      "folder": "06_farneback_alpha",
+      "key": "farneback_alpha",
+      "desc": "Symmetric: t0 на alpha*flow, t1 на (1-alpha)*flow"
+    },
+    {
+      "folder": "07_farneback_aggr",
+      "key": "farneback_aggr",
+      "desc": "Farneback + blur в bad zones"
+    },
+    {
+      "folder": "08_dis_half",
+      "key": "dis_half",
+      "desc": "DIS warp t1 на полпотока"
+    },
+    {
+      "folder": "09_adaptive_soft",
+      "key": "adaptive_soft",
+      "desc": "Adaptive blur soft"
+    },
+    {
+      "folder": "10_adaptive_aggr",
+      "key": "adaptive_aggr",
+      "desc": "Adaptive blur aggressive"
+    },
+    {
+      "folder": "11_dis_official",
+      "key": "dis_official",
+      "desc": "DIS official (оба кадра)"
+    },
+    {
+      "folder": "12_rife",
+      "key": "rife",
+      "desc": "RIFE neural"
+    },
+    {
+      "folder": "13_ensemble",
+      "key": "ensemble",
+      "desc": "0.6 DIS + 0.4 RIFE"
+    },
+    {
+      "folder": "14_geo_perpixel",
+      "key": "geo_perpixel",
+      "desc": "LiDAR geo warp per-pixel"
+    },
+    {
+      "folder": "15_layered_parallax",
+      "key": "layered",
+      "desc": "8 layers + tuned alpha + blur"
+    },
+    {
+      "folder": "16_phase_blocks",
+      "key": "phase_blocks",
+      "desc": "Phase correlation blocks"
+    }
+  ]
+}

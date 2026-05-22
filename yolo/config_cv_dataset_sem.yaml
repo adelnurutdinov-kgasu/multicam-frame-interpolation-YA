@@ -1,0 +1,40 @@
+# Семантика сцены — каждый пиксель: road, sky, vegetation, pole… (Cityscapes / YOLO26-sem)
+
+dataset_dir: "C:/Users/adel/Downloads/cv_dataset/final_dataset_v5_participants"
+output_dir: "C:/Users/adel/Downloads/cv_dataset/annotations/semantic"
+flat_output: true
+
+model: "yolo26s-sem.pt"
+device: ""
+
+image_globs:
+  - "**/*.jpg"
+  - "**/*.jpeg"
+  - "**/*.png"
+
+exclude_dirs:
+  - "annotations"
+  - "runs"
+  - ".git"
+  - "__pycache__"
+
+path_filters: "all"
+
+conf: 0.25
+iou: 0.45
+imgsz: 1024
+max_det: 300
+half: false
+
+# Контуры классов в JSON (без PNG-масок на диск)
+save_images: false
+save_mask_png: false
+save_json: true
+save_csv: true
+save_labels: false
+
+min_region_area: 200
+contour_epsilon: 2.0
+
+# Пустой список = все 19 классов Cityscapes
+classes: []

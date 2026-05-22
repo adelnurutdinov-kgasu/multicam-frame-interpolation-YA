@@ -1,0 +1,56 @@
+sample: 2026-03-16_15_59_49_18_43_54_lerita_1773678938500161000__000
+camera: left_bwd  alpha: 0.500
+regions: 18  mode: object
+
+=== Все зоны (target grid) ===
+# 0 road           z=   2.9m  px=207748  layer=0
+# 1 sidewalk       z=   5.0m  px=  1182  layer=2
+# 2 terrain        z=   7.4m  px= 77604  layer=3
+# 3 vegetation     z=  12.1m  px= 12509  layer=4
+# 4 terrain        z=  15.1m  px= 25871  layer=5
+# 5 road           z=  16.3m  px= 69250  layer=5
+# 6 building       z=  17.0m  px= 15148  layer=5
+# 7 vegetation     z=  18.4m  px= 12411  layer=6
+# 8 pole           z=  19.4m  px=  3047  layer=6
+# 9 building       z=  19.5m  px=102143  layer=6
+#10 pole           z=  20.3m  px=    91  layer=6
+#11 sidewalk       z=  21.2m  px=   399  layer=6
+#12 person         z=  21.3m  px=   819  layer=6
+#13 vegetation     z=  23.3m  px= 12611  layer=6
+#14 pole           z=  26.2m  px=    92  layer=7
+#15 building       z=  28.1m  px=   704  layer=7
+#16 traffic sign   z=  35.8m  px=   209  layer=7
+#17 vegetation     z=  73.1m  px= 12511  layer=7
+
+=== Зоны с классом 'traffic sign' ===
+  pole z=19.3m px=3047 overlap_sign_sem=1975
+  pole z=20.3m px=91 overlap_sign_sem=0
+  pole z=26.2m px=92 overlap_sign_sem=0
+  traffic sign z=35.7m px=209 overlap_sign_sem=209
+
+--- Region #8 pole z=19.3m ---
+  alpha_blend=0.386  mean_w=0.550
+  disp_t0 px: mean=34.2  max=55.3
+  disp_t1 px: mean=24.8  max=42.2
+
+--- Region #10 pole z=20.3m ---
+  alpha_blend=0.385  mean_w=0.550
+  disp_t0 px: mean=48.8  max=85.7
+  disp_t1 px: mean=35.3  max=65.9
+
+--- Region #14 pole z=26.2m ---
+  alpha_blend=0.366  mean_w=0.550
+  disp_t0 px: mean=36.4  max=64.3
+  disp_t1 px: mean=27.7  max=53.0
+
+--- Region #16 traffic sign z=35.7m ---
+  alpha_blend=0.362  mean_w=0.550
+  disp_t0 px: mean=16.4  max=28.4
+  disp_t1 px: mean=12.8  max=24.8
+
+=== Семантика traffic sign vs зоны mega ===
+  sign pixels (semantic): 2184
+  sign covered by some region: 2184
+  sign NOT in any mega region: 0
+  zone #8 (pole, z=19.3m) covers 1975 sign px
+  zone #16 (traffic sign, z=35.7m) covers 209 sign px

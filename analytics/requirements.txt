@@ -1,0 +1,2 @@
+# Аналитика: stratified eval + HTML-отчёт
+# torch/cv2/numpy уже в requirements-yolo / compare_baselines
