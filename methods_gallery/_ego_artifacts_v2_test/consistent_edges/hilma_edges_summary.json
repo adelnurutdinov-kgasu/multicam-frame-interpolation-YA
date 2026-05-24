@@ -1,0 +1,53 @@
+[
+  {
+    "vehicle": "hilma",
+    "camera": "right_fwd",
+    "n_scenes": 5,
+    "paths": [
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-19_07_25_04_09_57_54_hilma_1760857099599854000__000",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-19_16_01_37_16_29_15_hilma_1760880568400004000__001",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-23_17_29_57_17_35_20_hilma_1761231854800061000__001",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-24_12_05_42_12_05_42_hilma_1761297989200069000__000",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-26_08_27_48_09_39_53_hilma_1761463441099799000__000"
+    ],
+    "freq_thr": 0.75,
+    "min_votes": 4,
+    "n_components": 1,
+    "cohesive_coverage": 0.002238859953703704,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\consistent_edges\\hilma_right_fwd_edges.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "front",
+    "n_scenes": 5,
+    "paths": [
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-06_11_15_36_11_21_39_hilma_1759740479000082000__000",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-19_07_25_04_09_57_54_hilma_1760857099599854000__001",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-26_08_27_48_09_39_53_hilma_1761462898899889000__001",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-29_08_18_19_09_18_04_hilma_1761719389600030000__001",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-11-03_16_34_18_19_31_09_hilma_1762187776300031000__001"
+    ],
+    "freq_thr": 0.75,
+    "min_votes": 4,
+    "n_components": 1,
+    "cohesive_coverage": 0.014115277458639705,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\consistent_edges\\hilma_front_edges.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "rear",
+    "n_scenes": 5,
+    "paths": [
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-06_11_15_36_13_17_37_hilma_1759747131600099000__001",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-19_16_01_37_16_29_15_hilma_1760880568400004000__000",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-19_16_01_37_16_29_15_hilma_1760880578499954000__000",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-22_09_54_00_09_56_53_hilma_1761117201999902000__000",
+      "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-24_12_05_42_12_05_42_hilma_1761297989200069000__001"
+    ],
+    "freq_thr": 0.75,
+    "min_votes": 4,
+    "n_components": 0,
+    "cohesive_coverage": 0.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\consistent_edges\\hilma_rear_edges.png"
+  }
+]

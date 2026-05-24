@@ -270,6 +270,24 @@ def layered_parallax_predict(
     return out.clip(0, 255).astype(np.uint8), layer_preds
 
 
+def get_lidar_depth_raw(sample_dir: Path, camera: str, timestep: str = "target") -> np.ndarray:
+    """Sparse LiDAR depth only — NaN where no ray hit (sky, occluded, out of range)."""
+    meta = json.load(open(sample_dir / "meta.json"))
+    intr = meta["intrinsics"][camera]
+    K = intrinsics_to_K(intr)
+    W, H = int(intr["width"]), int(intr["height"])
+    c2w = np.array(meta["poses_c2w"][timestep][camera], dtype=np.float64)
+
+    npz = np.load(sample_dir / "input" / "lidar.npz")
+    xyz = npz["xyz"].astype(np.float64)
+    u, v, z, _ = project_to_camera(xyz, c2w, K, W, H)
+    depth_map, _ = rasterize_depth(u, v, z, H, W, splat_radius=1)
+    valid = np.isfinite(depth_map) & (depth_map > 0) & (depth_map < np.inf)
+    raw = np.full((H, W), np.nan, dtype=np.float32)
+    raw[valid] = depth_map[valid]
+    return raw
+
+
 def get_lidar_depth(sample_dir: Path, camera: str, timestep: str = "target") -> np.ndarray:
     meta = json.load(open(sample_dir / "meta.json"))
     intr = meta["intrinsics"][camera]

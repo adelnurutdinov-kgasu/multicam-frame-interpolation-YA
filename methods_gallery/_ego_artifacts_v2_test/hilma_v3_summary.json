@@ -1,0 +1,10 @@
+[
+  {
+    "vehicle": "hilma",
+    "camera": "front",
+    "n_scenes": 12,
+    "coverage": 0.08473833869485294,
+    "v2_coverage": 0.10034538717830882,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\hilma_front_v3.png"
+  }
+]

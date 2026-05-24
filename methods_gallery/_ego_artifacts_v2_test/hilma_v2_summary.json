@@ -1,0 +1,56 @@
+[
+  {
+    "vehicle": "hilma",
+    "camera": "front",
+    "n_scenes": 12,
+    "coverage": 0.05354757869944853,
+    "bottom_frac": 1.0,
+    "old_coverage": 0.11583754595588236,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\hilma_front_v2.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "left_bwd",
+    "n_scenes": 12,
+    "coverage": 0.012738396139705883,
+    "bottom_frac": 1.0,
+    "old_coverage": 0.045367072610294115,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\hilma_left_bwd_v2.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "left_fwd",
+    "n_scenes": 12,
+    "coverage": 0.05671115451388889,
+    "bottom_frac": 1.0,
+    "old_coverage": 0.08611111111111111,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\hilma_left_fwd_v2.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "rear",
+    "n_scenes": 12,
+    "coverage": 0.05798249421296296,
+    "bottom_frac": 1.0,
+    "old_coverage": 0.25828269675925924,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\hilma_rear_v2.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "right_bwd",
+    "n_scenes": 12,
+    "coverage": 0.10001180460164835,
+    "bottom_frac": 1.0,
+    "old_coverage": 0.0981856684981685,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\hilma_right_bwd_v2.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "right_fwd",
+    "n_scenes": 12,
+    "coverage": 0.08475115740740741,
+    "bottom_frac": 1.0,
+    "old_coverage": 0.03273292824074074,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\hilma_right_fwd_v2.png"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "vehicle": "hilma",
+    "camera": "right_fwd",
+    "v3": 0.08404767071759259,
+    "v2": 0.09025607638888888,
+    "trim": 35.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\examples\\hilma_right_fwd.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "front",
+    "v3": 0.0487060546875,
+    "v2": 0.10034538717830882,
+    "trim": 65.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\examples\\hilma_front.png"
+  },
+  {
+    "vehicle": "robb",
+    "camera": "front",
+    "v3": 0.020057229434742647,
+    "v2": 0.018052045036764705,
+    "trim": 35.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\examples\\robb_front.png"
+  },
+  {
+    "vehicle": "robb",
+    "camera": "right_fwd",
+    "v3": 0.16751121238425926,
+    "v2": 0.05675274884259259,
+    "trim": 65.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\examples\\robb_right_fwd.png"
+  },
+  {
+    "vehicle": "jurita",
+    "camera": "front",
+    "v3": 0.14768337673611112,
+    "v2": 0.07170138888888888,
+    "trim": 65.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\examples\\jurita_front.png"
+  },
+  {
+    "vehicle": "ravine",
+    "camera": "left_fwd",
+    "v3": 0.1639992042824074,
+    "v2": 0.060445601851851855,
+    "trim": 65.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\examples\\ravine_left_fwd.png"
+  },
+  {
+    "vehicle": "mika",
+    "camera": "front",
+    "v3": 0.16012405563186813,
+    "v2": 0.10128884787087912,
+    "trim": 65.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\examples\\mika_front.png"
+  },
+  {
+    "vehicle": "shelly",
+    "camera": "rear",
+    "v3": 0.0890281394675926,
+    "v2": 0.12785011574074073,
+    "trim": 35.0,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\examples\\shelly_rear.png"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "far_min_ratio": 2.0,
+  "flow_t": 8.0,
+  "comp_t": 20.0,
+  "examples": [
+    {
+      "sample_id": "2026-03-15_13_29_44_13_39_34_baland_1773572077900026000__000",
+      "camera": "rear",
+      "z_ref": 6.468698501586914,
+      "static_pct": 43.919089988425924,
+      "static_lidar_far_pct": 6.412037037037037,
+      "static_no_lidar_pct": 37.507052951388886,
+      "mae_on_static": 2.1675570011138916,
+      "png": "methods_gallery\\_static_masks\\examples\\2026-03-15_13_29_44_13_39_34_baland_1773572077900026000__000_far_static_example.png"
+    }
+  ],
+  "grid": "methods_gallery\\_static_masks\\examples\\index_10_examples.png"
+}

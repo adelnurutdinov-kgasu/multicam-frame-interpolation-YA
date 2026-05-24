@@ -1,0 +1,5266 @@
+{
+  "n_samples": 1278,
+  "n_groups": 163,
+  "total_computed": 1042,
+  "n_converged": 22,
+  "median_used": 6.0,
+  "mean_used": 6.392638036809816,
+  "median_cov": 0.14273003472222223,
+  "thresh": 0.85,
+  "converge_iou": 0.92,
+  "init": 2,
+  "batch": 2,
+  "max_samples": 12,
+  "groups": [
+    {
+      "vehicle": "anabel",
+      "camera": "front",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.5427892348345589,
+      "bottom_frac": 0.678877115000463,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5427892348345589,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "left_bwd",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.19887659671532848,
+      "bottom_frac": 0.6514695340501793,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.6040145985401459,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3608362796532847,
+          "step_iou": 0.5973966200906344,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.19887659671532848,
+          "step_iou": 0.5511546591335612,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "left_fwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.3009693287037037,
+      "bottom_frac": 0.5271355093015431,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4105541087962963,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.2684244791666667,
+          "step_iou": 0.6538102369835257,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.13718171296296297,
+          "step_iou": 0.5110626027434176,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.3009693287037037,
+          "step_iou": 0.4557996442820747,
+          "mean_freq_in": 0.9155684963020445
+        }
+      ]
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "rear",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.33861400462962965,
+      "bottom_frac": 0.9502883999145482,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4217664930555556,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.36297743055555554,
+          "step_iou": 0.8606122974015951,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.33861400462962965,
+          "step_iou": 0.9328789509346725,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "right_bwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.12506438873626374,
+      "bottom_frac": 0.8034151364338424,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3209563873626374,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.12506438873626374,
+          "step_iou": 0.3896616289955865,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "aucel",
+      "camera": "front",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.30922332875457875,
+      "bottom_frac": 0.7612674101152191,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.30922332875457875,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "aucel",
+      "camera": "left_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.30296247718978103,
+      "bottom_frac": 0.5677379888005271,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.30296247718978103,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "aucel",
+      "camera": "right_bwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.07704470009157509,
+      "bottom_frac": 0.2587519732565698,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.13092376373626374,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.07704470009157509,
+          "step_iou": 0.5884699453551913,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "front",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.13502223996350365,
+      "bottom_frac": 0.8558758314855875,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.24833913093065693,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.11933308622262774,
+          "step_iou": 0.4805246993312093,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.06329122947080291,
+          "step_iou": 0.5303745295979929,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.13502223996350365,
+          "step_iou": 0.4605732885342293,
+          "mean_freq_in": 0.9226784394467321
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "left_bwd",
+      "n_used": 11,
+      "n_available": 11,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.012571022727272728,
+      "bottom_frac": 0.9231638418079096,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3052840909090909,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.065625,
+          "step_iou": 0.21496370742601897,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.027769886363636365,
+          "step_iou": 0.4231601731601732,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.02905539772727273,
+          "step_iou": 0.26578073089701,
+          "mean_freq_in": 0.8904302126619409
+        },
+        {
+          "n": 10,
+          "coverage": 0.02385653409090909,
+          "step_iou": 0.8210706428746027,
+          "mean_freq_in": 0.9144685918428106
+        },
+        {
+          "n": 11,
+          "coverage": 0.012571022727272728,
+          "step_iou": 0.5269425424233403,
+          "mean_freq_in": 0.913302516692347
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "left_fwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.38250144675925923,
+      "bottom_frac": 0.7640372940976228,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.38250144675925923,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "rear",
+      "n_used": 12,
+      "n_available": 15,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.07773866758241758,
+      "bottom_frac": 0.5475796061108044,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.10078268086080586,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.05483058608058608,
+          "step_iou": 0.5440477035564705,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04626688415750916,
+          "step_iou": 0.8438152400835073,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.13874341804029305,
+          "step_iou": 0.3293579396494114,
+          "mean_freq_in": 0.8971471665033776
+        },
+        {
+          "n": 10,
+          "coverage": 0.09832875457875458,
+          "step_iou": 0.7087093281080802,
+          "mean_freq_in": 0.9156140861466824
+        },
+        {
+          "n": 12,
+          "coverage": 0.07773866758241758,
+          "step_iou": 0.7905995343422585,
+          "mean_freq_in": 0.9313838272286641
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "right_bwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.07449879365808823,
+      "bottom_frac": 0.8589879518072289,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.24198644301470587,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.053754021139705885,
+          "step_iou": 0.22213649851632047,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.03334673713235294,
+          "step_iou": 0.6203580016029923,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.07449879365808823,
+          "step_iou": 0.4476144578313253,
+          "mean_freq_in": 0.9127986230636832
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "right_fwd",
+      "n_used": 11,
+      "n_available": 11,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.10815972222222223,
+      "bottom_frac": 0.9975254146602461,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3081597222222222,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.20868055555555556,
+          "step_iou": 0.6771830985915493,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.13229890046296297,
+          "step_iou": 0.6339780920687743,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.16217447916666666,
+          "step_iou": 0.7706829056111353,
+          "mean_freq_in": 0.9103104509567778
+        },
+        {
+          "n": 10,
+          "coverage": 0.10954861111111111,
+          "step_iou": 0.6754984611267228,
+          "mean_freq_in": 0.9286714210248284
+        },
+        {
+          "n": 11,
+          "coverage": 0.10815972222222223,
+          "step_iou": 0.9873217115689382,
+          "mean_freq_in": 0.9354844593608636
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "left_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.3784001482664234,
+      "bottom_frac": 0.630554770650843,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3784001482664234,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "rear",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.3336516203703704,
+      "bottom_frac": 0.9835009973115948,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3336516203703704,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "right_fwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.01650752314814815,
+      "bottom_frac": 0.49780893952673094,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.10366030092592593,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.01650752314814815,
+          "step_iou": 0.1592463363572924,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "front",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.24215172847985347,
+      "bottom_frac": 0.8774042012586049,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4725703983516483,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.27111235119047616,
+          "step_iou": 0.5736972779846792,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.24215172847985347,
+          "step_iou": 0.8931785195936139,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "left_bwd",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.17819010416666667,
+      "bottom_frac": 0.30605285592497866,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3339554398148148,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.18763744212962963,
+          "step_iou": 0.5618637092232379,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.17819010416666667,
+          "step_iou": 0.9496511045144377,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "left_fwd",
+      "n_used": 6,
+      "n_available": 7,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.1711009837962963,
+      "bottom_frac": 0.43537817612987784,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.41391059027777777,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.17823350694444445,
+          "step_iou": 0.4306087138887432,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.1711009837962963,
+          "step_iou": 0.9599821421323917,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "rear",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.3180338541666667,
+      "bottom_frac": 0.698259979529171,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.6762152777777778,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3560257523148148,
+          "step_iou": 0.5264976465554129,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.3180338541666667,
+          "step_iou": 0.8932889042404047,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "right_bwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.14942479395604397,
+      "bottom_frac": 0.6859379488652686,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2364998282967033,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.14942479395604397,
+          "step_iou": 0.6318177693075596,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "right_fwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.04181690705128205,
+      "bottom_frac": 0.4823781009409752,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.1953339629120879,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.04181690705128205,
+          "step_iou": 0.21407903893345054,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "front",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.3070269574175824,
+      "bottom_frac": 0.9127344751252476,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.38747710622710624,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.3070269574175824,
+          "step_iou": 0.7923744460856721,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "left_bwd",
+      "n_used": 10,
+      "n_available": 10,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.2881290211397059,
+      "bottom_frac": 0.6585256442207048,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3214757582720588,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.2669893152573529,
+          "step_iou": 0.830511503238776,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.18117388556985295,
+          "step_iou": 0.6785810338335754,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.30659036075367646,
+          "step_iou": 0.5674366015183331,
+          "mean_freq_in": 0.9375043914092325
+        },
+        {
+          "n": 10,
+          "coverage": 0.2881290211397059,
+          "step_iou": 0.9397849966039769,
+          "mean_freq_in": 0.9499451727059763
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "left_fwd",
+      "n_used": 6,
+      "n_available": 11,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.12563657407407408,
+      "bottom_frac": 0.9967181022570244,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.49169560185185185,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.13218315972222222,
+          "step_iou": 0.268831283469664,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.12563657407407408,
+          "step_iou": 0.9504733760192634,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "rear",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.4603153935185185,
+      "bottom_frac": 0.7717886664361819,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.7368923611111111,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.49009693287037037,
+          "step_iou": 0.6650861899713355,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.38950376157407407,
+          "step_iou": 0.7947484169975351,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.4603153935185185,
+          "step_iou": 0.7871061959018513,
+          "mean_freq_in": 0.9626418266964202
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "right_bwd",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.05552149863138686,
+      "bottom_frac": 0.7518295031454616,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.23403997490875914,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1664290602189781,
+          "step_iou": 0.7111138184144001,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.05552149863138686,
+          "step_iou": 0.3336045913996916,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "right_fwd",
+      "n_used": 9,
+      "n_available": 9,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.22437065972222223,
+      "bottom_frac": 0.7309217525872909,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.28702256944444443,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.2029441550925926,
+          "step_iou": 0.7070668884520389,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.13213252314814813,
+          "step_iou": 0.651078239173053,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.24946469907407406,
+          "step_iou": 0.524800554977454,
+          "mean_freq_in": 0.9386997622223511
+        },
+        {
+          "n": 9,
+          "coverage": 0.22437065972222223,
+          "step_iou": 0.8994084556051731,
+          "mean_freq_in": 0.9481252216526423
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "rear",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.43344184027777777,
+      "bottom_frac": 0.8195397119444584,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.43344184027777777,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "right_fwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.16431568287037038,
+      "bottom_frac": 0.527624917455426,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.28098234953703705,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.16431568287037038,
+          "step_iou": 0.5847900522616688,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "front",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.13228831571691177,
+      "bottom_frac": 0.9757911306519025,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3383573644301471,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.24677590762867646,
+          "step_iou": 0.729335115978014,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.13228831571691177,
+          "step_iou": 0.5360665754939331,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "left_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.5170916323260073,
+      "bottom_frac": 0.6712370463632967,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5170916323260073,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "left_fwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.17407407407407408,
+      "bottom_frac": 0.7478806515957447,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2716001157407407,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.17407407407407408,
+          "step_iou": 0.6409204708890428,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "front",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.16563783074817517,
+      "bottom_frac": 0.6283513362310109,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4251397125912409,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1575544593978102,
+          "step_iou": 0.3705945474665504,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.06016908074817518,
+          "step_iou": 0.38189386056191466,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.16563783074817517,
+          "step_iou": 0.3632568748117227,
+          "mean_freq_in": 0.8928801972224102
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "left_bwd",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.12862723214285715,
+      "bottom_frac": 0.5073697091050671,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.27684294871794873,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.18245621565934067,
+          "step_iou": 0.6590603679966922,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.06597699175824176,
+          "step_iou": 0.36160451711563346,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.12862723214285715,
+          "step_iou": 0.4430238726790451,
+          "mean_freq_in": 0.9165415206629958
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "left_fwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.17487702546296297,
+      "bottom_frac": 0.6796277145811789,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.23581452546296297,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.17487702546296297,
+          "step_iou": 0.7415871652504678,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "rear",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.13347800925925926,
+      "bottom_frac": 0.828257099501409,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.34812644675925924,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.14323640046296296,
+          "step_iou": 0.4114493506493507,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.13347800925925926,
+          "step_iou": 0.9318721276703197,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "right_bwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.03815056295955882,
+      "bottom_frac": 0.47167325428194995,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.20746926700367646,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.07913028492647059,
+          "step_iou": 0.3814072612743571,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.02144129136029412,
+          "step_iou": 0.270961887477314,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.03815056295955882,
+          "step_iou": 0.562017692452475,
+          "mean_freq_in": 0.8839235298862629
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "right_fwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.030808738425925925,
+      "bottom_frac": 0.8675745480159662,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3753689236111111,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.030808738425925925,
+          "step_iou": 0.08207588984602339,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "front",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.13880112591911764,
+      "bottom_frac": 0.9016554578375582,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.19864430147058823,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.13880112591911764,
+          "step_iou": 0.698742047426258,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "left_bwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.22430173992673993,
+      "bottom_frac": 0.8150516713447308,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.242752690018315,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.22430173992673993,
+          "step_iou": 0.9239928089357814,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "left_fwd",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.051403356481481484,
+      "bottom_frac": 0.6373487193920631,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.23441840277777778,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.0913917824074074,
+          "step_iou": 0.3898660741837931,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.051403356481481484,
+          "step_iou": 0.5624505303150229,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "rear",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.32993344907407407,
+      "bottom_frac": 0.7521815391361544,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.43138744212962965,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.18507667824074073,
+          "step_iou": 0.42902657835163915,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.1615089699074074,
+          "step_iou": 0.8726597615790502,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.32993344907407407,
+          "step_iou": 0.4895198421398816,
+          "mean_freq_in": 0.9193660538102548
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "right_bwd",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.025153664981617647,
+      "bottom_frac": 0.49386240365401085,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.09939395680147059,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.034588982077205885,
+          "step_iou": 0.34799884409767373,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.025153664981617647,
+          "step_iou": 0.7272161096117916,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "right_fwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.3023654513888889,
+      "bottom_frac": 0.4246752314648676,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3023654513888889,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "front",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.11650028935185185,
+      "bottom_frac": 0.9985097795715616,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2767722800925926,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.11650028935185185,
+          "step_iou": 0.4209247013930634,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "left_fwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.2423611111111111,
+      "bottom_frac": 0.40117597898758356,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2621166087962963,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.2423611111111111,
+          "step_iou": 0.92463088174417,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "rear",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.651244212962963,
+      "bottom_frac": 0.5832407695383658,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.651244212962963,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "right_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.18333619505494506,
+      "bottom_frac": 0.8224069304612502,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.18333619505494506,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "right_fwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.15201099537037038,
+      "bottom_frac": 0.6252022461216332,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.15201099537037038,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "front",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.17690555811808117,
+      "bottom_frac": 0.887028436405117,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.21548518219557194,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.17690555811808117,
+          "step_iou": 0.8209639118365163,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "left_bwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.20583648122710624,
+      "bottom_frac": 0.7490876229536686,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2937127976190476,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.13955185439560439,
+          "step_iou": 0.47513031616894824,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.11590687957875458,
+          "step_iou": 0.8305649543730135,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.20583648122710624,
+          "step_iou": 0.5631017343853185,
+          "mean_freq_in": 0.9304011479813501
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "left_fwd",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.08111255787037037,
+      "bottom_frac": 0.5325960938196735,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3186993634259259,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.11134982638888889,
+          "step_iou": 0.34938829243933994,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.08111255787037037,
+          "step_iou": 0.7284479958422659,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "rear",
+      "n_used": 9,
+      "n_available": 9,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.3085720486111111,
+      "bottom_frac": 0.8648521930749935,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.39121817129629627,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.34073350694444443,
+          "step_iou": 0.8709552161532488,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.22160011574074073,
+          "step_iou": 0.6503619726981297,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.31104600694444445,
+          "step_iou": 0.7100490025314103,
+          "mean_freq_in": 0.9629758831600735
+        },
+        {
+          "n": 9,
+          "coverage": 0.3085720486111111,
+          "step_iou": 0.9920463266587595,
+          "mean_freq_in": 0.9674457494276048
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "right_bwd",
+      "n_used": 10,
+      "n_available": 10,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.02966754105839416,
+      "bottom_frac": 0.36905333974050936,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.21121549954379562,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.032582972171532845,
+          "step_iou": 0.15426411528466807,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.01590299954379562,
+          "step_iou": 0.4880770072194268,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.040423984945255474,
+          "step_iou": 0.335022807906741,
+          "mean_freq_in": 0.9063877622994181
+        },
+        {
+          "n": 10,
+          "coverage": 0.02966754105839416,
+          "step_iou": 0.7339093634279669,
+          "mean_freq_in": 0.9320999519461799
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "right_fwd",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.03484519675925926,
+      "bottom_frac": 0.5447373884160266,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.13312355324074074,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.05397858796296296,
+          "step_iou": 0.40547736782046406,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.02964409722222222,
+          "step_iou": 0.5491825247922809,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.03484519675925926,
+          "step_iou": 0.43189849020237714,
+          "mean_freq_in": 0.8893242682167324
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "front",
+      "n_used": 12,
+      "n_available": 15,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.11583754595588236,
+      "bottom_frac": 0.8858789982643194,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.39827952665441174,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3370576746323529,
+          "step_iou": 0.8462842101467566,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.1408978630514706,
+          "step_iou": 0.41802300809544096,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.34451114430147056,
+          "step_iou": 0.40147196019487924,
+          "mean_freq_in": 0.9212112843386552
+        },
+        {
+          "n": 10,
+          "coverage": 0.2384966681985294,
+          "step_iou": 0.692275626328734,
+          "mean_freq_in": 0.935852351418077
+        },
+        {
+          "n": 12,
+          "coverage": 0.11583754595588236,
+          "step_iou": 0.48569880171012225,
+          "mean_freq_in": 0.9427173733366392
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "left_bwd",
+      "n_used": 12,
+      "n_available": 34,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.045367072610294115,
+      "bottom_frac": 0.5341880341880342,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3517491957720588,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.054766486672794115,
+          "step_iou": 0.15569754623770057,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.026008157169117647,
+          "step_iou": 0.4748918316507146,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.0849465762867647,
+          "step_iou": 0.30308652386574464,
+          "mean_freq_in": 0.9101225697379544
+        },
+        {
+          "n": 10,
+          "coverage": 0.05682732077205882,
+          "step_iou": 0.6689771766694843,
+          "mean_freq_in": 0.9365049279757394
+        },
+        {
+          "n": 12,
+          "coverage": 0.045367072610294115,
+          "step_iou": 0.7983320697498104,
+          "mean_freq_in": 0.9456447187928669
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "left_fwd",
+      "n_used": 12,
+      "n_available": 30,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.08611111111111111,
+      "bottom_frac": 0.8411458333333334,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3150318287037037,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1531611689814815,
+          "step_iou": 0.4861768082663605,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.08861400462962964,
+          "step_iou": 0.5785670429320361,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.15755931712962962,
+          "step_iou": 0.48115424791086353,
+          "mean_freq_in": 0.9151152380515127
+        },
+        {
+          "n": 10,
+          "coverage": 0.09996383101851852,
+          "step_iou": 0.6344520453606354,
+          "mean_freq_in": 0.9383964107388378
+        },
+        {
+          "n": 12,
+          "coverage": 0.08611111111111111,
+          "step_iou": 0.8614226789203271,
+          "mean_freq_in": 0.9516689068100357
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "rear",
+      "n_used": 6,
+      "n_available": 33,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.25828269675925924,
+      "bottom_frac": 1.0,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.35126591435185184,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.26749131944444443,
+          "step_iou": 0.761506620811796,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.25828269675925924,
+          "step_iou": 0.9655741251554979,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "right_bwd",
+      "n_used": 12,
+      "n_available": 24,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.0981856684981685,
+      "bottom_frac": 0.7584523462547362,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2695240956959707,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.09079527243589744,
+          "step_iou": 0.33687256125076315,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.07112809065934066,
+          "step_iou": 0.7833898037979671,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.11792439331501832,
+          "step_iou": 0.5948457963667089,
+          "mean_freq_in": 0.9473093490262695
+        },
+        {
+          "n": 10,
+          "coverage": 0.10668498168498168,
+          "step_iou": 0.9046896802766486,
+          "mean_freq_in": 0.9543119635193134
+        },
+        {
+          "n": 12,
+          "coverage": 0.0981856684981685,
+          "step_iou": 0.9203326180257511,
+          "mean_freq_in": 0.9554794520547943
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "right_fwd",
+      "n_used": 12,
+      "n_available": 35,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.03273292824074074,
+      "bottom_frac": 0.932596685082873,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.15326244212962964,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.0673900462962963,
+          "step_iou": 0.4397035918251758,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04529803240740741,
+          "step_iou": 0.6721768999570631,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.06546585648148148,
+          "step_iou": 0.683747525841214,
+          "mean_freq_in": 0.9117817679558011
+        },
+        {
+          "n": 10,
+          "coverage": 0.03627748842592592,
+          "step_iou": 0.5541436464088397,
+          "mean_freq_in": 0.9290727816550352
+        },
+        {
+          "n": 12,
+          "coverage": 0.03273292824074074,
+          "step_iou": 0.9022931206380858,
+          "mean_freq_in": 0.9413075506445671
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "front",
+      "n_used": 12,
+      "n_available": 15,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.04529389880952381,
+      "bottom_frac": 1.0,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.30402214972527475,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.062170902014652016,
+          "step_iou": 0.20449464642899165,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04067221840659341,
+          "step_iou": 0.6542002301495973,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.0711924793956044,
+          "step_iou": 0.3866619368570415,
+          "mean_freq_in": 0.9090292432921314
+        },
+        {
+          "n": 10,
+          "coverage": 0.06229967948717949,
+          "step_iou": 0.8750879308612199,
+          "mean_freq_in": 0.9289159393661003
+        },
+        {
+          "n": 12,
+          "coverage": 0.04529389880952381,
+          "step_iou": 0.7270326136885622,
+          "mean_freq_in": 0.9395566787763912
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "left_bwd",
+      "n_used": 12,
+      "n_available": 17,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.00018669577205882352,
+      "bottom_frac": 0.0,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.15613511029411764,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.04575482536764706,
+          "step_iou": 0.29304635761589404,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.0,
+          "step_iou": 0.0,
+          "mean_freq_in": 0.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.003934972426470588,
+          "step_iou": 0.0,
+          "mean_freq_in": 0.875
+        },
+        {
+          "n": 10,
+          "coverage": 0.0018310546875,
+          "step_iou": 0.4653284671532847,
+          "mean_freq_in": 0.9000000000000002
+        },
+        {
+          "n": 12,
+          "coverage": 0.00018669577205882352,
+          "step_iou": 0.10196078431372549,
+          "mean_freq_in": 0.9166666666666665
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "left_fwd",
+      "n_used": 12,
+      "n_available": 14,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.02165798611111111,
+      "bottom_frac": 0.15564462257849032,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.1868923611111111,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.0361328125,
+          "step_iou": 0.1933348815606131,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.015125868055555556,
+          "step_iou": 0.4186186186186186,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.05204716435185185,
+          "step_iou": 0.2587772807374271,
+          "mean_freq_in": 0.9065149409312022
+        },
+        {
+          "n": 10,
+          "coverage": 0.02698929398148148,
+          "step_iou": 0.5185545517720639,
+          "mean_freq_in": 0.922567676226213
+        },
+        {
+          "n": 12,
+          "coverage": 0.02165798611111111,
+          "step_iou": 0.8024658268560707,
+          "mean_freq_in": 0.9375139167223333
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "rear",
+      "n_used": 12,
+      "n_available": 17,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.1261791087962963,
+      "bottom_frac": 0.9693860001146591,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5295355902777777,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3157913773148148,
+          "step_iou": 0.5963553406281163,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.064453125,
+          "step_iou": 0.20410033214981102,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.2185763888888889,
+          "step_iou": 0.2760420063922771,
+          "mean_freq_in": 0.8852305070161504
+        },
+        {
+          "n": 10,
+          "coverage": 0.1644892939814815,
+          "step_iou": 0.7525483187715117,
+          "mean_freq_in": 0.904705571924887
+        },
+        {
+          "n": 12,
+          "coverage": 0.1261791087962963,
+          "step_iou": 0.7670961783719601,
+          "mean_freq_in": 0.9194805939345293
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "right_bwd",
+      "n_used": 12,
+      "n_available": 21,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.00036353786496350364,
+      "bottom_frac": 1.0,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.1492501140510949,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.013358234489051095,
+          "step_iou": 0.08950234024262108,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.0010549726277372263,
+          "step_iou": 0.07897545357524013,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.01369325958029197,
+          "step_iou": 0.07202072538860103,
+          "mean_freq_in": 0.8766918271733473
+        },
+        {
+          "n": 10,
+          "coverage": 0.0015539461678832117,
+          "step_iou": 0.11348256116605934,
+          "mean_freq_in": 0.9022935779816516
+        },
+        {
+          "n": 12,
+          "coverage": 0.00036353786496350364,
+          "step_iou": 0.23394495412844038,
+          "mean_freq_in": 0.9215686274509803
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "right_fwd",
+      "n_used": 12,
+      "n_available": 18,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.0025535300925925925,
+      "bottom_frac": 1.0,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.10342158564814814,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.012861689814814815,
+          "step_iou": 0.12436175421417081,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.006141493055555555,
+          "step_iou": 0.47750281214848145,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.011212384259259259,
+          "step_iou": 0.5088050314465409,
+          "mean_freq_in": 0.9032258064516129
+        },
+        {
+          "n": 10,
+          "coverage": 0.005895543981481482,
+          "step_iou": 0.5258064516129032,
+          "mean_freq_in": 0.9092024539877304
+        },
+        {
+          "n": 12,
+          "coverage": 0.0025535300925925925,
+          "step_iou": 0.4331288343558282,
+          "mean_freq_in": 0.9235127478753541
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "front",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.2750289351851852,
+      "bottom_frac": 0.8501578116780641,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2750289351851852,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "left_fwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.32180989583333336,
+      "bottom_frac": 0.4470519477600198,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.32180989583333336,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "right_bwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.07414005265567765,
+      "bottom_frac": 0.7715429894818103,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5273365956959707,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.07414005265567765,
+          "step_iou": 0.14059341464407332,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "right_fwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.14273003472222223,
+      "bottom_frac": 0.7715777203385535,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3453052662037037,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.14273003472222223,
+          "step_iou": 0.41334450612757934,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "kurt",
+      "camera": "rear",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.40587384259259257,
+      "bottom_frac": 0.6605653382761817,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.40587384259259257,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "front",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.19599824793198528,
+      "bottom_frac": 0.81905442289022,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.47824635225183826,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.12285658892463236,
+          "step_iou": 0.25688975639052586,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04231890510110294,
+          "step_iou": 0.3444577573862474,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.19599824793198528,
+          "step_iou": 0.21591471121613454,
+          "mean_freq_in": 0.880260220810861
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "left_bwd",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.06507327782846715,
+      "bottom_frac": 0.5422280644101216,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.34969491332116787,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.0610601049270073,
+          "step_iou": 0.1746096457254678,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.052627452098540146,
+          "step_iou": 0.8618958673826757,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.06507327782846715,
+          "step_iou": 0.3770327745809357,
+          "mean_freq_in": 0.9042748384269909
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "left_fwd",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.017708333333333333,
+      "bottom_frac": 0.9015522875816994,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.22284432870370371,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.03348524305555556,
+          "step_iou": 0.1502629357917289,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.017708333333333333,
+          "step_iou": 0.5288399222294232,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "rear",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.18122829861111112,
+      "bottom_frac": 0.8953817906039196,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3920500578703704,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.20874565972222223,
+          "step_iou": 0.5324464453752052,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.18122829861111112,
+          "step_iou": 0.8681775652354715,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "right_bwd",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.018463134765625,
+      "bottom_frac": 0.28411386593204774,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.08188883463541667,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.027357313368055556,
+          "step_iou": 0.3340786749482402,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.000335693359375,
+          "step_iou": 0.01227069905800694,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.018463134765625,
+          "step_iou": 0.012048192771084338,
+          "mean_freq_in": 0.8762855831037649
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "right_fwd",
+      "n_used": 12,
+      "n_available": 13,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.022800925925925926,
+      "bottom_frac": 0.9060913705583756,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.21872106481481482,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.08627748842592593,
+          "step_iou": 0.3944635533800767,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04601417824074074,
+          "step_iou": 0.533327743774629,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.06538628472222222,
+          "step_iou": 0.25961066579420905,
+          "mean_freq_in": 0.9016069255448611
+        },
+        {
+          "n": 10,
+          "coverage": 0.03828125,
+          "step_iou": 0.5854629936939927,
+          "mean_freq_in": 0.9178382464096752
+        },
+        {
+          "n": 12,
+          "coverage": 0.022800925925925926,
+          "step_iou": 0.5956160241874527,
+          "mean_freq_in": 0.930017978003384
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "front",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.46867845695970695,
+      "bottom_frac": 0.8563501755457182,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.6519645718864469,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.46867845695970695,
+          "step_iou": 0.7188710509278057,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "rear",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.3342086226851852,
+      "bottom_frac": 0.7555897058505228,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4647135416666667,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.3342086226851852,
+          "step_iou": 0.7191712586781234,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "right_fwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.05774739583333333,
+      "bottom_frac": 0.9343605160967055,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.05774739583333333,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "front",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.09174679487179487,
+      "bottom_frac": 0.7470368059887711,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.13915121336996336,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.09174679487179487,
+          "step_iou": 0.659331619537275,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "left_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.25448787913602944,
+      "bottom_frac": 0.5658136057108998,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.25448787913602944,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "left_fwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.35012297453703706,
+      "bottom_frac": 0.2685894919526456,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.35012297453703706,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "rear",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.2531539351851852,
+      "bottom_frac": 0.5158589553091782,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2531539351851852,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "right_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.050738324175824176,
+      "bottom_frac": 0.42470389170896783,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.050738324175824176,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "right_fwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.3097511574074074,
+      "bottom_frac": 0.5808267164876226,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.42563657407407407,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3097511574074074,
+          "step_iou": 0.7277362338545207,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "front",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.24956358745421245,
+      "bottom_frac": 0.9068027405899722,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3188458676739927,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.27363782051282054,
+          "step_iou": 0.8582134763389953,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.24956358745421245,
+          "step_iou": 0.9120215436101234,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "left_bwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.07291429060218978,
+      "bottom_frac": 0.5709257991983576,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.1448555828010949,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.07291429060218978,
+          "step_iou": 0.503358511920872,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "left_fwd",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.2740740740740741,
+      "bottom_frac": 0.4975453969594595,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4137225115740741,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3218967013888889,
+          "step_iou": 0.778049761334429,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.2740740740740741,
+          "step_iou": 0.8514348637048024,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "rear",
+      "n_used": 10,
+      "n_available": 13,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.2766927083333333,
+      "bottom_frac": 0.8074771241830065,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3317925347222222,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1814742476851852,
+          "step_iou": 0.5469509669261124,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.12421875,
+          "step_iou": 0.6844979471439391,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.29246238425925924,
+          "step_iou": 0.42234184404168107,
+          "mean_freq_in": 0.9202850605985654
+        },
+        {
+          "n": 10,
+          "coverage": 0.2766927083333333,
+          "step_iou": 0.94607964382884,
+          "mean_freq_in": 0.9363294117647061
+        }
+      ]
+    },
+    {
+      "vehicle": "manolio",
+      "camera": "rear",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.10575086805555556,
+      "bottom_frac": 0.6830152541213489,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.10575086805555556,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "front",
+      "n_used": 12,
+      "n_available": 13,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.04686069139194139,
+      "bottom_frac": 0.7532824427480916,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.41023494734432236,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.2770074977106227,
+          "step_iou": 0.675241101480616,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.06355883699633699,
+          "step_iou": 0.22944807458870323,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.09904418498168498,
+          "step_iou": 0.5431830526887561,
+          "mean_freq_in": 0.8933472984686507
+        },
+        {
+          "n": 10,
+          "coverage": 0.05260559752747253,
+          "step_iou": 0.5311326206298758,
+          "mean_freq_in": 0.9101999184006531
+        },
+        {
+          "n": 12,
+          "coverage": 0.04686069139194139,
+          "step_iou": 0.8907928736570108,
+          "mean_freq_in": 0.9246055979643764
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "left_bwd",
+      "n_used": 12,
+      "n_available": 17,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.02216155337591241,
+      "bottom_frac": 0.1707944676744934,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.25414860857664234,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.06512317518248176,
+          "step_iou": 0.25624053402142816,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.027208314324817517,
+          "step_iou": 0.41779772329246934,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.05490134580291971,
+          "step_iou": 0.44656536481225667,
+          "mean_freq_in": 0.9101369774084653
+        },
+        {
+          "n": 10,
+          "coverage": 0.028883439781021897,
+          "step_iou": 0.5260971176317839,
+          "mean_freq_in": 0.9393385982230997
+        },
+        {
+          "n": 12,
+          "coverage": 0.02216155337591241,
+          "step_iou": 0.7672754195459033,
+          "mean_freq_in": 0.9499571137557627
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "left_fwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.26100983796296295,
+      "bottom_frac": 0.28992295327310014,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.25776909722222224,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1964699074074074,
+          "step_iou": 0.7621934107874502,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.15943287037037038,
+          "step_iou": 0.8114874815905744,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.26100983796296295,
+          "step_iou": 0.6108308852059199,
+          "mean_freq_in": 0.9329978540942456
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "rear",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.19535590277777778,
+      "bottom_frac": 0.8941716655558024,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.44131221064814813,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1609157986111111,
+          "step_iou": 0.36463028832756894,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.09576099537037037,
+          "step_iou": 0.5951000224769611,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.19535590277777778,
+          "step_iou": 0.47727773291241465,
+          "mean_freq_in": 0.9177405021106421
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "right_bwd",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.11425426136363637,
+      "bottom_frac": 0.576117361844968,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.18159090909090908,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.0971875,
+          "step_iou": 0.5352002503128911,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.05281960227272727,
+          "step_iou": 0.5434814381759719,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.11425426136363637,
+          "step_iou": 0.46229875054391745,
+          "mean_freq_in": 0.9313964691987319
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "right_fwd",
+      "n_used": 9,
+      "n_available": 9,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.00822482638888889,
+      "bottom_frac": 0.9947229551451188,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.14246961805555555,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.0069010416666666664,
+          "step_iou": 0.04843869002284844,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.003689236111111111,
+          "step_iou": 0.5345911949685535,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.008673321759259259,
+          "step_iou": 0.42535446205170974,
+          "mean_freq_in": 0.8982485404503753
+        },
+        {
+          "n": 9,
+          "coverage": 0.00822482638888889,
+          "step_iou": 0.9482902418682235,
+          "mean_freq_in": 0.9106811296784912
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "left_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.42018276173285196,
+      "bottom_frac": 0.3781883474291851,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.42018276173285196,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "rear",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.5485460069444444,
+      "bottom_frac": 0.5790903456370086,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5485460069444444,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "right_fwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.4218460648148148,
+      "bottom_frac": 0.645654708827766,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5572193287037037,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.4218460648148148,
+          "step_iou": 0.7570556925873037,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "front",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.44351016773897056,
+      "bottom_frac": 0.8775682020561807,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5443258846507353,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.4006491268382353,
+          "step_iou": 0.7360464349317327,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.36404957490808826,
+          "step_iou": 0.9086493655459172,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.44351016773897056,
+          "step_iou": 0.8208370436331256,
+          "mean_freq_in": 0.9685073608493021
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "left_bwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.31182994981751827,
+      "bottom_frac": 0.7716819823526723,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4227874087591241,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.31182994981751827,
+          "step_iou": 0.7375573239816563,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "left_fwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.0685474537037037,
+      "bottom_frac": 0.9951456310679612,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.14972511574074074,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.0685474537037037,
+          "step_iou": 0.4578220117885786,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "rear",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.5028645833333333,
+      "bottom_frac": 0.7488491857989528,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5028645833333333,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "right_bwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.05932348901098901,
+      "bottom_frac": 0.7989628557645924,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.10575492216117216,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.05932348901098901,
+          "step_iou": 0.5609525098092274,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "front",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.1463055173992674,
+      "bottom_frac": 0.9839119804400978,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2952652815934066,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1463055173992674,
+          "step_iou": 0.4955053185045189,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "left_bwd",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.009509010036496351,
+      "bottom_frac": 0.043478260869565216,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3457316377737226,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.01627366560218978,
+          "step_iou": 0.04707022390829244,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.009509010036496351,
+          "step_iou": 0.5843188786684187,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "left_fwd",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.038360821759259256,
+      "bottom_frac": 0.601357722044126,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.11378038194444444,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.0613353587962963,
+          "step_iou": 0.5390679636340517,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.038360821759259256,
+          "step_iou": 0.6254275268309942,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "rear",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.1941695601851852,
+      "bottom_frac": 0.8273973623425974,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.39924045138888886,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1941695601851852,
+          "step_iou": 0.4863474117156783,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "right_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.1244368727189781,
+      "bottom_frac": 0.5220828321017357,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.1244368727189781,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "right_fwd",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.0023179945054945055,
+      "bottom_frac": 0.8302469135802469,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.027930402930402932,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.0025612408424908425,
+          "step_iou": 0.09170081967213115,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.0023179945054945055,
+          "step_iou": 0.9050279329608939,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "front",
+      "n_used": 12,
+      "n_available": 12,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.09364268543956043,
+      "bottom_frac": 0.8082359232943693,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4403617216117216,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1761532738095238,
+          "step_iou": 0.4000194957109436,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.1226963141025641,
+          "step_iou": 0.6965315571440176,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.18541094322344323,
+          "step_iou": 0.5384560425820741,
+          "mean_freq_in": 0.9115990121932397
+        },
+        {
+          "n": 10,
+          "coverage": 0.12005637591575091,
+          "step_iou": 0.647515048618614,
+          "mean_freq_in": 0.9344437161075028
+        },
+        {
+          "n": 12,
+          "coverage": 0.09364268543956043,
+          "step_iou": 0.7799892735832191,
+          "mean_freq_in": 0.9387972088522167
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "left_bwd",
+      "n_used": 12,
+      "n_available": 16,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.07310675182481752,
+      "bottom_frac": 0.20076053042121686,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.10974566605839416,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.07313526459854014,
+          "step_iou": 0.666406858924396,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.03281107436131387,
+          "step_iou": 0.448635477582846,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.08620837135036497,
+          "step_iou": 0.38060195138085,
+          "mean_freq_in": 0.9196399040846701
+        },
+        {
+          "n": 10,
+          "coverage": 0.07893048585766424,
+          "step_iou": 0.9155779725483711,
+          "mean_freq_in": 0.9370089406664862
+        },
+        {
+          "n": 12,
+          "coverage": 0.07310675182481752,
+          "step_iou": 0.9262169240494897,
+          "mean_freq_in": 0.9495498569942795
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "left_fwd",
+      "n_used": 10,
+      "n_available": 10,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.08132233796296297,
+      "bottom_frac": 0.5865504358655044,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.07627314814814815,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.06891637731481481,
+          "step_iou": 0.9035470409711684,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.044603587962962966,
+          "step_iou": 0.6472131835834996,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.0994212962962963,
+          "step_iou": 0.4392077490241434,
+          "mean_freq_in": 0.9045492578579744
+        },
+        {
+          "n": 10,
+          "coverage": 0.08132233796296297,
+          "step_iou": 0.8179569266589057,
+          "mean_freq_in": 0.9260185020458995
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "rear",
+      "n_used": 12,
+      "n_available": 22,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.15907841435185185,
+      "bottom_frac": 0.8551680232822518,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3167607060185185,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.20460792824074073,
+          "step_iou": 0.645938477699879,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.15666956018518519,
+          "step_iou": 0.7657062047021389,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.28216869212962964,
+          "step_iou": 0.5513361462728551,
+          "mean_freq_in": 0.9357198707924219
+        },
+        {
+          "n": 10,
+          "coverage": 0.24220920138888888,
+          "step_iou": 0.8583843925449278,
+          "mean_freq_in": 0.9470955410208166
+        },
+        {
+          "n": 12,
+          "coverage": 0.15907841435185185,
+          "step_iou": 0.656781053071708,
+          "mean_freq_in": 0.9496991193366983
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "right_bwd",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.039404653284671534,
+      "bottom_frac": 0.8375542691751086,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2804445141423358,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.15932225136861314,
+          "step_iou": 0.5681061434054343,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04278341697080292,
+          "step_iou": 0.26853384636034183,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.039404653284671534,
+          "step_iou": 0.41074268934295854,
+          "mean_freq_in": 0.8926148697539797
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "right_fwd",
+      "n_used": 10,
+      "n_available": 10,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.010886863425925927,
+      "bottom_frac": 0.5561461794019934,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.02869646990740741,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.00847800925925926,
+          "step_iou": 0.29543735820519285,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.0017144097222222222,
+          "step_iou": 0.2022184300341297,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.013693576388888889,
+          "step_iou": 0.12519809825673534,
+          "mean_freq_in": 0.8899234020073956
+        },
+        {
+          "n": 10,
+          "coverage": 0.010886863425925927,
+          "step_iou": 0.7950343370311674,
+          "mean_freq_in": 0.9129568106312296
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "front",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.24637276785714285,
+      "bottom_frac": 0.860397247146964,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5184223328754579,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3375257554945055,
+          "step_iou": 0.6510633012709934,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.24637276785714285,
+          "step_iou": 0.7299376828182628,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "left_bwd",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.29941190036900367,
+      "bottom_frac": 0.8825702869247063,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.44686923431734316,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.29941190036900367,
+          "step_iou": 0.6700212889491001,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "left_fwd",
+      "n_used": 6,
+      "n_available": 6,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.25013744212962963,
+      "bottom_frac": 0.8530900257381648,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.5934317129629629,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3181495949074074,
+          "step_iou": 0.5361182895314253,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.25013744212962963,
+          "step_iou": 0.7862258702621586,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "rear",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.47095630787037035,
+      "bottom_frac": 0.805053375316796,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.524146412037037,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.47095630787037035,
+          "step_iou": 0.8985205222335698,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "right_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.14458848443223443,
+      "bottom_frac": 0.7425284512617516,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.14458848443223443,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "right_fwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.19343894675925927,
+      "bottom_frac": 0.8610747541228825,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.354173900462963,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.16890190972222222,
+          "step_iou": 0.4768897694083046,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.09780815972222222,
+          "step_iou": 0.5790826159578568,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.19343894675925927,
+          "step_iou": 0.5056280617777944,
+          "mean_freq_in": 0.9202027918605459
+        }
+      ]
+    },
+    {
+      "vehicle": "right",
+      "camera": "front",
+      "n_used": 3,
+      "n_available": 3,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.23450377747252749,
+      "bottom_frac": 0.9719934102141681,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.27002489697802196,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 3,
+          "coverage": 0.23450377747252749,
+          "step_iou": 0.8684524282648438,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "right",
+      "camera": "left_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.40266569368131866,
+      "bottom_frac": 0.6261037968836061,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.40266569368131866,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "right",
+      "camera": "rear",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.19932002314814815,
+      "bottom_frac": 1.0,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.30287905092592593,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.20692997685185185,
+          "step_iou": 0.6832099355146883,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.19932002314814815,
+          "step_iou": 0.9632244983569881,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "right",
+      "camera": "right_bwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.17387820512820512,
+      "bottom_frac": 0.7087310730743911,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.26694854624542125,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.17387820512820512,
+          "step_iou": 0.6513547557151663,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "front",
+      "n_used": 12,
+      "n_available": 12,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.0958251953125,
+      "bottom_frac": 0.9862120644436119,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2825927734375,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1493207146139706,
+          "step_iou": 0.5283953754287892,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.07525275735294118,
+          "step_iou": 0.5039672998316903,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.16439280790441177,
+          "step_iou": 0.3963432492364336,
+          "mean_freq_in": 0.9153217000087359
+        },
+        {
+          "n": 10,
+          "coverage": 0.1337890625,
+          "step_iou": 0.8138376867301477,
+          "mean_freq_in": 0.9369364534134824
+        },
+        {
+          "n": 12,
+          "coverage": 0.0958251953125,
+          "step_iou": 0.7162408759124088,
+          "mean_freq_in": 0.9344323716747844
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "left_bwd",
+      "n_used": 5,
+      "n_available": 5,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.11810325091575091,
+      "bottom_frac": 0.7377332202568452,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.24922018086080586,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.14589772206959706,
+          "step_iou": 0.5854169656954212,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 5,
+          "coverage": 0.11810325091575091,
+          "step_iou": 0.8094934536360516,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "left_fwd",
+      "n_used": 10,
+      "n_available": 10,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.09137731481481481,
+      "bottom_frac": 0.6055256491450285,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.07919560185185186,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.04371383101851852,
+          "step_iou": 0.5519729630982828,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.026844618055555554,
+          "step_iou": 0.6140989574714546,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.11037326388888889,
+          "step_iou": 0.24126423243031017,
+          "mean_freq_in": 0.9019203041027658
+        },
+        {
+          "n": 10,
+          "coverage": 0.09137731481481481,
+          "step_iou": 0.8278935640319832,
+          "mean_freq_in": 0.9246200126662447
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "rear",
+      "n_used": 6,
+      "n_available": 13,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.28149594907407405,
+      "bottom_frac": 0.997738603073444,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3600115740740741,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.2887297453703704,
+          "step_iou": 0.8020012859668864,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.28149594907407405,
+          "step_iou": 0.9749461341885053,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "right_bwd",
+      "n_used": 9,
+      "n_available": 9,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.06484661172161173,
+      "bottom_frac": 0.5448477493380406,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.17267628205128205,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.07366786858974358,
+          "step_iou": 0.42662412993039445,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.05361435439560439,
+          "step_iou": 0.7277847916868991,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.07197945283882784,
+          "step_iou": 0.6956437747512798,
+          "mean_freq_in": 0.9239016996322433
+        },
+        {
+          "n": 9,
+          "coverage": 0.06484661172161173,
+          "step_iou": 0.9009044826557996,
+          "mean_freq_in": 0.9348460331470041
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "right_fwd",
+      "n_used": 12,
+      "n_available": 13,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.08297164351851852,
+      "bottom_frac": 0.22580645161290322,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2353660300925926,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.06316550925925926,
+          "step_iou": 0.26837139256846054,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.024074074074074074,
+          "step_iou": 0.38112688960146585,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.11333912037037037,
+          "step_iou": 0.20670816922881463,
+          "mean_freq_in": 0.8997000255297422
+        },
+        {
+          "n": 10,
+          "coverage": 0.09348234953703703,
+          "step_iou": 0.8248021444983406,
+          "mean_freq_in": 0.9058422966803376
+        },
+        {
+          "n": 12,
+          "coverage": 0.08297164351851852,
+          "step_iou": 0.8875648069333746,
+          "mean_freq_in": 0.9216506829410054
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "front",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.22184781364468864,
+      "bottom_frac": 0.7689058015414879,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.26790006868131866,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.10236378205128205,
+          "step_iou": 0.3820968861827699,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.08206702152014653,
+          "step_iou": 0.801719317864132,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.22184781364468864,
+          "step_iou": 0.3699248605243639,
+          "mean_freq_in": 0.8909164620409743
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "left_bwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.11068423763736264,
+      "bottom_frac": 0.15874862646241356,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.37571543040293043,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.10895289606227106,
+          "step_iou": 0.2899878132378704,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04554429945054945,
+          "step_iou": 0.41801825464574166,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.11068423763736264,
+          "step_iou": 0.4114795423695947,
+          "mean_freq_in": 0.9154824233358265
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "left_fwd",
+      "n_used": 12,
+      "n_available": 14,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.0892722800925926,
+      "bottom_frac": 0.43270399481403454,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4459273726851852,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1502097800925926,
+          "step_iou": 0.33684808175845565,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.07691695601851851,
+          "step_iou": 0.5120635685046954,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.12250434027777778,
+          "step_iou": 0.5876526146049298,
+          "mean_freq_in": 0.9394227930321819
+        },
+        {
+          "n": 10,
+          "coverage": 0.0972583912037037,
+          "step_iou": 0.7939179214644227,
+          "mean_freq_in": 0.958579397545556
+        },
+        {
+          "n": 12,
+          "coverage": 0.0892722800925926,
+          "step_iou": 0.9178876905912979,
+          "mean_freq_in": 0.9661831834265184
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "rear",
+      "n_used": 10,
+      "n_available": 11,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.3129340277777778,
+      "bottom_frac": 0.8683541377716135,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.49961660879629627,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.2877387152777778,
+          "step_iou": 0.5759190351397918,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.22583912037037038,
+          "step_iou": 0.7848756819267416,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.33783998842592594,
+          "step_iou": 0.6608691945350299,
+          "mean_freq_in": 0.954745947797786
+        },
+        {
+          "n": 10,
+          "coverage": 0.3129340277777778,
+          "step_iou": 0.9262788257713638,
+          "mean_freq_in": 0.9659986130374479
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "right_bwd",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.01896605998168498,
+      "bottom_frac": 0.06280648811769143,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.040758070054945056,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.007683722527472527,
+          "step_iou": 0.1885202738283307,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.005143944597069597,
+          "step_iou": 0.6694599627560521,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.01896605998168498,
+          "step_iou": 0.26217228464419473,
+          "mean_freq_in": 0.8935307431158054
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "right_fwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.145703125,
+      "bottom_frac": 0.556647800615629,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.17779947916666666,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1158130787037037,
+          "step_iou": 0.6513690548842508,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.07981770833333333,
+          "step_iou": 0.6891942535915053,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.145703125,
+          "step_iou": 0.5478105451295799,
+          "mean_freq_in": 0.9327063562988497
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "front",
+      "n_used": 12,
+      "n_available": 16,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.1599630837912088,
+      "bottom_frac": 0.875933628516481,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.41729624542124544,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.35670644459706957,
+          "step_iou": 0.8548038677821972,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.11439016712454213,
+          "step_iou": 0.3206843298100644,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.24280277014652016,
+          "step_iou": 0.46723286705066414,
+          "mean_freq_in": 0.9246346278507868
+        },
+        {
+          "n": 10,
+          "coverage": 0.19288719093406592,
+          "step_iou": 0.7944192350757263,
+          "mean_freq_in": 0.946407774192352
+        },
+        {
+          "n": 12,
+          "coverage": 0.1599630837912088,
+          "step_iou": 0.8293090018916213,
+          "mean_freq_in": 0.9503853779984196
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "left_bwd",
+      "n_used": 10,
+      "n_available": 10,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.030119619963369964,
+      "bottom_frac": 0.29643705463182896,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2757411858974359,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.053478422619047616,
+          "step_iou": 0.1939442685901095,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04483602335164835,
+          "step_iou": 0.8383946488294315,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.060360863095238096,
+          "step_iou": 0.6156466322382156,
+          "mean_freq_in": 0.8986013986013986
+        },
+        {
+          "n": 10,
+          "coverage": 0.030119619963369964,
+          "step_iou": 0.498992532890838,
+          "mean_freq_in": 0.9147505938242282
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "left_fwd",
+      "n_used": 12,
+      "n_available": 19,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.07413194444444444,
+      "bottom_frac": 0.4488680718188915,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3714337384259259,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.14216579861111112,
+          "step_iou": 0.3827487487097591,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.0718677662037037,
+          "step_iou": 0.5055207856306925,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.15452835648148147,
+          "step_iou": 0.46261332834844376,
+          "mean_freq_in": 0.9206534968635895
+        },
+        {
+          "n": 10,
+          "coverage": 0.09284577546296297,
+          "step_iou": 0.6008332553131729,
+          "mean_freq_in": 0.9357771717958708
+        },
+        {
+          "n": 12,
+          "coverage": 0.07413194444444444,
+          "step_iou": 0.7984417608102844,
+          "mean_freq_in": 0.9470221831902158
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "rear",
+      "n_used": 12,
+      "n_available": 16,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.17602719907407408,
+      "bottom_frac": 0.9213857154598504,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.3267867476851852,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.20977285879629629,
+          "step_iou": 0.6419258439402324,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.16359953703703703,
+          "step_iou": 0.7798889616883341,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.2625795717592593,
+          "step_iou": 0.5737945772672632,
+          "mean_freq_in": 0.9158069092812474
+        },
+        {
+          "n": 10,
+          "coverage": 0.19675925925925927,
+          "step_iou": 0.7493319375189399,
+          "mean_freq_in": 0.9392794117647062
+        },
+        {
+          "n": 12,
+          "coverage": 0.17602719907407408,
+          "step_iou": 0.8946323529411765,
+          "mean_freq_in": 0.9527889646858989
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "right_bwd",
+      "n_used": 12,
+      "n_available": 19,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.0033533432904411763,
+      "bottom_frac": 0.017130620985010708,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.07711253446691177,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.017635569852941176,
+          "step_iou": 0.2286991339975789,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.0,
+          "step_iou": 0.0,
+          "mean_freq_in": 0.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.01377240349264706,
+          "step_iou": 0.0,
+          "mean_freq_in": 0.875
+        },
+        {
+          "n": 10,
+          "coverage": 0.004775103400735294,
+          "step_iou": 0.3467153284671533,
+          "mean_freq_in": 0.9000000000000001
+        },
+        {
+          "n": 12,
+          "coverage": 0.0033533432904411763,
+          "step_iou": 0.7022556390977444,
+          "mean_freq_in": 0.9166666666666665
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "right_fwd",
+      "n_used": 12,
+      "n_available": 16,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.012427662037037037,
+      "bottom_frac": 0.20954598370197905,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.28703703703703703,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.15779803240740742,
+          "step_iou": 0.5497479838709678,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.07770543981481481,
+          "step_iou": 0.4924360502429632,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.06048177083333333,
+          "step_iou": 0.642138743230465,
+          "mean_freq_in": 0.913437387872264
+        },
+        {
+          "n": 10,
+          "coverage": 0.03034577546296296,
+          "step_iou": 0.5017342423155124,
+          "mean_freq_in": 0.9026221692491063
+        },
+        {
+          "n": 12,
+          "coverage": 0.012427662037037037,
+          "step_iou": 0.4095351609058403,
+          "mean_freq_in": 0.9166666666666665
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "front",
+      "n_used": 8,
+      "n_available": 8,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.09831444597069597,
+      "bottom_frac": 0.9925047300247417,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.35629149496337,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1159426510989011,
+          "step_iou": 0.32541515230617857,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.03796789148351648,
+          "step_iou": 0.32747130692336174,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.09831444597069597,
+          "step_iou": 0.38246607155816825,
+          "mean_freq_in": 0.8968035948188037
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "left_bwd",
+      "n_used": 9,
+      "n_available": 9,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.061448317307692304,
+      "bottom_frac": 0.997205728257073,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.04291151556776557,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.01960279304029304,
+          "step_iou": 0.45681893964654885,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.007826808608058608,
+          "step_iou": 0.39927007299270073,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.06962568681318682,
+          "step_iou": 0.1119556285949055,
+          "mean_freq_in": 0.88438912864776
+        },
+        {
+          "n": 9,
+          "coverage": 0.061448317307692304,
+          "step_iou": 0.8825524044389642,
+          "mean_freq_in": 0.8974786872097389
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "left_fwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.262890625,
+      "bottom_frac": 0.712481426448737,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.4368561921296296,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.23077980324074074,
+          "step_iou": 0.5282740805749201,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.17277922453703703,
+          "step_iou": 0.748675673134188,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.262890625,
+          "step_iou": 0.6572285509878377,
+          "mean_freq_in": 0.9324944770710004
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "rear",
+      "n_used": 9,
+      "n_available": 9,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.2519458912037037,
+      "bottom_frac": 0.861982830399954,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.30192418981481484,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.20744357638888888,
+          "step_iou": 0.6870717331927739,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.16791087962962964,
+          "step_iou": 0.809429159256547,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.2537905092592593,
+          "step_iou": 0.6546791178223723,
+          "mean_freq_in": 0.9421816212518527
+        },
+        {
+          "n": 9,
+          "coverage": 0.2519458912037037,
+          "step_iou": 0.9927317295633337,
+          "mean_freq_in": 0.9490431026507286
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "right_bwd",
+      "n_used": 9,
+      "n_available": 9,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.007340315934065934,
+      "bottom_frac": 0.7261208576998051,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.14543269230769232,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.006603422619047619,
+          "step_iou": 0.04540535222353404,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.003419757326007326,
+          "step_iou": 0.5178764897074756,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.008828411172161172,
+          "step_iou": 0.33541341653666146,
+          "mean_freq_in": 0.8848257698541329
+        },
+        {
+          "n": 9,
+          "coverage": 0.007340315934065934,
+          "step_iou": 0.8314424635332253,
+          "mean_freq_in": 0.8983105912930477
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "front",
+      "n_used": 6,
+      "n_available": 10,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.10824461996336997,
+      "bottom_frac": 0.8751487111698611,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.25154532967032966,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.1147121108058608,
+          "step_iou": 0.4560295790671217,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.10824461996336997,
+          "step_iou": 0.9436198079081951,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "left_bwd",
+      "n_used": 10,
+      "n_available": 10,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.02529795848540146,
+      "bottom_frac": 0.04508312200619893,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.29906335538321166,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.057738366788321165,
+          "step_iou": 0.19306399713979264,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.0430685447080292,
+          "step_iou": 0.7459259259259259,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.04966925182481752,
+          "step_iou": 0.692467802783921,
+          "mean_freq_in": 0.9249246555683123
+        },
+        {
+          "n": 10,
+          "coverage": 0.02529795848540146,
+          "step_iou": 0.5093283582089553,
+          "mean_freq_in": 0.9663003663003663
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "left_fwd",
+      "n_used": 10,
+      "n_available": 10,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.08236400462962963,
+      "bottom_frac": 0.4887581240119445,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2618995949074074,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.11242766203703704,
+          "step_iou": 0.42927772407126086,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.07737268518518518,
+          "step_iou": 0.6881997168961523,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.10198206018518519,
+          "step_iou": 0.6989173632999863,
+          "mean_freq_in": 0.925060292240034
+        },
+        {
+          "n": 10,
+          "coverage": 0.08236400462962963,
+          "step_iou": 0.8076322882678394,
+          "mean_freq_in": 0.9447479360618305
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "rear",
+      "n_used": 6,
+      "n_available": 11,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.2421875,
+      "bottom_frac": 0.9862903225806452,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.46827256944444445,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.26164641203703703,
+          "step_iou": 0.5587481076404981,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.2421875,
+          "step_iou": 0.925628974288084,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "right_bwd",
+      "n_used": 12,
+      "n_available": 14,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.027186929744525547,
+      "bottom_frac": 0.015207131620346093,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.24386975364963503,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.18512631158759124,
+          "step_iou": 0.7591196071553841,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.025675752737226276,
+          "step_iou": 0.13869315775287822,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.04942689324817518,
+          "step_iou": 0.2690917851120212,
+          "mean_freq_in": 0.8985434092875685
+        },
+        {
+          "n": 10,
+          "coverage": 0.03092210310218978,
+          "step_iou": 0.625612921834439,
+          "mean_freq_in": 0.9235592438911943
+        },
+        {
+          "n": 12,
+          "coverage": 0.027186929744525547,
+          "step_iou": 0.8792070078377132,
+          "mean_freq_in": 0.934408320223737
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "right_fwd",
+      "n_used": 11,
+      "n_available": 11,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.05035445601851852,
+      "bottom_frac": 0.9449791696595317,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.18578559027777777,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.058347800925925924,
+          "step_iou": 0.3140598839699412,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.036769386574074074,
+          "step_iou": 0.6301760476072402,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 8,
+          "coverage": 0.10226417824074074,
+          "step_iou": 0.35945678313764323,
+          "mean_freq_in": 0.9155054113319657
+        },
+        {
+          "n": 10,
+          "coverage": 0.05758101851851852,
+          "step_iou": 0.5630614699016765,
+          "mean_freq_in": 0.929133165829146
+        },
+        {
+          "n": 11,
+          "coverage": 0.05035445601851852,
+          "step_iou": 0.8744974874371859,
+          "mean_freq_in": 0.9370257669352625
+        }
+      ]
+    },
+    {
+      "vehicle": "washam",
+      "camera": "right_bwd",
+      "n_used": 2,
+      "n_available": 2,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.274660885989011,
+      "bottom_frac": 0.4160219843192415,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.274660885989011,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "weel",
+      "camera": "left_fwd",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.08088107638888889,
+      "bottom_frac": 0.5616671138538593,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.2637731481481482,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.08088107638888889,
+          "step_iou": 0.3066311978938131,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "weel",
+      "camera": "rear",
+      "n_used": 4,
+      "n_available": 4,
+      "converged": true,
+      "thresh": 0.85,
+      "coverage": 0.3138093171296296,
+      "bottom_frac": 0.8470989603743574,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.33632089120370373,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.3138093171296296,
+          "step_iou": 0.9330651926096402,
+          "mean_freq_in": 1.0
+        }
+      ]
+    },
+    {
+      "vehicle": "weel",
+      "camera": "right_fwd",
+      "n_used": 7,
+      "n_available": 7,
+      "converged": false,
+      "thresh": 0.85,
+      "coverage": 0.09835069444444444,
+      "bottom_frac": 0.8823918799646955,
+      "steps": [
+        {
+          "n": 2,
+          "coverage": 0.1554470486111111,
+          "step_iou": 1.0,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 4,
+          "coverage": 0.05863715277777778,
+          "step_iou": 0.3772162501745079,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 6,
+          "coverage": 0.04809027777777778,
+          "step_iou": 0.8201332346410066,
+          "mean_freq_in": 1.0
+        },
+        {
+          "n": 7,
+          "coverage": 0.09835069444444444,
+          "step_iou": 0.4889673433362754,
+          "mean_freq_in": 0.9260496784768628
+        }
+      ]
+    }
+  ]
+}
