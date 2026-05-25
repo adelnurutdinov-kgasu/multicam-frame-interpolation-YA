@@ -6,3 +6,5 @@ data/dataset/*
 runs/
 *.pt
 blur_tune_cache.pkl
+methods_gallery/_ego_manual_masks/means.zip
+/methods_gallery/_ego_manual_masks/means

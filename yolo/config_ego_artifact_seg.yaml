@@ -1,0 +1,19 @@
+# Ego/camera artifact instance segmentation (hood, mirror, body in frame)
+# Export:  python yolo/export_ego_artifact_seg.py
+# Train:    python yolo/train_ego_artifact_seg.py --epochs 60
+
+dataset_dir: "C:/Users/adel/Downloads/cv_dataset/final_dataset_v5_participants/train"
+output_dir: "methods_gallery/_ego_manual_masks/yolo_ego_artifact"
+
+model: "yolo26s-seg.pt"
+epochs: 60
+imgsz: 640
+batch: 8
+device: ""
+
+val_frac: 0.15
+max_per_group: 24
+seed: 42
+
+names:
+  - ego_artifact
