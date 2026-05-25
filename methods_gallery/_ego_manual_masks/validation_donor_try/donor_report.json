@@ -1,0 +1,935 @@
+{
+  "dataset": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train",
+  "n_groups": 16,
+  "min_improve": 0.15,
+  "results": [
+    {
+      "vehicle": "targi",
+      "camera": "left_bwd",
+      "median_badness_own": 2.1465091215099985,
+      "near_edge_own": 0.6047745358090186,
+      "best_donor_tag": "donor:lerita",
+      "best_donor_label": "lerita/left_bwd",
+      "median_badness_best": 1.3382001795483984,
+      "near_edge_best": 0.7929913294797688,
+      "improved": 0.8083089419616001,
+      "ranked_top5": [
+        {
+          "tag": "donor:lerita",
+          "label": "lerita/left_bwd",
+          "median_badness": 1.3382001795483984,
+          "median_near_edge": 0.7929913294797688
+        },
+        {
+          "tag": "donor:mika",
+          "label": "mika/left_bwd",
+          "median_badness": 1.7755436296282534,
+          "median_near_edge": 0.6996688741721855
+        },
+        {
+          "tag": "donor:badat",
+          "label": "badat/left_bwd",
+          "median_badness": 1.8130780103180193,
+          "median_near_edge": 0.622887323943662
+        },
+        {
+          "tag": "donor:nikena",
+          "label": "nikena/left_bwd",
+          "median_badness": 1.864924942297324,
+          "median_near_edge": 0.5861423220973783
+        },
+        {
+          "tag": "donor:soan",
+          "label": "soan/left_bwd",
+          "median_badness": 1.9507661033074961,
+          "median_near_edge": 0.6342257597684515
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2026-03-12_16_26_31_19_05_45_targi_1773333214299990000__000",
+          "rel": "compare/targi_left_bwd/2026-03-12_16_26_31_19_05_45_targi_1773333214299990000__000.jpg",
+          "own_badness": 2.5771334653349145
+        },
+        {
+          "sample_id": "2025-12-20_10_38_10_10_42_41_targi_1766218168999934000__001",
+          "rel": "compare/targi_left_bwd/2025-12-20_10_38_10_10_42_41_targi_1766218168999934000__001.jpg",
+          "own_badness": 2.412805532256929
+        },
+        {
+          "sample_id": "2026-03-13_17_08_46_17_40_57_targi_1773413356200016000__000",
+          "rel": "compare/targi_left_bwd/2026-03-13_17_08_46_17_40_57_targi_1773413356200016000__000.jpg",
+          "own_badness": 2.3742743222207
+        }
+      ],
+      "suggested_mask": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_donor_suggested\\targi_left_bwd.png"
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "rear",
+      "median_badness_own": 2.8317534067603227,
+      "near_edge_own": 0.9406504065040651,
+      "best_donor_tag": "donor:badat",
+      "best_donor_label": "badat/rear",
+      "median_badness_best": 2.1298894654159937,
+      "near_edge_best": 0.8159609120521173,
+      "improved": 0.7018639413443291,
+      "ranked_top5": [
+        {
+          "tag": "donor:badat",
+          "label": "badat/rear",
+          "median_badness": 2.1298894654159937,
+          "median_near_edge": 0.8159609120521173
+        },
+        {
+          "tag": "own",
+          "label": "jurita/rear",
+          "median_badness": 2.8317534067603227,
+          "median_near_edge": 0.9406504065040651
+        },
+        {
+          "tag": "donor:hanna",
+          "label": "hanna/rear",
+          "median_badness": 3.16375076726026,
+          "median_near_edge": 0.8251343530384456
+        },
+        {
+          "tag": "donor:nikena",
+          "label": "nikena/rear",
+          "median_badness": 3.207392271219587,
+          "median_near_edge": 0.8219278881530537
+        },
+        {
+          "tag": "donor:greton",
+          "label": "greton/rear",
+          "median_badness": 3.3095718337329694,
+          "median_near_edge": 0.7944078947368421
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-10-26_18_34_10_18_54_23_jurita_1761494334399902000__001",
+          "rel": "compare/jurita_rear/2025-10-26_18_34_10_18_54_23_jurita_1761494334399902000__001.jpg",
+          "own_badness": 2.8317534067603227
+        }
+      ],
+      "suggested_mask": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_donor_suggested\\jurita_rear.png"
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "right_fwd",
+      "median_badness_own": 2.803185009263847,
+      "near_edge_own": 0.6046137339055794,
+      "best_donor_tag": "donor:darron",
+      "best_donor_label": "darron/right_fwd",
+      "median_badness_best": 2.1045060682541257,
+      "near_edge_best": 0.786472148541114,
+      "improved": 0.6986789410097214,
+      "ranked_top5": [
+        {
+          "tag": "donor:darron",
+          "label": "darron/right_fwd",
+          "median_badness": 2.1045060682541257,
+          "median_near_edge": 0.786472148541114
+        },
+        {
+          "tag": "donor:bett",
+          "label": "bett/right_fwd",
+          "median_badness": 2.225248531292693,
+          "median_near_edge": 0.7421652421652422
+        },
+        {
+          "tag": "donor:badat",
+          "label": "badat/right_fwd",
+          "median_badness": 2.2847007731185904,
+          "median_near_edge": 0.6705937794533459
+        },
+        {
+          "tag": "donor:lerita",
+          "label": "lerita/right_fwd",
+          "median_badness": 2.3608019209613307,
+          "median_near_edge": 0.6360491929285165
+        },
+        {
+          "tag": "donor:jurgie",
+          "label": "jurgie/right_fwd",
+          "median_badness": 2.454966479598798,
+          "median_near_edge": 0.69009900990099
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2026-03-15_17_52_22_19_22_00_kynde_1773592461300039000__001",
+          "rel": "compare/kynde_right_fwd/2026-03-15_17_52_22_19_22_00_kynde_1773592461300039000__001.jpg",
+          "own_badness": 4.644903779325733
+        },
+        {
+          "sample_id": "2025-10-01_18_29_52_19_31_28_kynde_1759339701900197000__001",
+          "rel": "compare/kynde_right_fwd/2025-10-01_18_29_52_19_31_28_kynde_1759339701900197000__001.jpg",
+          "own_badness": 4.6432964759517645
+        },
+        {
+          "sample_id": "2026-03-14_18_17_47_19_53_12_kynde_1773508060399911000__000",
+          "rel": "compare/kynde_right_fwd/2026-03-14_18_17_47_19_53_12_kynde_1773508060399911000__000.jpg",
+          "own_badness": 3.7404824839284245
+        }
+      ],
+      "suggested_mask": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_donor_suggested\\kynde_right_fwd.png"
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "right_fwd",
+      "median_badness_own": 2.676976893507727,
+      "near_edge_own": 0.6740705734089477,
+      "best_donor_tag": "donor:hilma",
+      "best_donor_label": "hilma/right_fwd",
+      "median_badness_best": 1.9807117279864166,
+      "near_edge_best": 0.802747791952895,
+      "improved": 0.6962651655213106,
+      "ranked_top5": [
+        {
+          "tag": "donor:hilma",
+          "label": "hilma/right_fwd",
+          "median_badness": 1.9807117279864166,
+          "median_near_edge": 0.802747791952895
+        },
+        {
+          "tag": "donor:mika",
+          "label": "mika/right_fwd",
+          "median_badness": 2.152328707523264,
+          "median_near_edge": 0.7076612903225806
+        },
+        {
+          "tag": "donor:hetera",
+          "label": "hetera/right_fwd",
+          "median_badness": 2.1636237846318505,
+          "median_near_edge": 0.7361477572559367
+        },
+        {
+          "tag": "donor:kynde",
+          "label": "kynde/right_fwd",
+          "median_badness": 2.1714815390596858,
+          "median_near_edge": 0.7430257510729614
+        },
+        {
+          "tag": "donor:jurgie",
+          "label": "jurgie/right_fwd",
+          "median_badness": 2.3415317578084553,
+          "median_near_edge": 0.7376482213438735
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2026-03-16_15_29_12_15_37_00_crozby_1773665857499978000__000",
+          "rel": "compare/crozby_right_fwd/2026-03-16_15_29_12_15_37_00_crozby_1773665857499978000__000.jpg",
+          "own_badness": 2.6853891258814127
+        },
+        {
+          "sample_id": "2026-03-13_14_45_24_14_51_24_crozby_1773403730399938000__000",
+          "rel": "compare/crozby_right_fwd/2026-03-13_14_45_24_14_51_24_crozby_1773403730399938000__000.jpg",
+          "own_badness": 2.676976893507727
+        },
+        {
+          "sample_id": "2026-03-16_15_29_12_15_37_00_crozby_1773665794300013000__000",
+          "rel": "compare/crozby_right_fwd/2026-03-16_15_29_12_15_37_00_crozby_1773665794300013000__000.jpg",
+          "own_badness": 1.97441389845647
+        }
+      ],
+      "suggested_mask": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_donor_suggested\\crozby_right_fwd.png"
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "left_fwd",
+      "median_badness_own": 3.2888549429515272,
+      "near_edge_own": 0.5214592274678111,
+      "best_donor_tag": "donor:badat",
+      "best_donor_label": "badat/left_fwd",
+      "median_badness_best": 2.610044631599842,
+      "near_edge_best": 0.6383861236802413,
+      "improved": 0.6788103113516852,
+      "ranked_top5": [
+        {
+          "tag": "donor:badat",
+          "label": "badat/left_fwd",
+          "median_badness": 2.610044631599842,
+          "median_near_edge": 0.6383861236802413
+        },
+        {
+          "tag": "donor:luka",
+          "label": "luka/left_fwd",
+          "median_badness": 2.7156774213097625,
+          "median_near_edge": 0.6243980738362761
+        },
+        {
+          "tag": "donor:orvy",
+          "label": "orvy/left_fwd",
+          "median_badness": 2.762884431278983,
+          "median_near_edge": 0.5469653179190751
+        },
+        {
+          "tag": "donor:gevone",
+          "label": "gevone/left_fwd",
+          "median_badness": 2.7815486198991444,
+          "median_near_edge": 0.657176287051482
+        },
+        {
+          "tag": "donor:anabel",
+          "label": "anabel/left_fwd",
+          "median_badness": 2.8445689418236553,
+          "median_near_edge": 0.5300053106744557
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__000",
+          "rel": "compare/crozby_left_fwd/2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__000.jpg",
+          "own_badness": 4.628180325130098
+        },
+        {
+          "sample_id": "2025-10-11_16_12_04_18_35_14_crozby_1760197046999999000__000",
+          "rel": "compare/crozby_left_fwd/2025-10-11_16_12_04_18_35_14_crozby_1760197046999999000__000.jpg",
+          "own_badness": 3.5846650256703736
+        },
+        {
+          "sample_id": "2026-03-12_15_13_33_16_35_47_crozby_1773325390299955000__001",
+          "rel": "compare/crozby_left_fwd/2026-03-12_15_13_33_16_35_47_crozby_1773325390299955000__001.jpg",
+          "own_badness": 3.499312920073675
+        }
+      ],
+      "suggested_mask": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_donor_suggested\\crozby_left_fwd.png"
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "rear",
+      "median_badness_own": 2.0946360726266646,
+      "near_edge_own": 0.6935425685425685,
+      "best_donor_tag": "donor:badat",
+      "best_donor_label": "badat/rear",
+      "median_badness_best": 1.5067892097482996,
+      "near_edge_best": 0.7312703583061889,
+      "improved": 0.5878468628783651,
+      "ranked_top5": [
+        {
+          "tag": "donor:badat",
+          "label": "badat/rear",
+          "median_badness": 1.5067892097482996,
+          "median_near_edge": 0.7312703583061889
+        },
+        {
+          "tag": "donor:lerita",
+          "label": "lerita/rear",
+          "median_badness": 2.073729874636636,
+          "median_near_edge": 0.6693934557063048
+        },
+        {
+          "tag": "donor:natelio",
+          "label": "natelio/rear",
+          "median_badness": 2.084830999257651,
+          "median_near_edge": 0.6602154828411813
+        },
+        {
+          "tag": "own",
+          "label": "kynde/rear",
+          "median_badness": 2.0946360726266646,
+          "median_near_edge": 0.6935425685425685
+        },
+        {
+          "tag": "donor:right",
+          "label": "right/rear",
+          "median_badness": 2.0953675747515756,
+          "median_near_edge": 0.6613300492610837
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2026-03-14_18_17_47_18_21_17_kynde_1773501833700088000__000",
+          "rel": "compare/kynde_rear/2026-03-14_18_17_47_18_21_17_kynde_1773501833700088000__000.jpg",
+          "own_badness": 2.4041068275706134
+        },
+        {
+          "sample_id": "2026-03-12_16_54_01_17_03_15_kynde_1773324931400084000__000",
+          "rel": "compare/kynde_rear/2026-03-12_16_54_01_17_03_15_kynde_1773324931400084000__000.jpg",
+          "own_badness": 2.340421892702773
+        },
+        {
+          "sample_id": "2026-03-14_11_04_37_14_15_36_kynde_1773488332600051000__001",
+          "rel": "compare/kynde_rear/2026-03-14_11_04_37_14_15_36_kynde_1773488332600051000__001.jpg",
+          "own_badness": 2.1894913649883696
+        }
+      ],
+      "suggested_mask": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_donor_suggested\\kynde_rear.png"
+    },
+    {
+      "vehicle": "luka",
+      "camera": "left_fwd",
+      "median_badness_own": 2.5734402473522797,
+      "near_edge_own": 0.6380417335473516,
+      "best_donor_tag": "donor:shelly",
+      "best_donor_label": "shelly/left_fwd",
+      "median_badness_best": 2.0317827386719487,
+      "near_edge_best": 0.6716958358479179,
+      "improved": 0.541657508680331,
+      "ranked_top5": [
+        {
+          "tag": "donor:shelly",
+          "label": "shelly/left_fwd",
+          "median_badness": 2.0317827386719487,
+          "median_near_edge": 0.6716958358479179
+        },
+        {
+          "tag": "donor:ravine",
+          "label": "ravine/left_fwd",
+          "median_badness": 2.0417953347815443,
+          "median_near_edge": 0.7178442028985508
+        },
+        {
+          "tag": "donor:anabel",
+          "label": "anabel/left_fwd",
+          "median_badness": 2.251573692349593,
+          "median_near_edge": 0.6698088157195964
+        },
+        {
+          "tag": "donor:gevone",
+          "label": "gevone/left_fwd",
+          "median_badness": 2.2735877225735717,
+          "median_near_edge": 0.7141185647425897
+        },
+        {
+          "tag": "donor:hanna",
+          "label": "hanna/left_fwd",
+          "median_badness": 2.2842506443579653,
+          "median_near_edge": 0.6785534274193549
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2026-03-15_09_16_51_10_47_36_luka_1773560906700083000__001",
+          "rel": "compare/luka_left_fwd/2026-03-15_09_16_51_10_47_36_luka_1773560906700083000__001.jpg",
+          "own_badness": 4.212572104956044
+        },
+        {
+          "sample_id": "2026-03-16_12_20_28_14_20_01_luka_1773661496900109000__000",
+          "rel": "compare/luka_left_fwd/2026-03-16_12_20_28_14_20_01_luka_1773661496900109000__000.jpg",
+          "own_badness": 3.116121247165982
+        },
+        {
+          "sample_id": "2026-03-15_09_16_51_11_13_52_luka_1773562502300202000__001",
+          "rel": "compare/luka_left_fwd/2026-03-15_09_16_51_11_13_52_luka_1773562502300202000__001.jpg",
+          "own_badness": 2.894437055106928
+        }
+      ],
+      "suggested_mask": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_donor_suggested\\luka_left_fwd.png"
+    },
+    {
+      "vehicle": "baland",
+      "camera": "right_fwd",
+      "median_badness_own": 2.551333538562321,
+      "near_edge_own": 0.7839681637293917,
+      "best_donor_tag": "donor:mika",
+      "best_donor_label": "mika/right_fwd",
+      "median_badness_best": 2.3244902212824967,
+      "near_edge_best": 0.6633064516129032,
+      "improved": 0.22684331727982432,
+      "ranked_top5": [
+        {
+          "tag": "donor:mika",
+          "label": "mika/right_fwd",
+          "median_badness": 2.3244902212824967,
+          "median_near_edge": 0.6633064516129032
+        },
+        {
+          "tag": "v2",
+          "label": "baland/right_fwd v2",
+          "median_badness": 2.3982980873249886,
+          "median_near_edge": 0.6388888888888888
+        },
+        {
+          "tag": "donor:kynde",
+          "label": "kynde/right_fwd",
+          "median_badness": 2.4562464254928136,
+          "median_near_edge": 0.6496781115879828
+        },
+        {
+          "tag": "donor:hilma",
+          "label": "hilma/right_fwd",
+          "median_badness": 2.4831247910944754,
+          "median_near_edge": 0.6388616290480864
+        },
+        {
+          "tag": "own",
+          "label": "baland/right_fwd",
+          "median_badness": 2.551333538562321,
+          "median_near_edge": 0.7839681637293917
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__001",
+          "rel": "compare/baland_right_fwd/2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__001.jpg",
+          "own_badness": 3.065931461634212
+        },
+        {
+          "sample_id": "2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__001",
+          "rel": "compare/baland_right_fwd/2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__001.jpg",
+          "own_badness": 2.551333538562321
+        },
+        {
+          "sample_id": "2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__001",
+          "rel": "compare/baland_right_fwd/2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__001.jpg",
+          "own_badness": 1.0153608149880273
+        }
+      ],
+      "suggested_mask": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_donor_suggested\\baland_right_fwd.png"
+    },
+    {
+      "vehicle": "weel",
+      "camera": "left_fwd",
+      "median_badness_own": 2.681182362139488,
+      "near_edge_own": 0.6975920679886686,
+      "best_donor_tag": "donor:badat",
+      "best_donor_label": "badat/left_fwd",
+      "median_badness_best": 2.6113656213117764,
+      "near_edge_best": 0.6527149321266967,
+      "improved": 0.0698167408277115,
+      "ranked_top5": [
+        {
+          "tag": "donor:badat",
+          "label": "badat/left_fwd",
+          "median_badness": 2.6113656213117764,
+          "median_near_edge": 0.6527149321266967
+        },
+        {
+          "tag": "donor:helen",
+          "label": "helen/left_fwd",
+          "median_badness": 2.6340445899765674,
+          "median_near_edge": 0.6727340267459139
+        },
+        {
+          "tag": "own",
+          "label": "weel/left_fwd",
+          "median_badness": 2.681182362139488,
+          "median_near_edge": 0.6975920679886686
+        },
+        {
+          "tag": "donor:hilma",
+          "label": "hilma/left_fwd",
+          "median_badness": 2.730445639883535,
+          "median_near_edge": 0.6526369168356998
+        },
+        {
+          "tag": "donor:soan",
+          "label": "soan/left_fwd",
+          "median_badness": 2.741266088226221,
+          "median_near_edge": 0.725412166003411
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-11-07_16_30_17_17_19_41_weel_1762527210899973000__000",
+          "rel": "compare/weel_left_fwd/2025-11-07_16_30_17_17_19_41_weel_1762527210899973000__000.jpg",
+          "own_badness": 3.2040209871555114
+        },
+        {
+          "sample_id": "2025-10-29_11_21_58_11_21_58_weel_1761727766500174000__001",
+          "rel": "compare/weel_left_fwd/2025-10-29_11_21_58_11_21_58_weel_1761727766500174000__001.jpg",
+          "own_badness": 2.9050146243750703
+        },
+        {
+          "sample_id": "2025-11-07_16_30_17_17_19_41_weel_1762527210899973000__001",
+          "rel": "compare/weel_left_fwd/2025-11-07_16_30_17_17_19_41_weel_1762527210899973000__001.jpg",
+          "own_badness": 2.457350099903905
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "left_fwd",
+      "median_badness_own": 3.1343514762275477,
+      "near_edge_own": 0.8504118616144976,
+      "best_donor_tag": "own",
+      "best_donor_label": "jurita/left_fwd",
+      "median_badness_best": 3.1343514762275477,
+      "near_edge_best": 0.8504118616144976,
+      "improved": 0.0,
+      "ranked_top5": [
+        {
+          "tag": "own",
+          "label": "jurita/left_fwd",
+          "median_badness": 3.1343514762275477,
+          "median_near_edge": 0.8504118616144976
+        },
+        {
+          "tag": "donor:anabel",
+          "label": "anabel/left_fwd",
+          "median_badness": 3.3769560434769494,
+          "median_near_edge": 0.7217206585236325
+        },
+        {
+          "tag": "donor:weel",
+          "label": "weel/left_fwd",
+          "median_badness": 3.410549098824621,
+          "median_near_edge": 0.7402620396600567
+        },
+        {
+          "tag": "donor:ravine",
+          "label": "ravine/left_fwd",
+          "median_badness": 3.4683945775720746,
+          "median_near_edge": 0.7178442028985508
+        },
+        {
+          "tag": "donor:shelly",
+          "label": "shelly/left_fwd",
+          "median_badness": 3.4731971179965333,
+          "median_near_edge": 0.705642727821364
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-11-04_18_35_11_18_45_46_jurita_1762271249800020000__001",
+          "rel": "compare/jurita_left_fwd/2025-11-04_18_35_11_18_45_46_jurita_1762271249800020000__001.jpg",
+          "own_badness": 3.785162181898629
+        },
+        {
+          "sample_id": "2025-11-04_18_35_11_18_45_46_jurita_1762271732399983000__001",
+          "rel": "compare/jurita_left_fwd/2025-11-04_18_35_11_18_45_46_jurita_1762271732399983000__001.jpg",
+          "own_badness": 2.4835407705564663
+        }
+      ]
+    },
+    {
+      "vehicle": "bett",
+      "camera": "left_bwd",
+      "median_badness_own": 3.0187407096559076,
+      "near_edge_own": 0.7859628770301624,
+      "best_donor_tag": "own",
+      "best_donor_label": "bett/left_bwd",
+      "median_badness_best": 3.0187407096559076,
+      "near_edge_best": 0.7859628770301624,
+      "improved": 0.0,
+      "ranked_top5": [
+        {
+          "tag": "own",
+          "label": "bett/left_bwd",
+          "median_badness": 3.0187407096559076,
+          "median_near_edge": 0.7859628770301624
+        },
+        {
+          "tag": "donor:greton",
+          "label": "greton/left_bwd",
+          "median_badness": 3.07579756115208,
+          "median_near_edge": 0.69880174291939
+        },
+        {
+          "tag": "donor:crozby",
+          "label": "crozby/left_bwd",
+          "median_badness": 3.0855888281761175,
+          "median_near_edge": 0.7459425717852685
+        },
+        {
+          "tag": "donor:susana",
+          "label": "susana/left_bwd",
+          "median_badness": 3.1809535740269914,
+          "median_near_edge": 0.7228843861740167
+        },
+        {
+          "tag": "donor:luka",
+          "label": "luka/left_bwd",
+          "median_badness": 3.3052331531158363,
+          "median_near_edge": 0.6547464239271782
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-11-05_18_00_41_18_38_26_bett_1762359500300019000__000",
+          "rel": "compare/bett_left_bwd/2025-11-05_18_00_41_18_38_26_bett_1762359500300019000__000.jpg",
+          "own_badness": 3.0187407096559076
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "right_bwd",
+      "median_badness_own": 2.349358944572421,
+      "near_edge_own": 0.9495225102319236,
+      "best_donor_tag": "own",
+      "best_donor_label": "floi/right_bwd",
+      "median_badness_best": 2.349358944572421,
+      "near_edge_best": 0.9495225102319236,
+      "improved": 0.0,
+      "ranked_top5": [
+        {
+          "tag": "own",
+          "label": "floi/right_bwd",
+          "median_badness": 2.349358944572421,
+          "median_near_edge": 0.9495225102319236
+        },
+        {
+          "tag": "donor:helen",
+          "label": "helen/right_bwd",
+          "median_badness": 2.679289593103515,
+          "median_near_edge": 0.8170563961485557
+        },
+        {
+          "tag": "donor:susana",
+          "label": "susana/right_bwd",
+          "median_badness": 2.7485001693984623,
+          "median_near_edge": 0.7832409972299169
+        },
+        {
+          "tag": "donor:badat",
+          "label": "badat/right_bwd",
+          "median_badness": 2.8384320168693296,
+          "median_near_edge": 0.7978723404255319
+        },
+        {
+          "tag": "donor:darron",
+          "label": "darron/right_bwd",
+          "median_badness": 2.8924284041938013,
+          "median_near_edge": 0.7523427041499331
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-11-23_12_34_19_13_19_01_floi_1763895334599954000__000",
+          "rel": "compare/floi_right_bwd/2025-11-23_12_34_19_13_19_01_floi_1763895334599954000__000.jpg",
+          "own_badness": 2.349358944572421
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "right_bwd",
+      "median_badness_own": 2.184178563564971,
+      "near_edge_own": 0.913803680981595,
+      "best_donor_tag": "own",
+      "best_donor_label": "rickie/right_bwd",
+      "median_badness_best": 2.184178563564971,
+      "near_edge_best": 0.913803680981595,
+      "improved": 0.0,
+      "ranked_top5": [
+        {
+          "tag": "own",
+          "label": "rickie/right_bwd",
+          "median_badness": 2.184178563564971,
+          "median_near_edge": 0.913803680981595
+        },
+        {
+          "tag": "donor:greton",
+          "label": "greton/right_bwd",
+          "median_badness": 2.416177638406551,
+          "median_near_edge": 0.7977053140096619
+        },
+        {
+          "tag": "donor:anabel",
+          "label": "anabel/right_bwd",
+          "median_badness": 2.5258019247603465,
+          "median_near_edge": 0.7427623642943305
+        },
+        {
+          "tag": "donor:mika",
+          "label": "mika/right_bwd",
+          "median_badness": 2.5898336778685795,
+          "median_near_edge": 0.7376599634369287
+        },
+        {
+          "tag": "donor:washam",
+          "label": "washam/right_bwd",
+          "median_badness": 2.5962536397742264,
+          "median_near_edge": 0.7515703517587939
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-12-08_16_36_26_16_47_24_rickie_1765203849999721000__000",
+          "rel": "compare/rickie_right_bwd/2025-12-08_16_36_26_16_47_24_rickie_1765203849999721000__000.jpg",
+          "own_badness": 2.6160415686129017
+        },
+        {
+          "sample_id": "2025-12-08_16_36_26_18_25_45_rickie_1765210222899888000__001",
+          "rel": "compare/rickie_right_bwd/2025-12-08_16_36_26_18_25_45_rickie_1765210222899888000__001.jpg",
+          "own_badness": 1.7523155585170396
+        }
+      ]
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "left_fwd",
+      "median_badness_own": 2.1250688119133905,
+      "near_edge_own": 0.9389625585023401,
+      "best_donor_tag": "own",
+      "best_donor_label": "gevone/left_fwd",
+      "median_badness_best": 2.1250688119133905,
+      "near_edge_best": 0.9389625585023401,
+      "improved": 0.0,
+      "ranked_top5": [
+        {
+          "tag": "own",
+          "label": "gevone/left_fwd",
+          "median_badness": 2.1250688119133905,
+          "median_near_edge": 0.9389625585023401
+        },
+        {
+          "tag": "donor:hanna",
+          "label": "hanna/left_fwd",
+          "median_badness": 2.613007035326381,
+          "median_near_edge": 0.7103074596774193
+        },
+        {
+          "tag": "donor:orvy",
+          "label": "orvy/left_fwd",
+          "median_badness": 2.790566232127974,
+          "median_near_edge": 0.6809971098265897
+        },
+        {
+          "tag": "donor:mika",
+          "label": "mika/left_fwd",
+          "median_badness": 2.869848764502118,
+          "median_near_edge": 0.634828349944629
+        },
+        {
+          "tag": "donor:rickie",
+          "label": "rickie/left_fwd",
+          "median_badness": 2.8731530659334013,
+          "median_near_edge": 0.6948885658914729
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-12-20_16_35_33_18_38_05_gevone_1766246306599988000__000",
+          "rel": "compare/gevone_left_fwd/2025-12-20_16_35_33_18_38_05_gevone_1766246306599988000__000.jpg",
+          "own_badness": 2.8362419514648933
+        },
+        {
+          "sample_id": "2025-12-20_16_35_33_18_38_05_gevone_1766246306599988000__001",
+          "rel": "compare/gevone_left_fwd/2025-12-20_16_35_33_18_38_05_gevone_1766246306599988000__001.jpg",
+          "own_badness": 2.2403092514666465
+        },
+        {
+          "sample_id": "2026-03-15_12_51_10_14_19_48_gevone_1773574616199993000__001",
+          "rel": "compare/gevone_left_fwd/2026-03-15_12_51_10_14_19_48_gevone_1773574616199993000__001.jpg",
+          "own_badness": 2.0098283723601345
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "left_bwd",
+      "median_badness_own": 2.0555012562588653,
+      "near_edge_own": 0.9191438763376932,
+      "best_donor_tag": "own",
+      "best_donor_label": "susana/left_bwd",
+      "median_badness_best": 2.0555012562588653,
+      "near_edge_best": 0.9191438763376932,
+      "improved": 0.0,
+      "ranked_top5": [
+        {
+          "tag": "own",
+          "label": "susana/left_bwd",
+          "median_badness": 2.0555012562588653,
+          "median_near_edge": 0.9191438763376932
+        },
+        {
+          "tag": "donor:luka",
+          "label": "luka/left_bwd",
+          "median_badness": 2.2542186927583456,
+          "median_near_edge": 0.8136363636363636
+        },
+        {
+          "tag": "donor:rickie",
+          "label": "rickie/left_bwd",
+          "median_badness": 2.2658920918349272,
+          "median_near_edge": 0.8633139909735654
+        },
+        {
+          "tag": "donor:right",
+          "label": "right/left_bwd",
+          "median_badness": 2.431054071333692,
+          "median_near_edge": 0.8395061728395061
+        },
+        {
+          "tag": "donor:crozby",
+          "label": "crozby/left_bwd",
+          "median_badness": 2.467210304199822,
+          "median_near_edge": 0.8092269326683291
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-11-02_08_31_24_09_24_12_susana_1762065275200113000__000",
+          "rel": "compare/susana_left_bwd/2025-11-02_08_31_24_09_24_12_susana_1762065275200113000__000.jpg",
+          "own_badness": 3.1118294228926864
+        },
+        {
+          "sample_id": "2025-12-20_12_16_35_14_53_30_susana_1766232446100014000__001",
+          "rel": "compare/susana_left_bwd/2025-12-20_12_16_35_14_53_30_susana_1766232446100014000__001.jpg",
+          "own_badness": 2.9904093765678383
+        },
+        {
+          "sample_id": "2025-11-02_18_06_30_18_09_54_susana_1762098532899990000__001",
+          "rel": "compare/susana_left_bwd/2025-11-02_18_06_30_18_09_54_susana_1762098532899990000__001.jpg",
+          "own_badness": 2.4656384500477064
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "right_fwd",
+      "median_badness_own": 2.050996011805987,
+      "near_edge_own": 0.8769436997319034,
+      "best_donor_tag": "own",
+      "best_donor_label": "jurita/right_fwd",
+      "median_badness_best": 2.050996011805987,
+      "near_edge_best": 0.8769436997319034,
+      "improved": 0.0,
+      "ranked_top5": [
+        {
+          "tag": "own",
+          "label": "jurita/right_fwd",
+          "median_badness": 2.050996011805987,
+          "median_near_edge": 0.8769436997319034
+        },
+        {
+          "tag": "donor:crozby",
+          "label": "crozby/right_fwd",
+          "median_badness": 2.5130189140891974,
+          "median_near_edge": 0.6866898514068922
+        },
+        {
+          "tag": "donor:lerita",
+          "label": "lerita/right_fwd",
+          "median_badness": 2.526501763107155,
+          "median_near_edge": 0.7778631821675634
+        },
+        {
+          "tag": "donor:baland",
+          "label": "baland/right_fwd",
+          "median_badness": 2.6416139487463237,
+          "median_near_edge": 0.732802728823195
+        },
+        {
+          "tag": "donor:greton",
+          "label": "greton/right_fwd",
+          "median_badness": 2.705453366192427,
+          "median_near_edge": 0.6583870967741936
+        }
+      ],
+      "comparisons": [
+        {
+          "sample_id": "2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000",
+          "rel": "compare/jurita_right_fwd/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__000.jpg",
+          "own_badness": 2.6718225448903716
+        },
+        {
+          "sample_id": "2025-11-04_18_35_11_18_45_46_jurita_1762271732399983000__000",
+          "rel": "compare/jurita_right_fwd/2025-11-04_18_35_11_18_45_46_jurita_1762271732399983000__000.jpg",
+          "own_badness": 2.050996011805987
+        },
+        {
+          "sample_id": "2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__001",
+          "rel": "compare/jurita_right_fwd/2025-10-26_18_34_10_18_54_23_jurita_1761494142800055000__001.jpg",
+          "own_badness": 1.8839135383533998
+        }
+      ]
+    }
+  ]
+}

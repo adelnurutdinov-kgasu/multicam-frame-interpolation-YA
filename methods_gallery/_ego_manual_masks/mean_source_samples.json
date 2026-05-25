@@ -1,0 +1,1213 @@
+{
+  "dataset": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train",
+  "note": "Группы без разметки = нет ego-артефактов (нулевая маска).",
+  "reject_black": [
+    {
+      "vehicle": "badat",
+      "camera": "front",
+      "status": "reject_black",
+      "n_available": 8,
+      "n_used": 8,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\badat_front.png",
+      "sample_ids": [
+        "2025-12-07_16_44_25_18_38_27_badat_1765122070699966000__000",
+        "2025-12-14_08_06_27_09_00_36_badat_1765692769199988000__000",
+        "2025-12-14_08_06_27_09_00_36_badat_1765694316900036000__001",
+        "2025-12-20_09_59_36_10_06_09_badat_1766214562399970000__000",
+        "2026-03-12_15_09_40_15_54_56_badat_1773323455200069000__000",
+        "2026-03-12_18_19_08_19_25_32_badat_1773333483400036000__000",
+        "2026-03-12_18_19_08_19_25_32_badat_1773333536200023000__001",
+        "2026-03-16_15_23_30_15_29_23_badat_1773665227799963000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-12-07_16_44_25_18_38_27_badat_1765122070699966000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-07_16_44_25_18_38_27_badat_1765122070699966000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-12-14_08_06_27_09_00_36_badat_1765692769199988000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-14_08_06_27_09_00_36_badat_1765692769199988000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2025-12-14_08_06_27_09_00_36_badat_1765694316900036000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-14_08_06_27_09_00_36_badat_1765694316900036000__001\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2025-12-20_09_59_36_10_06_09_badat_1766214562399970000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-20_09_59_36_10_06_09_badat_1766214562399970000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-12_15_09_40_15_54_56_badat_1773323455200069000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_15_09_40_15_54_56_badat_1773323455200069000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2026-03-12_18_19_08_19_25_32_badat_1773333483400036000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_18_19_08_19_25_32_badat_1773333483400036000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 7,
+          "sample_id": "2026-03-12_18_19_08_19_25_32_badat_1773333536200023000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_18_19_08_19_25_32_badat_1773333536200023000__001\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 8,
+          "sample_id": "2026-03-16_15_23_30_15_29_23_badat_1773665227799963000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-16_15_23_30_15_29_23_badat_1773665227799963000__001\\target\\front.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "left_fwd",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\baland_left_fwd.png",
+      "sample_ids": [
+        "2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__001\\target\\left_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "bett",
+      "camera": "left_bwd",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\bett_left_bwd.png",
+      "sample_ids": [
+        "2025-11-05_18_00_41_18_38_26_bett_1762359500300019000__000"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-11-05_18_00_41_18_38_26_bett_1762359500300019000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-11-05_18_00_41_18_38_26_bett_1762359500300019000__000\\target\\left_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "bett",
+      "camera": "right_fwd",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\bett_right_fwd.png",
+      "sample_ids": [
+        "2025-11-05_18_00_41_18_38_26_bett_1762359500300019000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-11-05_18_00_41_18_38_26_bett_1762359500300019000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-11-05_18_00_41_18_38_26_bett_1762359500300019000__001\\target\\right_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "front",
+      "status": "reject_black",
+      "n_available": 6,
+      "n_used": 6,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\crozby_front.png",
+      "sample_ids": [
+        "2025-10-20_08_08_54_12_46_51_crozby_1760956698600011000__001",
+        "2026-03-09_18_20_21_19_28_52_crozby_1773074767700125000__000",
+        "2026-03-12_15_13_33_16_35_47_crozby_1773325390299955000__000",
+        "2026-03-12_18_56_41_19_04_16_crozby_1773332777899820000__001",
+        "2026-03-13_14_45_24_14_51_24_crozby_1773404235499943000__000",
+        "2026-03-16_15_29_12_15_37_00_crozby_1773665857499978000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-20_08_08_54_12_46_51_crozby_1760956698600011000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-20_08_08_54_12_46_51_crozby_1760956698600011000__001\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-09_18_20_21_19_28_52_crozby_1773074767700125000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-09_18_20_21_19_28_52_crozby_1773074767700125000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-12_15_13_33_16_35_47_crozby_1773325390299955000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_15_13_33_16_35_47_crozby_1773325390299955000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2026-03-12_18_56_41_19_04_16_crozby_1773332777899820000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_18_56_41_19_04_16_crozby_1773332777899820000__001\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-13_14_45_24_14_51_24_crozby_1773404235499943000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_14_45_24_14_51_24_crozby_1773404235499943000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2026-03-16_15_29_12_15_37_00_crozby_1773665857499978000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-16_15_29_12_15_37_00_crozby_1773665857499978000__001\\target\\front.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "rear",
+      "status": "reject_black",
+      "n_available": 6,
+      "n_used": 6,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\crozby_rear.png",
+      "sample_ids": [
+        "2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__001",
+        "2025-10-20_08_08_54_12_46_51_crozby_1760956698600011000__000",
+        "2026-03-12_18_56_41_19_04_16_crozby_1773332777899820000__000",
+        "2026-03-16_13_39_05_13_45_24_crozby_1773659536200058000__000",
+        "2026-03-16_13_39_05_13_45_24_crozby_1773659546299952000__000",
+        "2026-03-16_13_39_05_13_45_24_crozby_1773659546299952000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__001\\target\\rear.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-10-20_08_08_54_12_46_51_crozby_1760956698600011000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-20_08_08_54_12_46_51_crozby_1760956698600011000__000\\target\\rear.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-12_18_56_41_19_04_16_crozby_1773332777899820000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_18_56_41_19_04_16_crozby_1773332777899820000__000\\target\\rear.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2026-03-16_13_39_05_13_45_24_crozby_1773659536200058000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-16_13_39_05_13_45_24_crozby_1773659536200058000__000\\target\\rear.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-16_13_39_05_13_45_24_crozby_1773659546299952000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-16_13_39_05_13_45_24_crozby_1773659546299952000__000\\target\\rear.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2026-03-16_13_39_05_13_45_24_crozby_1773659546299952000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-16_13_39_05_13_45_24_crozby_1773659546299952000__001\\target\\rear.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "front",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\floi_front.png",
+      "sample_ids": [
+        "2026-03-15_16_51_40_19_36_38_floi_1773594348199963000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2026-03-15_16_51_40_19_36_38_floi_1773594348199963000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_16_51_40_19_36_38_floi_1773594348199963000__001\\target\\front.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "left_bwd",
+      "status": "reject_black",
+      "n_available": 8,
+      "n_used": 8,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\greton_left_bwd.png",
+      "sample_ids": [
+        "2025-12-20_11_22_27_11_26_39_greton_1766220699299909000__000",
+        "2025-12-20_11_22_27_13_44_46_greton_1766229359300042000__001",
+        "2026-03-09_16_41_49_18_21_41_greton_1773070921699992000__000",
+        "2026-03-09_16_41_49_18_21_41_greton_1773071654299938000__000",
+        "2026-03-09_16_41_49_18_21_41_greton_1773072810799889000__000",
+        "2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__001",
+        "2026-03-14_09_57_05_10_41_51_greton_1773476170299909000__000",
+        "2026-03-15_17_06_54_18_01_51_greton_1773587237299969000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-12-20_11_22_27_11_26_39_greton_1766220699299909000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-20_11_22_27_11_26_39_greton_1766220699299909000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-12-20_11_22_27_13_44_46_greton_1766229359300042000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-20_11_22_27_13_44_46_greton_1766229359300042000__001\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-09_16_41_49_18_21_41_greton_1773070921699992000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-09_16_41_49_18_21_41_greton_1773070921699992000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2026-03-09_16_41_49_18_21_41_greton_1773071654299938000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-09_16_41_49_18_21_41_greton_1773071654299938000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-09_16_41_49_18_21_41_greton_1773072810799889000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-09_16_41_49_18_21_41_greton_1773072810799889000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-11_09_50_58_09_57_28_greton_1773213318199888000__001\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 7,
+          "sample_id": "2026-03-14_09_57_05_10_41_51_greton_1773476170299909000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_09_57_05_10_41_51_greton_1773476170299909000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 8,
+          "sample_id": "2026-03-15_17_06_54_18_01_51_greton_1773587237299969000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_17_06_54_18_01_51_greton_1773587237299969000__001\\target\\left_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "right_fwd",
+      "status": "reject_black",
+      "n_available": 2,
+      "n_used": 2,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\hanna_right_fwd.png",
+      "sample_ids": [
+        "2025-10-26_19_14_18_19_18_07_hanna_1761496482900030000__001",
+        "2026-03-15_16_39_38_19_50_23_hanna_1773595467999964000__000"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-26_19_14_18_19_18_07_hanna_1761496482900030000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-26_19_14_18_19_18_07_hanna_1761496482900030000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-15_16_39_38_19_50_23_hanna_1773595467999964000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_16_39_38_19_50_23_hanna_1773595467999964000__000\\target\\right_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "left_fwd",
+      "status": "reject_black",
+      "n_available": 2,
+      "n_used": 2,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\jurita_left_fwd.png",
+      "sample_ids": [
+        "2025-11-04_18_35_11_18_45_46_jurita_1762271249800020000__001",
+        "2025-11-04_18_35_11_18_45_46_jurita_1762271732399983000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-11-04_18_35_11_18_45_46_jurita_1762271249800020000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-11-04_18_35_11_18_45_46_jurita_1762271249800020000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-11-04_18_35_11_18_45_46_jurita_1762271732399983000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-11-04_18_35_11_18_45_46_jurita_1762271732399983000__001\\target\\left_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "rear",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\jurita_rear.png",
+      "sample_ids": [
+        "2025-10-26_18_34_10_18_54_23_jurita_1761494334399902000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-26_18_34_10_18_54_23_jurita_1761494334399902000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-26_18_34_10_18_54_23_jurita_1761494334399902000__001\\target\\rear.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "front",
+      "status": "reject_black",
+      "n_available": 3,
+      "n_used": 3,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\leid_front.png",
+      "sample_ids": [
+        "2025-10-20_10_09_19_10_09_19_leid_1760946131500032000__000",
+        "2025-12-14_08_28_43_09_32_22_leid_1765693965600166000__000",
+        "2025-10-20_10_09_19_10_09_19_leid_1760946131500032000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-20_10_09_19_10_09_19_leid_1760946131500032000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-20_10_09_19_10_09_19_leid_1760946131500032000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-12-14_08_28_43_09_32_22_leid_1765693965600166000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-14_08_28_43_09_32_22_leid_1765693965600166000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2025-10-20_10_09_19_10_09_19_leid_1760946131500032000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-20_10_09_19_10_09_19_leid_1760946131500032000__001\\target\\front.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "left_bwd",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\leid_left_bwd.png",
+      "sample_ids": [
+        "2025-12-14_08_28_43_10_50_45_leid_1765698816300146000__000"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-12-14_08_28_43_10_50_45_leid_1765698816300146000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-14_08_28_43_10_50_45_leid_1765698816300146000__000\\target\\left_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "right_bwd",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\leid_right_bwd.png",
+      "sample_ids": [
+        "2025-12-14_08_28_43_09_32_22_leid_1765694572000049000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-12-14_08_28_43_09_32_22_leid_1765694572000049000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-14_08_28_43_09_32_22_leid_1765694572000049000__001\\target\\right_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "right_bwd",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\natelio_right_bwd.png",
+      "sample_ids": [
+        "2025-10-12_11_46_05_13_19_22_natelio_1760266090799982000__000"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-12_11_46_05_13_19_22_natelio_1760266090799982000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-12_11_46_05_13_19_22_natelio_1760266090799982000__000\\target\\right_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "right_bwd",
+      "status": "reject_black",
+      "n_available": 3,
+      "n_used": 3,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\nikena_right_bwd.png",
+      "sample_ids": [
+        "2025-12-13_16_33_22_17_09_14_nikena_1765637029400018000__001",
+        "2025-12-20_13_02_38_14_08_09_nikena_1766230060900003000__000",
+        "2025-12-20_13_02_38_14_08_09_nikena_1766230627800057000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-12-13_16_33_22_17_09_14_nikena_1765637029400018000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-13_16_33_22_17_09_14_nikena_1765637029400018000__001\\target\\right_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-12-20_13_02_38_14_08_09_nikena_1766230060900003000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-20_13_02_38_14_08_09_nikena_1766230060900003000__000\\target\\right_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2025-12-20_13_02_38_14_08_09_nikena_1766230627800057000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-20_13_02_38_14_08_09_nikena_1766230627800057000__001\\target\\right_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "right_bwd",
+      "status": "reject_black",
+      "n_available": 2,
+      "n_used": 2,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\rickie_right_bwd.png",
+      "sample_ids": [
+        "2025-12-08_16_36_26_16_47_24_rickie_1765203849999721000__000",
+        "2025-12-08_16_36_26_18_25_45_rickie_1765210222899888000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-12-08_16_36_26_16_47_24_rickie_1765203849999721000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-08_16_36_26_16_47_24_rickie_1765203849999721000__000\\target\\right_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-12-08_16_36_26_18_25_45_rickie_1765210222899888000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-08_16_36_26_18_25_45_rickie_1765210222899888000__001\\target\\right_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "front",
+      "status": "reject_black",
+      "n_available": 12,
+      "n_used": 10,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\robb_front.png",
+      "sample_ids": [
+        "2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000",
+        "2025-10-01_11_45_46_12_19_35_robb_1759311122999906000__001",
+        "2025-10-01_11_45_46_12_19_35_robb_1759312621499804000__001",
+        "2025-10-12_16_19_31_16_50_51_robb_1760277120899792000__001",
+        "2025-10-12_16_19_31_16_50_51_robb_1760278404899824000__000",
+        "2025-10-12_16_19_31_19_42_39_robb_1760288523599845000__001",
+        "2025-10-12_16_19_31_19_42_39_robb_1760288576199897000__000",
+        "2025-12-16_12_36_47_12_44_41_robb_1765879820499833000__000",
+        "2025-12-16_13_17_01_13_23_10_robb_1765880625499835000__000",
+        "2025-12-20_12_25_54_12_35_15_robb_1766226942099853000__000"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-10-01_11_45_46_12_19_35_robb_1759311122999906000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-01_11_45_46_12_19_35_robb_1759311122999906000__001\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2025-10-01_11_45_46_12_19_35_robb_1759312621499804000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-01_11_45_46_12_19_35_robb_1759312621499804000__001\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2025-10-12_16_19_31_16_50_51_robb_1760277120899792000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-12_16_19_31_16_50_51_robb_1760277120899792000__001\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2025-10-12_16_19_31_16_50_51_robb_1760278404899824000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-12_16_19_31_16_50_51_robb_1760278404899824000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2025-10-12_16_19_31_19_42_39_robb_1760288523599845000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-12_16_19_31_19_42_39_robb_1760288523599845000__001\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 7,
+          "sample_id": "2025-10-12_16_19_31_19_42_39_robb_1760288576199897000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-12_16_19_31_19_42_39_robb_1760288576199897000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 8,
+          "sample_id": "2025-12-16_12_36_47_12_44_41_robb_1765879820499833000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-16_12_36_47_12_44_41_robb_1765879820499833000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 9,
+          "sample_id": "2025-12-16_13_17_01_13_23_10_robb_1765880625499835000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-16_13_17_01_13_23_10_robb_1765880625499835000__000\\target\\front.jpg",
+          "exists": true
+        },
+        {
+          "index": 10,
+          "sample_id": "2025-12-20_12_25_54_12_35_15_robb_1766226942099853000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-20_12_25_54_12_35_15_robb_1766226942099853000__000\\target\\front.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "left_fwd",
+      "status": "reject_black",
+      "n_available": 19,
+      "n_used": 10,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\soan_left_fwd.png",
+      "sample_ids": [
+        "2025-11-02_12_12_57_12_44_57_soan_1762076752699867000__001",
+        "2025-11-02_12_12_57_13_12_39_soan_1762079087899820000__001",
+        "2025-12-07_17_18_50_17_54_45_soan_1765120705599897000__000",
+        "2025-12-07_17_18_50_19_33_57_soan_1765125312499934000__000",
+        "2026-03-12_16_55_35_17_53_26_soan_1773328173799819000__001",
+        "2026-03-12_16_55_35_18_54_27_soan_1773332895199985000__000",
+        "2026-03-14_09_20_25_09_20_25_soan_1773470236499795000__000",
+        "2026-03-15_07_02_36_09_39_50_soan_1773558069999772000__001",
+        "2026-03-15_07_02_36_09_39_50_soan_1773558435999701000__001",
+        "2026-03-15_07_02_36_09_39_50_soan_1773558612499765000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-11-02_12_12_57_12_44_57_soan_1762076752699867000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-11-02_12_12_57_12_44_57_soan_1762076752699867000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-11-02_12_12_57_13_12_39_soan_1762079087899820000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-11-02_12_12_57_13_12_39_soan_1762079087899820000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2025-12-07_17_18_50_17_54_45_soan_1765120705599897000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-07_17_18_50_17_54_45_soan_1765120705599897000__000\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2025-12-07_17_18_50_19_33_57_soan_1765125312499934000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-07_17_18_50_19_33_57_soan_1765125312499934000__000\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-12_16_55_35_17_53_26_soan_1773328173799819000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_16_55_35_17_53_26_soan_1773328173799819000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2026-03-12_16_55_35_18_54_27_soan_1773332895199985000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_16_55_35_18_54_27_soan_1773332895199985000__000\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 7,
+          "sample_id": "2026-03-14_09_20_25_09_20_25_soan_1773470236499795000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_09_20_25_09_20_25_soan_1773470236499795000__000\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 8,
+          "sample_id": "2026-03-15_07_02_36_09_39_50_soan_1773558069999772000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_07_02_36_09_39_50_soan_1773558069999772000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 9,
+          "sample_id": "2026-03-15_07_02_36_09_39_50_soan_1773558435999701000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_07_02_36_09_39_50_soan_1773558435999701000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 10,
+          "sample_id": "2026-03-15_07_02_36_09_39_50_soan_1773558612499765000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_07_02_36_09_39_50_soan_1773558612499765000__001\\target\\left_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "left_bwd",
+      "status": "reject_black",
+      "n_available": 10,
+      "n_used": 10,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\targi_left_bwd.png",
+      "sample_ids": [
+        "2025-12-20_10_38_10_10_42_41_targi_1766218168999934000__001",
+        "2026-03-11_16_46_37_17_21_39_targi_1773240475700068000__001",
+        "2026-03-11_16_46_37_17_56_09_targi_1773243090000040000__000",
+        "2026-03-12_16_26_31_19_05_45_targi_1773332020600042000__000",
+        "2026-03-12_16_26_31_19_05_45_targi_1773333214299990000__000",
+        "2026-03-13_17_08_46_17_40_57_targi_1773413356200016000__000",
+        "2026-03-13_17_08_46_17_40_57_targi_1773413630100019000__000",
+        "2026-03-13_17_08_46_17_40_57_targi_1773414924100099000__000",
+        "2026-03-13_17_08_46_17_40_57_targi_1773416412299981000__001",
+        "2026-03-15_07_31_56_09_59_27_targi_1773560304799947000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-12-20_10_38_10_10_42_41_targi_1766218168999934000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-12-20_10_38_10_10_42_41_targi_1766218168999934000__001\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-11_16_46_37_17_21_39_targi_1773240475700068000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-11_16_46_37_17_21_39_targi_1773240475700068000__001\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-11_16_46_37_17_56_09_targi_1773243090000040000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-11_16_46_37_17_56_09_targi_1773243090000040000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2026-03-12_16_26_31_19_05_45_targi_1773332020600042000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_16_26_31_19_05_45_targi_1773332020600042000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-12_16_26_31_19_05_45_targi_1773333214299990000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_16_26_31_19_05_45_targi_1773333214299990000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2026-03-13_17_08_46_17_40_57_targi_1773413356200016000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_17_08_46_17_40_57_targi_1773413356200016000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 7,
+          "sample_id": "2026-03-13_17_08_46_17_40_57_targi_1773413630100019000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_17_08_46_17_40_57_targi_1773413630100019000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 8,
+          "sample_id": "2026-03-13_17_08_46_17_40_57_targi_1773414924100099000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_17_08_46_17_40_57_targi_1773414924100099000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 9,
+          "sample_id": "2026-03-13_17_08_46_17_40_57_targi_1773416412299981000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_17_08_46_17_40_57_targi_1773416412299981000__001\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 10,
+          "sample_id": "2026-03-15_07_31_56_09_59_27_targi_1773560304799947000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_07_31_56_09_59_27_targi_1773560304799947000__001\\target\\left_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "weel",
+      "camera": "front",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\weel_front.png",
+      "sample_ids": [
+        "2025-10-26_11_02_04_11_09_05_weel_1761467498500024000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-26_11_02_04_11_09_05_weel_1761467498500024000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-26_11_02_04_11_09_05_weel_1761467498500024000__001\\target\\front.jpg",
+          "exists": true
+        }
+      ]
+    }
+  ],
+  "baland": [
+    {
+      "vehicle": "baland",
+      "camera": "front",
+      "status": "approved",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\baland_front.png",
+      "sample_ids": [
+        "2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__000"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__000\\target\\front.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_available": 2,
+      "n_used": 2,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\baland_left_bwd.png",
+      "sample_ids": [
+        "2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__000",
+        "2026-03-15_13_29_44_13_39_34_baland_1773572077900026000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__000\\target\\left_bwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-15_13_29_44_13_39_34_baland_1773572077900026000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_13_29_44_13_39_34_baland_1773572077900026000__001\\target\\left_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "left_fwd",
+      "status": "reject_black",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\baland_left_fwd.png",
+      "sample_ids": [
+        "2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_06_48_29_10_06_43_baland_1773386765700031000__001\\target\\left_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "rear",
+      "status": "approved",
+      "n_available": 2,
+      "n_used": 2,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\baland_rear.png",
+      "sample_ids": [
+        "2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__000",
+        "2026-03-15_13_29_44_13_39_34_baland_1773572077900026000__000"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__000\\target\\rear.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-15_13_29_44_13_39_34_baland_1773572077900026000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_13_29_44_13_39_34_baland_1773572077900026000__000\\target\\rear.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_available": 1,
+      "n_used": 1,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\baland_right_bwd.png",
+      "sample_ids": [
+        "2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__000"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__000\\target\\right_bwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "right_fwd",
+      "status": "bad_mean_few_scenes",
+      "n_available": 3,
+      "n_used": 3,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\baland_right_fwd.png",
+      "sample_ids": [
+        "2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__001",
+        "2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__001",
+        "2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__001\\target\\right_fwd.jpg",
+          "exists": true
+        }
+      ]
+    }
+  ],
+  "no_artifact_unannotated": [
+    {
+      "vehicle": "baland",
+      "camera": "right_fwd",
+      "status": "bad_mean_few_scenes",
+      "n_available": 3,
+      "n_used": 3,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\baland_right_fwd.png",
+      "sample_ids": [
+        "2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__001",
+        "2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__001",
+        "2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-04_10_07_29_10_23_43_baland_1759562953099937000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_11_09_43_12_17_01_baland_1773394477100045000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_10_45_28_11_55_12_baland_1773567737700074000__001\\target\\right_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "left_fwd",
+      "status": "needs_annotation",
+      "n_available": 7,
+      "n_used": 7,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\crozby_left_fwd.png",
+      "sample_ids": [
+        "2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__000",
+        "2025-10-11_16_12_04_18_35_14_crozby_1760197046999999000__000",
+        "2026-03-09_18_20_21_19_28_52_crozby_1773074767700125000__001",
+        "2026-03-12_15_13_33_16_35_47_crozby_1773325390299955000__001",
+        "2026-03-13_14_45_24_14_51_24_crozby_1773404235499943000__001",
+        "2026-03-16_13_39_05_13_45_24_crozby_1773659611999794000__000",
+        "2026-03-16_13_39_05_13_45_24_crozby_1773659611999794000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__000\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-10-11_16_12_04_18_35_14_crozby_1760197046999999000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-11_16_12_04_18_35_14_crozby_1760197046999999000__000\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-09_18_20_21_19_28_52_crozby_1773074767700125000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-09_18_20_21_19_28_52_crozby_1773074767700125000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2026-03-12_15_13_33_16_35_47_crozby_1773325390299955000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_15_13_33_16_35_47_crozby_1773325390299955000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-13_14_45_24_14_51_24_crozby_1773404235499943000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-13_14_45_24_14_51_24_crozby_1773404235499943000__001\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2026-03-16_13_39_05_13_45_24_crozby_1773659611999794000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-16_13_39_05_13_45_24_crozby_1773659611999794000__000\\target\\left_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 7,
+          "sample_id": "2026-03-16_13_39_05_13_45_24_crozby_1773659611999794000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-16_13_39_05_13_45_24_crozby_1773659611999794000__001\\target\\left_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "right_fwd",
+      "status": "needs_annotation",
+      "n_available": 13,
+      "n_used": 10,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\kynde_right_fwd.png",
+      "sample_ids": [
+        "2025-10-01_18_29_52_19_31_28_kynde_1759339701900197000__001",
+        "2026-03-12_16_54_01_17_23_25_kynde_1773326267500021000__000",
+        "2026-03-14_07_19_32_09_35_45_kynde_1773470888399946000__000",
+        "2026-03-14_11_04_37_13_14_36_kynde_1773484697000072000__000",
+        "2026-03-14_11_04_37_13_14_36_kynde_1773485416699927000__001",
+        "2026-03-14_18_17_47_18_21_17_kynde_1773501833700088000__001",
+        "2026-03-14_18_17_47_19_53_12_kynde_1773508050399858000__000",
+        "2026-03-14_18_17_47_19_53_12_kynde_1773508060399911000__000",
+        "2026-03-15_17_52_22_19_22_00_kynde_1773592461300039000__001",
+        "2026-03-16_07_22_11_10_41_53_kynde_1773648164100004000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-01_18_29_52_19_31_28_kynde_1759339701900197000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-01_18_29_52_19_31_28_kynde_1759339701900197000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-12_16_54_01_17_23_25_kynde_1773326267500021000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_16_54_01_17_23_25_kynde_1773326267500021000__000\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-14_07_19_32_09_35_45_kynde_1773470888399946000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_07_19_32_09_35_45_kynde_1773470888399946000__000\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2026-03-14_11_04_37_13_14_36_kynde_1773484697000072000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_11_04_37_13_14_36_kynde_1773484697000072000__000\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-14_11_04_37_13_14_36_kynde_1773485416699927000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_11_04_37_13_14_36_kynde_1773485416699927000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 6,
+          "sample_id": "2026-03-14_18_17_47_18_21_17_kynde_1773501833700088000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_18_17_47_18_21_17_kynde_1773501833700088000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 7,
+          "sample_id": "2026-03-14_18_17_47_19_53_12_kynde_1773508050399858000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_18_17_47_19_53_12_kynde_1773508050399858000__000\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 8,
+          "sample_id": "2026-03-14_18_17_47_19_53_12_kynde_1773508060399911000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_18_17_47_19_53_12_kynde_1773508060399911000__000\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 9,
+          "sample_id": "2026-03-15_17_52_22_19_22_00_kynde_1773592461300039000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_17_52_22_19_22_00_kynde_1773592461300039000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 10,
+          "sample_id": "2026-03-16_07_22_11_10_41_53_kynde_1773648164100004000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-16_07_22_11_10_41_53_kynde_1773648164100004000__001\\target\\right_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "right_fwd",
+      "status": "bad_mean_few_scenes",
+      "n_available": 3,
+      "n_used": 3,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\natelio_right_fwd.png",
+      "sample_ids": [
+        "2025-10-10_06_36_32_09_00_01_natelio_1760076111099953000__000",
+        "2025-10-12_11_46_05_13_19_22_natelio_1760264481700060000__001",
+        "2025-10-10_06_36_32_09_00_01_natelio_1760076111099953000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2025-10-10_06_36_32_09_00_01_natelio_1760076111099953000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-10_06_36_32_09_00_01_natelio_1760076111099953000__000\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2025-10-12_11_46_05_13_19_22_natelio_1760264481700060000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-12_11_46_05_13_19_22_natelio_1760264481700060000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2025-10-10_06_36_32_09_00_01_natelio_1760076111099953000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2025-10-10_06_36_32_09_00_01_natelio_1760076111099953000__001\\target\\right_fwd.jpg",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "right_fwd",
+      "status": "needs_annotation",
+      "n_available": 5,
+      "n_used": 5,
+      "mean_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\means\\orvy_right_fwd.png",
+      "sample_ids": [
+        "2026-03-10_13_11_24_13_44_35_orvy_1773142602900311000__001",
+        "2026-03-12_16_06_19_16_52_13_orvy_1773326184999925000__001",
+        "2026-03-14_11_52_01_13_34_56_orvy_1773484575200141000__001",
+        "2026-03-15_16_05_15_16_10_01_orvy_1773583759000169000__000",
+        "2026-03-15_18_34_03_18_38_55_orvy_1773589379100004000__001"
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "sample_id": "2026-03-10_13_11_24_13_44_35_orvy_1773142602900311000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-10_13_11_24_13_44_35_orvy_1773142602900311000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 2,
+          "sample_id": "2026-03-12_16_06_19_16_52_13_orvy_1773326184999925000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-12_16_06_19_16_52_13_orvy_1773326184999925000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 3,
+          "sample_id": "2026-03-14_11_52_01_13_34_56_orvy_1773484575200141000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-14_11_52_01_13_34_56_orvy_1773484575200141000__001\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 4,
+          "sample_id": "2026-03-15_16_05_15_16_10_01_orvy_1773583759000169000__000",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_16_05_15_16_10_01_orvy_1773583759000169000__000\\target\\right_fwd.jpg",
+          "exists": true
+        },
+        {
+          "index": 5,
+          "sample_id": "2026-03-15_18_34_03_18_38_55_orvy_1773589379100004000__001",
+          "target_jpg": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train\\2026-03-15_18_34_03_18_38_55_orvy_1773589379100004000__001\\target\\right_fwd.jpg",
+          "exists": true
+        }
+      ]
+    }
+  ]
+}

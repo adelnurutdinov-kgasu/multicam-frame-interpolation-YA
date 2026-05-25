@@ -1,0 +1,4330 @@
+{
+  "dataset": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants\\train",
+  "criterion": "low L1(t0,t1) inside mask vs outside; pick v2/v3 by median over all samples",
+  "n_groups": 183,
+  "n_changed": 1,
+  "applied": true,
+  "items": [
+    {
+      "vehicle": "anabel",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.2597762080477062,
+          "inside_diff": 0.006641212152317166,
+          "outside_diff": 0.07034667208790779,
+          "contrast": 0.06370545993559062,
+          "ratio": 0.09458068018823014,
+          "leak": 0.0048367102241551,
+          "p95_inside": 0.016339870169758797
+        }
+      ]
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 0.6321061153914416,
+          "inside_diff": 0.010588014498353004,
+          "outside_diff": 0.051529593765735626,
+          "contrast": 0.03578735515475273,
+          "ratio": 0.2879611283512447,
+          "leak": 0.14145551848303656,
+          "p95_inside": 0.03006535954773426
+        }
+      ]
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.140132121414688,
+          "inside_diff": 0.05527310445904732,
+          "outside_diff": 0.0812261626124382,
+          "contrast": 0.049363311380147934,
+          "ratio": 0.5216711762284425,
+          "leak": 0.3401835804009844,
+          "p95_inside": 0.1581699252128601
+        }
+      ]
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 1.1953486064944032,
+          "inside_diff": 0.00617844401858747,
+          "outside_diff": 0.06636131182312965,
+          "contrast": 0.059954913798719645,
+          "ratio": 0.09795036783937539,
+          "leak": 0.028115563535460703,
+          "p95_inside": 0.01568627543747425
+        }
+      ]
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 0.32985052214852173,
+          "inside_diff": 0.04801507107913494,
+          "outside_diff": 0.08186431974172592,
+          "contrast": 0.04243501462042332,
+          "ratio": 0.49331619598671805,
+          "leak": 0.172835583796664,
+          "p95_inside": 0.11960783787071705
+        }
+      ]
+    },
+    {
+      "vehicle": "aucel",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.2578799116957777,
+          "inside_diff": 0.010932427365332842,
+          "outside_diff": 0.08658482506871223,
+          "contrast": 0.07565239770337939,
+          "ratio": 0.12441798007983976,
+          "leak": 0.0026983099056543877,
+          "p95_inside": 0.028758171014487743
+        }
+      ]
+    },
+    {
+      "vehicle": "aucel",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.1957930665570495,
+          "inside_diff": 0.010708848480135202,
+          "outside_diff": 0.07363779656589031,
+          "contrast": 0.06292894808575511,
+          "ratio": 0.143338085955232,
+          "leak": 0.004284887087434858,
+          "p95_inside": 0.02483660075813532
+        }
+      ]
+    },
+    {
+      "vehicle": "aucel",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 0.8685502872755112,
+          "inside_diff": 0.015116761438548565,
+          "outside_diff": 0.06506658345460892,
+          "contrast": 0.04994982201606035,
+          "ratio": 0.23232757332485676,
+          "leak": 0.09210271913943718,
+          "p95_inside": 0.03660130500793457
+        }
+      ]
+    },
+    {
+      "vehicle": "aucel",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.2157390683512022,
+          "inside_diff": 0.015344332903623581,
+          "outside_diff": 0.09665416926145554,
+          "contrast": 0.08130983635783195,
+          "ratio": 0.15875500271608778,
+          "leak": 0.006316881157780606,
+          "p95_inside": 0.04444444179534912
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 0.9853305007914932,
+          "inside_diff": 0.027692641131579876,
+          "outside_diff": 0.09274640306830406,
+          "contrast": 0.060817002318799496,
+          "ratio": 0.25622167602417595,
+          "leak": 0.03796362128214244,
+          "p95_inside": 0.06209150515496731
+        },
+        {
+          "tag": "v2",
+          "n_samples": 8,
+          "total": 0.9853305007914932,
+          "inside_diff": 0.027692641131579876,
+          "outside_diff": 0.09274640306830406,
+          "contrast": 0.060817002318799496,
+          "ratio": 0.25622167602417595,
+          "leak": 0.03796362128214244,
+          "p95_inside": 0.06209150515496731
+        },
+        {
+          "tag": "v3",
+          "n_samples": 8,
+          "total": 0.8970558863599782,
+          "inside_diff": 0.030095389112830162,
+          "outside_diff": 0.0938798300921917,
+          "contrast": 0.05737669952213764,
+          "ratio": 0.29943104914720003,
+          "leak": 0.04930705023885768,
+          "p95_inside": 0.07647059112787247
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 11,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 11,
+          "total": 0.5657007464528432,
+          "inside_diff": 0.0430871918797493,
+          "outside_diff": 0.09305354207754135,
+          "contrast": 0.03776522912085056,
+          "ratio": 0.347279525168595,
+          "leak": 0.19627692480737866,
+          "p95_inside": 0.08888888359069824
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.5142427143541384,
+          "inside_diff": 0.031276543624699116,
+          "outside_diff": 0.07756262645125389,
+          "contrast": 0.046286082826554775,
+          "ratio": 0.39930074746365296,
+          "leak": 0.13923058622668177,
+          "p95_inside": 0.13398692943155766
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 15,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 15,
+          "total": 1.1960781228843467,
+          "inside_diff": 0.008444776758551598,
+          "outside_diff": 0.08326390385627747,
+          "contrast": 0.07240976765751839,
+          "ratio": 0.1152686737896031,
+          "leak": 0.008346581875993641,
+          "p95_inside": 0.026143791154026985
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.03756156937145211,
+          "inside_diff": 0.05108089745044708,
+          "outside_diff": 0.0902637392282486,
+          "contrast": 0.049545519053936005,
+          "ratio": 0.5726446132544758,
+          "leak": 0.2388274867851994,
+          "p95_inside": 0.13464051485061646
+        }
+      ]
+    },
+    {
+      "vehicle": "badat",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 11,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 11,
+          "total": 0.6164572943429376,
+          "inside_diff": 0.029860608279705048,
+          "outside_diff": 0.07227884232997894,
+          "contrast": 0.043360818177461624,
+          "ratio": 0.4000897526899521,
+          "leak": 0.11111591415047442,
+          "p95_inside": 0.07411662489175797
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 0.8447698779406676,
+          "inside_diff": 0.01902744732797146,
+          "outside_diff": 0.07612970471382141,
+          "contrast": 0.05710225738584995,
+          "ratio": 0.24993460042302001,
+          "leak": 0.09435343775573199,
+          "p95_inside": 0.07581699639558792
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.0684999294589723,
+          "inside_diff": 0.015378185082226992,
+          "outside_diff": 0.08588874340057373,
+          "contrast": 0.07051055831834674,
+          "ratio": 0.1859030887414786,
+          "leak": 0.048209313856363706,
+          "p95_inside": 0.047058822587132454
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "left_fwd",
+      "status": "reject_black",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.0516210890186577,
+          "inside_diff": 0.0368712842464447,
+          "outside_diff": 0.13411648571491241,
+          "contrast": 0.09724520146846771,
+          "ratio": 0.27491985082893494,
+          "leak": 0.031902734199910354,
+          "p95_inside": 0.09281045198440552
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.0632642468362734,
+          "inside_diff": 0.026575100841000676,
+          "outside_diff": 0.11047826707363129,
+          "contrast": 0.08390316623263061,
+          "ratio": 0.1968246615669493,
+          "leak": 0.061585345149570474,
+          "p95_inside": 0.05816993536427617
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.1447942991782083,
+          "inside_diff": 0.020613130182027817,
+          "outside_diff": 0.10516878962516785,
+          "contrast": 0.08455565944314003,
+          "ratio": 0.19600045085138934,
+          "leak": 0.020496200757658702,
+          "p95_inside": 0.06535947322845459
+        }
+      ]
+    },
+    {
+      "vehicle": "baland",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": -0.45837270902009997,
+          "inside_diff": 0.11042311042547226,
+          "outside_diff": 0.13403399288654327,
+          "contrast": 0.03782130777835846,
+          "ratio": 0.8238440715479014,
+          "leak": 0.28257564315561595,
+          "p95_inside": 0.2379084974527359
+        },
+        {
+          "tag": "v2",
+          "n_samples": 3,
+          "total": -0.45837270902009997,
+          "inside_diff": 0.11042311042547226,
+          "outside_diff": 0.13403399288654327,
+          "contrast": 0.03782130777835846,
+          "ratio": 0.8238440715479014,
+          "leak": 0.28257564315561595,
+          "p95_inside": 0.2379084974527359
+        },
+        {
+          "tag": "v3",
+          "n_samples": 3,
+          "total": -0.5660161694076141,
+          "inside_diff": 0.11378249526023865,
+          "outside_diff": 0.13272695243358612,
+          "contrast": 0.02382124960422516,
+          "ratio": 0.8572674439818326,
+          "leak": 0.3341897510160228,
+          "p95_inside": 0.24444444477558136
+        }
+      ]
+    },
+    {
+      "vehicle": "bett",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": -0.8505501453479007,
+          "inside_diff": 0.07144591957330704,
+          "outside_diff": 0.08160295337438583,
+          "contrast": 0.010157033801078796,
+          "ratio": 0.8755310514990875,
+          "leak": 0.46845996539248075,
+          "p95_inside": 0.18692810833454132
+        }
+      ]
+    },
+    {
+      "vehicle": "bett",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 0.9467703734068824,
+          "inside_diff": 0.05491362512111664,
+          "outside_diff": 0.1574927568435669,
+          "contrast": 0.10257913172245026,
+          "ratio": 0.3486739721983582,
+          "leak": 0.038272589855559286,
+          "p95_inside": 0.13202615082263947
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "v3",
+      "previous": "current",
+      "changed": true,
+      "reason": "best_t0t1_stability",
+      "ranked": [
+        {
+          "tag": "v3",
+          "n_samples": 6,
+          "total": 0.8608317332174185,
+          "inside_diff": 0.01591878989711404,
+          "outside_diff": 0.07269051671028137,
+          "contrast": 0.047066232189536095,
+          "ratio": 0.20875426985286621,
+          "leak": 0.09833350801802745,
+          "p95_inside": 0.045751635916531086
+        },
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 0.8383298000320202,
+          "inside_diff": 0.015486207790672779,
+          "outside_diff": 0.0717916302382946,
+          "contrast": 0.04574572155252099,
+          "ratio": 0.2137869485599193,
+          "leak": 0.1034816136930505,
+          "p95_inside": 0.045751635916531086
+        },
+        {
+          "tag": "v2",
+          "n_samples": 6,
+          "total": 0.8383298000320202,
+          "inside_diff": 0.015486207790672779,
+          "outside_diff": 0.0717916302382946,
+          "contrast": 0.04574572155252099,
+          "ratio": 0.2137869485599193,
+          "leak": 0.1034816136930505,
+          "p95_inside": 0.045751635916531086
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 0.24640512193262143,
+          "inside_diff": 0.040504395961761475,
+          "outside_diff": 0.07873301953077316,
+          "contrast": 0.04615789279341698,
+          "ratio": 0.4921197405108792,
+          "leak": 0.21801288536286673,
+          "p95_inside": 0.09019608050584793
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "left_fwd",
+      "chosen": "zero",
+      "reason": "no_artifact",
+      "n_samples": 0
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 1.193899968924818,
+          "inside_diff": 0.007447212236002088,
+          "outside_diff": 0.07750551775097847,
+          "contrast": 0.05460021016187966,
+          "ratio": 0.09904788417563959,
+          "leak": 0.02493692108495734,
+          "p95_inside": 0.021568628028035164
+        },
+        {
+          "tag": "v3",
+          "n_samples": 6,
+          "total": 1.193899968924818,
+          "inside_diff": 0.007447212236002088,
+          "outside_diff": 0.07750551775097847,
+          "contrast": 0.05460021016187966,
+          "ratio": 0.09904788417563959,
+          "leak": 0.02493692108495734,
+          "p95_inside": 0.021568628028035164
+        },
+        {
+          "tag": "v2",
+          "n_samples": 6,
+          "total": 1.037530526228615,
+          "inside_diff": 0.00907001132145524,
+          "outside_diff": 0.08343147858977318,
+          "contrast": 0.06198142911307514,
+          "ratio": 0.15208792177379823,
+          "leak": 0.0692813527477689,
+          "p95_inside": 0.030065358616411686
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 0.5747626354596345,
+          "inside_diff": 0.04384494200348854,
+          "outside_diff": 0.09967610239982605,
+          "contrast": 0.04905744269490242,
+          "ratio": 0.47194635687589537,
+          "leak": 0.08081481128932463,
+          "p95_inside": 0.08888888359069824
+        }
+      ]
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "right_fwd",
+      "status": "empty_red",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": -1.3619566365676374,
+          "inside_diff": 0.10151176899671555,
+          "outside_diff": 0.10990310460329056,
+          "contrast": -0.012555010616779327,
+          "ratio": 1.141136107536165,
+          "leak": 0.5791392713585124,
+          "p95_inside": 0.32549020648002625
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.2241641885426222,
+          "inside_diff": 0.007030612789094448,
+          "outside_diff": 0.08393417298793793,
+          "contrast": 0.0674459021538496,
+          "ratio": 0.0954385461003236,
+          "leak": 0.0007426873857404022,
+          "p95_inside": 0.018300652503967285
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 1.0835986378768876,
+          "inside_diff": 0.007737924810498953,
+          "outside_diff": 0.05285388417541981,
+          "contrast": 0.04189645824953914,
+          "ratio": 0.16148095119549516,
+          "leak": 0.016416366026232625,
+          "p95_inside": 0.020915032364428043
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 11,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 11,
+          "total": 0.9812368096761823,
+          "inside_diff": 0.009724683128297329,
+          "outside_diff": 0.04984434321522713,
+          "contrast": 0.031945766881108284,
+          "ratio": 0.2251646928585942,
+          "leak": 0.031670152375261426,
+          "p95_inside": 0.024836601689457893
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 1.0639831047359678,
+          "inside_diff": 0.00606428412720561,
+          "outside_diff": 0.036906734108924866,
+          "contrast": 0.031671424861997366,
+          "ratio": 0.14709347449935428,
+          "leak": 0.007106510810479421,
+          "p95_inside": 0.013071895577013493
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 1.0063703759997202,
+          "inside_diff": 0.019030088558793068,
+          "outside_diff": 0.10011544078588486,
+          "contrast": 0.06735176965594292,
+          "ratio": 0.260767234009303,
+          "leak": 0.05529625307921691,
+          "p95_inside": 0.048366010189056396
+        }
+      ]
+    },
+    {
+      "vehicle": "darron",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 9,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 9,
+          "total": 0.9765222842508186,
+          "inside_diff": 0.02124200575053692,
+          "outside_diff": 0.07324875146150589,
+          "contrast": 0.05040505342185497,
+          "ratio": 0.2726800053696517,
+          "leak": 0.03333399748948973,
+          "p95_inside": 0.05098039284348488
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 0.71965970206914,
+          "inside_diff": 0.02474929392337799,
+          "outside_diff": 0.07261224091053009,
+          "contrast": 0.0478629469871521,
+          "ratio": 0.34084189680735905,
+          "leak": 0.09046596645969941,
+          "p95_inside": 0.06797385960817337
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.188054477587314,
+          "inside_diff": 0.009002565406262875,
+          "outside_diff": 0.06766264140605927,
+          "contrast": 0.05866007599979639,
+          "ratio": 0.13305075325446405,
+          "leak": 0.00694288073256774,
+          "p95_inside": 0.02875817008316517
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.2543727251985182,
+          "inside_diff": 0.010863712290301919,
+          "outside_diff": 0.10204802080988884,
+          "contrast": 0.09118430851958692,
+          "ratio": 0.11559183703005083,
+          "leak": 0.03337225327310313,
+          "p95_inside": 0.027450978755950928
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": -0.7284108007126483,
+          "inside_diff": 0.02143671363592148,
+          "outside_diff": 0.02974376268684864,
+          "contrast": 0.008307049050927162,
+          "ratio": 0.7207129058153706,
+          "leak": 0.531166334866479,
+          "p95_inside": 0.05228758230805397
+        }
+      ]
+    },
+    {
+      "vehicle": "floi",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 0.8392098847752415,
+          "inside_diff": 0.03119874931871891,
+          "outside_diff": 0.06382886320352554,
+          "contrast": 0.051908811554312706,
+          "ratio": 0.21793429315998344,
+          "leak": 0.13640424543472823,
+          "p95_inside": 0.08235294371843338
+        }
+      ]
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 1.2089214460968463,
+          "inside_diff": 0.010940273758023977,
+          "outside_diff": 0.08725250139832497,
+          "contrast": 0.06700293370522559,
+          "ratio": 0.14952666835196024,
+          "leak": 0.017494291412550222,
+          "p95_inside": 0.027450980618596077
+        }
+      ]
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.7560989485427206,
+          "inside_diff": 0.013796016108244658,
+          "outside_diff": 0.06063401326537132,
+          "contrast": 0.046837997157126665,
+          "ratio": 0.252489496901788,
+          "leak": 0.1309099018733274,
+          "p95_inside": 0.0392156857997179
+        }
+      ]
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": -0.3721136421654096,
+          "inside_diff": 0.04675327055156231,
+          "outside_diff": 0.06660817749798298,
+          "contrast": 0.01985490694642067,
+          "ratio": 0.7195501420121713,
+          "leak": 0.3530633437175493,
+          "p95_inside": 0.12418301030993462
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.325982961889908,
+          "inside_diff": 0.02912028320133686,
+          "outside_diff": 0.08955284208059311,
+          "contrast": 0.03589821793138981,
+          "ratio": 0.525241883851242,
+          "leak": 0.14988653091265947,
+          "p95_inside": 0.0941176488995552
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 1.0894470932786353,
+          "inside_diff": 0.020323126576840878,
+          "outside_diff": 0.10477397590875626,
+          "contrast": 0.07873042579740286,
+          "ratio": 0.20473289571549763,
+          "leak": 0.05053498980471295,
+          "p95_inside": 0.05359477177262306
+        },
+        {
+          "tag": "v3",
+          "n_samples": 8,
+          "total": 1.0894470932786353,
+          "inside_diff": 0.020323126576840878,
+          "outside_diff": 0.10477397590875626,
+          "contrast": 0.07873042579740286,
+          "ratio": 0.20473289571549763,
+          "leak": 0.05053498980471295,
+          "p95_inside": 0.05359477177262306
+        },
+        {
+          "tag": "v2",
+          "n_samples": 8,
+          "total": 1.04135318172569,
+          "inside_diff": 0.02151536475867033,
+          "outside_diff": 0.10539912059903145,
+          "contrast": 0.07765156775712967,
+          "ratio": 0.22355293954081612,
+          "leak": 0.05902629846237267,
+          "p95_inside": 0.05816993489861488
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 0.5009690613819539,
+          "inside_diff": 0.040784938260912895,
+          "outside_diff": 0.08462176471948624,
+          "contrast": 0.038342124316841364,
+          "ratio": 0.4244276660172627,
+          "leak": 0.12720865665266606,
+          "p95_inside": 0.11568627879023552
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 1.023658523918944,
+          "inside_diff": 0.026263094507157803,
+          "outside_diff": 0.09165961667895317,
+          "contrast": 0.06802458642050624,
+          "ratio": 0.25196908298883613,
+          "leak": 0.019322971972841652,
+          "p95_inside": 0.047058822587132454
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.10460986274639122,
+          "inside_diff": 0.06381360441446304,
+          "outside_diff": 0.11535938084125519,
+          "contrast": 0.03839990496635437,
+          "ratio": 0.6243167346569851,
+          "leak": 0.18836869056327724,
+          "p95_inside": 0.12026143819093704
+        }
+      ]
+    },
+    {
+      "vehicle": "greton",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 0.6054293097960759,
+          "inside_diff": 0.034332506358623505,
+          "outside_diff": 0.10330972447991371,
+          "contrast": 0.056935928761959076,
+          "ratio": 0.48613041689447056,
+          "leak": 0.055963702257371226,
+          "p95_inside": 0.07189542427659035
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.0072989383507753,
+          "inside_diff": 0.03276703134179115,
+          "outside_diff": 0.12371955066919327,
+          "contrast": 0.08681819215416908,
+          "ratio": 0.2740056871900906,
+          "leak": 0.03912098526925863,
+          "p95_inside": 0.08235294371843338
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 0.43514381184185547,
+          "inside_diff": 0.023311378434300423,
+          "outside_diff": 0.08315470069646835,
+          "contrast": 0.0425429530441761,
+          "ratio": 0.33801398910386604,
+          "leak": 0.16884958393969923,
+          "p95_inside": 0.06143790856003761
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": -0.06887237604526347,
+          "inside_diff": 0.059512143954634666,
+          "outside_diff": 0.0972474217414856,
+          "contrast": 0.03524145297706127,
+          "ratio": 0.6347439445762568,
+          "leak": 0.26511213020018165,
+          "p95_inside": 0.14901960641145706
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.9097072471222485,
+          "inside_diff": 0.01972939446568489,
+          "outside_diff": 0.08356711268424988,
+          "contrast": 0.0557057186961174,
+          "ratio": 0.2852542392234981,
+          "leak": 0.0367082019410342,
+          "p95_inside": 0.04575163498520851
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 0.6153220188563613,
+          "inside_diff": 0.08609110862016678,
+          "outside_diff": 0.0663779079914093,
+          "contrast": 0.05311511177569628,
+          "ratio": 0.47470870719962877,
+          "leak": 0.09191385384702808,
+          "p95_inside": 0.2065359503030777
+        }
+      ]
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.16465135250493237,
+          "inside_diff": 0.04760398901998997,
+          "outside_diff": 0.0856129415333271,
+          "contrast": 0.038008952513337135,
+          "ratio": 0.55322705580853,
+          "leak": 0.21399334988057883,
+          "p95_inside": 0.11503267660737038
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 1.1892586561724188,
+          "inside_diff": 0.013377459719777107,
+          "outside_diff": 0.08804904296994209,
+          "contrast": 0.07530907541513443,
+          "ratio": 0.14806234456105538,
+          "leak": 0.021659994996247184,
+          "p95_inside": 0.038562092930078506
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 0.7062095116768119,
+          "inside_diff": 0.03642654046416283,
+          "outside_diff": 0.09355475008487701,
+          "contrast": 0.05712820962071419,
+          "ratio": 0.3893606730937238,
+          "leak": 0.07642213460996902,
+          "p95_inside": 0.09019608050584793
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 0.3952960762744643,
+          "inside_diff": 0.01540838461369276,
+          "outside_diff": 0.053541187196969986,
+          "contrast": 0.038132802583277225,
+          "ratio": 0.3079309292452384,
+          "leak": 0.190650436860578,
+          "p95_inside": 0.03790849819779396
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.39749107348423635,
+          "inside_diff": 0.013473795726895332,
+          "outside_diff": 0.042792486026883125,
+          "contrast": 0.029318690299987793,
+          "ratio": 0.30685516995565676,
+          "leak": 0.2514788737347804,
+          "p95_inside": 0.03856209199875593
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.1756423858919793,
+          "inside_diff": 0.02042175829410553,
+          "outside_diff": 0.11241291463375092,
+          "contrast": 0.09199115633964539,
+          "ratio": 0.18388152711893416,
+          "leak": 0.024640546369518332,
+          "p95_inside": 0.060784315690398216
+        }
+      ]
+    },
+    {
+      "vehicle": "helen",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.7364366067444792,
+          "inside_diff": 0.0454464852809906,
+          "outside_diff": 0.13174863159656525,
+          "contrast": 0.08630214631557465,
+          "ratio": 0.3477528464595916,
+          "leak": 0.11009954690158164,
+          "p95_inside": 0.16993464529514313
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.1513508579081009,
+          "inside_diff": 0.01984427496790886,
+          "outside_diff": 0.08302779495716095,
+          "contrast": 0.06498994771391153,
+          "ratio": 0.18301433911036935,
+          "leak": 0.005791738728230704,
+          "p95_inside": 0.048366010189056396
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 1.2131071408739635,
+          "inside_diff": 0.016163794323801994,
+          "outside_diff": 0.09536749869585037,
+          "contrast": 0.07970313634723425,
+          "ratio": 0.14912458846315868,
+          "leak": 0.020415117719950433,
+          "p95_inside": 0.04313725605607033
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 0.6172110338912105,
+          "inside_diff": 0.029894208535552025,
+          "outside_diff": 0.07932134717702866,
+          "contrast": 0.04910609312355518,
+          "ratio": 0.3347309775748441,
+          "leak": 0.12717864149441302,
+          "p95_inside": 0.0797385647892952
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 9,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 9,
+          "total": 1.2522192253837836,
+          "inside_diff": 0.010721792466938496,
+          "outside_diff": 0.08720701187849045,
+          "contrast": 0.07841277401894331,
+          "ratio": 0.13239006891064797,
+          "leak": 0.004940492572479577,
+          "p95_inside": 0.027450980618596077
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 0.9519781774602989,
+          "inside_diff": 0.025082447566092014,
+          "outside_diff": 0.11249091476202011,
+          "contrast": 0.0735478987917304,
+          "ratio": 0.282688587237228,
+          "leak": 0.03076246558580606,
+          "p95_inside": 0.06732025928795338
+        }
+      ]
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 0.5601092130107441,
+          "inside_diff": 0.03957945108413696,
+          "outside_diff": 0.08918385952711105,
+          "contrast": 0.047705646604299545,
+          "ratio": 0.4430133027701936,
+          "leak": 0.1525542650703132,
+          "p95_inside": 0.10000000149011612
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 15,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 15,
+          "total": 0.9813534471882969,
+          "inside_diff": 0.01123780570924282,
+          "outside_diff": 0.07504699379205704,
+          "contrast": 0.0506309550255537,
+          "ratio": 0.1941588661949001,
+          "leak": 0.0373961901476133,
+          "p95_inside": 0.0313725508749485
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 34,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 34,
+          "total": 0.8038479370854321,
+          "inside_diff": 0.023972888477146626,
+          "outside_diff": 0.0972069539129734,
+          "contrast": 0.05481080058962107,
+          "ratio": 0.22987943540437866,
+          "leak": 0.09168451801363194,
+          "p95_inside": 0.06666667014360428
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 30,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 30,
+          "total": 0.43500824214086375,
+          "inside_diff": 0.02624939102679491,
+          "outside_diff": 0.06839556246995926,
+          "contrast": 0.04075922351330519,
+          "ratio": 0.3705780591352028,
+          "leak": 0.1615698012804523,
+          "p95_inside": 0.08562091365456581
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 33,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 33,
+          "total": 1.2599660434915452,
+          "inside_diff": 0.011194853112101555,
+          "outside_diff": 0.09644779562950134,
+          "contrast": 0.08222206588834524,
+          "ratio": 0.10887598078122664,
+          "leak": 0.011312052754339481,
+          "p95_inside": 0.02875817008316517
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 24,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 24,
+          "total": 0.9200339559670501,
+          "inside_diff": 0.02851143479347229,
+          "outside_diff": 0.10780055448412895,
+          "contrast": 0.05958594847470522,
+          "ratio": 0.2587593660728307,
+          "leak": 0.054846370788184655,
+          "p95_inside": 0.08039215579628944
+        }
+      ]
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 35,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 35,
+          "total": 0.872078054574193,
+          "inside_diff": 0.024276625365018845,
+          "outside_diff": 0.0979585126042366,
+          "contrast": 0.0620456300675869,
+          "ratio": 0.26651374179929266,
+          "leak": 0.04920479695300839,
+          "p95_inside": 0.06666667014360428
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 15,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 15,
+          "total": 0.9424808089095764,
+          "inside_diff": 0.025612719357013702,
+          "outside_diff": 0.09390934556722641,
+          "contrast": 0.06438611634075642,
+          "ratio": 0.2718363393315249,
+          "leak": 0.05760651349542717,
+          "p95_inside": 0.07712417840957642
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 17,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 17,
+          "total": 0.9394946112866536,
+          "inside_diff": 0.03181297704577446,
+          "outside_diff": 0.10936496406793594,
+          "contrast": 0.06544429250061512,
+          "ratio": 0.30689979183344834,
+          "leak": 0.04343334159847921,
+          "p95_inside": 0.07320261001586914
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 14,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 14,
+          "total": 0.7808674700887983,
+          "inside_diff": 0.05157799273729324,
+          "outside_diff": 0.12373853474855423,
+          "contrast": 0.06955545581877232,
+          "ratio": 0.37658432394230706,
+          "leak": 0.08661942183553185,
+          "p95_inside": 0.13202614709734917
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 17,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 17,
+          "total": 0.8269105973376984,
+          "inside_diff": 0.014286981895565987,
+          "outside_diff": 0.08881982415914536,
+          "contrast": 0.03897688910365105,
+          "ratio": 0.29655922993780753,
+          "leak": 0.04455543435967111,
+          "p95_inside": 0.0313725508749485
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 21,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 21,
+          "total": 0.9902175104056941,
+          "inside_diff": 0.03767338767647743,
+          "outside_diff": 0.12686866521835327,
+          "contrast": 0.07991631329059601,
+          "ratio": 0.2853268573354753,
+          "leak": 0.04628687690742624,
+          "p95_inside": 0.10980392247438431
+        }
+      ]
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 18,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 18,
+          "total": 0.5511440493266206,
+          "inside_diff": 0.05768136866390705,
+          "outside_diff": 0.1278858259320259,
+          "contrast": 0.05625702440738678,
+          "ratio": 0.4341253304416709,
+          "leak": 0.13326273905788732,
+          "p95_inside": 0.1522875726222992
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.3407327602356693,
+          "inside_diff": 0.009881850332021713,
+          "outside_diff": 0.10182787105441093,
+          "contrast": 0.09194602072238922,
+          "ratio": 0.10178073251275936,
+          "leak": 0.0007652573177731012,
+          "p95_inside": 0.02287581656128168
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": -1.1196004896164826,
+          "inside_diff": 0.06540025025606155,
+          "outside_diff": 0.06368856690824032,
+          "contrast": -0.0017116833478212357,
+          "ratio": 1.0319559461971317,
+          "leak": 0.5748846665102822,
+          "p95_inside": 0.15294118225574493
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": -1.2749940015169996,
+          "inside_diff": 0.11715054512023926,
+          "outside_diff": 0.107732854783535,
+          "contrast": -0.009417690336704254,
+          "ratio": 1.087417068410811,
+          "leak": 0.5534358214484164,
+          "p95_inside": 0.27973857522010803
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 0.6580566257557219,
+          "inside_diff": 0.03826049109920859,
+          "outside_diff": 0.08592605404555798,
+          "contrast": 0.04345244402065873,
+          "ratio": 0.36888213970792594,
+          "leak": 0.1059909660036453,
+          "p95_inside": 0.09346405509859324
+        }
+      ]
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": -0.32800616232601687,
+          "inside_diff": 0.08189168572425842,
+          "outside_diff": 0.09714498370885849,
+          "contrast": 0.016240853816270828,
+          "ratio": 0.7543718567710185,
+          "leak": 0.3056758882770693,
+          "p95_inside": 0.18562090396881104
+        }
+      ]
+    },
+    {
+      "vehicle": "kurt",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.083679853514341,
+          "inside_diff": 0.008948287926614285,
+          "outside_diff": 0.06477922201156616,
+          "contrast": 0.05583093408495188,
+          "ratio": 0.13813515582228805,
+          "leak": 0.05281623045451998,
+          "p95_inside": 0.024836601689457893
+        }
+      ]
+    },
+    {
+      "vehicle": "kurt",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.6717567714852266,
+          "inside_diff": 0.029942288994789124,
+          "outside_diff": 0.10378478467464447,
+          "contrast": 0.07384249567985535,
+          "ratio": 0.31550630842955935,
+          "leak": 0.16221555871195517,
+          "p95_inside": 0.09346405602991581
+        }
+      ]
+    },
+    {
+      "vehicle": "kurt",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 0.7985736357151326,
+          "inside_diff": 0.017987465485930443,
+          "outside_diff": 0.0682072713971138,
+          "contrast": 0.05021980591118336,
+          "ratio": 0.2637177109930773,
+          "leak": 0.10572076186609831,
+          "p95_inside": 0.048366010189056396
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 1.185353096859847,
+          "inside_diff": 0.014940428547561169,
+          "outside_diff": 0.09482977539300919,
+          "contrast": 0.05084434896707535,
+          "ratio": 0.19419261995128273,
+          "leak": 0.015968462049966752,
+          "p95_inside": 0.03529411926865578
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 1.0222642102461283,
+          "inside_diff": 0.02660765964537859,
+          "outside_diff": 0.10600912943482399,
+          "contrast": 0.06755386479198933,
+          "ratio": 0.23286590763598009,
+          "leak": 0.03605232911905889,
+          "p95_inside": 0.07450980506837368
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 0.7814971127914498,
+          "inside_diff": 0.03184313327074051,
+          "outside_diff": 0.10327349975705147,
+          "contrast": 0.07463081181049347,
+          "ratio": 0.31753060895685403,
+          "leak": 0.05064303917501334,
+          "p95_inside": 0.09738561883568764
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 0.8338591963904336,
+          "inside_diff": 0.015478058252483606,
+          "outside_diff": 0.07679858431220055,
+          "contrast": 0.05638339510187507,
+          "ratio": 0.2263076441274261,
+          "leak": 0.10157663710472095,
+          "p95_inside": 0.0392156857997179
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 1.1426031777287964,
+          "inside_diff": 0.026844583451747894,
+          "outside_diff": 0.09961727634072304,
+          "contrast": 0.07123661460354924,
+          "ratio": 0.21648081884084816,
+          "leak": 0.017654194866555995,
+          "p95_inside": 0.06013071723282337
+        }
+      ]
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "right_fwd",
+      "chosen": "zero",
+      "reason": "no_artifact",
+      "n_samples": 0
+    },
+    {
+      "vehicle": "leid",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.12717865578381,
+          "inside_diff": 0.007128983736038208,
+          "outside_diff": 0.0604502335190773,
+          "contrast": 0.05332124978303909,
+          "ratio": 0.11793145073274852,
+          "leak": 0.040731715385209116,
+          "p95_inside": 0.019607843831181526
+        },
+        {
+          "tag": "v3",
+          "n_samples": 3,
+          "total": 1.12717865578381,
+          "inside_diff": 0.007128983736038208,
+          "outside_diff": 0.0604502335190773,
+          "contrast": 0.05332124978303909,
+          "ratio": 0.11793145073274852,
+          "leak": 0.040731715385209116,
+          "p95_inside": 0.019607843831181526
+        },
+        {
+          "tag": "v2",
+          "n_samples": 3,
+          "total": 1.0836930834442722,
+          "inside_diff": 0.006891911383718252,
+          "outside_diff": 0.05839899182319641,
+          "contrast": 0.051644334103912115,
+          "ratio": 0.1156639439895486,
+          "leak": 0.061319632082207504,
+          "p95_inside": 0.019607843831181526
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "left_bwd",
+      "status": "reject_black",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.0815106764439708,
+          "inside_diff": 0.017467739060521126,
+          "outside_diff": 0.07762826979160309,
+          "contrast": 0.06016053073108196,
+          "ratio": 0.22501775586927458,
+          "leak": 0.004670882437482035,
+          "p95_inside": 0.03921568766236305
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.2911421423886247,
+          "inside_diff": 0.013198358938097954,
+          "outside_diff": 0.07703939825296402,
+          "contrast": 0.07041794387623668,
+          "ratio": 0.1419974418443686,
+          "leak": 0.0022487962326048997,
+          "p95_inside": 0.02875817008316517
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "right_bwd",
+      "status": "reject_black",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.227133707458216,
+          "inside_diff": 0.02538084052503109,
+          "outside_diff": 0.1301557421684265,
+          "contrast": 0.10477490164339542,
+          "ratio": 0.19500361722179962,
+          "leak": 0.00796587667015056,
+          "p95_inside": 0.07450980693101883
+        }
+      ]
+    },
+    {
+      "vehicle": "leid",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.58169308221401,
+          "inside_diff": 0.052455649711191654,
+          "outside_diff": 0.11926743388175964,
+          "contrast": 0.06681178417056799,
+          "ratio": 0.4197649229825888,
+          "leak": 0.1267198248905566,
+          "p95_inside": 0.1231694258749485
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 0.8153931693776586,
+          "inside_diff": 0.03988237679004669,
+          "outside_diff": 0.10327266156673431,
+          "contrast": 0.06920008081942797,
+          "ratio": 0.3688484681372417,
+          "leak": 0.06362248080356184,
+          "p95_inside": 0.0869281068444252
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": -0.0999211383264304,
+          "inside_diff": 0.05853935331106186,
+          "outside_diff": 0.08788829296827316,
+          "contrast": 0.029348939657211304,
+          "ratio": 0.6619548824254409,
+          "leak": 0.2546541861674467,
+          "p95_inside": 0.16862745210528374
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": -0.16669223374718165,
+          "inside_diff": 0.044214989989995956,
+          "outside_diff": 0.06748141534626484,
+          "contrast": 0.023266425356268883,
+          "ratio": 0.6556189057168713,
+          "leak": 0.29578944495988646,
+          "p95_inside": 0.11633986607193947
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.42235319591454784,
+          "inside_diff": 0.03919515199959278,
+          "outside_diff": 0.1087874099612236,
+          "contrast": 0.06959225796163082,
+          "ratio": 0.42774053403706214,
+          "leak": 0.2086262932921094,
+          "p95_inside": 0.1117647010833025
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.2578431630298037,
+          "inside_diff": 0.08967745676636696,
+          "outside_diff": 0.1486918404698372,
+          "contrast": 0.05901438370347023,
+          "ratio": 0.5500693974977977,
+          "leak": 0.174492994690039,
+          "p95_inside": 0.22026144340634346
+        }
+      ]
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 0.40580836171642615,
+          "inside_diff": 0.017580277286469936,
+          "outside_diff": 0.05891675502061844,
+          "contrast": 0.03501529386267066,
+          "ratio": 0.2968459270338957,
+          "leak": 0.2669217617845803,
+          "p95_inside": 0.05686274170875549
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 1.263552136743535,
+          "inside_diff": 0.012135758996009827,
+          "outside_diff": 0.08666642755270004,
+          "contrast": 0.07558491639792919,
+          "ratio": 0.13183242152820007,
+          "leak": 1.0228609420549277e-05,
+          "p95_inside": 0.024836601689457893
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 1.051065050699288,
+          "inside_diff": 0.023473523557186127,
+          "outside_diff": 0.07435258105397224,
+          "contrast": 0.053054284770041704,
+          "ratio": 0.25105730497121037,
+          "leak": 0.017219839370075155,
+          "p95_inside": 0.049673205241560936
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 0.6086161399871571,
+          "inside_diff": 0.022411317564547062,
+          "outside_diff": 0.04979906976222992,
+          "contrast": 0.03660978842526674,
+          "ratio": 0.3206701690929857,
+          "leak": 0.15979692875723756,
+          "p95_inside": 0.05424836464226246
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 13,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 13,
+          "total": 1.191713296100453,
+          "inside_diff": 0.012813244014978409,
+          "outside_diff": 0.08746175467967987,
+          "contrast": 0.06258203461766243,
+          "ratio": 0.15011654099376,
+          "leak": 0.004131680661068906,
+          "p95_inside": 0.033986929804086685
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 0.5577618241919164,
+          "inside_diff": 0.032387927174568176,
+          "outside_diff": 0.07349908351898193,
+          "contrast": 0.04111115634441376,
+          "ratio": 0.4406575650185304,
+          "leak": 0.10139781850750088,
+          "p95_inside": 0.06797385960817337
+        }
+      ]
+    },
+    {
+      "vehicle": "luka",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.0955306962195435,
+          "inside_diff": 0.01708592101931572,
+          "outside_diff": 0.08388996869325638,
+          "contrast": 0.06680404767394066,
+          "ratio": 0.20367060907830803,
+          "leak": 0.01814685540689031,
+          "p95_inside": 0.048366010189056396
+        }
+      ]
+    },
+    {
+      "vehicle": "manolio",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": -0.44103813687757376,
+          "inside_diff": 0.09932614862918854,
+          "outside_diff": 0.1164579913020134,
+          "contrast": 0.01713184267282486,
+          "ratio": 0.853647503959003,
+          "leak": 0.2861525140701342,
+          "p95_inside": 0.19150326400995255
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 13,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 13,
+          "total": 0.9453281309086922,
+          "inside_diff": 0.023113513365387917,
+          "outside_diff": 0.08568820357322693,
+          "contrast": 0.05979129858314991,
+          "ratio": 0.2731525715803867,
+          "leak": 0.04270799398085664,
+          "p95_inside": 0.056209150701761246
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 17,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 17,
+          "total": 0.8399693130472465,
+          "inside_diff": 0.02473442070186138,
+          "outside_diff": 0.11314362287521362,
+          "contrast": 0.06492661871016026,
+          "ratio": 0.28759139366108677,
+          "leak": 0.0726457012208274,
+          "p95_inside": 0.06666667014360428
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.7244455431949084,
+          "inside_diff": 0.01805344969034195,
+          "outside_diff": 0.05794515833258629,
+          "contrast": 0.03643010929226875,
+          "ratio": 0.35292072834444965,
+          "leak": 0.04732897573662777,
+          "p95_inside": 0.03790849819779396
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 1.1293539860867048,
+          "inside_diff": 0.024945535697042942,
+          "outside_diff": 0.1156790480017662,
+          "contrast": 0.07091098837554455,
+          "ratio": 0.18987086894506186,
+          "leak": 0.015838864172319063,
+          "p95_inside": 0.059477122500538826
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 1.1838711372113015,
+          "inside_diff": 0.013753459323197603,
+          "outside_diff": 0.08931902796030045,
+          "contrast": 0.07252034032717347,
+          "ratio": 0.1708239773637455,
+          "leak": 0.003902838427947598,
+          "p95_inside": 0.03333333320915699
+        }
+      ]
+    },
+    {
+      "vehicle": "mika",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 9,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 9,
+          "total": 0.6424337789224921,
+          "inside_diff": 0.03895263746380806,
+          "outside_diff": 0.10796500742435455,
+          "contrast": 0.07207793742418289,
+          "ratio": 0.35498932639650127,
+          "leak": 0.17779136519582867,
+          "p95_inside": 0.08496731519699097
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.1498147894090345,
+          "inside_diff": 0.011752715334296227,
+          "outside_diff": 0.07566272467374802,
+          "contrast": 0.06391000933945179,
+          "ratio": 0.15533032130382632,
+          "leak": 0.019916288803627485,
+          "p95_inside": 0.0313725508749485
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.051753652432078,
+          "inside_diff": 0.010983833111822605,
+          "outside_diff": 0.05512399785220623,
+          "contrast": 0.044140164740383625,
+          "ratio": 0.20284701364342136,
+          "leak": 0.011925866236905721,
+          "p95_inside": 0.02679738588631153
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.9679109821035123,
+          "inside_diff": 0.009207300608977675,
+          "outside_diff": 0.05739811807870865,
+          "contrast": 0.04819081746973097,
+          "ratio": 0.19234669780826474,
+          "leak": 0.0655697750311883,
+          "p95_inside": 0.02941176574677229
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.3752363809883217,
+          "inside_diff": 0.013740778900682926,
+          "outside_diff": 0.12293814867734909,
+          "contrast": 0.10919736977666616,
+          "ratio": 0.11176985377212383,
+          "leak": 0.00029242209040020054,
+          "p95_inside": 0.03529411926865578
+        }
+      ]
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "right_fwd",
+      "chosen": "zero",
+      "reason": "no_artifact",
+      "n_samples": 0
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 1.2571581030797847,
+          "inside_diff": 0.006387237925082445,
+          "outside_diff": 0.06946634501218796,
+          "contrast": 0.0626576580107212,
+          "ratio": 0.09801418226728581,
+          "leak": 0.004059068699465683,
+          "p95_inside": 0.01568627543747425
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 0.17469192071036965,
+          "inside_diff": 0.04674071818590164,
+          "outside_diff": 0.08289791643619537,
+          "contrast": 0.04737222194671631,
+          "ratio": 0.502433837358844,
+          "leak": 0.25251350796799127,
+          "p95_inside": 0.08496731519699097
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.3518444826304703,
+          "inside_diff": 0.02681453339755535,
+          "outside_diff": 0.11828593164682388,
+          "contrast": 0.10837508551776409,
+          "ratio": 0.1723611400190053,
+          "leak": 0.001705477205641194,
+          "p95_inside": 0.048366010189056396
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.6161413745316999,
+          "inside_diff": 0.024522842140868306,
+          "outside_diff": 0.089932631701231,
+          "contrast": 0.0654097895603627,
+          "ratio": 0.34082329611608136,
+          "leak": 0.17313171832748564,
+          "p95_inside": 0.04967320431023836
+        }
+      ]
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "right_bwd",
+      "status": "reject_black",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": -0.15291436551716409,
+          "inside_diff": 0.08150199055671692,
+          "outside_diff": 0.13653023540973663,
+          "contrast": 0.043428100645542145,
+          "ratio": 0.7054883420025528,
+          "leak": 0.26219848408786034,
+          "p95_inside": 0.33986926078796387
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 1.218367682060555,
+          "inside_diff": 0.016378233674913645,
+          "outside_diff": 0.12284325435757637,
+          "contrast": 0.10284100566059351,
+          "ratio": 0.19497931322710899,
+          "leak": 0.01175021075157253,
+          "p95_inside": 0.041830066591501236
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 0.6585265125182918,
+          "inside_diff": 0.03639010060578585,
+          "outside_diff": 0.07557399570941925,
+          "contrast": 0.045648268423974514,
+          "ratio": 0.38275136726303227,
+          "leak": 0.10364338532467143,
+          "p95_inside": 0.088235292583704
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 1.0111513253720867,
+          "inside_diff": 0.027666503563523293,
+          "outside_diff": 0.09927599877119064,
+          "contrast": 0.07160949520766735,
+          "ratio": 0.2092833380545455,
+          "leak": 0.017308698627379947,
+          "p95_inside": 0.06928104162216187
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 1.0561026369553095,
+          "inside_diff": 0.024655602872371674,
+          "outside_diff": 0.08956465870141983,
+          "contrast": 0.05992648331448436,
+          "ratio": 0.23538004248352357,
+          "leak": 0.022871842469534883,
+          "p95_inside": 0.060784315690398216
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.811563777792195,
+          "inside_diff": 0.04114251770079136,
+          "outside_diff": 0.11009421199560165,
+          "contrast": 0.0689516942948103,
+          "ratio": 0.34095574951279345,
+          "leak": 0.06676501486398892,
+          "p95_inside": 0.10522875189781189
+        }
+      ]
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "right_fwd",
+      "chosen": "zero",
+      "reason": "no_artifact",
+      "n_samples": 0
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 12,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 12,
+          "total": 1.0389580191271968,
+          "inside_diff": 0.020677599124610424,
+          "outside_diff": 0.10037196800112724,
+          "contrast": 0.07467140816152096,
+          "ratio": 0.23610305980307594,
+          "leak": 0.03394686281420175,
+          "p95_inside": 0.06078431382775307
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 16,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 16,
+          "total": 1.0222273142230127,
+          "inside_diff": 0.015702323988080025,
+          "outside_diff": 0.07754772529006004,
+          "contrast": 0.05395730072632432,
+          "ratio": 0.21707801127914073,
+          "leak": 0.017961081453418286,
+          "p95_inside": 0.04183006472885609
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 0.8454597104844144,
+          "inside_diff": 0.026100303046405315,
+          "outside_diff": 0.09939255937933922,
+          "contrast": 0.062245008535683155,
+          "ratio": 0.26164195715892336,
+          "leak": 0.06722362128972015,
+          "p95_inside": 0.06535947509109974
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 22,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 22,
+          "total": 0.9042478385160617,
+          "inside_diff": 0.031289245933294296,
+          "outside_diff": 0.09849674254655838,
+          "contrast": 0.0567240419331938,
+          "ratio": 0.2920071065399821,
+          "leak": 0.059043155834792464,
+          "p95_inside": 0.08562091365456581
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 1.0466484290392353,
+          "inside_diff": 0.01959115080535412,
+          "outside_diff": 0.09811685979366302,
+          "contrast": 0.06269926205277443,
+          "ratio": 0.23459531943452006,
+          "leak": 0.013684459419518827,
+          "p95_inside": 0.04771241918206215
+        }
+      ]
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 0.7315085585344275,
+          "inside_diff": 0.03698796033859253,
+          "outside_diff": 0.11486486345529556,
+          "contrast": 0.07217375701293349,
+          "ratio": 0.33388850251517155,
+          "leak": 0.10444839011398405,
+          "p95_inside": 0.1294117607176304
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 0.8805348103134483,
+          "inside_diff": 0.02386399544775486,
+          "outside_diff": 0.07213595509529114,
+          "contrast": 0.052356308326125145,
+          "ratio": 0.31309236864958323,
+          "leak": 0.03799333529798472,
+          "p95_inside": 0.04967320337891579
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 0.9659800947475682,
+          "inside_diff": 0.013935907743871212,
+          "outside_diff": 0.0677463561296463,
+          "contrast": 0.05866475310176611,
+          "ratio": 0.22108306711191086,
+          "leak": 0.04918479082851871,
+          "p95_inside": 0.03529411926865578
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 6,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 6,
+          "total": 0.46478106723326146,
+          "inside_diff": 0.03153783269226551,
+          "outside_diff": 0.069987703114748,
+          "contrast": 0.03090315475128591,
+          "ratio": 0.3895511906548269,
+          "leak": 0.18787010192432468,
+          "p95_inside": 0.08300653658807278
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.2900932845686968,
+          "inside_diff": 0.009951019659638405,
+          "outside_diff": 0.08968144655227661,
+          "contrast": 0.0797304268926382,
+          "ratio": 0.11095962478524264,
+          "leak": 0.0011104780288142884,
+          "p95_inside": 0.027450980618596077
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": -0.5619387821258667,
+          "inside_diff": 0.08904922381043434,
+          "outside_diff": 0.11355693265795708,
+          "contrast": 0.024507708847522736,
+          "ratio": 0.8047648292578118,
+          "leak": 0.3763753245147732,
+          "p95_inside": 0.23398692905902863
+        }
+      ]
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.8976100373769242,
+          "inside_diff": 0.02325976826250553,
+          "outside_diff": 0.07810603827238083,
+          "contrast": 0.05739060789346695,
+          "ratio": 0.322895082470882,
+          "leak": 0.07169781185114199,
+          "p95_inside": 0.05228758230805397
+        }
+      ]
+    },
+    {
+      "vehicle": "right",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 3,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 3,
+          "total": 1.4751410848592137,
+          "inside_diff": 0.009485235437750816,
+          "outside_diff": 0.12979574501514435,
+          "contrast": 0.12385184830054641,
+          "ratio": 0.07085204041084928,
+          "leak": 0.00029200490568241546,
+          "p95_inside": 0.024836601689457893
+        }
+      ]
+    },
+    {
+      "vehicle": "right",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 1.0527343626577377,
+          "inside_diff": 0.012239639181643724,
+          "outside_diff": 0.0656195655465126,
+          "contrast": 0.05337992636486888,
+          "ratio": 0.1839043953180013,
+          "leak": 0.03486333927510398,
+          "p95_inside": 0.03398692701011896
+        }
+      ]
+    },
+    {
+      "vehicle": "right",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 1.3619456928888705,
+          "inside_diff": 0.006388858892023563,
+          "outside_diff": 0.10184209793806076,
+          "contrast": 0.09119635354727507,
+          "ratio": 0.06511380194676972,
+          "leak": 0.00045564062381343585,
+          "p95_inside": 0.01568627543747425
+        }
+      ]
+    },
+    {
+      "vehicle": "right",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 1.2136340203472933,
+          "inside_diff": 0.021344405598938465,
+          "outside_diff": 0.12832511216402054,
+          "contrast": 0.10698070656508207,
+          "ratio": 0.16641064025183616,
+          "leak": 0.03461856744414135,
+          "p95_inside": 0.07712418586015701
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 12,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 12,
+          "total": 1.1911209258987734,
+          "inside_diff": 0.015042179264128208,
+          "outside_diff": 0.08342346176505089,
+          "contrast": 0.07236068788915873,
+          "ratio": 0.15713550575699964,
+          "leak": 0.010047059502843781,
+          "p95_inside": 0.03921568766236305
+        },
+        {
+          "tag": "v2",
+          "n_samples": 12,
+          "total": 1.1911209258987734,
+          "inside_diff": 0.015042179264128208,
+          "outside_diff": 0.08342346176505089,
+          "contrast": 0.07236068788915873,
+          "ratio": 0.15713550575699964,
+          "leak": 0.010047059502843781,
+          "p95_inside": 0.03921568766236305
+        },
+        {
+          "tag": "v3",
+          "n_samples": 12,
+          "total": 1.1633475006393739,
+          "inside_diff": 0.015332793816924095,
+          "outside_diff": 0.08639759570360184,
+          "contrast": 0.07474015234038234,
+          "ratio": 0.1622583455491809,
+          "leak": 0.014750647668393783,
+          "p95_inside": 0.04183006472885609
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 5,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 5,
+          "total": 0.9445205136773098,
+          "inside_diff": 0.019199911504983902,
+          "outside_diff": 0.09980368614196777,
+          "contrast": 0.06023272126913071,
+          "ratio": 0.24751181828255103,
+          "leak": 0.053645308208462264,
+          "p95_inside": 0.05098039284348488
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 0.8091231361820344,
+          "inside_diff": 0.024076555855572224,
+          "outside_diff": 0.10237623751163483,
+          "contrast": 0.07498026965186,
+          "ratio": 0.2641822681001757,
+          "leak": 0.09901416539050537,
+          "p95_inside": 0.08235294185578823
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 13,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 13,
+          "total": 1.424993646587252,
+          "inside_diff": 0.00834751408547163,
+          "outside_diff": 0.11875870078802109,
+          "contrast": 0.10389598365873098,
+          "ratio": 0.07426101369251369,
+          "leak": 0.00018451461125077842,
+          "p95_inside": 0.020915033295750618
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 9,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 9,
+          "total": 1.0830549880319191,
+          "inside_diff": 0.027695942670106888,
+          "outside_diff": 0.11653829365968704,
+          "contrast": 0.09366427175700665,
+          "ratio": 0.2645332639351745,
+          "leak": 0.03977915432265015,
+          "p95_inside": 0.09019608050584793
+        }
+      ]
+    },
+    {
+      "vehicle": "robb",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 13,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 13,
+          "total": 1.1206767665977484,
+          "inside_diff": 0.03150113672018051,
+          "outside_diff": 0.12999334931373596,
+          "contrast": 0.09218423068523407,
+          "ratio": 0.26398655047182046,
+          "leak": 0.04411779145923547,
+          "p95_inside": 0.09150326997041702
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 1.120551775773425,
+          "inside_diff": 0.02035214751958847,
+          "outside_diff": 0.10661323368549347,
+          "contrast": 0.09180126897990704,
+          "ratio": 0.21025070454354186,
+          "leak": 0.024274144426647416,
+          "p95_inside": 0.06143790856003761
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.9315481225812772,
+          "inside_diff": 0.01828053593635559,
+          "outside_diff": 0.09900196641683578,
+          "contrast": 0.07319180853664875,
+          "ratio": 0.2604782247393757,
+          "leak": 0.07461526503963936,
+          "p95_inside": 0.04313725605607033
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 14,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 14,
+          "total": 0.9791648999950255,
+          "inside_diff": 0.028189243748784065,
+          "outside_diff": 0.11827879771590233,
+          "contrast": 0.0843826774507761,
+          "ratio": 0.252206984644539,
+          "leak": 0.058413567205025316,
+          "p95_inside": 0.08039215579628944
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 11,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 11,
+          "total": 1.345145106872434,
+          "inside_diff": 0.016559725627303123,
+          "outside_diff": 0.10668709874153137,
+          "contrast": 0.09739688411355019,
+          "ratio": 0.12887820999790903,
+          "leak": 0.0010101345738494766,
+          "p95_inside": 0.040522873401641846
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 1.11161640198986,
+          "inside_diff": 0.033709973096847534,
+          "outside_diff": 0.12859942018985748,
+          "contrast": 0.09758416190743446,
+          "ratio": 0.2201410112345251,
+          "leak": 0.04625302175664786,
+          "p95_inside": 0.09738561883568764
+        }
+      ]
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 1.006855421284221,
+          "inside_diff": 0.03417850285768509,
+          "outside_diff": 0.12922081351280212,
+          "contrast": 0.09851650521159172,
+          "ratio": 0.2848200854194333,
+          "leak": 0.051971778974169595,
+          "p95_inside": 0.10457516461610794
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 16,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 16,
+          "total": 1.082010466687179,
+          "inside_diff": 0.013358534779399633,
+          "outside_diff": 0.08601515367627144,
+          "contrast": 0.06599535210989416,
+          "ratio": 0.17564719834811482,
+          "leak": 0.02119606886457099,
+          "p95_inside": 0.04248366132378578
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 0.7740931931937494,
+          "inside_diff": 0.043737937696278095,
+          "outside_diff": 0.10213842242956161,
+          "contrast": 0.06096862116828561,
+          "ratio": 0.3769661526953033,
+          "leak": 0.07093836051683966,
+          "p95_inside": 0.08235294185578823
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 19,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 19,
+          "total": 0.655911963353105,
+          "inside_diff": 0.03761604055762291,
+          "outside_diff": 0.10169161111116409,
+          "contrast": 0.05556485056877136,
+          "ratio": 0.3888092378784572,
+          "leak": 0.08214126445061919,
+          "p95_inside": 0.1267973780632019
+        },
+        {
+          "tag": "v2",
+          "n_samples": 19,
+          "total": 0.655911963353105,
+          "inside_diff": 0.03761604055762291,
+          "outside_diff": 0.10169161111116409,
+          "contrast": 0.05556485056877136,
+          "ratio": 0.3888092378784572,
+          "leak": 0.08214126445061919,
+          "p95_inside": 0.1267973780632019
+        },
+        {
+          "tag": "v3",
+          "n_samples": 19,
+          "total": 0.3597544278694939,
+          "inside_diff": 0.05009885132312775,
+          "outside_diff": 0.10146059840917587,
+          "contrast": 0.04560503363609314,
+          "ratio": 0.49674309709735814,
+          "leak": 0.1564083136485864,
+          "p95_inside": 0.1921568661928177
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 16,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 16,
+          "total": 1.0121468674806755,
+          "inside_diff": 0.029754018411040306,
+          "outside_diff": 0.1072530709207058,
+          "contrast": 0.07523665949702263,
+          "ratio": 0.28071310319710724,
+          "leak": 0.020905519375120078,
+          "p95_inside": 0.06666666828095913
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 19,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 19,
+          "total": 1.0449928824827635,
+          "inside_diff": 0.02856624498963356,
+          "outside_diff": 0.1062585711479187,
+          "contrast": 0.07364955544471741,
+          "ratio": 0.25216188615048507,
+          "leak": 0.01529039070749736,
+          "p95_inside": 0.06797385960817337
+        }
+      ]
+    },
+    {
+      "vehicle": "soan",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 16,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 16,
+          "total": 0.6756845152510107,
+          "inside_diff": 0.03816133737564087,
+          "outside_diff": 0.12169007584452629,
+          "contrast": 0.07258673012256622,
+          "ratio": 0.3562416500278808,
+          "leak": 0.09765669113495201,
+          "p95_inside": 0.11372549086809158
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 8,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 8,
+          "total": 0.7224564694667238,
+          "inside_diff": 0.04237787891179323,
+          "outside_diff": 0.09251118078827858,
+          "contrast": 0.057813233230262995,
+          "ratio": 0.41919904459084656,
+          "leak": 0.05628506625283514,
+          "p95_inside": 0.07647058553993702
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 9,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 9,
+          "total": -0.4937002566738134,
+          "inside_diff": 0.06216781958937645,
+          "outside_diff": 0.09089457988739014,
+          "contrast": 0.02145843207836151,
+          "ratio": 0.7788035801641751,
+          "leak": 0.3659354629304049,
+          "p95_inside": 0.16339869797229767
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.532456533024297,
+          "inside_diff": 0.03390602022409439,
+          "outside_diff": 0.06981911510229111,
+          "contrast": 0.036443594843149185,
+          "ratio": 0.386842873222287,
+          "leak": 0.1810646102301938,
+          "p95_inside": 0.10849673300981522
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 9,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 9,
+          "total": 1.1733382302184072,
+          "inside_diff": 0.030163684859871864,
+          "outside_diff": 0.11462335288524628,
+          "contrast": 0.09002115996554494,
+          "ratio": 0.23480747938584104,
+          "leak": 0.0067750576402205625,
+          "p95_inside": 0.07450980693101883
+        }
+      ]
+    },
+    {
+      "vehicle": "susana",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 9,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 9,
+          "total": -0.22891037058647667,
+          "inside_diff": 0.07946743071079254,
+          "outside_diff": 0.11427872627973557,
+          "contrast": 0.03569040820002556,
+          "ratio": 0.6348532113546412,
+          "leak": 0.26571863890299646,
+          "p95_inside": 0.20261438190937042
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 1.0611380806082054,
+          "inside_diff": 0.02934400923550129,
+          "outside_diff": 0.11057671904563904,
+          "contrast": 0.07595252804458141,
+          "ratio": 0.23447924977164986,
+          "leak": 0.03901081842714876,
+          "p95_inside": 0.0869281068444252
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "left_bwd",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 0.8812000830459608,
+          "inside_diff": 0.03973766043782234,
+          "outside_diff": 0.11475146934390068,
+          "contrast": 0.07968235574662685,
+          "ratio": 0.33148338110243547,
+          "leak": 0.0716284729263841,
+          "p95_inside": 0.15032680332660675
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 10,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 10,
+          "total": 0.9817185034184253,
+          "inside_diff": 0.03366220183670521,
+          "outside_diff": 0.09556328132748604,
+          "contrast": 0.06768012419342995,
+          "ratio": 0.29243531428436875,
+          "leak": 0.026940074649080624,
+          "p95_inside": 0.07777777686715126
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 11,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 11,
+          "total": 1.2324032955277777,
+          "inside_diff": 0.012931551784276962,
+          "outside_diff": 0.08937845379114151,
+          "contrast": 0.07562151737511158,
+          "ratio": 0.140577889260764,
+          "leak": 0.003347028004975312,
+          "p95_inside": 0.02875817008316517
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 14,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 14,
+          "total": 0.9183524347573642,
+          "inside_diff": 0.033946139737963676,
+          "outside_diff": 0.11702537536621094,
+          "contrast": 0.08392692916095257,
+          "ratio": 0.2844573267740028,
+          "leak": 0.03799065827265079,
+          "p95_inside": 0.09346405044198036
+        }
+      ]
+    },
+    {
+      "vehicle": "targi",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 11,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 11,
+          "total": 0.9176946223686918,
+          "inside_diff": 0.03568004071712494,
+          "outside_diff": 0.110258087515831,
+          "contrast": 0.07603927422314882,
+          "ratio": 0.2991259362250806,
+          "leak": 0.04990865063944552,
+          "p95_inside": 0.09150326997041702
+        }
+      ]
+    },
+    {
+      "vehicle": "washam",
+      "camera": "right_bwd",
+      "status": "approved",
+      "n_samples": 2,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 2,
+          "total": 0.7835077316165513,
+          "inside_diff": 0.033766559325158596,
+          "outside_diff": 0.10994046181440353,
+          "contrast": 0.07617390248924494,
+          "ratio": 0.3042884098206922,
+          "leak": 0.10496662292463058,
+          "p95_inside": 0.13986927643418312
+        }
+      ]
+    },
+    {
+      "vehicle": "weel",
+      "camera": "front",
+      "status": "approved",
+      "n_samples": 1,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 1,
+          "total": 1.3869273991373738,
+          "inside_diff": 0.00724463164806366,
+          "outside_diff": 0.10109291225671768,
+          "contrast": 0.09384828060865402,
+          "ratio": 0.07166310165906067,
+          "leak": 0.0003892914894891298,
+          "p95_inside": 0.01568627543747425
+        }
+      ]
+    },
+    {
+      "vehicle": "weel",
+      "camera": "left_fwd",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": -0.07460978078530123,
+          "inside_diff": 0.0551319494843483,
+          "outside_diff": 0.08451397716999054,
+          "contrast": 0.032844001427292824,
+          "ratio": 0.6070686172767078,
+          "leak": 0.285565016148253,
+          "p95_inside": 0.17189542576670647
+        }
+      ]
+    },
+    {
+      "vehicle": "weel",
+      "camera": "rear",
+      "status": "approved",
+      "n_samples": 4,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 4,
+          "total": 1.270684830018511,
+          "inside_diff": 0.007762817665934563,
+          "outside_diff": 0.08787611871957779,
+          "contrast": 0.06791927386075258,
+          "ratio": 0.07704666852035838,
+          "leak": 0.003114255657617899,
+          "p95_inside": 0.020261438097804785
+        }
+      ]
+    },
+    {
+      "vehicle": "weel",
+      "camera": "right_fwd",
+      "status": "approved",
+      "n_samples": 7,
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked": [
+        {
+          "tag": "current",
+          "n_samples": 7,
+          "total": 0.5545096779939225,
+          "inside_diff": 0.037635233253240585,
+          "outside_diff": 0.12289593368768692,
+          "contrast": 0.0287180058658123,
+          "ratio": 0.29400280532793643,
+          "leak": 0.18045919462127172,
+          "p95_inside": 0.11503268033266068
+        }
+      ]
+    }
+  ]
+}

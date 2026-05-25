@@ -1,0 +1,324 @@
+{
+  "variants_dir": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants",
+  "dop_dir": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп",
+  "force_art_red_vehicles": [
+    "crozby",
+    "kynde"
+  ],
+  "force_approved_red": [
+    "bett_left_bwd",
+    "bett_right_fwd",
+    "floi_front",
+    "hanna_right_fwd",
+    "jurita_left_fwd",
+    "jurita_rear",
+    "natelio_right_bwd",
+    "rickie_right_bwd",
+    "targi_left_bwd",
+    "weel_front"
+  ],
+  "auto_two_variant": [
+    "badat_front",
+    "crozby_front",
+    "leid_front",
+    "robb_front"
+  ],
+  "dop_default_variant": {
+    "baland_right_fwd": 3,
+    "greton_left_bwd": 3,
+    "soan_left_fwd": 2
+  },
+  "two_variant_default": 2,
+  "overrides": {
+    "bett_left_bwd": "force_approved_red",
+    "bett_right_fwd": "force_approved_red",
+    "floi_front": "force_approved_red",
+    "hanna_right_fwd": "force_approved_red",
+    "jurita_left_fwd": "force_approved_red",
+    "jurita_rear": "force_approved_red",
+    "natelio_right_bwd": "force_approved_red",
+    "rickie_right_bwd": "force_approved_red",
+    "targi_left_bwd": "force_approved_red",
+    "weel_front": "force_approved_red"
+  },
+  "groups": [
+    {
+      "vehicle": "badat",
+      "camera": "front",
+      "default_variant": 2,
+      "variants": [
+        {
+          "variant": 2,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\badat_front 2.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\badat_front_v2.png",
+          "mode": "red",
+          "mask_pct": 0.12030964872262774,
+          "red_px": 67510,
+          "black_px": 0
+        },
+        {
+          "variant": 3,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\badat_front 3.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\badat_front_v3.png",
+          "mode": "red_plus_black",
+          "mask_pct": 0.13578495666058393,
+          "red_px": 67510,
+          "black_px": 8507
+        }
+      ],
+      "override": null
+    },
+    {
+      "vehicle": "baland",
+      "camera": "right_fwd",
+      "default_variant": 3,
+      "variants": [
+        {
+          "variant": 2,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\baland_right_fwd 2.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\baland_right_fwd_v2.png",
+          "mode": "black",
+          "mask_pct": 0.17960611979166666,
+          "red_px": 0,
+          "black_px": 99300
+        },
+        {
+          "variant": 3,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\baland_right_fwd 3.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\baland_right_fwd_v3.png",
+          "mode": "red",
+          "mask_pct": 0.15485387731481481,
+          "red_px": 85622,
+          "black_px": 0
+        }
+      ],
+      "override": null
+    },
+    {
+      "vehicle": "bett",
+      "camera": "left_bwd",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "bett",
+      "camera": "right_fwd",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "front",
+      "default_variant": 2,
+      "variants": [
+        {
+          "variant": 2,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\crozby_front 2.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\crozby_front_v2.png",
+          "mode": "red",
+          "mask_pct": 0.15632512019230768,
+          "red_px": 87402,
+          "black_px": 0
+        },
+        {
+          "variant": 3,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\crozby_front 3.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\crozby_front_v3.png",
+          "mode": "red_plus_black",
+          "mask_pct": 0.17064803685897437,
+          "red_px": 87402,
+          "black_px": 7853
+        }
+      ],
+      "override": null
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "rear",
+      "default_variant": 3,
+      "variants": [
+        {
+          "variant": 2,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\crozby_rear 2.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\crozby_rear_v2.png",
+          "mode": "black",
+          "mask_pct": 0.28106372974537036,
+          "red_px": 0,
+          "black_px": 155416
+        },
+        {
+          "variant": 3,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\crozby_rear 3.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\crozby_rear_v3.png",
+          "mode": "red",
+          "mask_pct": 0.21788917824074075,
+          "red_px": 120483,
+          "black_px": 0
+        }
+      ],
+      "override": null
+    },
+    {
+      "vehicle": "floi",
+      "camera": "front",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "greton",
+      "camera": "left_bwd",
+      "default_variant": 3,
+      "variants": [
+        {
+          "variant": 2,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\greton_left_bwd 2.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\greton_left_bwd_v2.png",
+          "mode": "black",
+          "mask_pct": 0.09235848786630037,
+          "red_px": 0,
+          "black_px": 51635
+        },
+        {
+          "variant": 3,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\greton_left_bwd 3.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\greton_left_bwd_v3.png",
+          "mode": "red",
+          "mask_pct": 0.08508434924450549,
+          "red_px": 47568,
+          "black_px": 0
+        }
+      ],
+      "override": null
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "right_fwd",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "left_fwd",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "rear",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "leid",
+      "camera": "front",
+      "default_variant": 2,
+      "variants": [
+        {
+          "variant": 2,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\leid_front 2.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\leid_front_v2.png",
+          "mode": "red",
+          "mask_pct": 0.12775619562728938,
+          "red_px": 71426,
+          "black_px": 1
+        },
+        {
+          "variant": 3,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\leid_front 3.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\leid_front_v3.png",
+          "mode": "red_plus_black",
+          "mask_pct": 0.16220774668040294,
+          "red_px": 71426,
+          "black_px": 19120
+        }
+      ],
+      "override": null
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "right_bwd",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "right_bwd",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "robb",
+      "camera": "front",
+      "default_variant": 2,
+      "variants": [
+        {
+          "variant": 2,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\robb_front 2.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\robb_front_v2.png",
+          "mode": "red",
+          "mask_pct": 0.12435733570772059,
+          "red_px": 69274,
+          "black_px": 0
+        },
+        {
+          "variant": 3,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\robb_front 3.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\robb_front_v3.png",
+          "mode": "red_plus_black",
+          "mask_pct": 0.16630284926470587,
+          "red_px": 69274,
+          "black_px": 23232
+        }
+      ],
+      "override": null
+    },
+    {
+      "vehicle": "soan",
+      "camera": "left_fwd",
+      "default_variant": 2,
+      "variants": [
+        {
+          "variant": 2,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\soan_left_fwd 2.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\soan_left_fwd_v2.png",
+          "mode": "red_plus_black",
+          "mask_pct": 0.10543619791666667,
+          "red_px": 53880,
+          "black_px": 2176
+        },
+        {
+          "variant": 3,
+          "art_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\mean mask art\\доп\\soan_left_fwd 3.png",
+          "mask_png": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_variants\\soan_left_fwd_v3.png",
+          "mode": "black",
+          "mask_pct": 0.121728515625,
+          "red_px": 0,
+          "black_px": 62922
+        }
+      ],
+      "override": null
+    },
+    {
+      "vehicle": "targi",
+      "camera": "left_bwd",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    },
+    {
+      "vehicle": "weel",
+      "camera": "front",
+      "default_variant": null,
+      "variants": [],
+      "override": "force_approved_red"
+    }
+  ]
+}

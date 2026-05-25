@@ -1,0 +1,26 @@
+[
+  {
+    "vehicle": "hilma",
+    "camera": "right_fwd",
+    "n_scenes": 35,
+    "n_flow": 15,
+    "otsu_thr": 43.9425048828125,
+    "std_cov": 0.21168077256944445,
+    "edge_cov": 0.0029097945601851854,
+    "flow_cov": 0.1370135271990741,
+    "combined_cov": 0.11230107060185185,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\consistent_edges\\multi_signals\\hilma_right_fwd_signals.png"
+  },
+  {
+    "vehicle": "hilma",
+    "camera": "front",
+    "n_scenes": 15,
+    "n_flow": 15,
+    "otsu_thr": 37.53471755981445,
+    "std_cov": 0.16054579790900736,
+    "edge_cov": 0.0,
+    "flow_cov": 0.24534696691176472,
+    "combined_cov": 0.15803079044117646,
+    "viz": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_artifacts_v2_test\\consistent_edges\\multi_signals\\hilma_front_signals.png"
+  }
+]

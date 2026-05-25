@@ -1,0 +1,5 @@
+path: C:/Users/adel/Documents/GitHub/YA-/methods_gallery/_ego_manual_masks/yolo_ego_artifact
+train: images/train
+val: images/val
+names:
+  0: ego_artifact

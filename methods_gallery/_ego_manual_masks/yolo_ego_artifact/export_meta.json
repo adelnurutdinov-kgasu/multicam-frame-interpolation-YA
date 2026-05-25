@@ -1,0 +1,9 @@
+{
+  "n_samples": 161,
+  "n_train": 137,
+  "n_val": 24,
+  "n_groups": 16,
+  "forced": [
+    "crozby_right_fwd"
+  ]
+}

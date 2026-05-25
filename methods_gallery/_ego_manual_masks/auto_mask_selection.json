@@ -1,0 +1,5106 @@
+{
+  "n_groups": 135,
+  "n_changed": 0,
+  "applied": true,
+  "items": [
+    {
+      "vehicle": "anabel",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.0698040764992611
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.8898040764992612,
+          "static": 0.10934842522141841,
+          "leak": 0.187968682897823,
+          "boundary_persist": 0.6504551365409623,
+          "iou_auto": 0.07927047922314501,
+          "anchor_overlap": 1.0,
+          "coverage": 0.05394438583485402,
+          "inside_std": 20.281089782714844
+        },
+        "auto_std": {
+          "total": 1.7553517128895846,
+          "static": 0.13373947814144693,
+          "leak": 0.04639981366872962,
+          "boundary_persist": 0.6412877308486303,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9107439941438744,
+          "coverage": 0.21423072536496351,
+          "inside_std": 19.725679397583008
+        }
+      }
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.8453431642500302
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.6653431642500303,
+          "static": 0.2524665590937307,
+          "leak": 0.05990272804674652,
+          "boundary_persist": 0.6502920870950611,
+          "iou_auto": 0.45428319643510356,
+          "anchor_overlap": 0.7198707705944786,
+          "coverage": 0.15505461516203703,
+          "inside_std": 33.66245651245117
+        },
+        "auto_std": {
+          "total": 2.3028368120841236,
+          "static": 0.3137495018934825,
+          "leak": 0.0,
+          "boundary_persist": 0.6514589931936114,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9213122841637889,
+          "coverage": 0.1612919560185185,
+          "inside_std": 30.902801513671875
+        }
+      }
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.8840693422671844
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7040693422671844,
+          "static": 0.1657831826800522,
+          "leak": 0.04883576392594592,
+          "boundary_persist": 0.6498241341991342,
+          "iou_auto": 0.6125523767041707,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2880660445601852,
+          "inside_std": 22.53813934326172
+        },
+        "auto_std": {
+          "total": 2.176312468819004,
+          "static": 0.2722515336305876,
+          "leak": 0.0,
+          "boundary_persist": 0.6454042154362561,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3264775028935185,
+          "inside_std": 19.661670684814453
+        }
+      }
+    },
+    {
+      "vehicle": "anabel",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6704044378791576
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4904044378791577,
+          "static": 0.19431572103127215,
+          "leak": 0.07582737622451681,
+          "boundary_persist": 0.6506332931242461,
+          "iou_auto": 0.2932813875517429,
+          "anchor_overlap": 1.0,
+          "coverage": 0.0675545157967033,
+          "inside_std": 37.64500045776367
+        },
+        "auto_std": {
+          "total": 2.229337903962474,
+          "static": 0.28751215252434503,
+          "leak": 0.0,
+          "boundary_persist": 0.6523578031786511,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8929667876081496,
+          "coverage": 0.17943709935897437,
+          "inside_std": 33.29046630859375
+        }
+      }
+    },
+    {
+      "vehicle": "aucel",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          -0.16238164049152964
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.34238164049152964,
+          "static": 0.0,
+          "leak": 0.6233441757412908,
+          "boundary_persist": 0.6497730711043873,
+          "iou_auto": 0.06311397449337341,
+          "anchor_overlap": 1.0,
+          "coverage": 0.03794106284340659,
+          "inside_std": 26.870851516723633
+        },
+        "auto_std": {
+          "total": 2.1551648173205273,
+          "static": 0.2526519069187919,
+          "leak": 0.0,
+          "boundary_persist": 0.6511737754475462,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9193596070315876,
+          "coverage": 0.23594715831043955,
+          "inside_std": 16.91360855102539
+        }
+      }
+    },
+    {
+      "vehicle": "badat",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked_manual": [
+        [
+          "current",
+          1.270252984437059
+        ],
+        [
+          "v2",
+          1.270252984437059
+        ],
+        [
+          "v3",
+          1.2544743351033967
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.090252984437059,
+          "static": 0.07553934820198238,
+          "leak": 0.0035993601137575544,
+          "boundary_persist": 0.547237747205503,
+          "iou_auto": 0.03480452645373586,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12030964872262774,
+          "inside_std": 39.52958679199219
+        },
+        "v2": {
+          "total": 1.090252984437059,
+          "static": 0.07553934820198238,
+          "leak": 0.0035993601137575544,
+          "boundary_persist": 0.547237747205503,
+          "iou_auto": 0.03480452645373586,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12030964872262774,
+          "inside_std": 39.52958679199219
+        },
+        "v3": {
+          "total": 1.0744743351033967,
+          "static": 0.07227354227045013,
+          "leak": 0.005735209197333193,
+          "boundary_persist": 0.5437987857762359,
+          "iou_auto": 0.0345948381283388,
+          "anchor_overlap": 1.0,
+          "coverage": 0.13578495666058393,
+          "inside_std": 39.66923141479492
+        },
+        "auto_std": {
+          "total": 2.365356475222279,
+          "static": 0.3368870580875779,
+          "leak": 0.0,
+          "boundary_persist": 0.624252817568991,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2652525518932482,
+          "inside_std": 28.35445785522461
+        }
+      }
+    },
+    {
+      "vehicle": "badat",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.238823423844495
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.0588234238444951,
+          "static": 0.08943224857186594,
+          "leak": 0.07136831449299814,
+          "boundary_persist": 0.6509467040673211,
+          "iou_auto": 0.0219204078514623,
+          "anchor_overlap": 1.0,
+          "coverage": 0.03157137784090909,
+          "inside_std": 37.84782028198242
+        },
+        "auto_std": {
+          "total": 2.0417347012109968,
+          "static": 0.2164027358206232,
+          "leak": 0.0,
+          "boundary_persist": 0.6239910570969961,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.914440459635512,
+          "coverage": 0.19407670454545456,
+          "inside_std": 32.570281982421875
+        }
+      }
+    },
+    {
+      "vehicle": "badat",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.152787453214013
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.972787453214013,
+          "static": 0.12284070274264225,
+          "leak": 0.1569952305246423,
+          "boundary_persist": 0.6508899676375405,
+          "iou_auto": 0.053654718445854475,
+          "anchor_overlap": 1.0,
+          "coverage": 0.018000228937728936,
+          "inside_std": 31.39226722717285
+        },
+        "auto_std": {
+          "total": 2.0456872222846276,
+          "static": 0.1967189298037596,
+          "leak": 0.0,
+          "boundary_persist": 0.6428464341728942,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.27573760874542125,
+          "inside_std": 28.748271942138672
+        }
+      }
+    },
+    {
+      "vehicle": "badat",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.8910924835416283
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7110924835416284,
+          "static": 0.2894631105936164,
+          "leak": 0.012185075856387726,
+          "boundary_persist": 0.6504761904761904,
+          "iou_auto": 0.08251373367490106,
+          "anchor_overlap": 1.0,
+          "coverage": 0.05229994829963235,
+          "inside_std": 29.992246627807617
+        },
+        "auto_std": {
+          "total": 1.9599034679438159,
+          "static": 0.1783494439407165,
+          "leak": 0.0,
+          "boundary_persist": 0.6371222704212925,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9086368977673326,
+          "coverage": 0.22609576056985295,
+          "inside_std": 34.682430267333984
+        }
+      }
+    },
+    {
+      "vehicle": "badat",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.6210837462591876
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.44108374625918767,
+          "static": 0.02897677270281651,
+          "leak": 0.29705837854194134,
+          "boundary_persist": 0.6502709707822809,
+          "iou_auto": 0.22809652548312806,
+          "anchor_overlap": 0.7003912075561415,
+          "coverage": 0.08367151331018519,
+          "inside_std": 35.52452087402344
+        },
+        "auto_std": {
+          "total": 1.9681794813989724,
+          "static": 0.17928082548871582,
+          "leak": 0.0,
+          "boundary_persist": 0.6441982119079324,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9078177737722879,
+          "coverage": 0.20467664930555557,
+          "inside_std": 30.02570343017578
+        }
+      }
+    },
+    {
+      "vehicle": "baland",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked_manual": [
+        [
+          "current",
+          1.1002810807042689
+        ],
+        [
+          "v3",
+          1.1002810807042689
+        ],
+        [
+          "v2",
+          0.8552255466947183
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.920281080704269,
+          "static": 0.17185798418278264,
+          "leak": 0.20788760685756996,
+          "boundary_persist": 0.6330301307561114,
+          "iou_auto": 0.19433866123149537,
+          "anchor_overlap": 0.6485261830242444,
+          "coverage": 0.15485387731481481,
+          "inside_std": 29.342559814453125
+        },
+        "v2": {
+          "total": 0.6752255466947183,
+          "static": 0.10482521271807033,
+          "leak": 0.2683683230126366,
+          "boundary_persist": 0.6338383838383838,
+          "iou_auto": 0.21110051834407692,
+          "anchor_overlap": 0.7395760962593767,
+          "coverage": 0.17960611979166666,
+          "inside_std": 31.7176513671875
+        },
+        "v3": {
+          "total": 0.920281080704269,
+          "static": 0.17185798418278264,
+          "leak": 0.20788760685756996,
+          "boundary_persist": 0.6330301307561114,
+          "iou_auto": 0.19433866123149537,
+          "anchor_overlap": 0.6485261830242444,
+          "coverage": 0.15485387731481481,
+          "inside_std": 29.342559814453125
+        },
+        "auto_std": {
+          "total": 2.2376738092591175,
+          "static": 0.3136480857015538,
+          "leak": 0.0,
+          "boundary_persist": 0.6057957880200241,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8617554858934169,
+          "coverage": 0.1672996238425926,
+          "inside_std": 24.318681716918945
+        }
+      }
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked_manual": [
+        [
+          "v3",
+          1.1484641906895092
+        ],
+        [
+          "current",
+          1.0690828023249457
+        ],
+        [
+          "v2",
+          1.0690828023249457
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.8890828023249456,
+          "static": 0.0330751939907995,
+          "leak": 0.03604036520903412,
+          "boundary_persist": 0.5243867243867244,
+          "iou_auto": 0.02434726894121416,
+          "anchor_overlap": 1.0,
+          "coverage": 0.15632512019230768,
+          "inside_std": 44.87807846069336
+        },
+        "v2": {
+          "total": 0.8890828023249456,
+          "static": 0.0330751939907995,
+          "leak": 0.03604036520903412,
+          "boundary_persist": 0.5243867243867244,
+          "iou_auto": 0.02434726894121416,
+          "anchor_overlap": 1.0,
+          "coverage": 0.15632512019230768,
+          "inside_std": 44.87807846069336
+        },
+        "v3": {
+          "total": 0.9684641906895092,
+          "static": 0.029839541452606477,
+          "leak": 0.048055759354365374,
+          "boundary_persist": 0.652177047289504,
+          "iou_auto": 0.022303741746148204,
+          "anchor_overlap": 1.0,
+          "coverage": 0.17064803685897437,
+          "inside_std": 45.028255462646484
+        },
+        "auto_std": {
+          "total": 2.44546807545689,
+          "static": 0.3603988282019567,
+          "leak": 0.0,
+          "boundary_persist": 0.6505676530802159,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.0038060897435897435,
+          "inside_std": 29.68593978881836
+        }
+      }
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.0384700542832697
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8584700542832697,
+          "static": 0.3047462382762509,
+          "leak": 0.04299558064000852,
+          "boundary_persist": 0.6509410288582183,
+          "iou_auto": 0.3368891912226998,
+          "anchor_overlap": 1.0,
+          "coverage": 0.06792896412037037,
+          "inside_std": 33.76775360107422
+        },
+        "auto_std": {
+          "total": 2.343196615750162,
+          "static": 0.33003954897486365,
+          "leak": 0.0,
+          "boundary_persist": 0.6338990138341987,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9639814643992751,
+          "coverage": 0.1666431568287037,
+          "inside_std": 32.539283752441406
+        }
+      }
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "left_fwd",
+      "chosen": "zero",
+      "changed": false,
+      "reason": "no_artifact_group"
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked_manual": [
+        [
+          "current",
+          1.700641219148279
+        ],
+        [
+          "v3",
+          1.700641219148279
+        ],
+        [
+          "v2",
+          1.3610798223902207
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.520641219148279,
+          "static": 0.16662125892299384,
+          "leak": 0.02973008864247535,
+          "boundary_persist": 0.49501992031872516,
+          "iou_auto": 0.4866263777995527,
+          "anchor_overlap": 1.0,
+          "coverage": 0.21788917824074075,
+          "inside_std": 42.70732879638672
+        },
+        "v2": {
+          "total": 1.1810798223902208,
+          "static": 0.08905642113136447,
+          "leak": 0.1530977949645148,
+          "boundary_persist": 0.6524881845982763,
+          "iou_auto": 0.45274313494061424,
+          "anchor_overlap": 1.0,
+          "coverage": 0.28106372974537036,
+          "inside_std": 46.68221664428711
+        },
+        "v3": {
+          "total": 1.520641219148279,
+          "static": 0.16662125892299384,
+          "leak": 0.02973008864247535,
+          "boundary_persist": 0.49501992031872516,
+          "iou_auto": 0.4866263777995527,
+          "anchor_overlap": 1.0,
+          "coverage": 0.21788917824074075,
+          "inside_std": 42.70732879638672
+        },
+        "auto_std": {
+          "total": 2.026088090402069,
+          "static": 0.2318609463033332,
+          "leak": 0.0,
+          "boundary_persist": 0.650794273216044,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.35554651331018516,
+          "inside_std": 39.36405563354492
+        }
+      }
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.0682719270878742
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.8882719270878742,
+          "static": 0.04871822872139653,
+          "leak": 0.13050306982057017,
+          "boundary_persist": 0.6503382318637742,
+          "iou_auto": 0.10450074726340025,
+          "anchor_overlap": 1.0,
+          "coverage": 0.037579770489926737,
+          "inside_std": 44.26347351074219
+        },
+        "auto_std": {
+          "total": 1.8109770877110951,
+          "static": 0.1617926138571587,
+          "leak": 0.0,
+          "boundary_persist": 0.6302348423966425,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9195416249456362,
+          "coverage": 0.35367659684065933,
+          "inside_std": 39.00208282470703
+        }
+      }
+    },
+    {
+      "vehicle": "crozby",
+      "camera": "right_fwd",
+      "status": "empty_red",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.236229715767979
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.0562297157679787,
+          "static": 0.2129009704612269,
+          "leak": 0.0,
+          "boundary_persist": 0.65248451677949,
+          "iou_auto": 0.9999312046073258,
+          "anchor_overlap": 0.9075783038987332,
+          "coverage": 0.18198939732142858,
+          "inside_std": 18.42778968811035
+        },
+        "auto_std": {
+          "total": 2.0563203593744084,
+          "static": 0.21293013594864663,
+          "leak": 0.0,
+          "boundary_persist": 0.6525102833198786,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9075719452744142,
+          "coverage": 0.18197687728937728,
+          "inside_std": 18.427106857299805
+        }
+      }
+    },
+    {
+      "vehicle": "darron",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.7348972114331063
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.554897211433106,
+          "static": 0.5215958259870379,
+          "leak": 0.00993106337599025,
+          "boundary_persist": 0.6499110320284698,
+          "iou_auto": 0.485708056665387,
+          "anchor_overlap": 1.0,
+          "coverage": 0.1878434065934066,
+          "inside_std": 5.946296215057373
+        },
+        "auto_std": {
+          "total": 2.4379613807737917,
+          "static": 0.4634637291663998,
+          "leak": 0.0,
+          "boundary_persist": 0.5292286313651607,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.37282866872710624,
+          "inside_std": 6.6688456535339355
+        }
+      }
+    },
+    {
+      "vehicle": "darron",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.01629983654056
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8362998365405598,
+          "static": 0.3437685376080566,
+          "leak": 0.015213804290069077,
+          "boundary_persist": 0.6504602991944763,
+          "iou_auto": 0.08473063777763896,
+          "anchor_overlap": 1.0,
+          "coverage": 0.06418923770680147,
+          "inside_std": 18.24732208251953
+        },
+        "auto_std": {
+          "total": 2.4657924154087985,
+          "static": 0.4225206866672996,
+          "leak": 0.0,
+          "boundary_persist": 0.5278651616086849,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9541603048986584,
+          "coverage": 0.154022216796875,
+          "inside_std": 16.05752182006836
+        }
+      }
+    },
+    {
+      "vehicle": "darron",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.4520296930101095
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.2720296930101096,
+          "static": 0.1747441488508289,
+          "leak": 0.08949461055824964,
+          "boundary_persist": 0.6505765456329735,
+          "iou_auto": 0.25419086528772694,
+          "anchor_overlap": 0.7151984555629611,
+          "coverage": 0.07868742766203704,
+          "inside_std": 27.68587875366211
+        },
+        "auto_std": {
+          "total": 2.0713979419569974,
+          "static": 0.24221411207430488,
+          "leak": 0.0,
+          "boundary_persist": 0.5969626895885889,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8945441308723395,
+          "coverage": 0.16891637731481482,
+          "inside_std": 25.422380447387695
+        }
+      }
+    },
+    {
+      "vehicle": "darron",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.0527235494604708
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8727235494604708,
+          "static": 0.25024377139779863,
+          "leak": 0.00020435688887072384,
+          "boundary_persist": 0.6501547987616099,
+          "iou_auto": 0.4106410919654582,
+          "anchor_overlap": 1.0,
+          "coverage": 0.17698929398148147,
+          "inside_std": 11.402703285217285
+        },
+        "auto_std": {
+          "total": 1.9643789597458485,
+          "static": 0.293664050594589,
+          "leak": 0.0,
+          "boundary_persist": 0.5161254448398576,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3999638310185185,
+          "inside_std": 10.74234390258789
+        }
+      }
+    },
+    {
+      "vehicle": "darron",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5971296044565595
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4171296044565596,
+          "static": 0.18002757791665713,
+          "leak": 0.026578503824711525,
+          "boundary_persist": 0.6507343124165554,
+          "iou_auto": 0.08267892099435405,
+          "anchor_overlap": 1.0,
+          "coverage": 0.05497975593065693,
+          "inside_std": 24.38689613342285
+        },
+        "auto_std": {
+          "total": 2.2447135521394252,
+          "static": 0.29107220582481363,
+          "leak": 0.0,
+          "boundary_persist": 0.6512453034822017,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9125487125647277,
+          "coverage": 0.20029154311131386,
+          "inside_std": 21.084304809570312
+        }
+      }
+    },
+    {
+      "vehicle": "darron",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.0870996079756696
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.9070996079756697,
+          "static": 0.38831014179605927,
+          "leak": 0.04299746956504413,
+          "boundary_persist": 0.6500884173297966,
+          "iou_auto": 0.30711080428029,
+          "anchor_overlap": 0.6742314052880113,
+          "coverage": 0.0907642505787037,
+          "inside_std": 18.01960563659668
+        },
+        "auto_std": {
+          "total": 2.2832697492107554,
+          "static": 0.3196314915941604,
+          "leak": 0.0,
+          "boundary_persist": 0.6145529030491146,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9201413916014178,
+          "coverage": 0.18315791377314813,
+          "inside_std": 20.04279136657715
+        }
+      }
+    },
+    {
+      "vehicle": "floi",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.7972881147492539
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.617288114749254,
+          "static": 0.19405798567437438,
+          "leak": 0.018404031018832864,
+          "boundary_persist": 0.651058681185723,
+          "iou_auto": 0.3735980863620186,
+          "anchor_overlap": 0.8614158596290605,
+          "coverage": 0.10121166087962963,
+          "inside_std": 41.609046936035156
+        },
+        "auto_std": {
+          "total": 1.9055137152519306,
+          "static": 0.1772424696479492,
+          "leak": 0.0,
+          "boundary_persist": 0.5897721681678063,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8858420918645671,
+          "coverage": 0.19890769675925926,
+          "inside_std": 42.477195739746094
+        }
+      }
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.459335687471908
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.279335687471908,
+          "static": 0.4315315083786637,
+          "leak": 0.028571841489146457,
+          "boundary_persist": 0.6502257973468811,
+          "iou_auto": 0.4590212871814919,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12421372357536764,
+          "inside_std": 17.21348762512207
+        },
+        "auto_std": {
+          "total": 2.4804991994373866,
+          "static": 0.3909827621893661,
+          "leak": 0.0,
+          "boundary_persist": 0.6079339668698979,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.24428962258731618,
+          "inside_std": 18.441322326660156
+        }
+      }
+    },
+    {
+      "vehicle": "gevone",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.7324583375077809
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.552458337507781,
+          "static": 0.21474582820553834,
+          "leak": 0.03873764052553163,
+          "boundary_persist": 0.6499609984399376,
+          "iou_auto": 0.4008719736485719,
+          "anchor_overlap": 0.6417896970517857,
+          "coverage": 0.120166015625,
+          "inside_std": 31.031627655029297
+        },
+        "auto_std": {
+          "total": 1.8355714204851394,
+          "static": 0.19513429891776457,
+          "leak": 0.07187363532757464,
+          "boundary_persist": 0.6517687520471668,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8594480599017968,
+          "coverage": 0.1697898582175926,
+          "inside_std": 31.8066349029541
+        }
+      }
+    },
+    {
+      "vehicle": "greton",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6036485650893095
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4236485650893096,
+          "static": 0.14953345718086608,
+          "leak": 0.014612978410206085,
+          "boundary_persist": 0.650359887763816,
+          "iou_auto": 0.15941845910035715,
+          "anchor_overlap": 1.0,
+          "coverage": 0.11621806569343066,
+          "inside_std": 31.29861831665039
+        },
+        "auto_std": {
+          "total": 2.2546592747408285,
+          "static": 0.32514330884369647,
+          "leak": 0.0,
+          "boundary_persist": 0.5325725927955075,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.24361670278284672,
+          "inside_std": 24.83587646484375
+        }
+      }
+    },
+    {
+      "vehicle": "greton",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked_manual": [
+        [
+          "current",
+          1.0310106480907055
+        ],
+        [
+          "v3",
+          1.0310106480907055
+        ],
+        [
+          "v2",
+          0.9016088146267163
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.8510106480907056,
+          "static": 0.11285306660040095,
+          "leak": 0.21187277963465137,
+          "boundary_persist": 0.6508152173913044,
+          "iou_auto": 0.08649958256257469,
+          "anchor_overlap": 1.0,
+          "coverage": 0.08508434924450549,
+          "inside_std": 40.63816833496094
+        },
+        "v2": {
+          "total": 0.7216088146267162,
+          "static": 0.09147262174497861,
+          "leak": 0.2479569309423293,
+          "boundary_persist": 0.6506000000000001,
+          "iou_auto": 0.08862824358841738,
+          "anchor_overlap": 1.0,
+          "coverage": 0.09235848786630037,
+          "inside_std": 41.617557525634766
+        },
+        "v3": {
+          "total": 0.8510106480907056,
+          "static": 0.11285306660040095,
+          "leak": 0.21187277963465137,
+          "boundary_persist": 0.6508152173913044,
+          "iou_auto": 0.08649958256257469,
+          "anchor_overlap": 1.0,
+          "coverage": 0.08508434924450549,
+          "inside_std": 40.63816833496094
+        },
+        "auto_std": {
+          "total": 2.0916039764458256,
+          "static": 0.238130460011712,
+          "leak": 0.0,
+          "boundary_persist": 0.618688868990219,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.920677225816299,
+          "coverage": 0.15233480711996336,
+          "inside_std": 34.899497985839844
+        }
+      }
+    },
+    {
+      "vehicle": "greton",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.9233951097580864
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.7433951097580864,
+          "static": 0.08528890339571638,
+          "leak": 0.14810279775040933,
+          "boundary_persist": 0.651303391959799,
+          "iou_auto": 0.019653458511666437,
+          "anchor_overlap": 0.6614935573432049,
+          "coverage": 0.1270164207175926,
+          "inside_std": 42.419029235839844
+        },
+        "auto_std": {
+          "total": 2.4729853803883115,
+          "static": 0.4103885519195626,
+          "leak": 0.0,
+          "boundary_persist": 0.5948843287193883,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8941423998347791,
+          "coverage": 0.14010416666666667,
+          "inside_std": 27.34278106689453
+        }
+      }
+    },
+    {
+      "vehicle": "greton",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.487416921391793
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.307416921391793,
+          "static": 0.09530810339935014,
+          "leak": 0.05149145670431509,
+          "boundary_persist": 0.6504934210526315,
+          "iou_auto": 0.2950208557649677,
+          "anchor_overlap": 1.0,
+          "coverage": 0.281005859375,
+          "inside_std": 44.24437713623047
+        },
+        "auto_std": {
+          "total": 2.1853336122952642,
+          "static": 0.2506213205739597,
+          "leak": 0.0,
+          "boundary_persist": 0.6542693810197345,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.236669921875,
+          "inside_std": 36.648712158203125
+        }
+      }
+    },
+    {
+      "vehicle": "greton",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.010112995389036
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8301129953890358,
+          "static": 0.35503771697854336,
+          "leak": 0.03001881074302435,
+          "boundary_persist": 0.6508128675198892,
+          "iou_auto": 0.08333182501040742,
+          "anchor_overlap": 1.0,
+          "coverage": 0.0687112247242647,
+          "inside_std": 27.758621215820312
+        },
+        "auto_std": {
+          "total": 2.3213884127834468,
+          "static": 0.33185547786952696,
+          "leak": 0.0,
+          "boundary_persist": 0.643975448605601,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.875893405378853,
+          "coverage": 0.14617919921875,
+          "inside_std": 28.756364822387695
+        }
+      }
+    },
+    {
+      "vehicle": "greton",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.4035830021591769
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.223583002159177,
+          "static": 0.10484761685135513,
+          "leak": 0.033867591903243476,
+          "boundary_persist": 0.650241935483871,
+          "iou_auto": 0.29018912872955466,
+          "anchor_overlap": 0.64526822964222,
+          "coverage": 0.12874168113425927,
+          "inside_std": 32.635841369628906
+        },
+        "auto_std": {
+          "total": 1.387514812885991,
+          "static": 0.0414525732849127,
+          "leak": 0.11763965026945691,
+          "boundary_persist": 0.6536803472080627,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9088088877693741,
+          "coverage": 0.2728208188657407,
+          "inside_std": 34.94712448120117
+        }
+      }
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.5140287236899415
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.3340287236899413,
+          "static": 0.4628083706952686,
+          "leak": 0.019469934798357885,
+          "boundary_persist": 0.6501606777680398,
+          "iou_auto": 0.40139697226635496,
+          "anchor_overlap": 1.0,
+          "coverage": 0.17840935202205882,
+          "inside_std": 8.508050918579102
+        },
+        "auto_std": {
+          "total": 2.0995316383429072,
+          "static": 0.33112993354876386,
+          "leak": 0.0,
+          "boundary_persist": 0.6393440142816079,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.43279490751378674,
+          "inside_std": 10.593576431274414
+        }
+      }
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.488009486265146
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.3080094862651461,
+          "static": 0.19610021937944655,
+          "leak": 0.12298966379342513,
+          "boundary_persist": 0.6501272264631043,
+          "iou_auto": 0.17547388040459405,
+          "anchor_overlap": 1.0,
+          "coverage": 0.04793204842032967,
+          "inside_std": 42.70206069946289
+        },
+        "auto_std": {
+          "total": 2.0483991125307437,
+          "static": 0.20975714290228353,
+          "leak": 0.0,
+          "boundary_persist": 0.6528201995520261,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9061094749210988,
+          "coverage": 0.23745313930860806,
+          "inside_std": 41.97662353515625
+        }
+      }
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.68883475352214
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.50883475352214,
+          "static": 0.2182739342190667,
+          "leak": 0.07833243950222728,
+          "boundary_persist": 0.6504956317204301,
+          "iou_auto": 0.42203063415038206,
+          "anchor_overlap": 0.6911029146190638,
+          "coverage": 0.1652325665509259,
+          "inside_std": 23.62856674194336
+        },
+        "auto_std": {
+          "total": 1.9914327555168894,
+          "static": 0.1840745302358031,
+          "leak": 0.0,
+          "boundary_persist": 0.6511727100805788,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9214961096961027,
+          "coverage": 0.20732783564814813,
+          "inside_std": 24.662282943725586
+        }
+      }
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.039308117345057
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8593081173450567,
+          "static": 0.1704315135370249,
+          "leak": 0.008982640908673423,
+          "boundary_persist": 0.6501505935156204,
+          "iou_auto": 0.6927125152731716,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2953468605324074,
+          "inside_std": 42.08143615722656
+        },
+        "auto_std": {
+          "total": 1.7911265941370593,
+          "static": 0.1791657717785683,
+          "leak": 0.0,
+          "boundary_persist": 0.6427078291851593,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.4061541521990741,
+          "inside_std": 41.63837432861328
+        }
+      }
+    },
+    {
+      "vehicle": "hanna",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.5630564272543934
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.3830564272543935,
+          "static": 0.06178885915695931,
+          "leak": 0.3558074781225139,
+          "boundary_persist": 0.65075,
+          "iou_auto": 0.04552088163888813,
+          "anchor_overlap": 1.0,
+          "coverage": 0.06318215762867647,
+          "inside_std": 53.61919403076172
+        },
+        "auto_std": {
+          "total": 1.9964122108977447,
+          "static": 0.1902427429717516,
+          "leak": 0.0,
+          "boundary_persist": 0.6535791529303068,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8915209753206621,
+          "coverage": 0.2120343376608456,
+          "inside_std": 46.27799606323242
+        }
+      }
+    },
+    {
+      "vehicle": "helen",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.214675781735299
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.0346757817352992,
+          "static": 0.16811250511819475,
+          "leak": 0.23966725043782838,
+          "boundary_persist": 0.6498467600700526,
+          "iou_auto": 0.24801662335972413,
+          "anchor_overlap": 1.0,
+          "coverage": 0.14456741898148148,
+          "inside_std": 17.306394577026367
+        },
+        "auto_std": {
+          "total": 2.14290769544088,
+          "static": 0.325551614415697,
+          "leak": 0.0,
+          "boundary_persist": 0.652794233807267,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.41046549479166666,
+          "inside_std": 14.031067848205566
+        }
+      }
+    },
+    {
+      "vehicle": "helen",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          -0.3821233827507356
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.5621233827507356,
+          "static": 0.0,
+          "leak": 0.7072287357180196,
+          "boundary_persist": 0.650074294205052,
+          "iou_auto": 0.12299043016685375,
+          "anchor_overlap": 0.8065491748189082,
+          "coverage": 0.0968677662037037,
+          "inside_std": 31.369535446166992
+        },
+        "auto_std": {
+          "total": 0.7870350929584454,
+          "static": 0.021258867055280795,
+          "leak": 0.338828079632734,
+          "boundary_persist": 0.633276144427981,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9417710284981757,
+          "coverage": 0.33011067708333336,
+          "inside_std": 20.6429443359375
+        }
+      }
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.13206817495447737
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.047931825045522625,
+          "static": 0.0,
+          "leak": 0.46257491050959254,
+          "boundary_persist": 0.5908166230746876,
+          "iou_auto": 0.054282881869088764,
+          "anchor_overlap": 1.0,
+          "coverage": 0.13439265740313652,
+          "inside_std": 35.041255950927734
+        },
+        "auto_std": {
+          "total": 2.1947229425495562,
+          "static": 0.2599554095980776,
+          "leak": 0.0,
+          "boundary_persist": 0.6398110661268556,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.0074034968865313655,
+          "inside_std": 24.299882888793945
+        }
+      }
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.178959368927707
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.998959368927707,
+          "static": 0.42170597451292,
+          "leak": 0.01490086741016109,
+          "boundary_persist": 0.6505329030996382,
+          "iou_auto": 0.048810465156255374,
+          "anchor_overlap": 1.0,
+          "coverage": 0.05773523351648352,
+          "inside_std": 21.55721664428711
+        },
+        "auto_std": {
+          "total": 2.567782888427794,
+          "static": 0.44140320159312163,
+          "leak": 0.0,
+          "boundary_persist": 0.6145507106721272,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9007989124984679,
+          "coverage": 0.16051933092948717,
+          "inside_std": 20.82295799255371
+        }
+      }
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6299064707633275
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4499064707633276,
+          "static": 0.23836421834346755,
+          "leak": 0.08265332233942736,
+          "boundary_persist": 0.6505182760501909,
+          "iou_auto": 0.22402389179772378,
+          "anchor_overlap": 0.7934662079554178,
+          "coverage": 0.06360496238425926,
+          "inside_std": 24.09368133544922
+        },
+        "auto_std": {
+          "total": 2.454644107353751,
+          "static": 0.40150133322142767,
+          "leak": 0.0,
+          "boundary_persist": 0.5827265789828073,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9289674663444943,
+          "coverage": 0.16765046296296296,
+          "inside_std": 18.932981491088867
+        }
+      }
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.686933922958206
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.506933922958206,
+          "static": 0.4473037995132163,
+          "leak": 0.06689802850180905,
+          "boundary_persist": 0.6506449631449631,
+          "iou_auto": 0.8764155059573754,
+          "anchor_overlap": 1.0,
+          "coverage": 0.269410083912037,
+          "inside_std": 22.735454559326172
+        },
+        "auto_std": {
+          "total": 2.8277379509691234,
+          "static": 0.5500801507200768,
+          "leak": 0.0,
+          "boundary_persist": 0.569495099156599,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.23612196180555556,
+          "inside_std": 18.507694244384766
+        }
+      }
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5384888030842052
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.3584888030842053,
+          "static": 0.2952759435526682,
+          "leak": 0.15245487916794126,
+          "boundary_persist": 0.6502525252525253,
+          "iou_auto": 0.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.046604128649635035,
+          "inside_std": 25.695066452026367
+        },
+        "auto_std": {
+          "total": 2.313580414097798,
+          "static": 0.34535986209779834,
+          "leak": 0.0,
+          "boundary_persist": 0.5969018932874355,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8812626027609741,
+          "coverage": 0.16084412066605838,
+          "inside_std": 23.868947982788086
+        }
+      }
+    },
+    {
+      "vehicle": "hetera",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.6828837344385865
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.5028837344385866,
+          "static": 0.05009848554834795,
+          "leak": 0.2934045920042994,
+          "boundary_persist": 0.6505606860158312,
+          "iou_auto": 0.15405787064103832,
+          "anchor_overlap": 0.8369808616725883,
+          "coverage": 0.06057038483796296,
+          "inside_std": 36.12528610229492
+        },
+        "auto_std": {
+          "total": 1.965998133806488,
+          "static": 0.20588013440616726,
+          "leak": 0.0,
+          "boundary_persist": 0.5985174635030589,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8455502351973337,
+          "coverage": 0.17146629050925927,
+          "inside_std": 30.200822830200195
+        }
+      }
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.93415669007906
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7541566900790602,
+          "static": 0.21825164996924462,
+          "leak": 0.0016018137460262697,
+          "boundary_persist": 0.6502278645833334,
+          "iou_auto": 0.3552452032416157,
+          "anchor_overlap": 1.0,
+          "coverage": 0.14569091796875,
+          "inside_std": 23.74138641357422
+        },
+        "auto_std": {
+          "total": 2.228879057389057,
+          "static": 0.30283019827767366,
+          "leak": 0.0,
+          "boundary_persist": 0.5634295350251561,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2340680290670956,
+          "inside_std": 21.17276954650879
+        }
+      }
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.001588975870268
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8215889758702681,
+          "static": 0.33906467228969184,
+          "leak": 0.006738072054527751,
+          "boundary_persist": 0.65,
+          "iou_auto": 0.05379645842138403,
+          "anchor_overlap": 1.0,
+          "coverage": 0.04609051872702206,
+          "inside_std": 30.924070358276367
+        },
+        "auto_std": {
+          "total": 1.920935186411022,
+          "static": 0.16143393010712181,
+          "leak": 0.0,
+          "boundary_persist": 0.6380873121552216,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9105379330355755,
+          "coverage": 0.17323033949908087,
+          "inside_std": 39.2351188659668
+        }
+      }
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5251238775949312
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.3451238775949312,
+          "static": 0.21206768749128646,
+          "leak": 0.14361021036002328,
+          "boundary_persist": 0.6503549695740365,
+          "iou_auto": 0.4171466810124257,
+          "anchor_overlap": 0.6869543527064106,
+          "coverage": 0.10875108506944445,
+          "inside_std": 32.66230773925781
+        },
+        "auto_std": {
+          "total": 2.316995959470694,
+          "static": 0.32133627442725277,
+          "leak": 0.0,
+          "boundary_persist": 0.6520220199026042,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9099227073323585,
+          "coverage": 0.08657045717592593,
+          "inside_std": 28.132776260375977
+        }
+      }
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          3.009753364004618
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.8297533640046177,
+          "static": 0.5315959168435528,
+          "leak": 0.003303753724982325,
+          "boundary_persist": 0.6500101874490628,
+          "iou_auto": 0.8231175043869944,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2736961082175926,
+          "inside_std": 16.78032112121582
+        },
+        "auto_std": {
+          "total": 2.77305407389458,
+          "static": 0.5113789917034797,
+          "leak": 0.0,
+          "boundary_persist": 0.6480831952785255,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3162651909722222,
+          "inside_std": 17.504581451416016
+        }
+      }
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.3740285862078148
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.1940285862078146,
+          "static": 0.4768663623142193,
+          "leak": 0.002820246400474989,
+          "boundary_persist": 0.6502324037184595,
+          "iou_auto": 0.1007781362687417,
+          "anchor_overlap": 1.0,
+          "coverage": 0.04819854624542125,
+          "inside_std": 17.704833984375
+        },
+        "auto_std": {
+          "total": 2.1317041845788394,
+          "static": 0.2669241523087763,
+          "leak": 0.0,
+          "boundary_persist": 0.5888591949223316,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9152823590191949,
+          "coverage": 0.18002375228937728,
+          "inside_std": 24.810077667236328
+        }
+      }
+    },
+    {
+      "vehicle": "hilma",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.9703298615287825
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7903298615287826,
+          "static": 0.27492899362861745,
+          "leak": 5.146945287971589e-05,
+          "boundary_persist": 0.6502698724239451,
+          "iou_auto": 0.3717863475177305,
+          "anchor_overlap": 0.7128004529311853,
+          "coverage": 0.07027271412037037,
+          "inside_std": 30.626964569091797
+        },
+        "auto_std": {
+          "total": 2.02394524909394,
+          "static": 0.21576951038341186,
+          "leak": 0.0,
+          "boundary_persist": 0.652012612528132,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8107176822460822,
+          "coverage": 0.1312084056712963,
+          "inside_std": 33.125858306884766
+        }
+      }
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          -0.26644639259581177
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.44644639259581176,
+          "static": 0.0,
+          "leak": 0.669445683693955,
+          "boundary_persist": 0.6504060579455664,
+          "iou_auto": 0.05852665625697078,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12829097985347984,
+          "inside_std": 57.18996047973633
+        },
+        "auto_std": {
+          "total": 2.191181360584782,
+          "static": 0.2545370539133839,
+          "leak": 0.0,
+          "boundary_persist": 0.6503249235474007,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.007508442078754579,
+          "inside_std": 38.8181037902832
+        }
+      }
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.5901176135669441
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.4101176135669442,
+          "static": 0.02198996175238288,
+          "leak": 0.285188858583354,
+          "boundary_persist": 0.6497302158273381,
+          "iou_auto": 0.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.043439079733455885,
+          "inside_std": 56.701148986816406
+        },
+        "auto_std": {
+          "total": 1.8406166295509072,
+          "static": 0.14307802615213472,
+          "leak": 0.0,
+          "boundary_persist": 0.6515816103669191,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.7895147936388915,
+          "coverage": 0.05745741900275735,
+          "inside_std": 49.68094253540039
+        }
+      }
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5297191976315327
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.3497191976315328,
+          "static": 0.22516420639946844,
+          "leak": 0.13822621386472075,
+          "boundary_persist": 0.6506373117033604,
+          "iou_auto": 0.2889926915355648,
+          "anchor_overlap": 0.8138857704181869,
+          "coverage": 0.05154803240740741,
+          "inside_std": 25.469070434570312
+        },
+        "auto_std": {
+          "total": 1.9490381395920244,
+          "static": 0.19040317651197136,
+          "leak": 0.0,
+          "boundary_persist": 0.6517578761226674,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.7762210686322311,
+          "coverage": 0.12611038773148148,
+          "inside_std": 26.611675262451172
+        }
+      }
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.8590542727093706
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.6790542727093707,
+          "static": 0.1126217220568052,
+          "leak": 0.0005996006914544144,
+          "boundary_persist": 0.650910237923576,
+          "iou_auto": 0.6060886388043133,
+          "anchor_overlap": 1.0,
+          "coverage": 0.28351236979166666,
+          "inside_std": 39.81822967529297
+        },
+        "auto_std": {
+          "total": 1.5988259108981342,
+          "static": 0.13057661807532583,
+          "leak": 0.0,
+          "boundary_persist": 0.6307846730645477,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.4386320891203704,
+          "inside_std": 39.0125617980957
+        }
+      }
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.3567058367727285
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.1767058367727286,
+          "static": 0.20839326084261,
+          "leak": 0.14611732790776535,
+          "boundary_persist": 0.6498769338959212,
+          "iou_auto": 0.018758416630313145,
+          "anchor_overlap": 1.0,
+          "coverage": 0.05255260606751825,
+          "inside_std": 34.77741622924805
+        },
+        "auto_std": {
+          "total": 2.0318148131235527,
+          "static": 0.2062718183311666,
+          "leak": 0.0,
+          "boundary_persist": 0.651983511837655,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8874432211871583,
+          "coverage": 0.13888215670620438,
+          "inside_std": 34.8706169128418
+        }
+      }
+    },
+    {
+      "vehicle": "jurgie",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.163855236991033
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.983855236991033,
+          "static": 0.33990415041484656,
+          "leak": 0.00021392204680614383,
+          "boundary_persist": 0.6504950495049505,
+          "iou_auto": 0.4138987258172874,
+          "anchor_overlap": 0.7334531296795448,
+          "coverage": 0.08453776041666666,
+          "inside_std": 26.873146057128906
+        },
+        "auto_std": {
+          "total": 2.205950649851063,
+          "static": 0.2844563572922314,
+          "leak": 0.0,
+          "boundary_persist": 0.6365244985374008,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8884583591651167,
+          "coverage": 0.1400173611111111,
+          "inside_std": 29.13047981262207
+        }
+      }
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.8044333473843757
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.6244333473843757,
+          "static": 0.26693229163016885,
+          "leak": 0.031143513749108488,
+          "boundary_persist": 0.6497844827586207,
+          "iou_auto": 0.09643649033892936,
+          "anchor_overlap": 1.0,
+          "coverage": 0.06771012190934066,
+          "inside_std": 37.11240005493164
+        },
+        "auto_std": {
+          "total": 2.1927110886322416,
+          "static": 0.27476789651205613,
+          "leak": 0.0,
+          "boundary_persist": 0.6528619977343906,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8767308476058886,
+          "coverage": 0.17993253491300365,
+          "inside_std": 36.71571350097656
+        }
+      }
+    },
+    {
+      "vehicle": "jurita",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.655798971268422
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.475798971268422,
+          "static": 0.26394087228010177,
+          "leak": 0.10330271773451954,
+          "boundary_persist": 0.6508489722966936,
+          "iou_auto": 0.3049441153874749,
+          "anchor_overlap": 0.6759547524346603,
+          "coverage": 0.16322880497685185,
+          "inside_std": 11.347864151000977
+        },
+        "auto_std": {
+          "total": 1.9326815724597255,
+          "static": 0.2145048167277972,
+          "leak": 0.0432782337302046,
+          "boundary_persist": 0.6394106306802533,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9210206912495665,
+          "coverage": 0.3128978587962963,
+          "inside_std": 12.11002254486084
+        }
+      }
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.2798914106732573
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.099891410673257,
+          "static": 0.3341164818846539,
+          "leak": 0.016367436116652416,
+          "boundary_persist": 0.6501739234736715,
+          "iou_auto": 0.49837668925774115,
+          "anchor_overlap": 1.0,
+          "coverage": 0.18897561465992646,
+          "inside_std": 20.09241485595703
+        },
+        "auto_std": {
+          "total": 2.262520488852663,
+          "static": 0.33030261502252034,
+          "leak": 0.0,
+          "boundary_persist": 0.6192422804584277,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3412619198069853,
+          "inside_std": 20.207494735717773
+        }
+      }
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6855413061160407
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.5055413061160408,
+          "static": 0.22941137556241076,
+          "leak": 0.022986951524575756,
+          "boundary_persist": 0.6501436781609196,
+          "iou_auto": 0.02913712539356289,
+          "anchor_overlap": 1.0,
+          "coverage": 0.052716554516423354,
+          "inside_std": 37.32529830932617
+        },
+        "auto_std": {
+          "total": 2.1211326267909003,
+          "static": 0.2409386992944319,
+          "leak": 0.0,
+          "boundary_persist": 0.6507253194468755,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9055674024551899,
+          "coverage": 0.1855219263229927,
+          "inside_std": 36.766944885253906
+        }
+      }
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.040807697686959
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8608076976869588,
+          "static": 0.3709437703983468,
+          "leak": 0.030136905114680257,
+          "boundary_persist": 0.650035765379113,
+          "iou_auto": 0.20259061304360523,
+          "anchor_overlap": 0.7749955550287442,
+          "coverage": 0.061027922453703705,
+          "inside_std": 22.944923400878906
+        },
+        "auto_std": {
+          "total": 1.9061261194222545,
+          "static": 0.1838471814187016,
+          "leak": 0.0,
+          "boundary_persist": 0.580063299627176,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8695897858822811,
+          "coverage": 0.23682725694444445,
+          "inside_std": 29.76930046081543
+        }
+      }
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.810669893407585
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.6306698934075852,
+          "static": 0.1533214275464554,
+          "leak": 0.019251097375257546,
+          "boundary_persist": 0.6524771524771525,
+          "iou_auto": 0.4540306347031738,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2018771701388889,
+          "inside_std": 36.688140869140625
+        },
+        "auto_std": {
+          "total": 1.964633555053112,
+          "static": 0.19229456839409742,
+          "leak": 0.0,
+          "boundary_persist": 0.6307783558949178,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3297869646990741,
+          "inside_std": 34.99936294555664
+        }
+      }
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          -0.8081874559729958
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.9881874559729957,
+          "static": 0.0,
+          "leak": 0.8975226663261398,
+          "boundary_persist": 0.6503378378378378,
+          "iou_auto": 0.0015119369863681811,
+          "anchor_overlap": 1.0,
+          "coverage": 0.026553683810763888,
+          "inside_std": 56.57029724121094
+        },
+        "auto_std": {
+          "total": 1.9971420639460062,
+          "static": 0.19099091891839526,
+          "leak": 0.0,
+          "boundary_persist": 0.6532488639575587,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8895997024501372,
+          "coverage": 0.1823340521918403,
+          "inside_std": 39.50210952758789
+        }
+      }
+    },
+    {
+      "vehicle": "kynde",
+      "camera": "right_fwd",
+      "chosen": "zero",
+      "changed": false,
+      "reason": "no_artifact_group"
+    },
+    {
+      "vehicle": "leid",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked_manual": [
+        [
+          "current",
+          1.27335331591685
+        ],
+        [
+          "v2",
+          1.27335331591685
+        ],
+        [
+          "v3",
+          0.7243775770275245
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.09335331591685,
+          "static": 0.0,
+          "leak": 0.1355611866328802,
+          "boundary_persist": 0.44065325167687375,
+          "iou_auto": 0.8746904685292184,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12775619562728938,
+          "inside_std": 15.975711822509766
+        },
+        "v2": {
+          "total": 1.09335331591685,
+          "static": 0.0,
+          "leak": 0.1355611866328802,
+          "boundary_persist": 0.44065325167687375,
+          "iou_auto": 0.8746904685292184,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12775619562728938,
+          "inside_std": 15.975711822509766
+        },
+        "v3": {
+          "total": 0.5443775770275245,
+          "static": 0.0,
+          "leak": 0.36472196800123496,
+          "boundary_persist": 0.5153365314725978,
+          "iou_auto": 0.6899471832927192,
+          "anchor_overlap": 1.0,
+          "coverage": 0.16220774668040294,
+          "inside_std": 21.8681640625
+        },
+        "auto_std": {
+          "total": 1.8411478923593034,
+          "static": 0.11679917146775987,
+          "leak": 0.00023972383813846448,
+          "boundary_persist": 0.6292858592006493,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.11191477793040293,
+          "inside_std": 13.173510551452637
+        }
+      }
+    },
+    {
+      "vehicle": "leid",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          3.284272422700295
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 3.1042724227002947,
+          "static": 0.6434966389095097,
+          "leak": 0.00017858087729509498,
+          "boundary_persist": 0.6500405515004055,
+          "iou_auto": 0.8217669584245076,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2734230324074074,
+          "inside_std": 5.766997814178467
+        },
+        "auto_std": {
+          "total": 2.9310010589208235,
+          "static": 0.5864608575508868,
+          "leak": 0.0,
+          "boundary_persist": 0.6512719337578095,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.32882486979166664,
+          "inside_std": 6.689640522003174
+        }
+      }
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.2866579908449913
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.1066579908449914,
+          "static": 0.047866930327624346,
+          "leak": 0.010410169272793753,
+          "boundary_persist": 0.6500884173297966,
+          "iou_auto": 0.042285935517174626,
+          "anchor_overlap": 1.0,
+          "coverage": 0.16631252861721613,
+          "inside_std": 44.80941390991211
+        },
+        "auto_std": {
+          "total": 2.0085603908916623,
+          "static": 0.19339767931668628,
+          "leak": 0.0,
+          "boundary_persist": 0.61045106725735,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.007032680860805861,
+          "inside_std": 37.960426330566406
+        }
+      }
+    },
+    {
+      "vehicle": "lerita",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          -0.041164120125667336
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.22116412012566733,
+          "static": 0.0,
+          "leak": 0.5076284295367581,
+          "boundary_persist": 0.6508455034588778,
+          "iou_auto": 0.11243173787343398,
+          "anchor_overlap": 0.577888138077017,
+          "coverage": 0.11106589988425926,
+          "inside_std": 20.815324783325195
+        },
+        "auto_std": {
+          "total": 1.8519169174446575,
+          "static": 0.1487877206319852,
+          "leak": 0.0,
+          "boundary_persist": 0.603485395089026,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8917238308694241,
+          "coverage": 0.23964301215277778,
+          "inside_std": 16.350234985351562
+        }
+      }
+    },
+    {
+      "vehicle": "luka",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.0619977232042768
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8819977232042766,
+          "static": 0.30503004404138034,
+          "leak": 0.026956442518903927,
+          "boundary_persist": 0.6181739130434784,
+          "iou_auto": 0.36124752758203166,
+          "anchor_overlap": 1.0,
+          "coverage": 0.17669163518772893,
+          "inside_std": 16.29315948486328
+        },
+        "auto_std": {
+          "total": 1.8094418419564677,
+          "static": 0.2373183945943017,
+          "leak": 0.0,
+          "boundary_persist": 0.6515895646252713,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.47077645661630035,
+          "inside_std": 17.880619049072266
+        }
+      }
+    },
+    {
+      "vehicle": "luka",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.4384194967431128
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.2584194967431128,
+          "static": 0.09607911790953783,
+          "leak": 0.045410386654453606,
+          "boundary_persist": 0.6499352331606217,
+          "iou_auto": 0.20398679222208635,
+          "anchor_overlap": 1.0,
+          "coverage": 0.06420185618156934,
+          "inside_std": 24.861753463745117
+        },
+        "auto_std": {
+          "total": 2.315837989817447,
+          "static": 0.3402242923277272,
+          "leak": 0.0,
+          "boundary_persist": 0.5858437935843793,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9426006850124011,
+          "coverage": 0.28668346544251827,
+          "inside_std": 18.146699905395508
+        }
+      }
+    },
+    {
+      "vehicle": "luka",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.1788118551084668
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.9988118551084668,
+          "static": 0.08366136639395017,
+          "leak": 0.14985315096081228,
+          "boundary_persist": 0.6438202247191012,
+          "iou_auto": 0.30784039765373994,
+          "anchor_overlap": 0.831937568179911,
+          "coverage": 0.1077564380787037,
+          "inside_std": 19.861202239990234
+        },
+        "auto_std": {
+          "total": 1.8997494747115837,
+          "static": 0.18386119581558524,
+          "leak": 0.03809470728801633,
+          "boundary_persist": 0.6528313074414468,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8993569602262831,
+          "coverage": 0.25957935474537036,
+          "inside_std": 17.68941879272461
+        }
+      }
+    },
+    {
+      "vehicle": "luka",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5917310126922164
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4117310126922165,
+          "static": 0.17015882683799688,
+          "leak": 0.16384779421564707,
+          "boundary_persist": 0.6409063011456628,
+          "iou_auto": 0.5528561493205015,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2713758680555556,
+          "inside_std": 24.10526466369629
+        },
+        "auto_std": {
+          "total": 2.1139447472933015,
+          "static": 0.25362469862849457,
+          "leak": 0.0,
+          "boundary_persist": 0.6252357723577235,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3262333622685185,
+          "inside_std": 21.680744171142578
+        }
+      }
+    },
+    {
+      "vehicle": "mika",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5582174391295072
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.3782174391295072,
+          "static": 0.09924669379165996,
+          "leak": 0.010192209242797972,
+          "boundary_persist": 0.6501411815812337,
+          "iou_auto": 0.2533159584865267,
+          "anchor_overlap": 1.0,
+          "coverage": 0.11529339800824176,
+          "inside_std": 36.837547302246094
+        },
+        "auto_std": {
+          "total": 2.0958474642726372,
+          "static": 0.26593630663554946,
+          "leak": 0.0,
+          "boundary_persist": 0.5140003648303539,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.029205657623626372,
+          "inside_std": 30.020545959472656
+        }
+      }
+    },
+    {
+      "vehicle": "mika",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.7683329642829426
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.5883329642829426,
+          "static": 0.04779184419346272,
+          "leak": 0.2353220309736422,
+          "boundary_persist": 0.650248344370861,
+          "iou_auto": 0.008739280609814198,
+          "anchor_overlap": 1.0,
+          "coverage": 0.041309662979014596,
+          "inside_std": 43.473777770996094
+        },
+        "auto_std": {
+          "total": 2.1713857680397433,
+          "static": 0.26076684891632373,
+          "leak": 0.0,
+          "boundary_persist": 0.6508876845449448,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9118660363752904,
+          "coverage": 0.2001757099680657,
+          "inside_std": 33.750244140625
+        }
+      }
+    },
+    {
+      "vehicle": "mika",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.42303022273007224
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.24303022273007224,
+          "static": 0.0,
+          "leak": 0.3026932685397488,
+          "boundary_persist": 0.6508463850656542,
+          "iou_auto": 0.020026797860262454,
+          "anchor_overlap": 0.772937271140618,
+          "coverage": 0.052844690393518516,
+          "inside_std": 49.67972946166992
+        },
+        "auto_std": {
+          "total": 1.9066002851522559,
+          "static": 0.1720587417625843,
+          "leak": 0.0,
+          "boundary_persist": 0.5905765774517899,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9178509630386067,
+          "coverage": 0.12750651041666666,
+          "inside_std": 40.784767150878906
+        }
+      }
+    },
+    {
+      "vehicle": "mika",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.3734560027257328
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.1934560027257328,
+          "static": 0.04633410637479185,
+          "leak": 0.10916620069854699,
+          "boundary_persist": 0.6502616747181965,
+          "iou_auto": 0.4816918310237988,
+          "anchor_overlap": 1.0,
+          "coverage": 0.22316080729166668,
+          "inside_std": 48.199031829833984
+        },
+        "auto_std": {
+          "total": 1.8226576580416198,
+          "static": 0.10062755085944064,
+          "leak": 0.0,
+          "boundary_persist": 0.6512794844210694,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.29487666377314814,
+          "inside_std": 45.45499801635742
+        }
+      }
+    },
+    {
+      "vehicle": "mika",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.1236121890958957
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.9436121890958957,
+          "static": 0.18021771658287966,
+          "leak": 0.21675764192139738,
+          "boundary_persist": 0.6500455373406193,
+          "iou_auto": 0.004164997025002125,
+          "anchor_overlap": 1.0,
+          "coverage": 0.06505681818181819,
+          "inside_std": 30.20461654663086
+        },
+        "auto_std": {
+          "total": 2.0370635392129515,
+          "static": 0.23429717437660813,
+          "leak": 0.0,
+          "boundary_persist": 0.6287847830317183,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.7846100399513636,
+          "coverage": 0.08177556818181818,
+          "inside_std": 28.21207618713379
+        }
+      }
+    },
+    {
+      "vehicle": "mika",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.016141421806155
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8361414218061551,
+          "static": 0.29594561798704466,
+          "leak": 0.0005434967220353952,
+          "boundary_persist": 0.6502016129032259,
+          "iou_auto": 0.30329966795794133,
+          "anchor_overlap": 0.8239410306056592,
+          "coverage": 0.053238932291666666,
+          "inside_std": 32.978538513183594
+        },
+        "auto_std": {
+          "total": 2.0080694150192877,
+          "static": 0.22891060064858382,
+          "leak": 0.0,
+          "boundary_persist": 0.5479885985967503,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9262355868140281,
+          "coverage": 0.1511935763888889,
+          "inside_std": 36.1185188293457
+        }
+      }
+    },
+    {
+      "vehicle": "natelio",
+      "camera": "right_fwd",
+      "chosen": "zero",
+      "changed": false,
+      "reason": "no_artifact_group"
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5956817934842347
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4156817934842347,
+          "static": 0.15830504868995554,
+          "leak": 0.00020676221257331896,
+          "boundary_persist": 0.6499080318822809,
+          "iou_auto": 0.07326760685992861,
+          "anchor_overlap": 1.0,
+          "coverage": 0.16496187097886028,
+          "inside_std": 20.2553653717041
+        },
+        "auto_std": {
+          "total": 2.23357449003002,
+          "static": 0.36036008152825205,
+          "leak": 0.0,
+          "boundary_persist": 0.4152336604024614,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.012092141544117647,
+          "inside_std": 15.392916679382324
+        }
+      }
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.8927626784029004
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7127626784029004,
+          "static": 0.41541461251264844,
+          "leak": 0.12605156966007797,
+          "boundary_persist": 0.6504369538077404,
+          "iou_auto": 0.010982575996785027,
+          "anchor_overlap": 1.0,
+          "coverage": 0.02605532903740876,
+          "inside_std": 16.301836013793945
+        },
+        "auto_std": {
+          "total": 1.754598911617327,
+          "static": 0.13622544813149107,
+          "leak": 0.05346272224527332,
+          "boundary_persist": 0.6524499147811355,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9076772543458201,
+          "coverage": 0.28775982265054745,
+          "inside_std": 24.08734703063965
+        }
+      }
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          -0.16954666636849697
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.34954666636849696,
+          "static": 0.0,
+          "leak": 0.5992128566743194,
+          "boundary_persist": 0.6511366194013054,
+          "iou_auto": 0.06286286695559735,
+          "anchor_overlap": 0.8467366349622827,
+          "coverage": 0.05513961226851852,
+          "inside_std": 36.374969482421875
+        },
+        "auto_std": {
+          "total": 2.4709471507589473,
+          "static": 0.3864287393143946,
+          "leak": 0.0,
+          "boundary_persist": 0.6502007447569836,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9083437653077886,
+          "coverage": 0.13290653935185184,
+          "inside_std": 19.92645835876465
+        }
+      }
+    },
+    {
+      "vehicle": "nikena",
+      "camera": "right_bwd",
+      "status": "reject_black",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.6447080823799416
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.4647080823799414,
+          "static": 0.3832778013311742,
+          "leak": 0.0,
+          "boundary_persist": 0.6505581423898842,
+          "iou_auto": 0.9994979878364921,
+          "anchor_overlap": 0.9108475775855683,
+          "coverage": 0.21733165922619047,
+          "inside_std": 23.617027282714844
+        },
+        "auto_std": {
+          "total": 2.4647242456811984,
+          "static": 0.38338872255409484,
+          "leak": 0.0,
+          "boundary_persist": 0.6503002130544256,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9108027995059695,
+          "coverage": 0.21722255608974358,
+          "inside_std": 23.61277961730957
+        }
+      }
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.466537942435382
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.2865379424353818,
+          "static": 0.4284117872862201,
+          "leak": 0.00010375462032293626,
+          "boundary_persist": 0.6504770164787511,
+          "iou_auto": 0.39021228326041163,
+          "anchor_overlap": 1.0,
+          "coverage": 0.1379081530448718,
+          "inside_std": 20.23288917541504
+        },
+        "auto_std": {
+          "total": 2.0291826847786556,
+          "static": 0.2581702406844665,
+          "leak": 0.0,
+          "boundary_persist": 0.5786513214717567,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.35310604109432236,
+          "inside_std": 26.259042739868164
+        }
+      }
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          -0.001411459504255974
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.18141145950425597,
+          "static": 0.0,
+          "leak": 0.5544412178546837,
+          "boundary_persist": 0.650010475591871,
+          "iou_auto": 0.07621398820480614,
+          "anchor_overlap": 1.0,
+          "coverage": 0.059525761291058396,
+          "inside_std": 42.56740951538086
+        },
+        "auto_std": {
+          "total": 2.0913951494919245,
+          "static": 0.2351389401484566,
+          "leak": 0.0,
+          "boundary_persist": 0.6354988602489917,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9002817972788411,
+          "coverage": 0.20615804630474452,
+          "inside_std": 28.997764587402344
+        }
+      }
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5690150930076066
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.3890150930076066,
+          "static": 0.19257078302851716,
+          "leak": 0.1265950167049068,
+          "boundary_persist": 0.6507225433526012,
+          "iou_auto": 0.4019819043515726,
+          "anchor_overlap": 0.8457915710662963,
+          "coverage": 0.04492730034722222,
+          "inside_std": 37.461753845214844
+        },
+        "auto_std": {
+          "total": 2.145172653186196,
+          "static": 0.28465827805421906,
+          "leak": 0.0,
+          "boundary_persist": 0.6376813471502591,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.7326989335520919,
+          "coverage": 0.055112485532407406,
+          "inside_std": 33.189231872558594
+        }
+      }
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.3119095391701374
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.1319095391701375,
+          "static": 0.058642955425989296,
+          "leak": 0.20469838932940734,
+          "boundary_persist": 0.6501215559157212,
+          "iou_auto": 0.6519907176404433,
+          "anchor_overlap": 1.0,
+          "coverage": 0.22601815682870371,
+          "inside_std": 39.60112380981445
+        },
+        "auto_std": {
+          "total": 1.9288118239500966,
+          "static": 0.17799462563427726,
+          "leak": 0.0,
+          "boundary_persist": 0.5629163582531458,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.15119176793981481,
+          "inside_std": 34.580223083496094
+        }
+      }
+    },
+    {
+      "vehicle": "orvy",
+      "camera": "right_fwd",
+      "chosen": "zero",
+      "changed": false,
+      "reason": "no_artifact_group"
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.822609104116404
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.6426091041164042,
+          "static": 0.16529941900282086,
+          "leak": 0.013608303680040018,
+          "boundary_persist": 0.6504091300602928,
+          "iou_auto": 0.4149436422163695,
+          "anchor_overlap": 1.0,
+          "coverage": 0.15732493418040294,
+          "inside_std": 36.73002243041992
+        },
+        "auto_std": {
+          "total": 1.9030049252571826,
+          "static": 0.18687416235672294,
+          "leak": 0.0,
+          "boundary_persist": 0.6089222234191533,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.34426153273809523,
+          "inside_std": 35.7806510925293
+        }
+      }
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.24809835584490275
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.06809835584490276,
+          "static": 0.0,
+          "leak": 0.41828827277423797,
+          "boundary_persist": 0.6498322147651006,
+          "iou_auto": 0.004976518085194035,
+          "anchor_overlap": 1.0,
+          "coverage": 0.051741774064781025,
+          "inside_std": 41.43918991088867
+        },
+        "auto_std": {
+          "total": 1.8893795434872367,
+          "static": 0.15115852797616713,
+          "leak": 0.004917203757303177,
+          "boundary_persist": 0.6437111863859988,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9076921421577594,
+          "coverage": 0.1656217923129562,
+          "inside_std": 33.5295295715332
+        }
+      }
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.9637141153629256
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7837141153629257,
+          "static": 0.2058254114792034,
+          "leak": 0.006861718683681842,
+          "boundary_persist": 0.6511926328502415,
+          "iou_auto": 0.5696960436978963,
+          "anchor_overlap": 0.7999207719079823,
+          "coverage": 0.1278247974537037,
+          "inside_std": 41.23653030395508
+        },
+        "auto_std": {
+          "total": 1.9814830942635782,
+          "static": 0.18527852400124545,
+          "leak": 0.0,
+          "boundary_persist": 0.6509694265899865,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8898553818240034,
+          "coverage": 0.16944263599537038,
+          "inside_std": 42.303401947021484
+        }
+      }
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5806564693826606
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4006564693826606,
+          "static": 0.11923874703916837,
+          "leak": 0.058959470594293954,
+          "boundary_persist": 0.6501736111111112,
+          "iou_auto": 0.3700543739944334,
+          "anchor_overlap": 1.0,
+          "coverage": 0.280931712962963,
+          "inside_std": 52.24016189575195
+        },
+        "auto_std": {
+          "total": 2.212140946740413,
+          "static": 0.2689722987269638,
+          "leak": 0.0,
+          "boundary_persist": 0.6351193664396664,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.14102105034722223,
+          "inside_std": 43.35908889770508
+        }
+      }
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.3457688812459148
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.1657688812459148,
+          "static": 0.11741993544903251,
+          "leak": 0.05130933380623042,
+          "boundary_persist": 0.6499426605504588,
+          "iou_auto": 0.016990251495043827,
+          "anchor_overlap": 1.0,
+          "coverage": 0.03014691206660584,
+          "inside_std": 47.68388748168945
+        },
+        "auto_std": {
+          "total": 1.9268238959714545,
+          "static": 0.1705314355529648,
+          "leak": 0.0,
+          "boundary_persist": 0.6136524768040443,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9256530538017477,
+          "coverage": 0.19108369924726276,
+          "inside_std": 44.814388275146484
+        }
+      }
+    },
+    {
+      "vehicle": "ravine",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.160027275238334
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.9800272752383339,
+          "static": 0.3060915845867359,
+          "leak": 0.00512056310341001,
+          "boundary_persist": 0.65180280791321,
+          "iou_auto": 0.4847820205611811,
+          "anchor_overlap": 0.8267569238573852,
+          "coverage": 0.11407515914351851,
+          "inside_std": 36.92748260498047
+        },
+        "auto_std": {
+          "total": 2.234249471423761,
+          "static": 0.29498109950190765,
+          "leak": 0.0,
+          "boundary_persist": 0.6350271539288341,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8994259852080804,
+          "coverage": 0.16382740162037038,
+          "inside_std": 37.51874542236328
+        }
+      }
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.7676077691343945
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.5876077691343946,
+          "static": 0.0,
+          "leak": 0.1930723369528257,
+          "boundary_persist": 0.6499547511312217,
+          "iou_auto": 0.03915376344644536,
+          "anchor_overlap": 1.0,
+          "coverage": 0.07889945341117216,
+          "inside_std": 31.50247573852539
+        },
+        "auto_std": {
+          "total": 2.1789624870815643,
+          "static": 0.2856686996201353,
+          "leak": 0.0,
+          "boundary_persist": 0.5537306755480439,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.27892485119047616,
+          "inside_std": 22.006134033203125
+        }
+      }
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.8618287879457893
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.6818287879457894,
+          "static": 0.2759898620668497,
+          "leak": 0.049971263498593425,
+          "boundary_persist": 0.6502696871628911,
+          "iou_auto": 0.20592454319379108,
+          "anchor_overlap": 1.0,
+          "coverage": 0.05956490717250922,
+          "inside_std": 19.670007705688477
+        },
+        "auto_std": {
+          "total": 1.8933277591386535,
+          "static": 0.2006555213803719,
+          "leak": 0.06031757977122216,
+          "boundary_persist": 0.6505926176769387,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9097995685330122,
+          "coverage": 0.2873039667896679,
+          "inside_std": 21.71670150756836
+        }
+      }
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.7867236024957591
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.6067236024957592,
+          "static": 0.2014981607473889,
+          "leak": 0.0007802426143876738,
+          "boundary_persist": 0.6520106589147286,
+          "iou_auto": 0.4048523148784174,
+          "anchor_overlap": 0.6365958425388273,
+          "coverage": 0.22019133391203705,
+          "inside_std": 25.373579025268555
+        },
+        "auto_std": {
+          "total": 2.23682625985182,
+          "static": 0.28937004187507964,
+          "leak": 0.0,
+          "boundary_persist": 0.6516051074194592,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9022339066852888,
+          "coverage": 0.24213505497685187,
+          "inside_std": 22.58131980895996
+        }
+      }
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.11309759896399
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.93309759896399,
+          "static": 0.27451006783036724,
+          "leak": 0.006232630611983861,
+          "boundary_persist": 0.6512655205348615,
+          "iou_auto": 0.4627792896018333,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3110496238425926,
+          "inside_std": 17.477783203125
+        },
+        "auto_std": {
+          "total": 2.686314055713026,
+          "static": 0.483394093056037,
+          "leak": 0.0,
+          "boundary_persist": 0.5901869248650414,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2799877025462963,
+          "inside_std": 12.445556640625
+        }
+      }
+    },
+    {
+      "vehicle": "rickie",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6104648870302107
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4304648870302108,
+          "static": 0.21878759905041067,
+          "leak": 0.07666506947771921,
+          "boundary_persist": 0.650412990426131,
+          "iou_auto": 0.27556951641062677,
+          "anchor_overlap": 0.7394186232231273,
+          "coverage": 0.11322699652777778,
+          "inside_std": 27.53035545349121
+        },
+        "auto_std": {
+          "total": 1.919500179057878,
+          "static": 0.15975759731520522,
+          "leak": 0.0,
+          "boundary_persist": 0.6511287320242353,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8876652166989347,
+          "coverage": 0.215771484375,
+          "inside_std": 29.610605239868164
+        }
+      }
+    },
+    {
+      "vehicle": "right",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          -0.5965588883177104
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.7765588883177105,
+          "static": 0.0,
+          "leak": 0.8043177792053573,
+          "boundary_persist": 0.6502829907655645,
+          "iou_auto": 0.010979334635810791,
+          "anchor_overlap": 1.0,
+          "coverage": 0.09187736092032966,
+          "inside_std": 37.447265625
+        },
+        "auto_std": {
+          "total": 2.5129808913998493,
+          "static": 0.39375752705842737,
+          "leak": 0.0,
+          "boundary_persist": 0.6419505496987271,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.30239633413461536,
+          "inside_std": 18.983739852905273
+        }
+      }
+    },
+    {
+      "vehicle": "right",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.098136574057676
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.918136574057676,
+          "static": 0.23282512436744152,
+          "leak": 0.00026924218679884847,
+          "boundary_persist": 0.6500821018062398,
+          "iou_auto": 0.5355353096587971,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2619556568287037,
+          "inside_std": 27.296422958374023
+        },
+        "auto_std": {
+          "total": 2.2346284578453894,
+          "static": 0.29794407753666696,
+          "leak": 0.0,
+          "boundary_persist": 0.646733890687222,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3287489149305556,
+          "inside_std": 24.979461669921875
+        }
+      }
+    },
+    {
+      "vehicle": "right",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.951748553444782
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.7717485534447817,
+          "static": 0.724145254614263,
+          "leak": 0.004781316087902657,
+          "boundary_persist": 0.6496688741721854,
+          "iou_auto": 0.08516693001281356,
+          "anchor_overlap": 1.0,
+          "coverage": 0.05835586939102564,
+          "inside_std": 5.8849687576293945
+        },
+        "auto_std": {
+          "total": 2.8828223627016065,
+          "static": 0.5557609210027878,
+          "leak": 0.0,
+          "boundary_persist": 0.6505786428195687,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.921188434393261,
+          "coverage": 0.1885445283882784,
+          "inside_std": 9.477209091186523
+        }
+      }
+    },
+    {
+      "vehicle": "robb",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked_manual": [
+        [
+          "v3",
+          1.550183521437756
+        ],
+        [
+          "current",
+          1.536001597845914
+        ],
+        [
+          "v2",
+          1.536001597845914
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.3560015978459141,
+          "static": 0.13640664432719696,
+          "leak": 0.06351589340878251,
+          "boundary_persist": 0.631564901793339,
+          "iou_auto": 0.2856460076370826,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12435733570772059,
+          "inside_std": 35.28407287597656
+        },
+        "v2": {
+          "total": 1.3560015978459141,
+          "static": 0.13640664432719696,
+          "leak": 0.06351589340878251,
+          "boundary_persist": 0.631564901793339,
+          "iou_auto": 0.2856460076370826,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12435733570772059,
+          "inside_std": 35.28407287597656
+        },
+        "v3": {
+          "total": 1.370183521437756,
+          "static": 0.14929223592944862,
+          "leak": 0.04469991364421416,
+          "boundary_persist": 0.4851030465949821,
+          "iou_auto": 0.39089889041266673,
+          "anchor_overlap": 1.0,
+          "coverage": 0.16630284926470587,
+          "inside_std": 34.75760269165039
+        },
+        "auto_std": {
+          "total": 2.0764317978895046,
+          "static": 0.2592387463131939,
+          "leak": 0.0,
+          "boundary_persist": 0.586694004524887,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.33438289866727944,
+          "inside_std": 30.265487670898438
+        }
+      }
+    },
+    {
+      "vehicle": "robb",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.13786397812809198
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.042136021871908014,
+          "static": 0.0,
+          "leak": 0.4905260230156799,
+          "boundary_persist": 0.6504827586206897,
+          "iou_auto": 0.07369535143423837,
+          "anchor_overlap": 1.0,
+          "coverage": 0.05144481169871795,
+          "inside_std": 29.1009464263916
+        },
+        "auto_std": {
+          "total": 2.5431652508528018,
+          "static": 0.4153223480273507,
+          "leak": 0.0,
+          "boundary_persist": 0.6523080091651006,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9107860183464237,
+          "coverage": 0.17898995535714285,
+          "inside_std": 16.972524642944336
+        }
+      }
+    },
+    {
+      "vehicle": "robb",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.4266895256479155
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.2466895256479154,
+          "static": 0.41716144199772,
+          "leak": 0.009268121490556407,
+          "boundary_persist": 0.6504795188556567,
+          "iou_auto": 0.49767327014758117,
+          "anchor_overlap": 0.8302226901480347,
+          "coverage": 0.11336805555555556,
+          "inside_std": 20.380250930786133
+        },
+        "auto_std": {
+          "total": 2.335319501899475,
+          "static": 0.34052943069563457,
+          "leak": 0.0,
+          "boundary_persist": 0.6089461104679389,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9374934220220178,
+          "coverage": 0.17182798032407406,
+          "inside_std": 23.059860229492188
+        }
+      }
+    },
+    {
+      "vehicle": "robb",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.5193338203086846
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.3393338203086844,
+          "static": 0.3470893690979523,
+          "leak": 0.0019662338261411077,
+          "boundary_persist": 0.6500207641196014,
+          "iou_auto": 0.7898539617435795,
+          "anchor_overlap": 1.0,
+          "coverage": 0.31363570601851853,
+          "inside_std": 24.427658081054688
+        },
+        "auto_std": {
+          "total": 2.4534715157861458,
+          "static": 0.39319040441513464,
+          "leak": 0.0,
+          "boundary_persist": 0.5720161613220253,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.29876844618055554,
+          "inside_std": 22.702857971191406
+        }
+      }
+    },
+    {
+      "vehicle": "robb",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.43299502659214
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.2529950265921401,
+          "static": 0.1426034880864836,
+          "leak": 0.07549151629410181,
+          "boundary_persist": 0.649984718826406,
+          "iou_auto": 0.13120249155405406,
+          "anchor_overlap": 1.0,
+          "coverage": 0.06640982715201466,
+          "inside_std": 34.96757888793945
+        },
+        "auto_std": {
+          "total": 2.0527482461260877,
+          "static": 0.21501704122312937,
+          "leak": 0.0,
+          "boundary_persist": 0.6512966821353032,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8888508331720102,
+          "coverage": 0.24021648923992675,
+          "inside_std": 32.014305114746094
+        }
+      }
+    },
+    {
+      "vehicle": "robb",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.9059603299804615
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7259603299804616,
+          "static": 0.2639773605994573,
+          "leak": 0.04654314077827201,
+          "boundary_persist": 0.6491766136162688,
+          "iou_auto": 0.43256625376858887,
+          "anchor_overlap": 0.7693856109032707,
+          "coverage": 0.18417426215277777,
+          "inside_std": 30.405357360839844
+        },
+        "auto_std": {
+          "total": 2.1864042954105267,
+          "static": 0.2646269431841246,
+          "leak": 0.0,
+          "boundary_persist": 0.6441164572892555,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9414870505207442,
+          "coverage": 0.2746997974537037,
+          "inside_std": 30.378522872924805
+        }
+      }
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          3.067417676141241
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.887417676141241,
+          "static": 0.6484049061492405,
+          "leak": 0.0001917567171250028,
+          "boundary_persist": 0.6500186822767468,
+          "iou_auto": 0.4952156458738095,
+          "anchor_overlap": 1.0,
+          "coverage": 0.15856441735347984,
+          "inside_std": 9.957596778869629
+        },
+        "auto_std": {
+          "total": 2.8391548631315984,
+          "static": 0.5423483419299553,
+          "leak": 0.0,
+          "boundary_persist": 0.6451871703395183,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.31907480540293043,
+          "inside_std": 12.961246490478516
+        }
+      }
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.3023528510608315
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.1223528510608314,
+          "static": 0.4751252098033887,
+          "leak": 0.0014378983367013835,
+          "boundary_persist": 0.6502396931927132,
+          "iou_auto": 0.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.046023637820512824,
+          "inside_std": 21.445220947265625
+        },
+        "auto_std": {
+          "total": 2.2518021525677323,
+          "static": 0.37379758395006524,
+          "leak": 0.0,
+          "boundary_persist": 0.6505598114319388,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.43546030199707747,
+          "coverage": 0.003671946543040293,
+          "inside_std": 25.585243225097656
+        }
+      }
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.4052794697090496
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.2252794697090494,
+          "static": 0.41462541623507176,
+          "leak": 0.013002850133998838,
+          "boundary_persist": 0.6505356065178033,
+          "iou_auto": 0.5095911155981827,
+          "anchor_overlap": 0.7914722856373099,
+          "coverage": 0.12753725405092592,
+          "inside_std": 21.286270141601562
+        },
+        "auto_std": {
+          "total": 2.3687195860487953,
+          "static": 0.35842851498991757,
+          "leak": 0.0,
+          "boundary_persist": 0.598449264654141,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9372170297106659,
+          "coverage": 0.18613642939814815,
+          "inside_std": 23.32978630065918
+        }
+      }
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.101689986672955
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.9216899866729547,
+          "static": 0.22112274585629343,
+          "leak": 0.04345572354211663,
+          "boundary_persist": 0.5949714983713354,
+          "iou_auto": 0.7873194855375792,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2721263744212963,
+          "inside_std": 32.76131057739258
+        },
+        "auto_std": {
+          "total": 2.1416011971696283,
+          "static": 0.26604164928407925,
+          "leak": 0.0,
+          "boundary_persist": 0.5645569320975978,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.25990306712962963,
+          "inside_std": 30.87192153930664
+        }
+      }
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.9096274442935572
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.7296274442935573,
+          "static": 0.08308739754035455,
+          "leak": 0.2182648401826484,
+          "boundary_persist": 0.6497231012658228,
+          "iou_auto": 0.03664221065613177,
+          "anchor_overlap": 1.0,
+          "coverage": 0.033294342376373624,
+          "inside_std": 45.00254440307617
+        },
+        "auto_std": {
+          "total": 1.9477872930787385,
+          "static": 0.17998575021939334,
+          "leak": 0.0,
+          "boundary_persist": 0.6480658687623226,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8439055266652601,
+          "coverage": 0.1441109346382784,
+          "inside_std": 40.24672317504883
+        }
+      }
+    },
+    {
+      "vehicle": "shelly",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.523074134296283
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.3430741342962826,
+          "static": 0.4955294534645367,
+          "leak": 0.01059260267050203,
+          "boundary_persist": 0.6504301154326887,
+          "iou_auto": 0.48691512915129154,
+          "anchor_overlap": 0.6271986939029368,
+          "coverage": 0.18609302662037036,
+          "inside_std": 16.526744842529297
+        },
+        "auto_std": {
+          "total": 2.7265138413178187,
+          "static": 0.488470291295237,
+          "leak": 0.0,
+          "boundary_persist": 0.6513762830701585,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9323662186152676,
+          "coverage": 0.17826786747685186,
+          "inside_std": 16.758007049560547
+        }
+      }
+    },
+    {
+      "vehicle": "soan",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6749122155109886
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4949122155109886,
+          "static": 0.154236037745362,
+          "leak": 0.0018958667317209173,
+          "boundary_persist": 0.6507743362831858,
+          "iou_auto": 0.20459961296719817,
+          "anchor_overlap": 1.0,
+          "coverage": 0.12830349988553114,
+          "inside_std": 33.40345001220703
+        },
+        "auto_std": {
+          "total": 2.2889671765329895,
+          "static": 0.33237074894783136,
+          "leak": 0.0,
+          "boundary_persist": 0.5514193100646603,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2758431347298535,
+          "inside_std": 26.368019104003906
+        }
+      }
+    },
+    {
+      "vehicle": "soan",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.3035854561875986
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.1235854561875986,
+          "static": 0.1207721739202624,
+          "leak": 0.0704935395043423,
+          "boundary_persist": 0.6506712626995645,
+          "iou_auto": 0.004591270369877004,
+          "anchor_overlap": 1.0,
+          "coverage": 0.0422193366529304,
+          "inside_std": 35.55260467529297
+        },
+        "auto_std": {
+          "total": 2.1016117800124023,
+          "static": 0.23871725160302748,
+          "leak": 0.0,
+          "boundary_persist": 0.6542265889058254,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8622161153747333,
+          "coverage": 0.1601079584478022,
+          "inside_std": 30.783357620239258
+        }
+      }
+    },
+    {
+      "vehicle": "soan",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "keep_current",
+      "ranked_manual": [
+        [
+          "current",
+          1.9051754208127918
+        ],
+        [
+          "v2",
+          1.9051754208127918
+        ],
+        [
+          "v3",
+          1.5732242317130845
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7251754208127918,
+          "static": 0.2393419383703015,
+          "leak": 0.06996329456965455,
+          "boundary_persist": 0.6523999025420288,
+          "iou_auto": 0.5562687709793298,
+          "anchor_overlap": 0.8203149120098796,
+          "coverage": 0.10543619791666667,
+          "inside_std": 38.09699249267578
+        },
+        "v2": {
+          "total": 1.7251754208127918,
+          "static": 0.2393419383703015,
+          "leak": 0.06996329456965455,
+          "boundary_persist": 0.6523999025420288,
+          "iou_auto": 0.5562687709793298,
+          "anchor_overlap": 0.8203149120098796,
+          "coverage": 0.10543619791666667,
+          "inside_std": 38.09699249267578
+        },
+        "v3": {
+          "total": 1.3932242317130845,
+          "static": 0.2009613317158807,
+          "leak": 0.13935315178796928,
+          "boundary_persist": 0.6278134278325831,
+          "iou_auto": 0.4990282188260034,
+          "anchor_overlap": 0.7578553282524402,
+          "coverage": 0.121728515625,
+          "inside_std": 40.019256591796875
+        },
+        "auto_std": {
+          "total": 2.1899387080953847,
+          "static": 0.2739838804651007,
+          "leak": 0.0,
+          "boundary_persist": 0.6318310722771519,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.9218235748242656,
+          "coverage": 0.13352322048611112,
+          "inside_std": 36.361976623535156
+        }
+      }
+    },
+    {
+      "vehicle": "soan",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.0993651421572337
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.9193651421572338,
+          "static": 0.24761625975876045,
+          "leak": 0.02953471886366196,
+          "boundary_persist": 0.6314142036124795,
+          "iou_auto": 0.602556738550048,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2729691116898148,
+          "inside_std": 32.54216384887695
+        },
+        "auto_std": {
+          "total": 2.131346988532327,
+          "static": 0.2775781834166293,
+          "leak": 0.0,
+          "boundary_persist": 0.6506826156882812,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.3577275028935185,
+          "inside_std": 31.246248245239258
+        }
+      }
+    },
+    {
+      "vehicle": "soan",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.5645100465053667
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.3845100465053668,
+          "static": 0.16456134568659908,
+          "leak": 0.011446673706441394,
+          "boundary_persist": 0.6509146341463414,
+          "iou_auto": 0.04131761182856073,
+          "anchor_overlap": 1.0,
+          "coverage": 0.04250021541819853,
+          "inside_std": 39.25829315185547
+        },
+        "auto_std": {
+          "total": 1.8863763169172847,
+          "static": 0.1477720041531132,
+          "leak": 0.0,
+          "boundary_persist": 0.6438116817724069,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8932324833866174,
+          "coverage": 0.20719460880055146,
+          "inside_std": 40.047245025634766
+        }
+      }
+    },
+    {
+      "vehicle": "soan",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.0748988402896917
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8948988402896918,
+          "static": 0.31896242068451,
+          "leak": 0.01720308676830416,
+          "boundary_persist": 0.6511812411847673,
+          "iou_auto": 0.3529699601660639,
+          "anchor_overlap": 0.8352343308865048,
+          "coverage": 0.09608289930555555,
+          "inside_std": 24.431703567504883
+        },
+        "auto_std": {
+          "total": 2.1201477253185748,
+          "static": 0.25680242776218665,
+          "leak": 0.0,
+          "boundary_persist": 0.6102870077355838,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8989089793182534,
+          "coverage": 0.2239384403935185,
+          "inside_std": 26.661645889282227
+        }
+      }
+    },
+    {
+      "vehicle": "susana",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.988591653767432
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.8085916537674319,
+          "static": 0.048451463806176376,
+          "leak": 0.15611794198400383,
+          "boundary_persist": 0.6509146341463415,
+          "iou_auto": 0.07134920323672823,
+          "anchor_overlap": 1.0,
+          "coverage": 0.07491450606684982,
+          "inside_std": 39.113304138183594
+        },
+        "auto_std": {
+          "total": 2.2248933193939977,
+          "static": 0.3218502660039969,
+          "leak": 0.0,
+          "boundary_persist": 0.6523557210368036,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.364833733974359,
+          "inside_std": 27.875274658203125
+        }
+      }
+    },
+    {
+      "vehicle": "susana",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6622621875700556
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4822621875700557,
+          "static": 0.24149060754885776,
+          "leak": 0.07067701712152769,
+          "boundary_persist": 0.6500445897740785,
+          "iou_auto": 0.10447719474783897,
+          "anchor_overlap": 1.0,
+          "coverage": 0.06612544356684982,
+          "inside_std": 33.59724044799805
+        },
+        "auto_std": {
+          "total": 1.8394894190975006,
+          "static": 0.12596265755925284,
+          "leak": 0.0,
+          "boundary_persist": 0.6509094754653131,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8909012825912803,
+          "coverage": 0.21656614869505494,
+          "inside_std": 38.71440887451172
+        }
+      }
+    },
+    {
+      "vehicle": "susana",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.037679917124365
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.857679917124365,
+          "static": 0.29906845173322527,
+          "leak": 0.0014441267365624007,
+          "boundary_persist": 0.6507523685677131,
+          "iou_auto": 0.3304904513888889,
+          "anchor_overlap": 0.815180660254744,
+          "coverage": 0.06261393229166666,
+          "inside_std": 32.17657470703125
+        },
+        "auto_std": {
+          "total": 2.2919085297995827,
+          "static": 0.3138365178122323,
+          "leak": 0.0,
+          "boundary_persist": 0.651973401973402,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8923120631854082,
+          "coverage": 0.15913447627314814,
+          "inside_std": 31.498640060424805
+        }
+      }
+    },
+    {
+      "vehicle": "susana",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.3682963534591153
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.188296353459115,
+          "static": 0.3091662089733149,
+          "leak": 0.0074391326732377765,
+          "boundary_persist": 0.6506669361358125,
+          "iou_auto": 0.6815190018315018,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2423701533564815,
+          "inside_std": 27.829524993896484
+        },
+        "auto_std": {
+          "total": 2.3312408467268604,
+          "static": 0.31826991913031955,
+          "leak": 0.0,
+          "boundary_persist": 0.635992267571215,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2889431423611111,
+          "inside_std": 27.462791442871094
+        }
+      }
+    },
+    {
+      "vehicle": "susana",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6132963456907
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4332963456907,
+          "static": 0.18800224531705867,
+          "leak": 0.02478415439309294,
+          "boundary_persist": 0.650623268698061,
+          "iou_auto": 0.07293593538044149,
+          "anchor_overlap": 1.0,
+          "coverage": 0.052825592376373624,
+          "inside_std": 33.523048400878906
+        },
+        "auto_std": {
+          "total": 1.9753915073123562,
+          "static": 0.1854743694285761,
+          "leak": 0.0,
+          "boundary_persist": 0.651318570975584,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8726657670143702,
+          "coverage": 0.1961567078754579,
+          "inside_std": 33.627410888671875
+        }
+      }
+    },
+    {
+      "vehicle": "targi",
+      "camera": "front",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.6061649604830655
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.4261649604830655,
+          "static": 0.11100041485579004,
+          "leak": 0.025840040121319227,
+          "boundary_persist": 0.6499782797567333,
+          "iou_auto": 0.33090228759287393,
+          "anchor_overlap": 1.0,
+          "coverage": 0.1497860863095238,
+          "inside_std": 36.548465728759766
+        },
+        "auto_std": {
+          "total": 1.846726935391887,
+          "static": 0.15742325098292798,
+          "leak": 0.0,
+          "boundary_persist": 0.6099386202908865,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.33751681261446886,
+          "inside_std": 34.63993453979492
+        }
+      }
+    },
+    {
+      "vehicle": "targi",
+      "camera": "left_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.2850580280833779
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.105058028083378,
+          "static": 0.24476727299434098,
+          "leak": 0.18483066315149058,
+          "boundary_persist": 0.5824933687002652,
+          "iou_auto": 0.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.04393640225821168,
+          "inside_std": 30.32252311706543
+        },
+        "auto_std": {
+          "total": 2.2055826593869177,
+          "static": 0.27940461510089687,
+          "leak": 0.0,
+          "boundary_persist": 0.6523973399060596,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8821349430732788,
+          "coverage": 0.13993000114051096,
+          "inside_std": 28.93183708190918
+        }
+      }
+    },
+    {
+      "vehicle": "targi",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.8006715894086744
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 0.6206715894086745,
+          "static": 0.061769707715200406,
+          "leak": 0.270728858968194,
+          "boundary_persist": 0.65078125,
+          "iou_auto": 0.18830410621229485,
+          "anchor_overlap": 0.8762794531840352,
+          "coverage": 0.07897677951388889,
+          "inside_std": 42.42373275756836
+        },
+        "auto_std": {
+          "total": 1.992943362945329,
+          "static": 0.2040603538153335,
+          "leak": 0.0,
+          "boundary_persist": 0.619462385154189,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8767059178743961,
+          "coverage": 0.11979166666666667,
+          "inside_std": 35.989810943603516
+        }
+      }
+    },
+    {
+      "vehicle": "targi",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.8986007783753776
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.7186007783753776,
+          "static": 0.15796724761075076,
+          "leak": 0.05489427462214014,
+          "boundary_persist": 0.6505905511811023,
+          "iou_auto": 0.6781647031647031,
+          "anchor_overlap": 1.0,
+          "coverage": 0.2398998119212963,
+          "inside_std": 31.738529205322266
+        },
+        "auto_std": {
+          "total": 1.9874468722587957,
+          "static": 0.18015924212786494,
+          "leak": 0.0,
+          "boundary_persist": 0.622294101279911,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.28561921296296294,
+          "inside_std": 30.90205192565918
+        }
+      }
+    },
+    {
+      "vehicle": "targi",
+      "camera": "right_bwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.4285269688010087
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.2485269688010088,
+          "static": 0.1751382499401446,
+          "leak": 0.09692767414198265,
+          "boundary_persist": 0.6504801734820322,
+          "iou_auto": 0.0800055656045638,
+          "anchor_overlap": 1.0,
+          "coverage": 0.061425424840328466,
+          "inside_std": 31.331707000732422
+        },
+        "auto_std": {
+          "total": 2.1285534427823034,
+          "static": 0.2488074611984259,
+          "leak": 0.0,
+          "boundary_persist": 0.6434570985527224,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8932603680215775,
+          "coverage": 0.15989072479470803,
+          "inside_std": 28.5334415435791
+        }
+      }
+    },
+    {
+      "vehicle": "targi",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.0220982326779455
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.8420982326779454,
+          "static": 0.2920816361319838,
+          "leak": 0.02456282806020358,
+          "boundary_persist": 0.6505218525766471,
+          "iou_auto": 0.47229401975710794,
+          "anchor_overlap": 0.6976626163616855,
+          "coverage": 0.12472149884259259,
+          "inside_std": 29.9725399017334
+        },
+        "auto_std": {
+          "total": 2.131222342785645,
+          "static": 0.26048177347881674,
+          "leak": 0.0,
+          "boundary_persist": 0.624582014689198,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8723556830405164,
+          "coverage": 0.10087528935185185,
+          "inside_std": 31.31044578552246
+        }
+      }
+    },
+    {
+      "vehicle": "weel",
+      "camera": "left_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          0.05371461595356025
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": -0.12628538404643974,
+          "static": 0.0,
+          "leak": 0.501925700765099,
+          "boundary_persist": 0.6118980169971672,
+          "iou_auto": 0.16167975397388643,
+          "anchor_overlap": 0.7851677863940174,
+          "coverage": 0.10471100983796296,
+          "inside_std": 45.81239700317383
+        },
+        "auto_std": {
+          "total": 2.0091783387229794,
+          "static": 0.2222839325970407,
+          "leak": 0.0,
+          "boundary_persist": 0.6018752089475123,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8475230310933011,
+          "coverage": 0.17058919270833334,
+          "inside_std": 31.687034606933594
+        }
+      }
+    },
+    {
+      "vehicle": "weel",
+      "camera": "rear",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          1.965643547235048
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 1.785643547235048,
+          "static": 0.25648539425003125,
+          "leak": 0.11603889772668959,
+          "boundary_persist": 0.6509726821192052,
+          "iou_auto": 0.627841088752008,
+          "anchor_overlap": 1.0,
+          "coverage": 0.28192997685185184,
+          "inside_std": 23.088062286376953
+        },
+        "auto_std": {
+          "total": 2.6780910724955196,
+          "static": 0.45700360910158444,
+          "leak": 0.0,
+          "boundary_persist": 0.6514249007241298,
+          "iou_auto": 1.0,
+          "anchor_overlap": 1.0,
+          "coverage": 0.18357204861111112,
+          "inside_std": 16.8614501953125
+        }
+      }
+    },
+    {
+      "vehicle": "weel",
+      "camera": "right_fwd",
+      "status": "approved",
+      "chosen": "current",
+      "previous": "current",
+      "changed": false,
+      "reason": "best_manual",
+      "ranked_manual": [
+        [
+          "current",
+          2.378061489138256
+        ]
+      ],
+      "raw_scores": {
+        "current": {
+          "total": 2.1980614891382557,
+          "static": 0.378823259963451,
+          "leak": 0.000548363254893546,
+          "boundary_persist": 0.6504702194357367,
+          "iou_auto": 0.5619846759431747,
+          "anchor_overlap": 0.7781989843358844,
+          "coverage": 0.07585177951388888,
+          "inside_std": 29.641862869262695
+        },
+        "auto_std": {
+          "total": 2.212625258944361,
+          "static": 0.3421259678860872,
+          "leak": 0.0,
+          "boundary_persist": 0.5014930064435015,
+          "iou_auto": 1.0,
+          "anchor_overlap": 0.8629480755465008,
+          "coverage": 0.09852973090277778,
+          "inside_std": 31.393016815185547
+        }
+      }
+    }
+  ]
+}
