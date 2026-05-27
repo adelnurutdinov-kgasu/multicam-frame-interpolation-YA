@@ -1,0 +1,11 @@
+# Внешний датасет (не в git). Переопределение: YA_CV_DATASET=/path/to/cv_dataset
+cv_root: C:/Users/adel/Downloads/cv_dataset
+dataset_root: "{cv_root}/final_dataset_v5_participants"
+train_split: "{dataset_root}/train"
+test_split: "{dataset_root}/test"
+baked_root: "{cv_root}/rife_refinement_baked"
+rife_root: "{cv_root}/rife_predictions_v5"
+warps_root: "{cv_root}/multiview_warps"
+consensus_test_outputs: "{cv_root}/consensus_test_outputs"
+submission: "{cv_root}/submission"
+static_far: "{cv_root}/precomputed_static_far"

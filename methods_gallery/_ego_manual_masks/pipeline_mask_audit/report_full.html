@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Pipeline ego mask audit</title>
+<style>body{font-family:sans-serif;margin:16px} table{border-collapse:collapse;width:100%}
+td,th{border:1px solid #ccc;padding:6px} tr.missing{background:#fff0f0}
+tr.ok{background:#f8fff8}</style></head><body>
+<h1>Привязка ego-масок к пайплайну</h1>
+<p>Ключ: <code>{vehicle}_{camera}.png</code> из <code>sample_id</code> (VEHICLE_RE) + <code>meta.target_camera</code></p>
+<h2>Split: test — 199 samples</h2>
+<ul>
+<li><b>ok</b>: 190</li>
+<li><b>missing_mask_file</b>: 9</li>
+</ul>
+<h3>Группы без файла маски (число сэмплов)</h3><ul>
+<li>floi/left_fwd — 1</li>
+<li>kurt/right_fwd — 1</li>
+<li>right/left_fwd — 2</li>
+<li>right/right_fwd — 1</li>
+<li>susana/right_fwd — 3</li>
+<li>weel/left_bwd — 1</li>
+</ul>
+<h3>Примеры проблем (9 показано)</h3><table><tr><th>status</th><th>vehicle</th><th>cam</th><th>sample</th><th>overlay</th></tr>
+<tr class="missing"><td>missing_mask_file</td><td>susana</td><td>right_fwd</td><td>7_40_10_00_06_susana_1760167390099903000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>right</td><td>left_fwd</td><td>30_54_11_59_05_right_1760261215599953000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>right</td><td>left_fwd</td><td>56_19_16_04_21_right_1760275793700062000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>right</td><td>right_fwd</td><td>56_19_17_45_56_right_1760280965499830000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>weel</td><td>left_bwd</td><td>_37_47_10_48_08_weel_1761551942800093000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>susana</td><td>right_fwd</td><td>4_00_10_45_28_susana_1762069882699938000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>susana</td><td>right_fwd</td><td>3_49_12_40_36_susana_1762076809699942000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>floi</td><td>left_fwd</td><td>_18_03_10_54_29_floi_1772957122999973000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>kurt</td><td>right_fwd</td><td>_23_34_12_57_22_kurt_1772966070799667000__000</td><td>—</td></tr>
+</table>
+<h2>Split: train — 1278 samples</h2>
+<ul>
+<li><b>ok</b>: 1273</li>
+<li><b>missing_mask_file</b>: 5</li>
+</ul>
+<h3>Группы без файла маски (число сэмплов)</h3><ul>
+<li>orvy/right_fwd — 5</li>
+</ul>
+<h3>Примеры проблем (5 показано)</h3><table><tr><th>status</th><th>vehicle</th><th>cam</th><th>sample</th><th>overlay</th></tr>
+<tr class="missing"><td>missing_mask_file</td><td>orvy</td><td>right_fwd</td><td>_11_24_13_44_35_orvy_1773142602900311000__001</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>orvy</td><td>right_fwd</td><td>_06_19_16_52_13_orvy_1773326184999925000__001</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>orvy</td><td>right_fwd</td><td>_52_01_13_34_56_orvy_1773484575200141000__001</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>orvy</td><td>right_fwd</td><td>_05_15_16_10_01_orvy_1773583759000169000__000</td><td>—</td></tr>
+<tr class="missing"><td>missing_mask_file</td><td>orvy</td><td>right_fwd</td><td>_34_03_18_38_55_orvy_1773589379100004000__001</td><td>—</td></tr>
+</table>
+</body></html>

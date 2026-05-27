@@ -3,7 +3,7 @@ Export YOLO-seg dataset for ego/camera artifacts (hood, mirror, body in frame).
 
 Sources:
   1) mask_picker_selections.json — per-frame image + chosen mask
-  2) FORCED_GROUP_MASKS — e.g. crozby_right_fwd -> targi
+  2) ZERO_MASK_GROUPS — пустая маска (crozby_right_fwd и др.)
   3) Extra frames from cv_dataset train/ using group-level mask
 
 Output (Ultralytics format):

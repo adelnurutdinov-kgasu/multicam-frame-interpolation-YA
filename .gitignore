@@ -6,5 +6,9 @@ data/dataset/*
 runs/
 *.pt
 blur_tune_cache.pkl
+artifacts/checkpoints/**/*.pt
+checkpoints_consensus/
+checkpoints_consensus_side/
 methods_gallery/_ego_manual_masks/means.zip
 /methods_gallery/_ego_manual_masks/means
+/artifacts/checkpoints/consensus
