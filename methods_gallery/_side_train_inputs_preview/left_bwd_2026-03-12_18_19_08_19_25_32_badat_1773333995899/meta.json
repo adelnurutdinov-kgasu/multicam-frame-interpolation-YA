@@ -1,0 +1,32 @@
+{
+  "sample_id": "2026-03-12_18_19_08_19_25_32_badat_1773333995899782000__000",
+  "camera": "left_bwd",
+  "mirrored_unet_input": false,
+  "unet_in_channels": 13,
+  "static_far_ch5_8": "zeros (OFF)",
+  "base_init_legacy": "no warp expansion, no blur",
+  "base_init_new": "warp telea_med5_outlier_soft_prefill_n030 expand 6.0px -> compose -> gaussian blur sigma=1.0",
+  "no_trust_mix": "if lidar_trust<= 0.0001: warp = (1-0.50)*warp + 0.50*mean_t0t1 (feather σ=2.0); then ego area <- mean_t0t1",
+  "warp_expand_methods_compare": [
+    "nearest",
+    "dilate",
+    "inpaint_telea",
+    "inpaint_ns"
+  ],
+  "telea_variants_compare": [
+    "telea_raw",
+    "telea_med5_outlier_soft",
+    "telea_prefill_n000",
+    "telea_med5_outlier_soft_prefill_n000",
+    "telea_prefill_n006",
+    "telea_med5_outlier_soft_prefill_n006",
+    "telea_prefill_n012",
+    "telea_med5_outlier_soft_prefill_n012",
+    "telea_prefill_n020",
+    "telea_med5_outlier_soft_prefill_n020",
+    "telea_prefill_n030",
+    "telea_med5_outlier_soft_prefill_n030"
+  ],
+  "lidar_blend": "spread r3 + blur σ=1, fine_only, zone_min=0.12",
+  "lidar_space": "camera image space (no mirror flip)"
+}

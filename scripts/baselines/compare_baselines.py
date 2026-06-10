@@ -1,5 +1,7 @@
 """Compare official baselines vs testdeltadif.py methods on N train samples."""
 
+from pathlib import Path
+
 REPO = Path(__file__).resolve().parents[2]
 import sys
 if str(REPO) not in sys.path:
@@ -9,7 +11,6 @@ import argparse
 import json
 import sys
 import time
-from pathlib import Path
 
 import cv2
 import numpy as np
@@ -18,8 +19,12 @@ import torch.nn.functional as F
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent
-BASELINE_DIR = ROOT / "baseline_files" / "baseline_ensemble"
-sys.path.insert(0, str(BASELINE_DIR / "ECCV2022-RIFE"))
+BASELINE_DIR = REPO / "baseline_files" / "baseline_ensemble"
+_RIFE_SRC = BASELINE_DIR / "ECCV2022-RIFE"
+if _RIFE_SRC.is_dir():
+    sys.path.insert(0, str(_RIFE_SRC))
+else:
+    sys.path.insert(0, str(BASELINE_DIR))
 from train_log.RIFE_HDv3 import Model  # noqa: E402
 
 # --- params from testdeltadif.py ---

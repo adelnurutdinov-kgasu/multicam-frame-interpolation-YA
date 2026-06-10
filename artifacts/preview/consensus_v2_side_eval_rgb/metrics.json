@@ -1,0 +1,12 @@
+{
+  "ckpt": "artifacts\\checkpoints\\consensus_side_v2\\consensus_v2_side_100_rgb_best.pt",
+  "num_val_samples": 16,
+  "metrics": {
+    "mse_ycc_mean": 0.03540694457478821,
+    "psnr_ycc_mean": 14.832051682679896,
+    "mse_rgb_mean": 0.03540694457478821,
+    "psnr_rgb_mean": 14.832051682679896
+  },
+  "color_space": "rgb",
+  "preview_dir": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\artifacts\\preview\\consensus_v2_side_eval_rgb"
+}

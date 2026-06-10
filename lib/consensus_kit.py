@@ -301,11 +301,155 @@ def _norm_depth(d: np.ndarray) -> np.ndarray:
     return out
 
 
-def build_base_init(warp, cov, sf_rgb, sf_mask, art_mask, mean_t0t1, use_anchor: bool):
-    warp_w = cov[..., None]
+def _blur_rgb01(rgb: np.ndarray, sigma: float) -> np.ndarray:
+    if sigma <= 0 or cv2 is None:
+        return rgb.astype(np.float32, copy=False)
+    out = np.empty_like(rgb, dtype=np.float32)
+    for c in range(rgb.shape[-1]):
+        out[..., c] = cv2.GaussianBlur(
+            rgb[..., c].astype(np.float32), (0, 0), sigmaX=float(sigma), sigmaY=float(sigma)
+        )
+    return np.clip(out, 0.0, 1.0)
+
+
+def _edge_contrast_mask(rgb01: np.ndarray, thr: float = 0.14) -> np.ndarray:
+    if cv2 is None:
+        return np.zeros(rgb01.shape[:2], dtype=np.float32)
+    gray = cv2.cvtColor((np.clip(rgb01, 0.0, 1.0) * 255.0).astype(np.uint8), cv2.COLOR_RGB2GRAY).astype(
+        np.float32
+    ) / 255.0
+    gx = cv2.Sobel(gray, cv2.CV_32F, 1, 0, ksize=3)
+    gy = cv2.Sobel(gray, cv2.CV_32F, 0, 1, ksize=3)
+    mag = np.sqrt(gx * gx + gy * gy)
+    return (mag >= float(thr)).astype(np.float32)
+
+
+def _local_median_rgb01(rgb01: np.ndarray, ksize: int = 3) -> np.ndarray:
+    if cv2 is None:
+        return rgb01.astype(np.float32, copy=True)
+    u8 = (np.clip(rgb01, 0.0, 1.0) * 255.0).astype(np.uint8)
+    out = np.empty_like(u8)
+    k = int(ksize) | 1
+    for c in range(3):
+        out[..., c] = cv2.medianBlur(u8[..., c], k)
+    return out.astype(np.float32) / 255.0
+
+
+def selective_median_outlier_fix(
+    base: np.ndarray,
+    med: np.ndarray,
+    region: np.ndarray,
+    *,
+    outlier_thr: float = 0.06,
+    min_med_gray: float = 0.07,
+    never_darken: bool = True,
+    cov: Optional[np.ndarray] = None,
+    min_cov: float = 0.12,
+) -> np.ndarray:
+    """
+    Сглаживание зернистости: правим только выбросы относительно local median.
+    never_darken=True — не затемняем пиксель (чёрные прострелы не раздуваются).
+    """
+    base_g = np.mean(base, axis=-1)
+    med_g = np.mean(med, axis=-1)
+    diff = base_g - med_g
+    bright_out = diff > float(outlier_thr)
+    # тёмный выброс только если фон локально не чёрная дыра
+    dark_out = (diff < -float(outlier_thr)) & (med_g > float(min_med_gray))
+    apply = (bright_out | dark_out).astype(np.float32)
+    if cov is not None:
+        apply *= (np.clip(cov, 0.0, 1.0) > float(min_cov)).astype(np.float32)
+    if region.ndim == 3:
+        region = region[..., 0]
+    apply = np.clip(apply * np.clip(region, 0.0, 1.0), 0.0, 1.0)
+    apply3 = apply[..., None]
+    out = base * (1.0 - apply3) + med * apply3
+    if never_darken:
+        out = np.maximum(out, base)
+    return np.clip(out, 0.0, 1.0).astype(np.float32)
+
+
+def telea_postprocess_variants(
+    base: np.ndarray,
+    cov: np.ndarray,
+    *,
+    contrast_thr: float = 0.12,
+    outlier_thr: float = 0.06,
+) -> List[dict]:
+    """Варианты anti-grain поверх inpaint Telea (для визуального выбора)."""
+    edge = _edge_contrast_mask(base, contrast_thr)
+    valid = (cov > 1e-4).astype(np.float32)
+    # только края на валидном warp — без заливки дыр median'ом
+    region_edge = np.clip(0.85 * edge * valid, 0.0, 1.0)
+    if cv2 is not None:
+        region_edge = cv2.GaussianBlur(region_edge.astype(np.float32), (0, 0), sigmaX=0.8, sigmaY=0.8)
+    region_edge = np.clip(region_edge, 0.0, 1.0)
+
+    med5 = _local_median_rgb01(base, 5)
+    med5_full_blend = base * (1.0 - region_edge[..., None]) + med5 * region_edge[..., None]
+    med5_outlier = selective_median_outlier_fix(
+        base, med5, region_edge, outlier_thr=outlier_thr, never_darken=True, cov=cov
+    )
+    # чуть мягче порог — меньше агрессии на границах теней
+    med5_outlier_soft = selective_median_outlier_fix(
+        base,
+        med5,
+        region_edge,
+        outlier_thr=outlier_thr * 1.35,
+        never_darken=True,
+        cov=cov,
+        min_cov=0.08,
+    )
+    return [
+        {"name": "telea_raw", "img": base},
+        {"name": "telea_med5_sel_full", "img": med5_full_blend},
+        {"name": "telea_med5_sel", "img": med5_outlier},
+        {"name": "telea_med5_outlier_soft", "img": med5_outlier_soft},
+    ]
+
+
+def _expand_warp_nearest(warp: np.ndarray, cov: np.ndarray, radius_px: float) -> tuple[np.ndarray, np.ndarray]:
+    """Expand warp into nearby uncovered pixels via nearest valid sample (not blur)."""
+    r = float(radius_px)
+    if r <= 0 or cv2 is None:
+        return warp, cov
+    valid = (cov > 1e-4).astype(np.uint8)
+    if valid.max() == 0 or valid.min() == 1:
+        return warp, cov
+    inv = (valid == 0).astype(np.uint8)
+    dist, labels = cv2.distanceTransformWithLabels(inv, cv2.DIST_L2, 3, labelType=cv2.DIST_LABEL_PIXEL)
+    fill = (inv == 1) & (dist <= r)
+    if not np.any(fill):
+        return warp, cov
+
+    h, w = cov.shape
+    label_ids = labels[fill].astype(np.int64) - 1
+    ys = np.clip(label_ids // w, 0, h - 1)
+    xs = np.clip(label_ids % w, 0, w - 1)
+
+    warp_out = warp.copy()
+    cov_out = cov.copy()
+    warp_out[fill] = warp[ys, xs]
+    cov_out[fill] = cov[ys, xs]
+    return warp_out, cov_out
+
+
+def build_base_init(
+    warp,
+    cov,
+    sf_rgb,
+    sf_mask,
+    art_mask,
+    mean_t0t1,
+    use_anchor: bool,
+    warp_expand_px: float = 0.0,
+    post_blur_sigma: float = 0.0,
+):
+    warp_smart, cov_smart = _expand_warp_nearest(warp, cov, warp_expand_px)
+    warp_w = cov_smart[..., None]
     sf_w = sf_mask[..., None] * (1.0 - warp_w)
-    base_init = warp * warp_w + sf_rgb * sf_w
-    base_mask = np.clip(cov + sf_mask * (1.0 - cov), 0.0, 1.0)
+    base_init = warp_smart * warp_w + sf_rgb * sf_w
+    base_mask = np.clip(cov_smart + sf_mask * (1.0 - cov_smart), 0.0, 1.0)
     base_init = base_init * (1.0 - art_mask[..., None])
     base_mask = base_mask * (1.0 - art_mask)
     if use_anchor:
@@ -313,6 +457,8 @@ def build_base_init(warp, cov, sf_rgb, sf_mask, art_mask, mean_t0t1, use_anchor:
         mean_scene = mean_t0t1 * (1.0 - art_mask[..., None])
         mean_art = mean_t0t1 * art_mask[..., None]
         base_init = base_init + mean_scene * hole + mean_art * art_mask[..., None]
+    if post_blur_sigma > 0:
+        base_init = _blur_rgb01(base_init, post_blur_sigma)
     return base_init, base_mask
 
 
@@ -413,7 +559,15 @@ class ConsensusDataset(Dataset):
         target = s["target_rgb"].astype(np.float32) / 255.0
 
         base_init, base_mask = build_base_init(
-            warp, cov, sf_rgb, sf_mask, art_mask, mean_t0t1, self.cfg.use_anchor_frames
+            warp,
+            cov,
+            sf_rgb,
+            sf_mask,
+            art_mask,
+            mean_t0t1,
+            self.cfg.use_anchor_frames,
+            warp_expand_px=getattr(self.cfg, "base_warp_expand_px", 0.0),
+            post_blur_sigma=getattr(self.cfg, "base_post_blur_sigma", 0.0),
         )
         mean_in = mean_t0t1 * (1.0 - art_mask[..., None])
         eff_mask = np.ones_like(base_mask) if self.cfg.use_anchor_frames else base_mask

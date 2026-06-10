@@ -1,0 +1,25 @@
+{
+  "val_n": 204,
+  "stage1": {
+    "path": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\notebooks\\training\\artifacts\\checkpoints\\consensus_v2_all\\consensus_v2_all_best.pt",
+    "n": 204,
+    "mse_ycc": 0.017286827672482925,
+    "psnr_ycc": 18.27813994164865,
+    "psnr_rgb": 15.10102315123841,
+    "ckpt_epoch": 46,
+    "ckpt_val_loss": 0.0025435057194793925
+  },
+  "v4_rgb": {
+    "path": "artifacts\\checkpoints\\consensus_v4_scratch\\consensus_v4_best.pt",
+    "n": 204,
+    "mse_ycc": 0.007104352486374623,
+    "psnr_ycc": 22.16026749558114,
+    "psnr_rgb": 22.16026749558114,
+    "ckpt_epoch": 39,
+    "ckpt_val_loss": 0.007104358270618261
+  },
+  "delta_v4_rgb_minus_stage1": {
+    "psnr_rgb_db": 7.059244344342732,
+    "mse": -0.010182475186108302
+  }
+}

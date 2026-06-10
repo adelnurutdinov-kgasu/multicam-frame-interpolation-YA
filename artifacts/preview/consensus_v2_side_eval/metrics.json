@@ -1,0 +1,11 @@
+{
+  "ckpt": "artifacts\\checkpoints\\consensus_side_v2\\consensus_v2_side_100_best.pt",
+  "num_val_samples": 16,
+  "metrics": {
+    "mse_ycc_mean": 0.011455893647507764,
+    "psnr_ycc_mean": 20.10528091513982,
+    "mse_rgb_mean": 0.03373159182956442,
+    "psnr_rgb_mean": 15.465397348356849
+  },
+  "preview_dir": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\artifacts\\preview\\consensus_v2_side_eval"
+}
