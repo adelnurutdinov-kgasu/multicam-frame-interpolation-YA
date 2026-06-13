@@ -1,0 +1,56 @@
+# Пути (относительно корня репозитория или абсолютные)
+dataset_dir: "data/dataset"          # сюда положите датасет
+output_dir: "runs/detect"            # аннотации, визуализации, сводки
+
+# YOLO26 (янв. 2026) — актуальная линейка Ultralytics; yolov8* устарела
+# n=быстро, s=баланс (по умолчанию), m/l/x=точнее. Маски: yolo/segment_dataset.py + -seg
+model: "yolo26s.pt"
+device: ""                           # пусто = авто (cuda если есть)
+
+# Поиск изображений
+image_globs:
+  - "**/*.jpg"
+  - "**/*.jpeg"
+  - "**/*.png"
+  - "**/*.webp"
+exclude_dirs:
+  - "runs"
+  - ".git"
+  - "__pycache__"
+  - "node_modules"
+
+# Какие кадры брать из структуры вроде final_dataset_v5 (sample/target|input/...)
+# all — все найденные; или список подстрок пути, например ["target", "input/t0"]
+path_filters: "all"
+
+# Инференс
+conf: 0.25
+iou: 0.45
+imgsz: 640
+max_det: 300
+half: false                          # FP16 на GPU
+
+# Что сохранять
+save_images: true                    # картинки с боксами
+save_labels: true                    # YOLO txt на кадр
+save_json: true                      # один detections.jsonl
+save_csv: true                       # сводная таблица по объектам
+
+# Классы COCO (имена как в ultralytics). Пустой список = все 80 классов.
+# Столбы/опоры в стандартном COCO нет — см. README_YOLO.md
+classes:
+  - person
+  - bicycle
+  - car
+  - motorcycle
+  - bus
+  - truck
+  - traffic light
+  - stop sign
+  - fire hydrant
+  - parking meter
+  - bench
+  - backpack
+  - umbrella
+  - handbag
+  - suitcase

@@ -1,0 +1,23 @@
+dataset_dir: "C:/Users/adel/Downloads/cv_dataset/final_dataset_v5_participants"
+semantic_jsonl: "C:/Users/adel/Downloads/cv_dataset/annotations/semantic/semantic.jsonl"
+output_dir: "analytics/out"
+
+split: "train"          # train (полный GT) | test | both — в test часто нет target.jpg
+num_samples: 0          # 0 = все сэмплы split
+device: "cuda"          # cuda | cpu
+
+methods:
+  - "06_farneback_alpha"
+  - "13_ensemble"
+  - "15_layered_parallax"
+  - "17_mega_parallax"
+
+n_layers: 8
+
+# Глубина LiDAR (метры), метки bin-ов
+depth_edges_m: [0, 5, 15, 30, 60, 9999]
+
+# Семантика: только эти классы Cityscapes (пусто = все из jsonl)
+semantic_classes: []
+
+save_every: 50           # checkpoint каждые N сэмплов

@@ -1,0 +1,226 @@
+EPS = 1e-6
+
+try:
+    import cv2
+except ImportError:
+    cv2 = None
+
+
+def _norm_depth(d: np.ndarray) -> np.ndarray:
+    d = d.astype(np.float32)
+    valid = np.isfinite(d) & (d > 0)
+    if valid.sum() == 0:
+        return np.zeros_like(d, dtype=np.float32)
+    dmax = float(d[valid].max())
+    out = np.zeros_like(d, dtype=np.float32)
+    out[valid] = d[valid] / (dmax + EPS)
+    return out
+
+
+def _chw_npy_to_hwc_u8(path: Path) -> np.ndarray:
+    arr = np.load(path).astype(np.float32)
+    if arr.ndim == 3 and arr.shape[0] == 3:
+        arr = np.clip(arr.transpose(1, 2, 0), 0.0, 1.0)
+    return (arr * 255.0).astype(np.uint8)
+
+
+def _resize_hw(img: np.ndarray, target_hw, interp) -> np.ndarray:
+    H, W = target_hw
+    if img.shape[:2] == (H, W):
+        return img
+    if cv2 is None:
+        raise ImportError("opencv-python ?????????? ?????? resize ????????")
+    return cv2.resize(img, (W, H), interpolation=interp)
+
+
+def _resize_maps(warp_rgb, coverage, depth, target_hw):
+    warp_rgb = _resize_hw(warp_rgb, target_hw, cv2.INTER_LINEAR)
+    coverage = _resize_hw(coverage, target_hw, cv2.INTER_LINEAR)
+    depth = _resize_hw(depth, target_hw, cv2.INTER_NEAREST)
+    return warp_rgb, coverage, depth
+
+
+class ConsensusDataset(Dataset):
+    def __init__(self, sample_dirs, cfg, patch_size=256, augment=True):
+        self.dirs = [Path(p) for p in sample_dirs]
+        self.cfg = cfg
+        self.patch_size = patch_size
+        self.augment = augment
+
+    def __len__(self):
+        return len(self.dirs)
+
+    def _load(self, baked_dir: Path) -> dict:
+        meta = json.loads((baked_dir / "meta.json").read_text(encoding="utf-8"))
+        sid = meta["sample_id"]
+        cam = meta["camera"]
+        src = Path(meta.get("source_dir", Path(self.cfg.dataset_root) / sid))
+        warp_dir = Path(self.cfg.consensus_root) / sid
+
+        warp_rgb = _chw_npy_to_hwc_u8(warp_dir / self.cfg.consensus_file)
+        coverage = np.load(warp_dir / "coverage.npy").astype(np.float32)
+        depth = np.load(baked_dir / "d1.npy").astype(np.float32)
+        depth = np.where(np.isfinite(depth), depth, 0.0).astype(np.float32)
+        target_rgb = np.array(Image.open(src / "target" / f"{cam}.jpg").convert("RGB"))
+
+        # ???????????? ???????????? ?????? ???????????????? (540..554 x 1024 ?? ???????????????? ??? cfg.image_h x image_w)
+        target_hw = (self.cfg.image_h, self.cfg.image_w)
+        warp_rgb, coverage, depth = _resize_maps(warp_rgb, coverage, depth, target_hw)
+        target_rgb = _resize_hw(target_rgb, target_hw, cv2.INTER_LINEAR)
+
+        t0_rgb = np.array(Image.open(src / "input" / "t0" / f"{cam}.jpg").convert("RGB"))
+        t1_rgb = np.array(Image.open(src / "input" / "t1" / f"{cam}.jpg").convert("RGB"))
+        t0_rgb = _resize_hw(t0_rgb, target_hw, cv2.INTER_LINEAR)
+        t1_rgb = _resize_hw(t1_rgb, target_hw, cv2.INTER_LINEAR)
+        mean_t0t1_rgb = ((t0_rgb.astype(np.float32) + t1_rgb.astype(np.float32)) * 0.5).astype(np.uint8)
+
+        H, W = target_hw
+        sf_rgb = np.zeros((H, W, 3), dtype=np.uint8)
+        sf_mask = np.zeros((H, W), dtype=np.float32)
+        if self.cfg.use_static_far:
+            sf_path = Path(self.cfg.static_far_root) / sid / "static_far.npz"
+            if sf_path.is_file():
+                z = np.load(sf_path)
+                sf_mask = z["static"].astype(np.float32)
+                sf_rgb = z["mean_pred"].astype(np.uint8)
+                if sf_rgb.shape[:2] != (H, W):
+                    sf_rgb, sf_mask, _ = _resize_maps(sf_rgb, sf_mask, sf_mask, (H, W))
+
+        art_mask = np.zeros((H, W), dtype=np.float32)
+
+        return {
+            "warp_rgb": warp_rgb,
+            "coverage": coverage,
+            "depth": depth,
+            "static_far_rgb": sf_rgb,
+            "static_far_mask": sf_mask,
+            "artifact_mask": art_mask,
+            "mean_t0t1_rgb": mean_t0t1_rgb,
+            "target_rgb": target_rgb,
+        }
+
+    def __getitem__(self, idx):
+        s = self._load(self.dirs[idx])
+
+        warp = s["warp_rgb"].astype(np.float32) / 255.0
+        cov = np.clip(s["coverage"], 0.0, 1.0)
+        depth_n = _norm_depth(s["depth"])
+        sf_rgb = s["static_far_rgb"].astype(np.float32) / 255.0
+        sf_mask = np.clip(s["static_far_mask"], 0.0, 1.0)
+        art_mask = np.clip(s["artifact_mask"], 0.0, 1.0)
+        mean_t0t1 = s["mean_t0t1_rgb"].astype(np.float32) / 255.0
+        target = s["target_rgb"].astype(np.float32) / 255.0
+
+        H, W = warp.shape[:2]
+
+        if self.patch_size and (H > self.patch_size or W > self.patch_size):
+            ph = pw = self.patch_size
+            y0 = random.randint(0, H - ph)
+            x0 = random.randint(0, W - pw)
+            sl = (slice(y0, y0 + ph), slice(x0, x0 + pw))
+            warp = warp[sl]; cov = cov[sl]; depth_n = depth_n[sl]
+            sf_rgb = sf_rgb[sl]; sf_mask = sf_mask[sl]; art_mask = art_mask[sl]
+            mean_t0t1 = mean_t0t1[sl]
+            target = target[sl]
+
+        if self.augment:
+            if random.random() < 0.5:
+                warp = warp[:, ::-1].copy(); cov = cov[:, ::-1].copy()
+                depth_n = depth_n[:, ::-1].copy()
+                sf_rgb = sf_rgb[:, ::-1].copy(); sf_mask = sf_mask[:, ::-1].copy()
+                art_mask = art_mask[:, ::-1].copy()
+                mean_t0t1 = mean_t0t1[:, ::-1].copy()
+                target = target[:, ::-1].copy()
+            if random.random() < 0.5:
+                warp = warp[::-1].copy(); cov = cov[::-1].copy()
+                depth_n = depth_n[::-1].copy()
+                sf_rgb = sf_rgb[::-1].copy(); sf_mask = sf_mask[::-1].copy()
+                art_mask = art_mask[::-1].copy()
+                mean_t0t1 = mean_t0t1[::-1].copy()
+                target = target[::-1].copy()
+            k = random.randint(0, 3)
+            if k:
+                rot = lambda a: np.rot90(a, k).copy()
+                warp = rot(warp); cov = rot(cov); depth_n = rot(depth_n)
+                sf_rgb = rot(sf_rgb); sf_mask = rot(sf_mask); art_mask = rot(art_mask)
+                mean_t0t1 = rot(mean_t0t1)
+                target = rot(target)
+
+        warp_w = cov[..., None]
+        sf_w = sf_mask[..., None] * (1.0 - warp_w)
+        base_init = warp * warp_w + sf_rgb * sf_w
+        base_mask = np.clip(cov + sf_mask * (1.0 - cov), 0.0, 1.0)
+
+        base_init = base_init * (1.0 - art_mask[..., None])
+        base_mask = base_mask * (1.0 - art_mask)
+
+        # ?? ???????????? warp ??? fallback ???? mean(t0,t1) ?????? residual base
+        if self.cfg.use_anchor_frames:
+            hole = (1.0 - base_mask)[..., None]
+            base_init = base_init + mean_t0t1 * hole
+
+        # mean(t0,t1) ?????????????? ??? partial conv ?????????? ?????? ?? ?? ????????????
+        eff_mask = np.ones_like(base_mask) if self.cfg.use_anchor_frames else base_mask
+
+        to_chw_3 = lambda a: torch.from_numpy(a.transpose(2, 0, 1)).contiguous().float()
+        to_chw_1 = lambda a: torch.from_numpy(a)[None].contiguous().float()
+
+        parts = [
+            to_chw_3(warp),
+            to_chw_1(cov),
+            to_chw_1(depth_n),
+            to_chw_3(sf_rgb),
+            to_chw_1(sf_mask),
+            to_chw_1(art_mask),
+        ]
+        if self.cfg.use_anchor_frames:
+            parts.append(to_chw_3(mean_t0t1))
+        inputs = torch.cat(parts, dim=0)
+
+        return {
+            "inputs": inputs,
+            "effective_mask": to_chw_1(eff_mask),
+            "base_init": to_chw_3(base_init),
+            "base_mask": to_chw_1(base_mask),
+            "target": to_chw_3(target),
+        }
+
+
+def discover_samples(cfg) -> list[Path]:
+    baked_root = Path(cfg.baked_root)
+    consensus_root = Path(cfg.consensus_root)
+    dataset_root = Path(cfg.dataset_root)
+    out: list[Path] = []
+    for baked_dir in sorted(baked_root.iterdir()):
+        if not baked_dir.is_dir() or not (baked_dir / "meta.json").is_file():
+            continue
+        meta = json.loads((baked_dir / "meta.json").read_text(encoding="utf-8"))
+        sid = meta["sample_id"]
+        cam = meta["camera"]
+        src = Path(meta.get("source_dir", dataset_root / sid))
+        warp_dir = consensus_root / sid
+        ok = (
+            (warp_dir / cfg.consensus_file).is_file()
+            and (warp_dir / "coverage.npy").is_file()
+            and (baked_dir / "d1.npy").is_file()
+            and (src / "target" / f"{cam}.jpg").is_file()
+            and (src / "input" / "t0" / f"{cam}.jpg").is_file()
+            and (src / "input" / "t1" / f"{cam}.jpg").is_file()
+        )
+        if ok:
+            out.append(baked_dir)
+    if cfg.max_samples > 0 and len(out) > cfg.max_samples:
+        rng = np.random.RandomState(cfg.seed)
+        idx = np.arange(len(out))
+        rng.shuffle(idx)
+        out = [out[i] for i in idx[: cfg.max_samples]]
+    return out
+
+
+ALL_SAMPLES = discover_samples(CFG)
+print(f"???????????? ?? ????????????????: {len(ALL_SAMPLES)} ??????????????")
+if ALL_SAMPLES:
+    ds = ConsensusDataset(ALL_SAMPLES[:4], CFG, patch_size=CFG.patch_size, augment=True)
+    b = ds[0]
+    for k, v in b.items():
+        print(f"  {k}: {tuple(v.shape)} {v.dtype} [{v.min():.3f}..{v.max():.3f}]")

@@ -1,0 +1,45 @@
+# Instance segmentation — маски объектов (YOLO26-seg, актуальная линейка Ultralytics)
+
+dataset_dir: "data/dataset"
+output_dir: "runs/segment"
+
+# n=быстро, s=баланс, m/l/x=точнее и тяжелее
+model: "yolo26s-seg.pt"
+device: ""
+
+image_globs:
+  - "**/*.jpg"
+  - "**/*.jpeg"
+  - "**/*.png"
+  - "**/*.webp"
+exclude_dirs:
+  - "runs"
+  - ".git"
+  - "__pycache__"
+
+path_filters: "all"
+
+conf: 0.25
+iou: 0.45
+imgsz: 640
+max_det: 300
+half: false
+
+save_images: true          # визуализация с масками
+save_masks: true             # бинарная маска на объект (PNG)
+save_overlay: true           # цветной overlay поверх кадра
+save_labels: true             # YOLO-seg полигоны (.txt)
+save_json: true
+save_csv: true
+
+classes:
+  - person
+  - bicycle
+  - car
+  - motorcycle
+  - bus
+  - truck
+  - traffic light
+  - stop sign
+  - fire hydrant
+  - parking meter
