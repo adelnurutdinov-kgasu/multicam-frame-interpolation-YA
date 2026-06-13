@@ -1,14 +1,56 @@
-final_dataset_v5_participants_small
+# ───────────────────────── OS / editor ─────────────────────────
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/
 
-# YOLO / датасеты и артефакты
+# ───────────────────────── Python ──────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ───────────────────────── Веса / чекпоинты (внешние) ───────────
+*.pt
+*.pth
+*.ckpt
+artifacts/checkpoints/**/*.pt
+/artifacts/checkpoints/consensus
+checkpoints_consensus/
+checkpoints_consensus_side/
+
+# ───────────────────────── Датасеты / артефакты (не в git) ──────
+final_dataset_v5_participants_small
 data/dataset/*
 !data/dataset/.gitkeep
 runs/
-*.pt
 blur_tune_cache.pkl
-artifacts/checkpoints/**/*.pt
-checkpoints_consensus/
-checkpoints_consensus_side/
+*.pkl
+
+# методы/маски — тяжёлые бинарники галереи
 methods_gallery/_ego_manual_masks/means.zip
 /methods_gallery/_ego_manual_masks/means
-/artifacts/checkpoints/consensus
+
+# ───────────────────────── Скратч / превью (локальное) ──────────
+depth_out/
+layered_parallax_out/
+baseline_viz/
+sanity_consensus/
+
+# логи прогонов
+*.log
+precompute_test_log.txt
+precompute_test_warps_log.txt
+run_alpha_log.txt
+missing_warps.txt
+
+# ───────────────────────── dataset_sample: тяжёлое не коммитим ──
+# (README, скрипты и небольшие jpg/json остаются; крупные бинарники — нет)
+dataset_sample/**/*.npz
+dataset_sample/**/*.npy
+
+# ───────────────────────── Сторонний код (клон upstream) ────────
+baseline_files/baseline_ensemble/ECCV2022-RIFE/
+/dataset_sample/cv_dataset/annotations

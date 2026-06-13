@@ -1,0 +1,30 @@
+{
+  "vehicle": "hilma",
+  "camera": "rear",
+  "n_used": 6,
+  "n_available": 33,
+  "converged": true,
+  "thresh": 0.85,
+  "coverage": 0.25828269675925924,
+  "bottom_frac": 1.0,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.35126591435185184,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.26749131944444443,
+      "step_iou": 0.761506620811796,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.25828269675925924,
+      "step_iou": 0.9655741251554979,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

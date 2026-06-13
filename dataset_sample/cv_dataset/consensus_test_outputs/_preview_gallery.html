@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset='utf-8'>
+<title>Consensus test preview</title>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:20px;background:#111;color:#eee;}
+h1{font-size:20px;} .note{color:#aaa;font-size:13px;margin-bottom:20px;}
+section{border:1px solid #333;border-radius:8px;padding:12px;margin:16px 0;background:#1a1a1a;}
+h2{font-size:15px;margin:0 0 10px;} .grid{display:grid;grid-template-columns:repeat(7,minmax(120px,1fr));gap:8px;}
+.cell{text-align:center;} .cell img{width:100%;border-radius:4px;border:1px solid #444;}
+.lbl{font-size:11px;color:#bbb;margin:4px 0 6px;}
+a{color:#7db3ff;}
+</style></head><body>
+<h1>Test inference preview</h1>
+<p class='note'>Сравнение как в lidar_rife_blend.ipynb: <b>density_fine</b> (r3+blur), <b>lidar_trust</b>, <b>blend_mask</b> (trust≥0.12), consensus / RIFE / blend. Папка: <code>consensus_test_outputs</code></p>
+<section><h2>front — 2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000</h2><div class='grid'>
+<div class='cell'><div class='lbl'>consensus</div><a href='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/consensus_model.jpg' target='_blank'><img src='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/consensus_model.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>RIFE</div><a href='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/rife.jpg' target='_blank'><img src='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend</div><a href='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/blend_lidar_rife.jpg' target='_blank'><img src='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/blend_lidar_rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>r3+blur (fine)</div><a href='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/lidar_density_fine.png' target='_blank'><img src='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/lidar_density_fine.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>lidar_trust</div><a href='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/lidar_trust.png' target='_blank'><img src='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/lidar_trust.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend mask</div><a href='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/lidar_blend_mask.png' target='_blank'><img src='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/lidar_blend_mask.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>ref</div><a href='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/input_ref.jpg' target='_blank'><img src='2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000/input_ref.jpg' loading='lazy'></a></div>
+</div></section>
+<section><h2>rear — 2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000</h2><div class='grid'>
+<div class='cell'><div class='lbl'>consensus</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/consensus_model.jpg' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/consensus_model.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>RIFE</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/rife.jpg' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/blend_lidar_rife.jpg' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/blend_lidar_rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>r3+blur (fine)</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/lidar_density_fine.png' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/lidar_density_fine.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>lidar_trust</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/lidar_trust.png' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/lidar_trust.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend mask</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/lidar_blend_mask.png' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/lidar_blend_mask.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>ref</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/input_ref.jpg' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000/input_ref.jpg' loading='lazy'></a></div>
+</div></section>
+<section><h2>left_fwd — 2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000</h2><div class='grid'>
+<div class='cell'><div class='lbl'>consensus</div><a href='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/consensus_model.jpg' target='_blank'><img src='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/consensus_model.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>RIFE</div><a href='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/rife.jpg' target='_blank'><img src='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend</div><a href='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/blend_lidar_rife.jpg' target='_blank'><img src='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/blend_lidar_rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>r3+blur (fine)</div><a href='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/lidar_density_fine.png' target='_blank'><img src='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/lidar_density_fine.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>lidar_trust</div><a href='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/lidar_trust.png' target='_blank'><img src='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/lidar_trust.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend mask</div><a href='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/lidar_blend_mask.png' target='_blank'><img src='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/lidar_blend_mask.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>ref</div><a href='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/input_ref.jpg' target='_blank'><img src='2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000/input_ref.jpg' loading='lazy'></a></div>
+</div></section>
+<section><h2>right_fwd — 2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000</h2><div class='grid'>
+<div class='cell'><div class='lbl'>consensus</div><a href='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/consensus_model.jpg' target='_blank'><img src='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/consensus_model.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>RIFE</div><a href='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/rife.jpg' target='_blank'><img src='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend</div><a href='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/blend_lidar_rife.jpg' target='_blank'><img src='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/blend_lidar_rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>r3+blur (fine)</div><a href='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/lidar_density_fine.png' target='_blank'><img src='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/lidar_density_fine.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>lidar_trust</div><a href='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/lidar_trust.png' target='_blank'><img src='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/lidar_trust.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend mask</div><a href='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/lidar_blend_mask.png' target='_blank'><img src='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/lidar_blend_mask.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>ref</div><a href='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/input_ref.jpg' target='_blank'><img src='2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000/input_ref.jpg' loading='lazy'></a></div>
+</div></section>
+<section><h2>left_bwd — 2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000</h2><div class='grid'>
+<div class='cell'><div class='lbl'>consensus</div><a href='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/consensus_model.jpg' target='_blank'><img src='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/consensus_model.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>RIFE</div><a href='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/rife.jpg' target='_blank'><img src='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend</div><a href='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/blend_lidar_rife.jpg' target='_blank'><img src='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/blend_lidar_rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>r3+blur (fine)</div><a href='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/lidar_density_fine.png' target='_blank'><img src='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/lidar_density_fine.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>lidar_trust</div><a href='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/lidar_trust.png' target='_blank'><img src='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/lidar_trust.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend mask</div><a href='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/lidar_blend_mask.png' target='_blank'><img src='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/lidar_blend_mask.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>ref</div><a href='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/input_ref.jpg' target='_blank'><img src='2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000/input_ref.jpg' loading='lazy'></a></div>
+</div></section>
+<section><h2>right_bwd — 2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000</h2><div class='grid'>
+<div class='cell'><div class='lbl'>consensus</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/consensus_model.jpg' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/consensus_model.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>RIFE</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/rife.jpg' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/blend_lidar_rife.jpg' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/blend_lidar_rife.jpg' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>r3+blur (fine)</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/lidar_density_fine.png' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/lidar_density_fine.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>lidar_trust</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/lidar_trust.png' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/lidar_trust.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>blend mask</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/lidar_blend_mask.png' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/lidar_blend_mask.png' loading='lazy'></a></div>
+<div class='cell'><div class='lbl'>ref</div><a href='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/input_ref.jpg' target='_blank'><img src='2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000/input_ref.jpg' loading='lazy'></a></div>
+</div></section>
+</body></html>

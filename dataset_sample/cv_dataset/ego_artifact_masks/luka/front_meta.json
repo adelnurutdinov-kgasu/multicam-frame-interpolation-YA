@@ -1,0 +1,30 @@
+{
+  "vehicle": "luka",
+  "camera": "front",
+  "n_used": 5,
+  "n_available": 5,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.24956358745421245,
+  "bottom_frac": 0.9068027405899722,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.3188458676739927,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.27363782051282054,
+      "step_iou": 0.8582134763389953,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 5,
+      "coverage": 0.24956358745421245,
+      "step_iou": 0.9120215436101234,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

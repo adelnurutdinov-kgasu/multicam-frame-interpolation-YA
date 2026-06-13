@@ -1,0 +1,24 @@
+{
+  "vehicle": "greton",
+  "camera": "right_fwd",
+  "n_used": 4,
+  "n_available": 4,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.030808738425925925,
+  "bottom_frac": 0.8675745480159662,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.3753689236111111,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.030808738425925925,
+      "step_iou": 0.08207588984602339,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "vehicle": "hetera",
+  "camera": "left_fwd",
+  "n_used": 5,
+  "n_available": 5,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.08111255787037037,
+  "bottom_frac": 0.5325960938196735,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.3186993634259259,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.11134982638888889,
+      "step_iou": 0.34938829243933994,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 5,
+      "coverage": 0.08111255787037037,
+      "step_iou": 0.7284479958422659,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

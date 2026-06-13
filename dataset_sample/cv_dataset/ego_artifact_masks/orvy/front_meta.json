@@ -1,0 +1,24 @@
+{
+  "vehicle": "orvy",
+  "camera": "front",
+  "n_used": 4,
+  "n_available": 4,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.1463055173992674,
+  "bottom_frac": 0.9839119804400978,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.2952652815934066,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.1463055173992674,
+      "step_iou": 0.4955053185045189,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

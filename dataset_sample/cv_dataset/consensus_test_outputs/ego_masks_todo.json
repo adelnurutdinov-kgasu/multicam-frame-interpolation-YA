@@ -1,0 +1,138 @@
+{
+  "missing_groups": [
+    {
+      "group_id": "floi_left_fwd",
+      "status": "missing",
+      "note": "нет в train / не размечено",
+      "samples": [
+        "2026-03-08_10_18_03_10_54_29_floi_1772957122999973000__000"
+      ],
+      "sample_count": 1,
+      "approved_path": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_approved\\floi_left_fwd.png",
+      "approved_exists": false,
+      "approved_nonempty": false,
+      "masks_exists": false,
+      "masks_nonempty": false,
+      "selected_exists": false,
+      "selected_nonempty": false,
+      "donor_exists": false,
+      "donor_nonempty": false
+    },
+    {
+      "group_id": "kurt_right_fwd",
+      "status": "missing",
+      "note": "нет в train / не размечено",
+      "samples": [
+        "2026-03-08_12_23_34_12_57_22_kurt_1772966070799667000__000"
+      ],
+      "sample_count": 1,
+      "approved_path": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_approved\\kurt_right_fwd.png",
+      "approved_exists": false,
+      "approved_nonempty": false,
+      "masks_exists": false,
+      "masks_nonempty": false,
+      "selected_exists": false,
+      "selected_nonempty": false,
+      "donor_exists": false,
+      "donor_nonempty": false
+    },
+    {
+      "group_id": "right_left_fwd",
+      "status": "missing",
+      "note": "нет в train / не размечено",
+      "samples": [
+        "2025-10-12_10_30_54_11_59_05_right_1760261215599953000__000",
+        "2025-10-12_15_56_19_16_04_21_right_1760275793700062000__000"
+      ],
+      "sample_count": 2,
+      "approved_path": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_approved\\right_left_fwd.png",
+      "approved_exists": false,
+      "approved_nonempty": false,
+      "masks_exists": false,
+      "masks_nonempty": false,
+      "selected_exists": false,
+      "selected_nonempty": false,
+      "donor_exists": false,
+      "donor_nonempty": false
+    },
+    {
+      "group_id": "right_right_fwd",
+      "status": "missing",
+      "note": "нет в train / не размечено",
+      "samples": [
+        "2025-10-12_15_56_19_17_45_56_right_1760280965499830000__000"
+      ],
+      "sample_count": 1,
+      "approved_path": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_approved\\right_right_fwd.png",
+      "approved_exists": false,
+      "approved_nonempty": false,
+      "masks_exists": false,
+      "masks_nonempty": false,
+      "selected_exists": false,
+      "selected_nonempty": false,
+      "donor_exists": false,
+      "donor_nonempty": false
+    },
+    {
+      "group_id": "susana_right_fwd",
+      "status": "missing",
+      "note": "нет в train / не размечено",
+      "samples": [
+        "2025-10-11_09_17_40_10_00_06_susana_1760167390099903000__000",
+        "2025-11-02_09_54_00_10_45_28_susana_1762069882699938000__000",
+        "2025-11-02_12_13_49_12_40_36_susana_1762076809699942000__000"
+      ],
+      "sample_count": 3,
+      "approved_path": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_approved\\susana_right_fwd.png",
+      "approved_exists": false,
+      "approved_nonempty": false,
+      "masks_exists": false,
+      "masks_nonempty": false,
+      "selected_exists": false,
+      "selected_nonempty": false,
+      "donor_exists": false,
+      "donor_nonempty": false
+    },
+    {
+      "group_id": "weel_left_bwd",
+      "status": "missing",
+      "note": "нет в train / не размечено",
+      "samples": [
+        "2025-10-27_08_37_47_10_48_08_weel_1761551942800093000__000"
+      ],
+      "sample_count": 1,
+      "approved_path": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_approved\\weel_left_bwd.png",
+      "approved_exists": false,
+      "approved_nonempty": false,
+      "masks_exists": false,
+      "masks_nonempty": false,
+      "selected_exists": false,
+      "selected_nonempty": false,
+      "donor_exists": false,
+      "donor_nonempty": false
+    }
+  ],
+  "zero_groups": [
+    {
+      "group_id": "crozby_right_fwd",
+      "status": "zero",
+      "note": "ZERO_MASK_GROUPS — намеренно без маски",
+      "samples": [
+        "2026-03-09_15_13_05_15_32_31_crozby_1773060645300047000__000",
+        "2026-03-09_15_13_05_17_06_35_crozby_1773066210300016000__000",
+        "2026-03-09_15_13_05_17_06_35_crozby_1773067865000046000__000"
+      ],
+      "sample_count": 3,
+      "approved_path": "C:\\Users\\adel\\Documents\\GitHub\\YA-\\methods_gallery\\_ego_manual_masks\\masks_approved\\crozby_right_fwd.png",
+      "approved_exists": true,
+      "approved_nonempty": false,
+      "masks_exists": true,
+      "masks_nonempty": true,
+      "selected_exists": true,
+      "selected_nonempty": true,
+      "donor_exists": true,
+      "donor_nonempty": true
+    }
+  ],
+  "missing_samples": 9
+}

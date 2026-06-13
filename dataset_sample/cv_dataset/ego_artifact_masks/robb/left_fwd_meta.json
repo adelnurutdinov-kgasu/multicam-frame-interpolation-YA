@@ -1,0 +1,42 @@
+{
+  "vehicle": "robb",
+  "camera": "left_fwd",
+  "n_used": 10,
+  "n_available": 10,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.09137731481481481,
+  "bottom_frac": 0.6055256491450285,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.07919560185185186,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.04371383101851852,
+      "step_iou": 0.5519729630982828,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.026844618055555554,
+      "step_iou": 0.6140989574714546,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.11037326388888889,
+      "step_iou": 0.24126423243031017,
+      "mean_freq_in": 0.9019203041027658
+    },
+    {
+      "n": 10,
+      "coverage": 0.09137731481481481,
+      "step_iou": 0.8278935640319832,
+      "mean_freq_in": 0.9246200126662447
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "vehicle": "hetera",
+  "camera": "front",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.17690555811808117,
+  "bottom_frac": 0.887028436405117,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.21548518219557194,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.17690555811808117,
+      "step_iou": 0.8209639118365163,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "vehicle": "jurita",
+  "camera": "right_fwd",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.14273003472222223,
+  "bottom_frac": 0.7715777203385535,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.3453052662037037,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.14273003472222223,
+      "step_iou": 0.41334450612757934,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

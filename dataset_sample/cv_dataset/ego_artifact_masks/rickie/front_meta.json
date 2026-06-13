@@ -1,0 +1,30 @@
+{
+  "vehicle": "rickie",
+  "camera": "front",
+  "n_used": 5,
+  "n_available": 5,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.24637276785714285,
+  "bottom_frac": 0.860397247146964,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.5184223328754579,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.3375257554945055,
+      "step_iou": 0.6510633012709934,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 5,
+      "coverage": 0.24637276785714285,
+      "step_iou": 0.7299376828182628,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "vehicle": "aucel",
+  "camera": "front",
+  "n_used": 2,
+  "n_available": 2,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.30922332875457875,
+  "bottom_frac": 0.7612674101152191,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.30922332875457875,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

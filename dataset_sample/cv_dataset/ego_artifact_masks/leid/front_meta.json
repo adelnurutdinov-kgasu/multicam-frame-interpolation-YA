@@ -1,0 +1,24 @@
+{
+  "vehicle": "leid",
+  "camera": "front",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.46867845695970695,
+  "bottom_frac": 0.8563501755457182,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.6519645718864469,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.46867845695970695,
+      "step_iou": 0.7188710509278057,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

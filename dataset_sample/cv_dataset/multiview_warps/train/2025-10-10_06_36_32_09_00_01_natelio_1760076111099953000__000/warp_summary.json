@@ -1,0 +1,20 @@
+{
+  "sample_id": "2025-10-10_06_36_32_09_00_01_natelio_1760076111099953000__000",
+  "target_camera": "right_fwd",
+  "n_sources": 6,
+  "coverage_total": 0.9053457379341125,
+  "visibility_max": 4,
+  "visibility_mean_in_covered": 2.1060664775678157,
+  "per_source_coverage": {
+    "right_fwd_t0": 0.7934226393699646,
+    "front_t0": 0.41406068205833435,
+    "right_bwd_t0": 0.0,
+    "right_fwd_t1": 0.33030417561531067,
+    "front_t1": 0.049253109842538834,
+    "right_bwd_t1": 0.3196777403354645
+  },
+  "tuned_built": true,
+  "confidence_mean": 0.18541814386844635,
+  "soft_coverage_mean": 0.5605992674827576,
+  "disagreement_mean_in_overlap": 0.05866091698408127
+}

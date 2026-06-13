@@ -1,0 +1,30 @@
+{
+  "vehicle": "targi",
+  "camera": "rear",
+  "n_used": 6,
+  "n_available": 11,
+  "converged": true,
+  "thresh": 0.85,
+  "coverage": 0.2421875,
+  "bottom_frac": 0.9862903225806452,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.46827256944444445,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.26164641203703703,
+      "step_iou": 0.5587481076404981,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.2421875,
+      "step_iou": 0.925628974288084,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

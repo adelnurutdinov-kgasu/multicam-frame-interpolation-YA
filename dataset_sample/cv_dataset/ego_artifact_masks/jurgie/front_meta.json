@@ -1,0 +1,48 @@
+{
+  "vehicle": "jurgie",
+  "camera": "front",
+  "n_used": 12,
+  "n_available": 15,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.04529389880952381,
+  "bottom_frac": 1.0,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.30402214972527475,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.062170902014652016,
+      "step_iou": 0.20449464642899165,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.04067221840659341,
+      "step_iou": 0.6542002301495973,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.0711924793956044,
+      "step_iou": 0.3866619368570415,
+      "mean_freq_in": 0.9090292432921314
+    },
+    {
+      "n": 10,
+      "coverage": 0.06229967948717949,
+      "step_iou": 0.8750879308612199,
+      "mean_freq_in": 0.9289159393661003
+    },
+    {
+      "n": 12,
+      "coverage": 0.04529389880952381,
+      "step_iou": 0.7270326136885622,
+      "mean_freq_in": 0.9395566787763912
+    }
+  ]
+}

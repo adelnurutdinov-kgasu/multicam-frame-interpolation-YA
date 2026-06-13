@@ -1,0 +1,35 @@
+{
+  "params": {
+    "name": "far_r2.0_precomputed",
+    "flow_t": 8.0,
+    "comp_t": 20.0,
+    "fdn_t": 80.0,
+    "depth_exp": 0.5,
+    "sigma_t": 1.2,
+    "far_min_ratio": 2.0,
+    "far_min_abs": 0.0,
+    "include_no_depth": true,
+    "use_comp": true,
+    "use_flow": true,
+    "use_depth_scale": false,
+    "use_fdn": false,
+    "use_sigma": false,
+    "require_depth": false
+  },
+  "dataset_dir": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants",
+  "splits": {
+    "train": {
+      "manifest": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\manifest_train.json",
+      "n_samples": 1278,
+      "avg_static_pct": 0.21876588675558842
+    },
+    "test": {
+      "manifest": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\manifest_test.json",
+      "n_samples": 199,
+      "avg_static_pct": 0.1843476402910093
+    }
+  },
+  "total_computed_this_run": 1477,
+  "total_skipped": 0,
+  "elapsed_sec": 15173.261009216309
+}

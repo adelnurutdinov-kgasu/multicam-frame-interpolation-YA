@@ -1,0 +1,36 @@
+{
+  "vehicle": "nikena",
+  "camera": "front",
+  "n_used": 7,
+  "n_available": 7,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.44351016773897056,
+  "bottom_frac": 0.8775682020561807,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.5443258846507353,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.4006491268382353,
+      "step_iou": 0.7360464349317327,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.36404957490808826,
+      "step_iou": 0.9086493655459172,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 7,
+      "coverage": 0.44351016773897056,
+      "step_iou": 0.8208370436331256,
+      "mean_freq_in": 0.9685073608493021
+    }
+  ]
+}

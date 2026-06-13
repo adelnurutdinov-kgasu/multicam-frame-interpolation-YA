@@ -1,0 +1,42 @@
+{
+  "vehicle": "susana",
+  "camera": "right_bwd",
+  "n_used": 9,
+  "n_available": 9,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.007340315934065934,
+  "bottom_frac": 0.7261208576998051,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.14543269230769232,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.006603422619047619,
+      "step_iou": 0.04540535222353404,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.003419757326007326,
+      "step_iou": 0.5178764897074756,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.008828411172161172,
+      "step_iou": 0.33541341653666146,
+      "mean_freq_in": 0.8848257698541329
+    },
+    {
+      "n": 9,
+      "coverage": 0.007340315934065934,
+      "step_iou": 0.8314424635332253,
+      "mean_freq_in": 0.8983105912930477
+    }
+  ]
+}

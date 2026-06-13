@@ -1,0 +1,18 @@
+{
+  "vehicle": "nikena",
+  "camera": "rear",
+  "n_used": 2,
+  "n_available": 2,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.5028645833333333,
+  "bottom_frac": 0.7488491857989528,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.5028645833333333,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

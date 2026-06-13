@@ -1,0 +1,24 @@
+{
+  "vehicle": "hanna",
+  "camera": "left_bwd",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": true,
+  "thresh": 0.85,
+  "coverage": 0.22430173992673993,
+  "bottom_frac": 0.8150516713447308,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.242752690018315,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.22430173992673993,
+      "step_iou": 0.9239928089357814,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

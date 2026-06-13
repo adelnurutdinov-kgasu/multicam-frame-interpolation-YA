@@ -1,0 +1,42 @@
+{
+  "vehicle": "targi",
+  "camera": "left_fwd",
+  "n_used": 10,
+  "n_available": 10,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.08236400462962963,
+  "bottom_frac": 0.4887581240119445,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.2618995949074074,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.11242766203703704,
+      "step_iou": 0.42927772407126086,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.07737268518518518,
+      "step_iou": 0.6881997168961523,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.10198206018518519,
+      "step_iou": 0.6989173632999863,
+      "mean_freq_in": 0.925060292240034
+    },
+    {
+      "n": 10,
+      "coverage": 0.08236400462962963,
+      "step_iou": 0.8076322882678394,
+      "mean_freq_in": 0.9447479360618305
+    }
+  ]
+}

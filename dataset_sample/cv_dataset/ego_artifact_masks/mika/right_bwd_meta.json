@@ -1,0 +1,36 @@
+{
+  "vehicle": "mika",
+  "camera": "right_bwd",
+  "n_used": 8,
+  "n_available": 8,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.11425426136363637,
+  "bottom_frac": 0.576117361844968,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.18159090909090908,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.0971875,
+      "step_iou": 0.5352002503128911,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.05281960227272727,
+      "step_iou": 0.5434814381759719,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.11425426136363637,
+      "step_iou": 0.46229875054391745,
+      "mean_freq_in": 0.9313964691987319
+    }
+  ]
+}

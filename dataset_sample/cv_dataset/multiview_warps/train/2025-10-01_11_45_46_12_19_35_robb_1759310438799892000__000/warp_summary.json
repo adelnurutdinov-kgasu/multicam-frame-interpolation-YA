@@ -1,0 +1,20 @@
+{
+  "sample_id": "2025-10-01_11_45_46_12_19_35_robb_1759310438799892000__000",
+  "target_camera": "front",
+  "n_sources": 6,
+  "coverage_total": 0.9455512762069702,
+  "visibility_max": 4,
+  "visibility_mean_in_covered": 2.615960890407708,
+  "per_source_coverage": {
+    "front_t0": 0.7746133208274841,
+    "left_fwd_t0": 0.2711576521396637,
+    "right_fwd_t0": 0.3978486955165863,
+    "front_t1": 0.42183730006217957,
+    "left_fwd_t1": 0.25630277395248413,
+    "right_fwd_t1": 0.35176536440849304
+  },
+  "tuned_built": true,
+  "confidence_mean": 0.30695641040802,
+  "soft_coverage_mean": 0.5858755111694336,
+  "disagreement_mean_in_overlap": 0.031658947467803955
+}

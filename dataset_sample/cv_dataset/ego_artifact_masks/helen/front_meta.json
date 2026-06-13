@@ -1,0 +1,24 @@
+{
+  "vehicle": "helen",
+  "camera": "front",
+  "n_used": 4,
+  "n_available": 4,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.11650028935185185,
+  "bottom_frac": 0.9985097795715616,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.2767722800925926,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.11650028935185185,
+      "step_iou": 0.4209247013930634,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

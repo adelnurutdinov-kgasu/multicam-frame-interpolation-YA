@@ -1,0 +1,24 @@
+{
+  "vehicle": "crozby",
+  "camera": "right_fwd",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.04181690705128205,
+  "bottom_frac": 0.4823781009409752,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.1953339629120879,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.04181690705128205,
+      "step_iou": 0.21407903893345054,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

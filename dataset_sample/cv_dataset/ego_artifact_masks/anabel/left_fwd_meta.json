@@ -1,0 +1,36 @@
+{
+  "vehicle": "anabel",
+  "camera": "left_fwd",
+  "n_used": 7,
+  "n_available": 7,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.3009693287037037,
+  "bottom_frac": 0.5271355093015431,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.4105541087962963,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.2684244791666667,
+      "step_iou": 0.6538102369835257,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.13718171296296297,
+      "step_iou": 0.5110626027434176,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 7,
+      "coverage": 0.3009693287037037,
+      "step_iou": 0.4557996442820747,
+      "mean_freq_in": 0.9155684963020445
+    }
+  ]
+}

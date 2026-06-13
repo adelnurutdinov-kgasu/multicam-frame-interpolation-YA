@@ -1,0 +1,18 @@
+{
+  "split": "train",
+  "subset": "val",
+  "seed": 42,
+  "val_fraction": 0.16,
+  "blend": 0.5,
+  "pred_source": "pseudo",
+  "n": 204,
+  "mean_psnr": {
+    "rife_raw": 20.3212785412589,
+    "rife_guided": 21.33359539018161,
+    "rife_precomputed": 20.312922101496483,
+    "ours_only": 21.115013854358235,
+    "blend_07_ours_03_guided": 21.412850693085147,
+    "blend_07_ours_03_rife_raw": 21.610237436082524,
+    "blend_07_ours_03_rife_precomp": 21.609072106241502
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "vehicle": "ravine",
+  "camera": "left_bwd",
+  "n_used": 12,
+  "n_available": 16,
+  "converged": true,
+  "thresh": 0.85,
+  "coverage": 0.07310675182481752,
+  "bottom_frac": 0.20076053042121686,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.10974566605839416,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.07313526459854014,
+      "step_iou": 0.666406858924396,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.03281107436131387,
+      "step_iou": 0.448635477582846,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.08620837135036497,
+      "step_iou": 0.38060195138085,
+      "mean_freq_in": 0.9196399040846701
+    },
+    {
+      "n": 10,
+      "coverage": 0.07893048585766424,
+      "step_iou": 0.9155779725483711,
+      "mean_freq_in": 0.9370089406664862
+    },
+    {
+      "n": 12,
+      "coverage": 0.07310675182481752,
+      "step_iou": 0.9262169240494897,
+      "mean_freq_in": 0.9495498569942795
+    }
+  ]
+}

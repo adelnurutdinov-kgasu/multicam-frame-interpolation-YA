@@ -1,0 +1,24 @@
+{
+  "vehicle": "lerita",
+  "camera": "right_fwd",
+  "n_used": 4,
+  "n_available": 4,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.3097511574074074,
+  "bottom_frac": 0.5808267164876226,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.42563657407407407,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.3097511574074074,
+      "step_iou": 0.7277362338545207,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vehicle": "hilma",
+  "camera": "right_bwd",
+  "n_used": 12,
+  "n_available": 24,
+  "converged": true,
+  "thresh": 0.85,
+  "coverage": 0.0981856684981685,
+  "bottom_frac": 0.7584523462547362,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.2695240956959707,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.09079527243589744,
+      "step_iou": 0.33687256125076315,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.07112809065934066,
+      "step_iou": 0.7833898037979671,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.11792439331501832,
+      "step_iou": 0.5948457963667089,
+      "mean_freq_in": 0.9473093490262695
+    },
+    {
+      "n": 10,
+      "coverage": 0.10668498168498168,
+      "step_iou": 0.9046896802766486,
+      "mean_freq_in": 0.9543119635193134
+    },
+    {
+      "n": 12,
+      "coverage": 0.0981856684981685,
+      "step_iou": 0.9203326180257511,
+      "mean_freq_in": 0.9554794520547943
+    }
+  ]
+}

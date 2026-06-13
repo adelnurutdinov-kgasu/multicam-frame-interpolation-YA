@@ -1,0 +1,24 @@
+{
+  "vehicle": "weel",
+  "camera": "rear",
+  "n_used": 4,
+  "n_available": 4,
+  "converged": true,
+  "thresh": 0.85,
+  "coverage": 0.3138093171296296,
+  "bottom_frac": 0.8470989603743574,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.33632089120370373,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.3138093171296296,
+      "step_iou": 0.9330651926096402,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

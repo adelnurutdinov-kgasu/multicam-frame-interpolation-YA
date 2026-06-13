@@ -1,0 +1,6 @@
+{
+  "split": "test",
+  "n_samples": 199,
+  "format": "depth_npy_only",
+  "dataset_dir": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants"
+}

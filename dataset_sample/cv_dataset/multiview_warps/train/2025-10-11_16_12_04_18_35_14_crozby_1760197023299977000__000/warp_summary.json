@@ -1,0 +1,20 @@
+{
+  "sample_id": "2025-10-11_16_12_04_18_35_14_crozby_1760197023299977000__000",
+  "target_camera": "left_fwd",
+  "n_sources": 6,
+  "coverage_total": 0.9387315511703491,
+  "visibility_max": 4,
+  "visibility_mean_in_covered": 2.173562507585521,
+  "per_source_coverage": {
+    "left_fwd_t0": 0.8768789768218994,
+    "front_t0": 0.36720016598701477,
+    "left_bwd_t0": 0.0,
+    "left_fwd_t1": 0.43329355120658875,
+    "front_t1": 0.08729925751686096,
+    "left_bwd_t1": 0.2757197618484497
+  },
+  "tuned_built": true,
+  "confidence_mean": 0.27420300245285034,
+  "soft_coverage_mean": 0.6855337023735046,
+  "disagreement_mean_in_overlap": 0.038041699677705765
+}

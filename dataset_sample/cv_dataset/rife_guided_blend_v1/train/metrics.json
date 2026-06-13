@@ -1,0 +1,12 @@
+{
+  "split": "train",
+  "blend": 0.5,
+  "pred_source": "pseudo",
+  "n": 30,
+  "mean_psnr": {
+    "rife_raw": 19.348080445976983,
+    "rife_guided": 21.60492165710284,
+    "ours_only": 23.235775403046308,
+    "blend_alpha_ours": 23.123412803433364
+  }
+}

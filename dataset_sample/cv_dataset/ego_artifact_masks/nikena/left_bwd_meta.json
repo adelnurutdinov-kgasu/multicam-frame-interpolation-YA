@@ -1,0 +1,24 @@
+{
+  "vehicle": "nikena",
+  "camera": "left_bwd",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.31182994981751827,
+  "bottom_frac": 0.7716819823526723,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.4227874087591241,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.31182994981751827,
+      "step_iou": 0.7375573239816563,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

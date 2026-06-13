@@ -1,0 +1,10 @@
+{
+  "sample_id": "2025-10-12_11_30_56_12_10_38_anabel_1760263528700021000__000",
+  "camera": "left_bwd",
+  "z_ref": 6.969539165496826,
+  "static_pct": 0.4526616674270073,
+  "far_gate_pct": 0.624686359489051,
+  "static_lidar_pct": 0.06229506443886861,
+  "static_no_lidar_pct": 0.3903666029881387,
+  "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_11_30_56_12_10_38_anabel_1760263528700021000__000\\static_far.npz"
+}

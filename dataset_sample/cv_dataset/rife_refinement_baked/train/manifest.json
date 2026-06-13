@@ -1,0 +1,6 @@
+{
+  "split": "train",
+  "n_samples": 1278,
+  "dataset_dir": "C:\\Users\\adel\\Downloads\\cv_dataset\\final_dataset_v5_participants",
+  "rife_dir": "C:\\Users\\adel\\Downloads\\cv_dataset\\rife_predictions_v5\\train"
+}

@@ -1,0 +1,24 @@
+{
+  "vehicle": "baland",
+  "camera": "right_fwd",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.01650752314814815,
+  "bottom_frac": 0.49780893952673094,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.10366030092592593,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.01650752314814815,
+      "step_iou": 0.1592463363572924,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

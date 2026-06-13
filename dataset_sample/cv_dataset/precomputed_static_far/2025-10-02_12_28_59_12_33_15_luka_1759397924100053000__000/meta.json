@@ -1,0 +1,10 @@
+{
+  "sample_id": "2025-10-02_12_28_59_12_33_15_luka_1759397924100053000__000",
+  "camera": "rear",
+  "z_ref": 6.447246551513672,
+  "static_pct": 0.29326352719907406,
+  "far_gate_pct": 0.562109375,
+  "static_lidar_pct": 0.041840277777777775,
+  "static_no_lidar_pct": 0.2514232494212963,
+  "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-02_12_28_59_12_33_15_luka_1759397924100053000__000\\static_far.npz"
+}

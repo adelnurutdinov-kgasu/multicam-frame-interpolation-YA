@@ -1,0 +1,30 @@
+{
+  "vehicle": "orvy",
+  "camera": "left_fwd",
+  "n_used": 5,
+  "n_available": 5,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.038360821759259256,
+  "bottom_frac": 0.601357722044126,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.11378038194444444,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.0613353587962963,
+      "step_iou": 0.5390679636340517,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 5,
+      "coverage": 0.038360821759259256,
+      "step_iou": 0.6254275268309942,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

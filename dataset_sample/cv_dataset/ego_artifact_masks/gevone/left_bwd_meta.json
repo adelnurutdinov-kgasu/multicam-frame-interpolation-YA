@@ -1,0 +1,18 @@
+{
+  "vehicle": "gevone",
+  "camera": "left_bwd",
+  "n_used": 2,
+  "n_available": 2,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.5170916323260073,
+  "bottom_frac": 0.6712370463632967,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.5170916323260073,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

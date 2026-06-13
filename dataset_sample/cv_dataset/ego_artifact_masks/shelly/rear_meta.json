@@ -1,0 +1,42 @@
+{
+  "vehicle": "shelly",
+  "camera": "rear",
+  "n_used": 10,
+  "n_available": 11,
+  "converged": true,
+  "thresh": 0.85,
+  "coverage": 0.3129340277777778,
+  "bottom_frac": 0.8683541377716135,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.49961660879629627,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.2877387152777778,
+      "step_iou": 0.5759190351397918,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.22583912037037038,
+      "step_iou": 0.7848756819267416,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.33783998842592594,
+      "step_iou": 0.6608691945350299,
+      "mean_freq_in": 0.954745947797786
+    },
+    {
+      "n": 10,
+      "coverage": 0.3129340277777778,
+      "step_iou": 0.9262788257713638,
+      "mean_freq_in": 0.9659986130374479
+    }
+  ]
+}

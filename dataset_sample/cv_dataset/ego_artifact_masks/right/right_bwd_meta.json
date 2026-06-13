@@ -1,0 +1,24 @@
+{
+  "vehicle": "right",
+  "camera": "right_bwd",
+  "n_used": 4,
+  "n_available": 4,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.17387820512820512,
+  "bottom_frac": 0.7087310730743911,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.26694854624542125,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.17387820512820512,
+      "step_iou": 0.6513547557151663,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

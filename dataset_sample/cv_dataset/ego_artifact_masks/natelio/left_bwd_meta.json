@@ -1,0 +1,18 @@
+{
+  "vehicle": "natelio",
+  "camera": "left_bwd",
+  "n_used": 2,
+  "n_available": 2,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.42018276173285196,
+  "bottom_frac": 0.3781883474291851,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.42018276173285196,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

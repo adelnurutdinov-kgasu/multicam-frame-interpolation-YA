@@ -1,0 +1,1997 @@
+{
+  "n_samples": 199,
+  "avg_static_pct": 0.1843476402910093,
+  "avg_no_lidar_pct": 0.14264389273923145,
+  "samples": [
+    {
+      "sample_id": "2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000",
+      "camera": "right_bwd",
+      "z_ref": 17.716251373291016,
+      "static_pct": 0.11185063999077491,
+      "far_gate_pct": 0.3970717539206642,
+      "static_lidar_pct": 0.0244789264298893,
+      "static_no_lidar_pct": 0.0873717135608856,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-01_10_56_41_13_02_27_natelio_1759313641599971000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000",
+      "camera": "rear",
+      "z_ref": 12.539396286010742,
+      "static_pct": 0.1287127459490741,
+      "far_gate_pct": 0.4331687644675926,
+      "static_lidar_pct": 0.032984302662037036,
+      "static_no_lidar_pct": 0.09572844328703704,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-01_10_56_41_13_02_27_natelio_1759313651600010000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000",
+      "camera": "left_bwd",
+      "z_ref": 10.773748397827148,
+      "static_pct": 0.04287786553375912,
+      "far_gate_pct": 0.3161211222627737,
+      "static_lidar_pct": 0.011308878877737226,
+      "static_no_lidar_pct": 0.0315689866560219,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-01_18_29_52_19_31_28_kynde_1759339234200041000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000",
+      "camera": "left_fwd",
+      "z_ref": 6.444633960723877,
+      "static_pct": 0.10320999710648149,
+      "far_gate_pct": 0.4323875144675926,
+      "static_lidar_pct": 0.0055302372685185185,
+      "static_no_lidar_pct": 0.09767975983796297,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-02_12_11_10_12_44_21_robb_1759399016299888000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-02_12_28_59_12_33_15_luka_1759399060300223000__000",
+      "camera": "right_bwd",
+      "z_ref": 13.811847686767578,
+      "static_pct": 0.1290386046245421,
+      "far_gate_pct": 0.4217569539835165,
+      "static_lidar_pct": 0.024220896291208792,
+      "static_no_lidar_pct": 0.10481770833333333,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-02_12_28_59_12_33_15_luka_1759399060300223000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000",
+      "camera": "front",
+      "z_ref": 11.063071250915527,
+      "static_pct": 0.12645048253676472,
+      "far_gate_pct": 0.47512637867647056,
+      "static_lidar_pct": 0.044812370749080885,
+      "static_no_lidar_pct": 0.08163811178768382,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-03_16_30_42_17_26_09_robb_1759504164299906000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-04_10_07_29_11_03_54_baland_1759565491800022000__000",
+      "camera": "left_fwd",
+      "z_ref": 8.97146224975586,
+      "static_pct": 0.07819191261574074,
+      "far_gate_pct": 0.36761610243055554,
+      "static_lidar_pct": 0.012791160300925926,
+      "static_no_lidar_pct": 0.06540075231481482,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-04_10_07_29_11_03_54_baland_1759565491800022000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-04_10_07_29_11_55_45_baland_1759568661100024000__000",
+      "camera": "front",
+      "z_ref": 10.967374801635742,
+      "static_pct": 0.10575058880974264,
+      "far_gate_pct": 0.24114451688878677,
+      "static_lidar_pct": 0.037549187155330885,
+      "static_no_lidar_pct": 0.06820140165441177,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-04_10_07_29_11_55_45_baland_1759568661100024000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-04_10_07_29_11_55_45_baland_1759568775199999000__000",
+      "camera": "rear",
+      "z_ref": 6.645431995391846,
+      "static_pct": 0.10544524016203703,
+      "far_gate_pct": 0.35386646412037037,
+      "static_lidar_pct": 0.02532009548611111,
+      "static_no_lidar_pct": 0.08012514467592592,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-04_10_07_29_11_55_45_baland_1759568775199999000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-04_15_57_04_16_44_38_luka_1759586167000002000__000",
+      "camera": "front",
+      "z_ref": 12.662376403808594,
+      "static_pct": 0.07075606684981685,
+      "far_gate_pct": 0.35746837797619047,
+      "static_lidar_pct": 0.04958826980311355,
+      "static_no_lidar_pct": 0.021167797046703296,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-04_15_57_04_16_44_38_luka_1759586167000002000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-04_15_57_04_16_44_38_luka_1759587206700038000__000",
+      "camera": "left_fwd",
+      "z_ref": 8.967124938964844,
+      "static_pct": 0.1866084346064815,
+      "far_gate_pct": 0.5485496238425925,
+      "static_lidar_pct": 0.01723090277777778,
+      "static_no_lidar_pct": 0.16937753182870371,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-04_15_57_04_16_44_38_luka_1759587206700038000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000",
+      "camera": "right_fwd",
+      "z_ref": 9.219646453857422,
+      "static_pct": 0.07830222800925926,
+      "far_gate_pct": 0.32491319444444444,
+      "static_lidar_pct": 0.03090277777777778,
+      "static_no_lidar_pct": 0.04739945023148148,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-04_18_47_41_18_51_30_luka_1759594353299823000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-04_18_47_41_18_51_30_luka_1759594363299948000__000",
+      "camera": "rear",
+      "z_ref": 10.360450744628906,
+      "static_pct": 0.16102611400462963,
+      "far_gate_pct": 0.39394350405092593,
+      "static_lidar_pct": 0.030074508101851853,
+      "static_no_lidar_pct": 0.13095160590277777,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-04_18_47_41_18_51_30_luka_1759594363299948000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-04_18_47_41_19_30_25_luka_1759597179200220000__000",
+      "camera": "left_bwd",
+      "z_ref": 11.173087120056152,
+      "static_pct": 0.10761077212591241,
+      "far_gate_pct": 0.3269880531478102,
+      "static_lidar_pct": 0.042257712705291973,
+      "static_no_lidar_pct": 0.06535305942062043,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-04_18_47_41_19_30_25_luka_1759597179200220000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-07_13_26_23_13_26_23_right_1759833984900208000__000",
+      "camera": "rear",
+      "z_ref": 10.401169776916504,
+      "static_pct": 0.33866644965277776,
+      "far_gate_pct": 0.5258318865740741,
+      "static_lidar_pct": 0.02703812210648148,
+      "static_no_lidar_pct": 0.31162832754629627,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-07_13_26_23_13_26_23_right_1759833984900208000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-11_09_17_40_10_00_06_susana_1760167390099903000__000",
+      "camera": "right_fwd",
+      "z_ref": 11.223763465881348,
+      "static_pct": 0.08820891203703704,
+      "far_gate_pct": 0.36189597800925927,
+      "static_lidar_pct": 0.027846498842592594,
+      "static_no_lidar_pct": 0.06036241319444444,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-11_09_17_40_10_00_06_susana_1760167390099903000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_10_30_54_10_43_52_right_1760258349600059000__000",
+      "camera": "rear",
+      "z_ref": 11.148233413696289,
+      "static_pct": 0.21938838252314816,
+      "far_gate_pct": 0.5450303819444444,
+      "static_lidar_pct": 0.03129701967592593,
+      "static_no_lidar_pct": 0.18809136284722222,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_10_30_54_10_43_52_right_1760258349600059000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_10_30_54_11_59_05_right_1760260095100029000__000",
+      "camera": "left_bwd",
+      "z_ref": 7.506349563598633,
+      "static_pct": 0.34759186126373626,
+      "far_gate_pct": 0.43805266998626374,
+      "static_lidar_pct": 0.06498969780219781,
+      "static_no_lidar_pct": 0.28260216346153844,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_10_30_54_11_59_05_right_1760260095100029000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_10_30_54_11_59_05_right_1760261215599953000__000",
+      "camera": "left_fwd",
+      "z_ref": 7.0747904777526855,
+      "static_pct": 0.09262876157407407,
+      "far_gate_pct": 0.3702600549768518,
+      "static_lidar_pct": 0.01962890625,
+      "static_no_lidar_pct": 0.07299985532407408,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_10_30_54_11_59_05_right_1760261215599953000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_15_56_19_16_04_21_right_1760275793700062000__000",
+      "camera": "left_fwd",
+      "z_ref": 12.396074295043945,
+      "static_pct": 0.2291431568287037,
+      "far_gate_pct": 0.47108470775462963,
+      "static_lidar_pct": 0.03390661168981481,
+      "static_no_lidar_pct": 0.19523654513888888,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_15_56_19_16_04_21_right_1760275793700062000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_15_56_19_16_50_14_right_1760277501300025000__000",
+      "camera": "front",
+      "z_ref": 12.11787223815918,
+      "static_pct": 0.13708183092948717,
+      "far_gate_pct": 0.3595663776327839,
+      "static_lidar_pct": 0.07020697401556776,
+      "static_no_lidar_pct": 0.06687485691391941,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_15_56_19_16_50_14_right_1760277501300025000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_15_56_19_17_45_56_right_1760280498600121000__000",
+      "camera": "left_bwd",
+      "z_ref": 14.303069114685059,
+      "static_pct": 0.16962854853479853,
+      "far_gate_pct": 0.43518379407051283,
+      "static_lidar_pct": 0.038985591231684984,
+      "static_no_lidar_pct": 0.13064295730311357,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_15_56_19_17_45_56_right_1760280498600121000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_15_56_19_17_45_56_right_1760280660400077000__000",
+      "camera": "front",
+      "z_ref": 11.602334022521973,
+      "static_pct": 0.09246759100274725,
+      "far_gate_pct": 0.21168333619505494,
+      "static_lidar_pct": 0.04058815533424909,
+      "static_no_lidar_pct": 0.05187943566849817,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_15_56_19_17_45_56_right_1760280660400077000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_15_56_19_17_45_56_right_1760280933600014000__000",
+      "camera": "left_bwd",
+      "z_ref": 7.506986141204834,
+      "static_pct": 0.09387877747252747,
+      "far_gate_pct": 0.2681951837225275,
+      "static_lidar_pct": 0.058395218063186816,
+      "static_no_lidar_pct": 0.035483559409340656,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_15_56_19_17_45_56_right_1760280933600014000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_15_56_19_17_45_56_right_1760280955400226000__000",
+      "camera": "right_bwd",
+      "z_ref": 7.557666778564453,
+      "static_pct": 0.04349459134615385,
+      "far_gate_pct": 0.2952813787774725,
+      "static_lidar_pct": 0.01430324233058608,
+      "static_no_lidar_pct": 0.029191349015567764,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_15_56_19_17_45_56_right_1760280955400226000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_15_56_19_17_45_56_right_1760280965499830000__000",
+      "camera": "right_fwd",
+      "z_ref": 6.082340240478516,
+      "static_pct": 0.057707609953703706,
+      "far_gate_pct": 0.3469509548611111,
+      "static_lidar_pct": 0.015082465277777778,
+      "static_no_lidar_pct": 0.04262514467592592,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_15_56_19_17_45_56_right_1760280965499830000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-12_16_19_31_19_14_32_robb_1760286512899854000__000",
+      "camera": "front",
+      "z_ref": 12.917439460754395,
+      "static_pct": 0.17580099666819854,
+      "far_gate_pct": 0.55059814453125,
+      "static_lidar_pct": 0.03606100643382353,
+      "static_no_lidar_pct": 0.139739990234375,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-12_16_19_31_19_14_32_robb_1760286512899854000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-18_11_02_41_11_07_49_robb_1760776679099953000__000",
+      "camera": "right_bwd",
+      "z_ref": 4.898705959320068,
+      "static_pct": 0.15770590086996336,
+      "far_gate_pct": 0.33662967891483514,
+      "static_lidar_pct": 0.07031786572802198,
+      "static_no_lidar_pct": 0.08738803514194139,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-18_11_02_41_11_07_49_robb_1760776679099953000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-18_11_02_41_11_07_49_robb_1760776750799728000__000",
+      "camera": "left_fwd",
+      "z_ref": 7.030493259429932,
+      "static_pct": 0.07795500578703704,
+      "far_gate_pct": 0.4141239872685185,
+      "static_lidar_pct": 0.012017144097222222,
+      "static_no_lidar_pct": 0.06593786168981482,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-18_11_02_41_11_07_49_robb_1760776750799728000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-18_11_02_41_11_07_49_robb_1760776793299890000__000",
+      "camera": "left_bwd",
+      "z_ref": 8.679062843322754,
+      "static_pct": 0.09887427026098901,
+      "far_gate_pct": 0.403638679029304,
+      "static_lidar_pct": 0.06153774610805861,
+      "static_no_lidar_pct": 0.0373365241529304,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-18_11_02_41_11_07_49_robb_1760776793299890000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-18_11_02_41_13_09_50_robb_1760784529699888000__000",
+      "camera": "rear",
+      "z_ref": 7.100326061248779,
+      "static_pct": 0.3099555121527778,
+      "far_gate_pct": 0.5435944733796296,
+      "static_lidar_pct": 0.05467845775462963,
+      "static_no_lidar_pct": 0.25527705439814813,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-18_11_02_41_13_09_50_robb_1760784529699888000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-18_16_54_04_16_54_04_shelly_1760799218699900000__000",
+      "camera": "right_fwd",
+      "z_ref": 5.374674320220947,
+      "static_pct": 0.13981300636574073,
+      "far_gate_pct": 0.3261085792824074,
+      "static_lidar_pct": 0.05442346643518518,
+      "static_no_lidar_pct": 0.08538953993055555,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-18_16_54_04_16_54_04_shelly_1760799218699900000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_07_25_04_09_57_54_hilma_1760857797099991000__000",
+      "camera": "right_fwd",
+      "z_ref": 11.99846076965332,
+      "static_pct": 0.14860749421296296,
+      "far_gate_pct": 0.47539966724537036,
+      "static_lidar_pct": 0.04324182581018519,
+      "static_no_lidar_pct": 0.10536566840277778,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_07_25_04_09_57_54_hilma_1760857797099991000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_07_25_04_09_57_54_hilma_1760858032299943000__000",
+      "camera": "rear",
+      "z_ref": 7.803534984588623,
+      "static_pct": 0.2241717303240741,
+      "far_gate_pct": 0.5179126880787037,
+      "static_lidar_pct": 0.06496129918981482,
+      "static_no_lidar_pct": 0.15921043113425926,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_07_25_04_09_57_54_hilma_1760858032299943000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_11_44_56_15_03_59_hilma_1760876061900089000__000",
+      "camera": "rear",
+      "z_ref": 9.13731861114502,
+      "static_pct": 0.2787814670138889,
+      "far_gate_pct": 0.5583803530092593,
+      "static_lidar_pct": 0.06657443576388888,
+      "static_no_lidar_pct": 0.21220703125,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_11_44_56_15_03_59_hilma_1760876061900089000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_16_01_37_17_55_22_hilma_1760886284799902000__000",
+      "camera": "rear",
+      "z_ref": 5.743244171142578,
+      "static_pct": 0.10608000578703704,
+      "far_gate_pct": 0.36542787905092594,
+      "static_lidar_pct": 0.04137731481481482,
+      "static_no_lidar_pct": 0.06470269097222223,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_16_01_37_17_55_22_hilma_1760886284799902000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_16_01_37_17_55_22_hilma_1760886343699953000__000",
+      "camera": "right_bwd",
+      "z_ref": 7.844907283782959,
+      "static_pct": 0.08790314503205128,
+      "far_gate_pct": 0.3023140596382784,
+      "static_lidar_pct": 0.01812542925824176,
+      "static_no_lidar_pct": 0.06977771577380952,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_16_01_37_17_55_22_hilma_1760886343699953000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_16_01_37_18_28_12_hilma_1760888001399962000__000",
+      "camera": "rear",
+      "z_ref": 11.728507041931152,
+      "static_pct": 0.019156901041666667,
+      "far_gate_pct": 0.25926649305555555,
+      "static_lidar_pct": 0.004407190393518518,
+      "static_no_lidar_pct": 0.014749710648148149,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_16_01_37_18_28_12_hilma_1760888001399962000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_16_01_37_18_28_12_hilma_1760888011399970000__000",
+      "camera": "right_bwd",
+      "z_ref": 9.404062271118164,
+      "static_pct": 0.15940862522893773,
+      "far_gate_pct": 0.5167357057005495,
+      "static_lidar_pct": 0.04583762591575091,
+      "static_no_lidar_pct": 0.11357099931318682,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_16_01_37_18_28_12_hilma_1760888011399970000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_16_17_42_17_30_18_hanna_1760885723400053000__000",
+      "camera": "right_fwd",
+      "z_ref": 7.120838642120361,
+      "static_pct": 0.21618019386574075,
+      "far_gate_pct": 0.5643410011574074,
+      "static_lidar_pct": 0.016605179398148148,
+      "static_no_lidar_pct": 0.1995750144675926,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_16_17_42_17_30_18_hanna_1760885723400053000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-19_18_53_08_19_21_40_hilma_1760891402399956000__000",
+      "camera": "rear",
+      "z_ref": 4.817441940307617,
+      "static_pct": 0.10266384548611111,
+      "far_gate_pct": 0.4135669849537037,
+      "static_lidar_pct": 0.03277271412037037,
+      "static_no_lidar_pct": 0.06989113136574074,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-19_18_53_08_19_21_40_hilma_1760891402399956000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-20_08_08_54_09_43_50_crozby_1760942834299970000__000",
+      "camera": "front",
+      "z_ref": 7.444093227386475,
+      "static_pct": 0.07007104223901099,
+      "far_gate_pct": 0.3321153130723443,
+      "static_lidar_pct": 0.03328718807234432,
+      "static_no_lidar_pct": 0.036783854166666664,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-20_08_08_54_09_43_50_crozby_1760942834299970000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-20_08_08_54_09_43_50_crozby_1760943481699959000__000",
+      "camera": "right_bwd",
+      "z_ref": 7.573553562164307,
+      "static_pct": 0.08125321943681318,
+      "far_gate_pct": 0.29487537202380953,
+      "static_lidar_pct": 0.04907673706501831,
+      "static_no_lidar_pct": 0.03217648237179487,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-20_08_08_54_09_43_50_crozby_1760943481699959000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-20_08_08_54_09_43_50_crozby_1760943692599944000__000",
+      "camera": "left_bwd",
+      "z_ref": 7.106344699859619,
+      "static_pct": 0.12819191261574073,
+      "far_gate_pct": 0.3342339409722222,
+      "static_lidar_pct": 0.08071108217592593,
+      "static_no_lidar_pct": 0.04748083043981482,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-20_08_08_54_09_43_50_crozby_1760943692599944000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-20_08_08_54_09_43_50_crozby_1760944855900012000__000",
+      "camera": "left_fwd",
+      "z_ref": 5.357285976409912,
+      "static_pct": 0.04797634548611111,
+      "far_gate_pct": 0.3380154079861111,
+      "static_lidar_pct": 0.02354058159722222,
+      "static_no_lidar_pct": 0.02443576388888889,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-20_08_08_54_09_43_50_crozby_1760944855900012000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-20_08_08_54_09_43_50_crozby_1760945130199976000__000",
+      "camera": "right_bwd",
+      "z_ref": 5.1515302658081055,
+      "static_pct": 0.08110476762820513,
+      "far_gate_pct": 0.390789548992674,
+      "static_lidar_pct": 0.05483058608058608,
+      "static_no_lidar_pct": 0.026274181547619048,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-20_08_08_54_09_43_50_crozby_1760945130199976000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-20_08_08_54_09_43_50_crozby_1760945152399978000__000",
+      "camera": "front",
+      "z_ref": 10.55642318725586,
+      "static_pct": 0.034687643086080584,
+      "far_gate_pct": 0.2655355711996337,
+      "static_lidar_pct": 0.012241014194139194,
+      "static_no_lidar_pct": 0.022446628891941392,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-20_08_08_54_09_43_50_crozby_1760945152399978000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-20_08_08_54_09_43_50_crozby_1760945815000144000__000",
+      "camera": "rear",
+      "z_ref": 6.7481303215026855,
+      "static_pct": 0.09073169849537037,
+      "far_gate_pct": 0.3982349537037037,
+      "static_lidar_pct": 0.033684172453703705,
+      "static_no_lidar_pct": 0.057047526041666664,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-20_08_08_54_09_43_50_crozby_1760945815000144000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-20_08_08_54_10_44_51_crozby_1760949272399978000__000",
+      "camera": "right_bwd",
+      "z_ref": 7.7036662101745605,
+      "static_pct": 0.08769924736721611,
+      "far_gate_pct": 0.27511160714285715,
+      "static_lidar_pct": 0.03335873111263736,
+      "static_no_lidar_pct": 0.05434051625457875,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-20_08_08_54_10_44_51_crozby_1760949272399978000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-21_18_00_55_18_07_29_hilma_1761060338400036000__000",
+      "camera": "rear",
+      "z_ref": 6.238917350769043,
+      "static_pct": 0.15617585358796296,
+      "far_gate_pct": 0.47827510127314815,
+      "static_lidar_pct": 0.06930519386574074,
+      "static_no_lidar_pct": 0.08687065972222222,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-21_18_00_55_18_07_29_hilma_1761060338400036000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-22_11_59_39_12_21_42_hilma_1761125401600106000__000",
+      "camera": "rear",
+      "z_ref": 10.918628692626953,
+      "static_pct": 0.20694986979166666,
+      "far_gate_pct": 0.4906810619212963,
+      "static_lidar_pct": 0.07179000289351851,
+      "static_no_lidar_pct": 0.13515986689814816,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-22_11_59_39_12_21_42_hilma_1761125401600106000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-22_12_57_24_13_00_30_hilma_1761128559700017000__000",
+      "camera": "right_bwd",
+      "z_ref": 12.63463306427002,
+      "static_pct": 0.23948675022893773,
+      "far_gate_pct": 0.4385033911401099,
+      "static_lidar_pct": 0.05179179544413919,
+      "static_no_lidar_pct": 0.18769495478479853,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-22_12_57_24_13_00_30_hilma_1761128559700017000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-22_18_36_18_19_31_34_hilma_1761151149299975000__000",
+      "camera": "rear",
+      "z_ref": 6.85820198059082,
+      "static_pct": 0.2105269820601852,
+      "far_gate_pct": 0.38706958912037037,
+      "static_lidar_pct": 0.0536548755787037,
+      "static_no_lidar_pct": 0.15687210648148148,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-22_18_36_18_19_31_34_hilma_1761151149299975000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-22_18_36_18_19_31_34_hilma_1761151443400015000__000",
+      "camera": "rear",
+      "z_ref": 5.299346446990967,
+      "static_pct": 0.23154839409722222,
+      "far_gate_pct": 0.44985713252314813,
+      "static_lidar_pct": 0.09144603587962963,
+      "static_no_lidar_pct": 0.1401023582175926,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-22_18_36_18_19_31_34_hilma_1761151443400015000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-22_18_36_18_19_52_29_hilma_1761152420499942000__000",
+      "camera": "front",
+      "z_ref": 20.089162826538086,
+      "static_pct": 0.23469094669117646,
+      "far_gate_pct": 0.31807753619025736,
+      "static_lidar_pct": 0.13304586971507354,
+      "static_no_lidar_pct": 0.10164507697610294,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-22_18_36_18_19_52_29_hilma_1761152420499942000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-23_16_29_57_16_39_36_hilma_1761228249599855000__000",
+      "camera": "rear",
+      "z_ref": 11.553983688354492,
+      "static_pct": 0.18043619791666668,
+      "far_gate_pct": 0.5007685908564815,
+      "static_lidar_pct": 0.027551721643518517,
+      "static_no_lidar_pct": 0.15288447627314813,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-23_16_29_57_16_39_36_hilma_1761228249599855000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-23_17_07_16_17_57_07_jurita_1761232637399861000__000",
+      "camera": "front",
+      "z_ref": 11.233911514282227,
+      "static_pct": 0.13251048900462964,
+      "far_gate_pct": 0.34284035011574077,
+      "static_lidar_pct": 0.11606626157407407,
+      "static_no_lidar_pct": 0.016444227430555555,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-23_17_07_16_17_57_07_jurita_1761232637399861000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-24_11_12_27_14_38_05_hanna_1761306356799883000__000",
+      "camera": "left_fwd",
+      "z_ref": 7.896333694458008,
+      "static_pct": 0.4221535011574074,
+      "far_gate_pct": 0.6368471498842593,
+      "static_lidar_pct": 0.05173611111111111,
+      "static_no_lidar_pct": 0.3704173900462963,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-24_11_12_27_14_38_05_hanna_1761306356799883000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-24_11_12_27_14_38_05_hanna_1761306371900064000__000",
+      "camera": "front",
+      "z_ref": 11.401226997375488,
+      "static_pct": 0.2878148696001838,
+      "far_gate_pct": 0.5515657312729779,
+      "static_lidar_pct": 0.0627890194163603,
+      "static_no_lidar_pct": 0.22502585018382354,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-24_11_12_27_14_38_05_hanna_1761306371900064000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-24_13_02_00_13_40_57_hilma_1761302849499939000__000",
+      "camera": "rear",
+      "z_ref": 7.229690074920654,
+      "static_pct": 0.4482892071759259,
+      "far_gate_pct": 0.6014503761574074,
+      "static_lidar_pct": 0.04910662615740741,
+      "static_no_lidar_pct": 0.3991825810185185,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-24_13_02_00_13_40_57_hilma_1761302849499939000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-25_12_55_29_13_23_26_weel_1761388736300157000__000",
+      "camera": "front",
+      "z_ref": 7.436832427978516,
+      "static_pct": 0.11337639303768382,
+      "far_gate_pct": 0.3732084386488971,
+      "static_lidar_pct": 0.07147755342371323,
+      "static_no_lidar_pct": 0.04189883961397059,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-25_12_55_29_13_23_26_weel_1761388736300157000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_08_27_48_09_39_53_hilma_1761461373399831000__000",
+      "camera": "front",
+      "z_ref": 9.531304359436035,
+      "static_pct": 0.39325669232536764,
+      "far_gate_pct": 0.5898240033318015,
+      "static_lidar_pct": 0.05361220415900735,
+      "static_no_lidar_pct": 0.3396444881663603,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_08_27_48_09_39_53_hilma_1761461373399831000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_08_27_48_10_40_53_hilma_1761466012699633000__000",
+      "camera": "right_fwd",
+      "z_ref": 6.836333751678467,
+      "static_pct": 0.06082718460648148,
+      "far_gate_pct": 0.3843912760416667,
+      "static_lidar_pct": 0.010519748263888889,
+      "static_no_lidar_pct": 0.05030743634259259,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_08_27_48_10_40_53_hilma_1761466012699633000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_09_01_38_10_03_07_hanna_1761463355299996000__000",
+      "camera": "left_fwd",
+      "z_ref": 5.209242820739746,
+      "static_pct": 0.06804289641203703,
+      "far_gate_pct": 0.32282081886574077,
+      "static_lidar_pct": 0.009747540509259259,
+      "static_no_lidar_pct": 0.058295355902777776,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_09_01_38_10_03_07_hanna_1761463355299996000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_09_01_38_10_03_07_hanna_1761463365300016000__000",
+      "camera": "front",
+      "z_ref": 10.857457160949707,
+      "static_pct": 0.05347218232996324,
+      "far_gate_pct": 0.23699233111213236,
+      "static_lidar_pct": 0.012932272518382353,
+      "static_no_lidar_pct": 0.040539909811580885,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_09_01_38_10_03_07_hanna_1761463365300016000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_10_37_50_11_29_27_jurita_1761468722099875000__000",
+      "camera": "front",
+      "z_ref": 10.825581550598145,
+      "static_pct": 0.057765480324074074,
+      "far_gate_pct": 0.4144079137731482,
+      "static_lidar_pct": 0.03055736400462963,
+      "static_no_lidar_pct": 0.027208116319444444,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_10_37_50_11_29_27_jurita_1761468722099875000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_10_37_50_12_14_06_jurita_1761470367599849000__000",
+      "camera": "left_fwd",
+      "z_ref": 6.567070007324219,
+      "static_pct": 0.1080711082175926,
+      "far_gate_pct": 0.40512333622685187,
+      "static_lidar_pct": 0.01564308449074074,
+      "static_no_lidar_pct": 0.09242802372685185,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_10_37_50_12_14_06_jurita_1761470367599849000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_10_37_50_12_14_06_jurita_1761470755100068000__000",
+      "camera": "front",
+      "z_ref": 10.415056228637695,
+      "static_pct": 0.14430519386574073,
+      "far_gate_pct": 0.38337131076388886,
+      "static_lidar_pct": 0.09671766493055556,
+      "static_no_lidar_pct": 0.04758752893518518,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_10_37_50_12_14_06_jurita_1761470755100068000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_12_06_53_12_10_40_hilma_1761471399800053000__000",
+      "camera": "right_fwd",
+      "z_ref": 5.749949932098389,
+      "static_pct": 0.07785734953703703,
+      "far_gate_pct": 0.38892686631944445,
+      "static_lidar_pct": 0.03291015625,
+      "static_no_lidar_pct": 0.044947193287037036,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_12_06_53_12_10_40_hilma_1761471399800053000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_12_06_53_12_10_40_hilma_1761471436899879000__000",
+      "camera": "left_bwd",
+      "z_ref": 7.089448928833008,
+      "static_pct": 0.11445348403033088,
+      "far_gate_pct": 0.38927145565257354,
+      "static_lidar_pct": 0.048323687385110295,
+      "static_no_lidar_pct": 0.06612979664522059,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_12_06_53_12_10_40_hilma_1761471436899879000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_12_06_53_12_10_40_hilma_1761471477800097000__000",
+      "camera": "rear",
+      "z_ref": 4.621066570281982,
+      "static_pct": 0.1121166087962963,
+      "far_gate_pct": 0.38840422453703705,
+      "static_lidar_pct": 0.02953197337962963,
+      "static_no_lidar_pct": 0.08258463541666666,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_12_06_53_12_10_40_hilma_1761471477800097000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_12_08_16_13_09_46_hanna_1761474810700015000__000",
+      "camera": "left_fwd",
+      "z_ref": 8.857608795166016,
+      "static_pct": 0.20835141782407407,
+      "far_gate_pct": 0.42121491608796297,
+      "static_lidar_pct": 0.027777777777777776,
+      "static_no_lidar_pct": 0.1805736400462963,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_12_08_16_13_09_46_hanna_1761474810700015000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_12_08_16_13_09_46_hanna_1761474959399850000__000",
+      "camera": "left_bwd",
+      "z_ref": 4.813277721405029,
+      "static_pct": 0.07024989983974358,
+      "far_gate_pct": 0.22307477678571427,
+      "static_lidar_pct": 0.038236177884615384,
+      "static_no_lidar_pct": 0.03201372195512821,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_12_08_16_13_09_46_hanna_1761474959399850000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_12_08_16_13_09_46_hanna_1761475249800084000__000",
+      "camera": "front",
+      "z_ref": 9.559416770935059,
+      "static_pct": 0.07696712718290441,
+      "far_gate_pct": 0.296356201171875,
+      "static_lidar_pct": 0.026015337775735295,
+      "static_no_lidar_pct": 0.050951789407169115,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_12_08_16_13_09_46_hanna_1761475249800084000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_12_08_16_13_09_46_hanna_1761476313700003000__000",
+      "camera": "left_bwd",
+      "z_ref": 11.843616485595703,
+      "static_pct": 0.17954799107142858,
+      "far_gate_pct": 0.48588455815018317,
+      "static_lidar_pct": 0.031861692994505496,
+      "static_no_lidar_pct": 0.14768629807692307,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_12_08_16_13_09_46_hanna_1761476313700003000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_13_00_34_13_04_39_jurita_1761474450999672000__000",
+      "camera": "front",
+      "z_ref": 13.599264144897461,
+      "static_pct": 0.21852756076388888,
+      "far_gate_pct": 0.48667173032407407,
+      "static_lidar_pct": 0.05714879918981482,
+      "static_no_lidar_pct": 0.16137876157407408,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_13_00_34_13_04_39_jurita_1761474450999672000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_13_00_34_13_04_39_jurita_1761474487600021000__000",
+      "camera": "front",
+      "z_ref": 17.740978240966797,
+      "static_pct": 0.1737774884259259,
+      "far_gate_pct": 0.3828269675925926,
+      "static_lidar_pct": 0.04298321759259259,
+      "static_no_lidar_pct": 0.13079427083333334,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_13_00_34_13_04_39_jurita_1761474487600021000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_16_35_45_17_53_39_hanna_1761492215100016000__000",
+      "camera": "left_bwd",
+      "z_ref": 3.1311044692993164,
+      "static_pct": 0.04393100389194139,
+      "far_gate_pct": 0.3734654017857143,
+      "static_lidar_pct": 0.02712912087912088,
+      "static_no_lidar_pct": 0.016801883012820512,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_16_35_45_17_53_39_hanna_1761492215100016000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_18_34_10_18_37_05_jurita_1761493401800045000__000",
+      "camera": "right_fwd",
+      "z_ref": 4.515783786773682,
+      "static_pct": 0.06728153935185185,
+      "far_gate_pct": 0.3688006365740741,
+      "static_lidar_pct": 0.014060691550925927,
+      "static_no_lidar_pct": 0.053220847800925924,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_18_34_10_18_37_05_jurita_1761493401800045000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_18_34_10_18_37_05_jurita_1761493488100015000__000",
+      "camera": "rear",
+      "z_ref": 7.518579483032227,
+      "static_pct": 0.15006510416666666,
+      "far_gate_pct": 0.4788845486111111,
+      "static_lidar_pct": 0.09100115740740741,
+      "static_no_lidar_pct": 0.05906394675925926,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_18_34_10_18_37_05_jurita_1761493488100015000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_18_34_10_18_37_05_jurita_1761493508399992000__000",
+      "camera": "front",
+      "z_ref": 12.239100456237793,
+      "static_pct": 0.05465856481481481,
+      "far_gate_pct": 0.22302698206018517,
+      "static_lidar_pct": 0.03755787037037037,
+      "static_no_lidar_pct": 0.017100694444444446,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_18_34_10_18_37_05_jurita_1761493508399992000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_18_34_10_18_37_05_jurita_1761493745399922000__000",
+      "camera": "left_fwd",
+      "z_ref": 10.792923927307129,
+      "static_pct": 0.07623336226851851,
+      "far_gate_pct": 0.35428059895833336,
+      "static_lidar_pct": 0.03221390335648148,
+      "static_no_lidar_pct": 0.044019458912037034,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_18_34_10_18_37_05_jurita_1761493745399922000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-26_19_14_18_19_18_07_hanna_1761497035800032000__000",
+      "camera": "right_fwd",
+      "z_ref": 4.117280006408691,
+      "static_pct": 0.2067238136574074,
+      "far_gate_pct": 0.41996708622685186,
+      "static_lidar_pct": 0.022873263888888887,
+      "static_no_lidar_pct": 0.18385054976851853,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-26_19_14_18_19_18_07_hanna_1761497035800032000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-27_07_25_13_09_36_41_hilma_1761547617399725000__000",
+      "camera": "right_bwd",
+      "z_ref": 8.772010803222656,
+      "static_pct": 0.07674243074633699,
+      "far_gate_pct": 0.3316377632783883,
+      "static_lidar_pct": 0.05311713026556777,
+      "static_no_lidar_pct": 0.023625300480769232,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-27_07_25_13_09_36_41_hilma_1761547617399725000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-27_08_37_47_10_48_08_weel_1761551942800093000__000",
+      "camera": "left_bwd",
+      "z_ref": 3.5163724422454834,
+      "static_pct": 0.11121942005018248,
+      "far_gate_pct": 0.39720788663321166,
+      "static_lidar_pct": 0.04651324418339416,
+      "static_no_lidar_pct": 0.06470617586678833,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-27_08_37_47_10_48_08_weel_1761551942800093000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-27_08_50_24_09_43_19_hanna_1761548803700084000__000",
+      "camera": "left_bwd",
+      "z_ref": 12.115092277526855,
+      "static_pct": 0.19662352621336995,
+      "far_gate_pct": 0.420497796474359,
+      "static_lidar_pct": 0.03167746966575091,
+      "static_no_lidar_pct": 0.16494605654761904,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-27_08_50_24_09_43_19_hanna_1761548803700084000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-27_08_50_24_09_43_19_hanna_1761548833900005000__000",
+      "camera": "left_fwd",
+      "z_ref": 9.443185806274414,
+      "static_pct": 0.13742947048611112,
+      "far_gate_pct": 0.3926685474537037,
+      "static_lidar_pct": 0.026435908564814814,
+      "static_no_lidar_pct": 0.1109935619212963,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-27_08_50_24_09_43_19_hanna_1761548833900005000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-27_17_17_31_17_30_31_hilma_1761576137699952000__000",
+      "camera": "left_bwd",
+      "z_ref": 8.39045238494873,
+      "static_pct": 0.3474462172564338,
+      "far_gate_pct": 0.6383631089154411,
+      "static_lidar_pct": 0.11195642807904412,
+      "static_no_lidar_pct": 0.23548978917738972,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-27_17_17_31_17_30_31_hilma_1761576137699952000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-10-28_17_02_37_17_10_29_hilma_1761661216099892000__000",
+      "camera": "left_bwd",
+      "z_ref": 18.664125442504883,
+      "static_pct": 0.23104140337775736,
+      "far_gate_pct": 0.5182387408088235,
+      "static_lidar_pct": 0.033368278952205885,
+      "static_no_lidar_pct": 0.19767312442555146,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-10-28_17_02_37_17_10_29_hilma_1761661216099892000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-02_09_54_00_09_57_28_susana_1762067264600007000__000",
+      "camera": "rear",
+      "z_ref": 7.9826273918151855,
+      "static_pct": 0.3522135416666667,
+      "far_gate_pct": 0.598509837962963,
+      "static_lidar_pct": 0.06651656539351852,
+      "static_no_lidar_pct": 0.28569697627314816,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-02_09_54_00_09_57_28_susana_1762067264600007000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-02_09_54_00_10_45_28_susana_1762069882699938000__000",
+      "camera": "right_fwd",
+      "z_ref": 8.397990226745605,
+      "static_pct": 0.30174153645833335,
+      "far_gate_pct": 0.540919777199074,
+      "static_lidar_pct": 0.025439453125,
+      "static_no_lidar_pct": 0.27630208333333334,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-02_09_54_00_10_45_28_susana_1762069882699938000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-02_09_54_00_10_45_28_susana_1762069902799916000__000",
+      "camera": "rear",
+      "z_ref": 9.752103805541992,
+      "static_pct": 0.3676974826388889,
+      "far_gate_pct": 0.5498716001157408,
+      "static_lidar_pct": 0.03756872106481481,
+      "static_no_lidar_pct": 0.33012876157407406,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-02_09_54_00_10_45_28_susana_1762069902799916000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-02_12_13_49_12_19_38_susana_1762075663999988000__000",
+      "camera": "left_fwd",
+      "z_ref": 6.481292724609375,
+      "static_pct": 0.19205910011574073,
+      "far_gate_pct": 0.44508644386574076,
+      "static_lidar_pct": 0.0053403501157407406,
+      "static_no_lidar_pct": 0.18671875,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-02_12_13_49_12_19_38_susana_1762075663999988000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-02_12_13_49_12_40_36_susana_1762076739499840000__000",
+      "camera": "left_fwd",
+      "z_ref": 9.23688793182373,
+      "static_pct": 0.1730613425925926,
+      "far_gate_pct": 0.5069462528935185,
+      "static_lidar_pct": 0.024430338541666666,
+      "static_no_lidar_pct": 0.1486310040509259,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-02_12_13_49_12_40_36_susana_1762076739499840000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-02_12_13_49_12_40_36_susana_1762076809699942000__000",
+      "camera": "right_fwd",
+      "z_ref": 4.929885387420654,
+      "static_pct": 0.11791811342592592,
+      "far_gate_pct": 0.4645941840277778,
+      "static_lidar_pct": 0.03142722800925926,
+      "static_no_lidar_pct": 0.08649088541666666,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-02_12_13_49_12_40_36_susana_1762076809699942000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-04_12_08_24_14_34_01_hilma_1762256475599866000__000",
+      "camera": "left_bwd",
+      "z_ref": 5.54644250869751,
+      "static_pct": 0.09651812385110294,
+      "far_gate_pct": 0.2903568043428309,
+      "static_lidar_pct": 0.04983161477481618,
+      "static_no_lidar_pct": 0.04668650907628676,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-04_12_08_24_14_34_01_hilma_1762256475599866000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-04_17_19_23_17_28_46_susana_1762267885299984000__000",
+      "camera": "left_bwd",
+      "z_ref": 20.663225173950195,
+      "static_pct": 0.19048692193223443,
+      "far_gate_pct": 0.44363660428113555,
+      "static_lidar_pct": 0.08503069196428571,
+      "static_no_lidar_pct": 0.10545622996794872,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-04_17_19_23_17_28_46_susana_1762267885299984000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-04_17_19_23_18_27_46_susana_1762271113399908000__000",
+      "camera": "right_bwd",
+      "z_ref": 12.022771835327148,
+      "static_pct": 0.13683858459249085,
+      "far_gate_pct": 0.48735119047619047,
+      "static_lidar_pct": 0.014911358173076924,
+      "static_no_lidar_pct": 0.12192722641941392,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-04_17_19_23_18_27_46_susana_1762271113399908000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2025-11-04_17_19_23_18_27_46_susana_1762271123399912000__000",
+      "camera": "right_bwd",
+      "z_ref": 11.454401016235352,
+      "static_pct": 0.07464621966575091,
+      "far_gate_pct": 0.4389666323260073,
+      "static_lidar_pct": 0.010595524267399268,
+      "static_no_lidar_pct": 0.06405069539835165,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2025-11-04_17_19_23_18_27_46_susana_1762271123399912000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_07_22_34_10_33_45_kynde_1772956171499904000__000",
+      "camera": "rear",
+      "z_ref": 8.641950607299805,
+      "static_pct": 0.35381944444444446,
+      "far_gate_pct": 0.5547417534722222,
+      "static_lidar_pct": 0.035158058449074076,
+      "static_no_lidar_pct": 0.31866138599537036,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_07_22_34_10_33_45_kynde_1772956171499904000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_07_22_34_10_33_45_kynde_1772957044499945000__000",
+      "camera": "rear",
+      "z_ref": 10.771716117858887,
+      "static_pct": 0.19236111111111112,
+      "far_gate_pct": 0.44702329282407405,
+      "static_lidar_pct": 0.013785807291666667,
+      "static_no_lidar_pct": 0.17857530381944445,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_07_22_34_10_33_45_kynde_1772957044499945000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_10_18_03_10_54_29_floi_1772957056299928000__000",
+      "camera": "right_bwd",
+      "z_ref": 11.914725303649902,
+      "static_pct": 0.10601963141025642,
+      "far_gate_pct": 0.3642596010760073,
+      "static_lidar_pct": 0.03615785256410257,
+      "static_no_lidar_pct": 0.06986177884615384,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_10_18_03_10_54_29_floi_1772957056299928000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_10_18_03_10_54_29_floi_1772957122999973000__000",
+      "camera": "left_fwd",
+      "z_ref": 7.547563552856445,
+      "static_pct": 0.14779730902777777,
+      "far_gate_pct": 0.3844527633101852,
+      "static_lidar_pct": 0.027992983217592592,
+      "static_no_lidar_pct": 0.11980432581018519,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_10_18_03_10_54_29_floi_1772957122999973000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_10_18_03_10_54_29_floi_1772957294299868000__000",
+      "camera": "rear",
+      "z_ref": 7.332078456878662,
+      "static_pct": 0.12900209780092592,
+      "far_gate_pct": 0.35787941261574074,
+      "static_lidar_pct": 0.033539496527777775,
+      "static_no_lidar_pct": 0.09546260127314815,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_10_18_03_10_54_29_floi_1772957294299868000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_10_18_03_10_54_29_floi_1772959408899948000__000",
+      "camera": "front",
+      "z_ref": 9.842018127441406,
+      "static_pct": 0.1026141826923077,
+      "far_gate_pct": 0.3773179945054945,
+      "static_lidar_pct": 0.057266626602564104,
+      "static_no_lidar_pct": 0.04534755608974359,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_10_18_03_10_54_29_floi_1772959408899948000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_10_59_13_11_03_46_shelly_1772958193099834000__000",
+      "camera": "left_fwd",
+      "z_ref": 10.71264934539795,
+      "static_pct": 0.18411458333333333,
+      "far_gate_pct": 0.43889973958333334,
+      "static_lidar_pct": 0.010754846643518518,
+      "static_no_lidar_pct": 0.1733597366898148,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_10_59_13_11_03_46_shelly_1772958193099834000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_10_59_13_11_23_43_shelly_1772958602599982000__000",
+      "camera": "right_bwd",
+      "z_ref": 6.083338737487793,
+      "static_pct": 0.04072050995879121,
+      "far_gate_pct": 0.2487694597069597,
+      "static_lidar_pct": 0.02443731398809524,
+      "static_no_lidar_pct": 0.016283195970695972,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_10_59_13_11_23_43_shelly_1772958602599982000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_06_53_11_35_16_soan_1772960391699804000__000",
+      "camera": "right_bwd",
+      "z_ref": 5.226700782775879,
+      "static_pct": 0.17284797219669118,
+      "far_gate_pct": 0.43593283260569854,
+      "static_lidar_pct": 0.04397044462316176,
+      "static_no_lidar_pct": 0.1288775275735294,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_06_53_11_35_16_soan_1772960391699804000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_06_53_11_35_16_soan_1772962306099880000__000",
+      "camera": "front",
+      "z_ref": 10.177416801452637,
+      "static_pct": 0.22193903102106227,
+      "far_gate_pct": 0.5683897807921245,
+      "static_lidar_pct": 0.052730797847985345,
+      "static_no_lidar_pct": 0.16920823317307693,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_06_53_11_35_16_soan_1772962306099880000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_06_53_12_44_17_soan_1772965283199874000__000",
+      "camera": "right_bwd",
+      "z_ref": 8.439362525939941,
+      "static_pct": 0.283172607421875,
+      "far_gate_pct": 0.45711741727941174,
+      "static_lidar_pct": 0.04625926298253676,
+      "static_no_lidar_pct": 0.23691334443933823,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_06_53_12_44_17_soan_1772965283199874000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_06_53_12_44_17_soan_1772965367799883000__000",
+      "camera": "left_bwd",
+      "z_ref": 16.057640075683594,
+      "static_pct": 0.2027815934065934,
+      "far_gate_pct": 0.40132068452380953,
+      "static_lidar_pct": 0.024918440934065936,
+      "static_no_lidar_pct": 0.17786315247252749,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_06_53_12_44_17_soan_1772965367799883000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_11_25_02_helen_1772959426199920000__000",
+      "camera": "left_bwd",
+      "z_ref": 14.921598434448242,
+      "static_pct": 0.19733895661630035,
+      "far_gate_pct": 0.3543830843635531,
+      "static_lidar_pct": 0.041294642857142856,
+      "static_no_lidar_pct": 0.1560443137591575,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_11_25_02_helen_1772959426199920000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_11_25_02_helen_1772959977099906000__000",
+      "camera": "right_bwd",
+      "z_ref": 3.3927907943725586,
+      "static_pct": 0.1516623025412088,
+      "far_gate_pct": 0.4203260931776557,
+      "static_lidar_pct": 0.060434194711538464,
+      "static_no_lidar_pct": 0.09122810782967034,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_11_25_02_helen_1772959977099906000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_11_25_02_helen_1772961386099921000__000",
+      "camera": "left_bwd",
+      "z_ref": 5.487706184387207,
+      "static_pct": 0.09117266197344322,
+      "far_gate_pct": 0.33319203582875456,
+      "static_lidar_pct": 0.0826715602106227,
+      "static_no_lidar_pct": 0.008501101762820512,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_11_25_02_helen_1772961386099921000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_12_26_03_helen_1772963688499868000__000",
+      "camera": "front",
+      "z_ref": 11.269826889038086,
+      "static_pct": 0.07181532118055556,
+      "far_gate_pct": 0.4487991898148148,
+      "static_lidar_pct": 0.029049117476851852,
+      "static_no_lidar_pct": 0.0427662037037037,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_12_26_03_helen_1772963688499868000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_12_26_03_helen_1772964276799960000__000",
+      "camera": "front",
+      "z_ref": 17.954647064208984,
+      "static_pct": 0.11677155671296297,
+      "far_gate_pct": 0.3928005642361111,
+      "static_lidar_pct": 0.04917534722222222,
+      "static_no_lidar_pct": 0.06759620949074074,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_12_26_03_helen_1772964276799960000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_13_27_03_helen_1772966699199991000__000",
+      "camera": "right_bwd",
+      "z_ref": 6.306344509124756,
+      "static_pct": 0.14950706845238096,
+      "far_gate_pct": 0.34974351820054944,
+      "static_lidar_pct": 0.09118875915750915,
+      "static_no_lidar_pct": 0.05831830929487179,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_13_27_03_helen_1772966699199991000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_13_27_03_helen_1772966760899864000__000",
+      "camera": "right_bwd",
+      "z_ref": 4.606058120727539,
+      "static_pct": 0.13106863839285715,
+      "far_gate_pct": 0.34253555689102566,
+      "static_lidar_pct": 0.06345152243589744,
+      "static_no_lidar_pct": 0.06761711595695971,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_13_27_03_helen_1772966760899864000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_13_27_03_helen_1772968099900002000__000",
+      "camera": "left_bwd",
+      "z_ref": 9.871541023254395,
+      "static_pct": 0.14727850274725274,
+      "far_gate_pct": 0.47600088713369965,
+      "static_lidar_pct": 0.07288983802655678,
+      "static_no_lidar_pct": 0.07438866472069597,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_13_27_03_helen_1772968099900002000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_22_01_13_27_03_helen_1772968596399951000__000",
+      "camera": "rear",
+      "z_ref": 6.521266937255859,
+      "static_pct": 0.3056297019675926,
+      "far_gate_pct": 0.54072265625,
+      "static_lidar_pct": 0.03386863425925926,
+      "static_no_lidar_pct": 0.27176106770833336,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_22_01_13_27_03_helen_1772968596399951000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_50_30_11_55_50_hetera_1772962254299905000__000",
+      "camera": "right_bwd",
+      "z_ref": 7.624911308288574,
+      "static_pct": 0.09322607778284671,
+      "far_gate_pct": 0.32765988537864965,
+      "static_lidar_pct": 0.039611370894160586,
+      "static_no_lidar_pct": 0.05361470688868613,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_50_30_11_55_50_hetera_1772962254299905000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_50_30_11_55_50_hetera_1772962962399883000__000",
+      "camera": "left_bwd",
+      "z_ref": 7.843321800231934,
+      "static_pct": 0.10005294184981685,
+      "far_gate_pct": 0.3690511961996337,
+      "static_lidar_pct": 0.048976576808608056,
+      "static_no_lidar_pct": 0.05107636504120879,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_50_30_11_55_50_hetera_1772962962399883000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_50_30_12_56_51_hetera_1772963928399919000__000",
+      "camera": "right_fwd",
+      "z_ref": 5.253634929656982,
+      "static_pct": 0.05537109375,
+      "far_gate_pct": 0.2742892795138889,
+      "static_lidar_pct": 0.009610098379629629,
+      "static_no_lidar_pct": 0.04576099537037037,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_50_30_12_56_51_hetera_1772963928399919000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_50_30_12_56_51_hetera_1772964056799899000__000",
+      "camera": "right_bwd",
+      "z_ref": 5.140931606292725,
+      "static_pct": 0.11969484203923357,
+      "far_gate_pct": 0.4009430599908759,
+      "static_lidar_pct": 0.05285020814324817,
+      "static_no_lidar_pct": 0.0668446338959854,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_50_30_12_56_51_hetera_1772964056799899000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_50_30_12_56_51_hetera_1772965913599957000__000",
+      "camera": "right_bwd",
+      "z_ref": 8.980650901794434,
+      "static_pct": 0.04593229641879562,
+      "far_gate_pct": 0.24457188070255476,
+      "static_lidar_pct": 0.009074190237226278,
+      "static_no_lidar_pct": 0.036858106181569344,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_50_30_12_56_51_hetera_1772965913599957000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_11_50_30_12_56_51_hetera_1772966652499956000__000",
+      "camera": "left_bwd",
+      "z_ref": 6.46182918548584,
+      "static_pct": 0.09879020718864469,
+      "far_gate_pct": 0.272543211996337,
+      "static_lidar_pct": 0.06815726591117216,
+      "static_no_lidar_pct": 0.030632941277472528,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_11_50_30_12_56_51_hetera_1772966652499956000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_12_23_34_12_57_22_kurt_1772965938200025000__000",
+      "camera": "rear",
+      "z_ref": 6.018280506134033,
+      "static_pct": 0.27078812210648145,
+      "far_gate_pct": 0.5379159432870371,
+      "static_lidar_pct": 0.058206741898148145,
+      "static_no_lidar_pct": 0.21258138020833334,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_12_23_34_12_57_22_kurt_1772965938200025000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_12_23_34_12_57_22_kurt_1772966070799667000__000",
+      "camera": "right_fwd",
+      "z_ref": 4.756885051727295,
+      "static_pct": 0.16883138020833333,
+      "far_gate_pct": 0.43426106770833334,
+      "static_lidar_pct": 0.027750651041666668,
+      "static_no_lidar_pct": 0.14108072916666667,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_12_23_34_12_57_22_kurt_1772966070799667000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_12_23_34_12_57_22_kurt_1772966177399884000__000",
+      "camera": "rear",
+      "z_ref": 6.892800331115723,
+      "static_pct": 0.14027054398148148,
+      "far_gate_pct": 0.38946940104166666,
+      "static_lidar_pct": 0.019086371527777778,
+      "static_no_lidar_pct": 0.1211841724537037,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_12_23_34_12_57_22_kurt_1772966177399884000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_12_23_34_12_57_22_kurt_1772966205300022000__000",
+      "camera": "front",
+      "z_ref": 15.50213623046875,
+      "static_pct": 0.10556209788602941,
+      "far_gate_pct": 0.32211483226102944,
+      "static_lidar_pct": 0.02303897633272059,
+      "static_no_lidar_pct": 0.08252312155330882,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_12_23_34_12_57_22_kurt_1772966205300022000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_12_23_34_13_54_21_kurt_1772967286999810000__000",
+      "camera": "right_bwd",
+      "z_ref": 6.497071266174316,
+      "static_pct": 0.13894214137453875,
+      "far_gate_pct": 0.418721892297048,
+      "static_lidar_pct": 0.06293602975092251,
+      "static_no_lidar_pct": 0.07600611162361623,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_12_23_34_13_54_21_kurt_1772967286999810000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_12_23_34_13_54_21_kurt_1772968735499899000__000",
+      "camera": "rear",
+      "z_ref": 5.930485725402832,
+      "static_pct": 0.16832320601851852,
+      "far_gate_pct": 0.5100567853009259,
+      "static_lidar_pct": 0.032069227430555555,
+      "static_no_lidar_pct": 0.13625397858796295,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_12_23_34_13_54_21_kurt_1772968735499899000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_12_37_26_12_50_18_lerita_1772966538100024000__000",
+      "camera": "rear",
+      "z_ref": 7.936072826385498,
+      "static_pct": 0.24329969618055555,
+      "far_gate_pct": 0.5696433738425926,
+      "static_lidar_pct": 0.04056351273148148,
+      "static_no_lidar_pct": 0.20273618344907407,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_12_37_26_12_50_18_lerita_1772966538100024000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_12_37_26_12_50_18_lerita_1772966548100266000__000",
+      "camera": "right_bwd",
+      "z_ref": 7.92164421081543,
+      "static_pct": 0.1950245392628205,
+      "far_gate_pct": 0.48438752003205127,
+      "static_lidar_pct": 0.07365177140567765,
+      "static_no_lidar_pct": 0.12137276785714286,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_12_37_26_12_50_18_lerita_1772966548100266000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_13_04_35_14_56_15_kynde_1772971521299980000__000",
+      "camera": "rear",
+      "z_ref": 8.833266258239746,
+      "static_pct": 0.2804777922453704,
+      "far_gate_pct": 0.5549461082175926,
+      "static_lidar_pct": 0.047064887152777776,
+      "static_no_lidar_pct": 0.2334129050925926,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_13_04_35_14_56_15_kynde_1772971521299980000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_13_13_41_13_47_02_floi_1772968176999824000__000",
+      "camera": "front",
+      "z_ref": 11.138734817504883,
+      "static_pct": 0.08733974358974358,
+      "far_gate_pct": 0.3708970066391941,
+      "static_lidar_pct": 0.05869748740842491,
+      "static_no_lidar_pct": 0.02864225618131868,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_13_13_41_13_47_02_floi_1772968176999824000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_13_31_20_14_07_10_shelly_1772968766299915000__000",
+      "camera": "right_fwd",
+      "z_ref": 6.216973304748535,
+      "static_pct": 0.18415798611111112,
+      "far_gate_pct": 0.3571506076388889,
+      "static_lidar_pct": 0.013407841435185185,
+      "static_no_lidar_pct": 0.17075014467592592,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_13_31_20_14_07_10_shelly_1772968766299915000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_16_36_29_17_03_34_hilma_1772979486199934000__000",
+      "camera": "left_bwd",
+      "z_ref": 12.542414665222168,
+      "static_pct": 0.14222268497242646,
+      "far_gate_pct": 0.42199886546415444,
+      "static_lidar_pct": 0.012018540326286764,
+      "static_no_lidar_pct": 0.13020414464613972,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_16_36_29_17_03_34_hilma_1772979486199934000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_16_37_47_17_42_57_kurt_1772981834999911000__000",
+      "camera": "front",
+      "z_ref": 11.024981498718262,
+      "static_pct": 0.1294842888327206,
+      "far_gate_pct": 0.44052662568933826,
+      "static_lidar_pct": 0.03036678538602941,
+      "static_no_lidar_pct": 0.09911750344669118,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_16_37_47_17_42_57_kurt_1772981834999911000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_16_42_48_17_05_59_floi_1772979789500030000__000",
+      "camera": "left_bwd",
+      "z_ref": 9.627423286437988,
+      "static_pct": 0.14538485116332117,
+      "far_gate_pct": 0.3057086137089416,
+      "static_lidar_pct": 0.038485116332116785,
+      "static_no_lidar_pct": 0.10689973483120438,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_16_42_48_17_05_59_floi_1772979789500030000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_16_46_58_17_13_07_helen_1772980341499924000__000",
+      "camera": "right_fwd",
+      "z_ref": 7.542182445526123,
+      "static_pct": 0.0814109519675926,
+      "far_gate_pct": 0.2851019965277778,
+      "static_lidar_pct": 0.011246744791666667,
+      "static_no_lidar_pct": 0.07016420717592593,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_16_46_58_17_13_07_helen_1772980341499924000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_16_46_58_17_13_07_helen_1772982137699912000__000",
+      "camera": "front",
+      "z_ref": 13.803585052490234,
+      "static_pct": 0.10124240451388888,
+      "far_gate_pct": 0.38885633680555554,
+      "static_lidar_pct": 0.024211516203703702,
+      "static_no_lidar_pct": 0.07703088831018519,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_16_46_58_17_13_07_helen_1772982137699912000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_16_46_58_17_13_07_helen_1772982833299819000__000",
+      "camera": "rear",
+      "z_ref": 5.1594696044921875,
+      "static_pct": 0.10790111400462964,
+      "far_gate_pct": 0.416845703125,
+      "static_lidar_pct": 0.03226634837962963,
+      "static_no_lidar_pct": 0.075634765625,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_16_46_58_17_13_07_helen_1772982833299819000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_16_48_47_17_30_07_targi_1772983656999956000__000",
+      "camera": "front",
+      "z_ref": 11.447805404663086,
+      "static_pct": 0.11064310038919414,
+      "far_gate_pct": 0.4072408711080586,
+      "static_lidar_pct": 0.045358287545787544,
+      "static_no_lidar_pct": 0.06528481284340659,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_16_48_47_17_30_07_targi_1772983656999956000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-08_17_09_19_17_16_07_hanna_1772981165200045000__000",
+      "camera": "left_bwd",
+      "z_ref": 15.480587005615234,
+      "static_pct": 0.16555774954212454,
+      "far_gate_pct": 0.4747989640567766,
+      "static_lidar_pct": 0.027823088369963368,
+      "static_no_lidar_pct": 0.13773466117216118,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-08_17_09_19_17_16_07_hanna_1772981165200045000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_15_53_09_14_48_shelly_1773037402999829000__000",
+      "camera": "right_fwd",
+      "z_ref": 5.779908180236816,
+      "static_pct": 0.16431568287037038,
+      "far_gate_pct": 0.41629774305555556,
+      "static_lidar_pct": 0.028732638888888887,
+      "static_no_lidar_pct": 0.1355830439814815,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_15_53_09_14_48_shelly_1773037402999829000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_15_53_09_14_48_shelly_1773037478199845000__000",
+      "camera": "left_bwd",
+      "z_ref": 4.593281269073486,
+      "static_pct": 0.08778867616758242,
+      "far_gate_pct": 0.5020479195283882,
+      "static_lidar_pct": 0.03521527300824176,
+      "static_no_lidar_pct": 0.052573403159340656,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_15_53_09_14_48_shelly_1773037478199845000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_15_53_09_14_48_shelly_1773038445999878000__000",
+      "camera": "right_fwd",
+      "z_ref": 5.309747219085693,
+      "static_pct": 0.5447446469907408,
+      "far_gate_pct": 0.6451587818287037,
+      "static_lidar_pct": 0.054848451967592596,
+      "static_no_lidar_pct": 0.48989619502314813,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_15_53_09_14_48_shelly_1773038445999878000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_15_53_11_15_38_shelly_1773045879099876000__000",
+      "camera": "right_bwd",
+      "z_ref": 7.015109062194824,
+      "static_pct": 0.14542374942765568,
+      "far_gate_pct": 0.38318810096153844,
+      "static_lidar_pct": 0.058980082417582416,
+      "static_no_lidar_pct": 0.08644366701007326,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_15_53_11_15_38_shelly_1773045879099876000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_15_53_11_15_38_shelly_1773047076299862000__000",
+      "camera": "left_fwd",
+      "z_ref": 14.766376495361328,
+      "static_pct": 0.18753797743055556,
+      "far_gate_pct": 0.4062554253472222,
+      "static_lidar_pct": 0.025110315393518517,
+      "static_no_lidar_pct": 0.16242766203703704,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_15_53_11_15_38_shelly_1773047076299862000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_29_19_09_50_28_badat_1773040323199980000__000",
+      "camera": "left_fwd",
+      "z_ref": 4.430503845214844,
+      "static_pct": 0.1921929253472222,
+      "far_gate_pct": 0.4567798755787037,
+      "static_lidar_pct": 0.030971498842592593,
+      "static_no_lidar_pct": 0.16122142650462962,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_29_19_09_50_28_badat_1773040323199980000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_29_19_09_50_28_badat_1773040911699967000__000",
+      "camera": "left_bwd",
+      "z_ref": 6.288498878479004,
+      "static_pct": 0.18599964488636364,
+      "far_gate_pct": 0.5950532670454546,
+      "static_lidar_pct": 0.015289417613636364,
+      "static_no_lidar_pct": 0.17071022727272728,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_29_19_09_50_28_badat_1773040911699967000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_29_19_09_50_28_badat_1773041029199975000__000",
+      "camera": "left_fwd",
+      "z_ref": 8.207557678222656,
+      "static_pct": 0.2269874855324074,
+      "far_gate_pct": 0.4994646990740741,
+      "static_lidar_pct": 0.03291196469907407,
+      "static_no_lidar_pct": 0.19407552083333332,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_29_19_09_50_28_badat_1773041029199975000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_39_39_09_49_41_crozby_1773039061400101000__000",
+      "camera": "front",
+      "z_ref": 9.592766761779785,
+      "static_pct": 0.3104985834478022,
+      "far_gate_pct": 0.5096779847756411,
+      "static_lidar_pct": 0.09499306032509157,
+      "static_no_lidar_pct": 0.21550552312271062,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_39_39_09_49_41_crozby_1773039061400101000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_40_32_10_00_21_luka_1773040258800192000__000",
+      "camera": "left_fwd",
+      "z_ref": 5.603924751281738,
+      "static_pct": 0.22705439814814815,
+      "far_gate_pct": 0.4332537615740741,
+      "static_lidar_pct": 0.03142361111111111,
+      "static_no_lidar_pct": 0.19563078703703704,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_40_32_10_00_21_luka_1773040258800192000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_40_32_10_00_21_luka_1773040326300024000__000",
+      "camera": "left_fwd",
+      "z_ref": 4.56181001663208,
+      "static_pct": 0.1575954861111111,
+      "far_gate_pct": 0.4597366898148148,
+      "static_lidar_pct": 0.028971354166666668,
+      "static_no_lidar_pct": 0.12862413194444444,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_40_32_10_00_21_luka_1773040326300024000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_40_32_10_00_21_luka_1773040671999917000__000",
+      "camera": "left_fwd",
+      "z_ref": 7.233025550842285,
+      "static_pct": 0.20389359085648148,
+      "far_gate_pct": 0.4306423611111111,
+      "static_lidar_pct": 0.026803023726851852,
+      "static_no_lidar_pct": 0.17709056712962962,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_40_32_10_00_21_luka_1773040671999917000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_40_32_10_00_21_luka_1773040809799907000__000",
+      "camera": "left_fwd",
+      "z_ref": 8.250406265258789,
+      "static_pct": 0.46744429976851853,
+      "far_gate_pct": 0.6098777488425926,
+      "static_lidar_pct": 0.03150679976851852,
+      "static_no_lidar_pct": 0.4359375,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_40_32_10_00_21_luka_1773040809799907000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_40_32_10_26_38_luka_1773042125099807000__000",
+      "camera": "right_bwd",
+      "z_ref": 13.236128807067871,
+      "static_pct": 0.2559329762178309,
+      "far_gate_pct": 0.4318632238051471,
+      "static_lidar_pct": 0.0946798885569853,
+      "static_no_lidar_pct": 0.1612530876608456,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_40_32_10_26_38_luka_1773042125099807000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_40_32_10_26_38_luka_1773042145199819000__000",
+      "camera": "right_bwd",
+      "z_ref": 19.046977996826172,
+      "static_pct": 0.22758753159466913,
+      "far_gate_pct": 0.4301416733685662,
+      "static_lidar_pct": 0.05843577665441176,
+      "static_no_lidar_pct": 0.16915175494025736,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_40_32_10_26_38_luka_1773042145199819000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_48_56_09_05_39_darron_1773036756799859000__000",
+      "camera": "right_bwd",
+      "z_ref": 6.216118812561035,
+      "static_pct": 0.05509024292883212,
+      "far_gate_pct": 0.3157237254790146,
+      "static_lidar_pct": 0.030590642107664233,
+      "static_no_lidar_pct": 0.024499600821167884,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_48_56_09_05_39_darron_1773036756799859000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_07_48_56_09_58_46_darron_1773039889499914000__000",
+      "camera": "front",
+      "z_ref": 10.324804306030273,
+      "static_pct": 0.2567948002518315,
+      "far_gate_pct": 0.5110426682692307,
+      "static_lidar_pct": 0.04478236607142857,
+      "static_no_lidar_pct": 0.21201243418040294,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_07_48_56_09_58_46_darron_1773039889499914000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_43_34_11_00_20_hetera_1773044626299912000__000",
+      "camera": "rear",
+      "z_ref": 7.413466453552246,
+      "static_pct": 0.30073061342592594,
+      "far_gate_pct": 0.5793149594907407,
+      "static_lidar_pct": 0.029286024305555554,
+      "static_no_lidar_pct": 0.2714445891203704,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_43_34_11_00_20_hetera_1773044626299912000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_43_34_11_00_20_hetera_1773044636299941000__000",
+      "camera": "front",
+      "z_ref": 10.142082214355469,
+      "static_pct": 0.22604539033671586,
+      "far_gate_pct": 0.46452843922970477,
+      "static_lidar_pct": 0.048482184040590404,
+      "static_no_lidar_pct": 0.17756320629612546,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_43_34_11_00_20_hetera_1773044636299941000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_11_05_43_badat_1773043831000007000__000",
+      "camera": "left_fwd",
+      "z_ref": 6.449666976928711,
+      "static_pct": 0.33050130208333334,
+      "far_gate_pct": 0.5986364293981481,
+      "static_lidar_pct": 0.014635778356481482,
+      "static_no_lidar_pct": 0.31586552372685184,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_11_05_43_badat_1773043831000007000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_11_05_43_badat_1773044157500027000__000",
+      "camera": "left_bwd",
+      "z_ref": 6.830924034118652,
+      "static_pct": 0.3585369318181818,
+      "far_gate_pct": 0.6729758522727273,
+      "static_lidar_pct": 0.046640625,
+      "static_no_lidar_pct": 0.3118963068181818,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_11_05_43_badat_1773044157500027000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_11_05_43_badat_1773044334100021000__000",
+      "camera": "left_fwd",
+      "z_ref": 7.854880332946777,
+      "static_pct": 0.3617060908564815,
+      "far_gate_pct": 0.6088198061342592,
+      "static_lidar_pct": 0.025490089699074073,
+      "static_no_lidar_pct": 0.3362160011574074,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_11_05_43_badat_1773044334100021000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_11_05_43_badat_1773045121800020000__000",
+      "camera": "left_fwd",
+      "z_ref": 6.870621204376221,
+      "static_pct": 0.3824508101851852,
+      "far_gate_pct": 0.5391366464120371,
+      "static_lidar_pct": 0.025321903935185186,
+      "static_no_lidar_pct": 0.35712890625,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_11_05_43_badat_1773045121800020000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_11_05_43_badat_1773046310799986000__000",
+      "camera": "rear",
+      "z_ref": 12.062763214111328,
+      "static_pct": 0.23847620478479853,
+      "far_gate_pct": 0.5236700148809523,
+      "static_lidar_pct": 0.046009329212454216,
+      "static_no_lidar_pct": 0.19246687557234432,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_11_05_43_badat_1773046310799986000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_11_05_43_badat_1773046491700032000__000",
+      "camera": "front",
+      "z_ref": 8.252941131591797,
+      "static_pct": 0.38661182709854014,
+      "far_gate_pct": 0.5895015967153284,
+      "static_lidar_pct": 0.07654966925182481,
+      "static_no_lidar_pct": 0.3100621578467153,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_11_05_43_badat_1773046491700032000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_11_05_43_badat_1773046752200093000__000",
+      "camera": "left_bwd",
+      "z_ref": 7.106934547424316,
+      "static_pct": 0.3756960227272727,
+      "far_gate_pct": 0.6040926846590909,
+      "static_lidar_pct": 0.0305859375,
+      "static_no_lidar_pct": 0.3451100852272727,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_11_05_43_badat_1773046752200093000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_12_06_43_badat_1773047592300088000__000",
+      "camera": "front",
+      "z_ref": 7.519495487213135,
+      "static_pct": 0.28411909785583944,
+      "far_gate_pct": 0.5324724851733577,
+      "static_lidar_pct": 0.06756279938412409,
+      "static_no_lidar_pct": 0.21655629847171534,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_12_06_43_badat_1773047592300088000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_12_06_43_badat_1773047668700067000__000",
+      "camera": "left_bwd",
+      "z_ref": 10.319351196289062,
+      "static_pct": 0.3605859375,
+      "far_gate_pct": 0.6568661221590909,
+      "static_lidar_pct": 0.028439275568181818,
+      "static_no_lidar_pct": 0.3321466619318182,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_12_06_43_badat_1773047668700067000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_12_06_43_badat_1773048405700047000__000",
+      "camera": "right_bwd",
+      "z_ref": 7.6794257164001465,
+      "static_pct": 0.30919692095588236,
+      "far_gate_pct": 0.5548634248621324,
+      "static_lidar_pct": 0.04407097311580882,
+      "static_no_lidar_pct": 0.26512594784007354,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_12_06_43_badat_1773048405700047000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_12_06_43_badat_1773048415800010000__000",
+      "camera": "right_bwd",
+      "z_ref": 6.689443588256836,
+      "static_pct": 0.4510533949908088,
+      "far_gate_pct": 0.633270263671875,
+      "static_lidar_pct": 0.07844274184283088,
+      "static_no_lidar_pct": 0.3726106531479779,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_12_06_43_badat_1773048415800010000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_10_52_01_12_06_43_badat_1773049002500145000__000",
+      "camera": "left_fwd",
+      "z_ref": 8.331324577331543,
+      "static_pct": 0.21247106481481481,
+      "far_gate_pct": 0.47722981770833334,
+      "static_lidar_pct": 0.018565538194444446,
+      "static_no_lidar_pct": 0.19390552662037036,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_10_52_01_12_06_43_badat_1773049002500145000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_11_58_46_12_04_12_luka_1773048384600103000__000",
+      "camera": "right_fwd",
+      "z_ref": 5.419389724731445,
+      "static_pct": 0.25815067997685187,
+      "far_gate_pct": 0.47559497974537035,
+      "static_lidar_pct": 0.09134657118055556,
+      "static_no_lidar_pct": 0.16680410879629629,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_11_58_46_12_04_12_luka_1773048384600103000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_11_58_46_12_47_44_luka_1773050853700085000__000",
+      "camera": "right_bwd",
+      "z_ref": 11.475791931152344,
+      "static_pct": 0.24168126723345587,
+      "far_gate_pct": 0.40841854319852944,
+      "static_lidar_pct": 0.02505313648897059,
+      "static_no_lidar_pct": 0.21662813074448528,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_11_58_46_12_47_44_luka_1773050853700085000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_11_58_46_12_47_44_luka_1773051818700077000__000",
+      "camera": "left_bwd",
+      "z_ref": 22.48925018310547,
+      "static_pct": 0.22140782394688643,
+      "far_gate_pct": 0.464596926510989,
+      "static_lidar_pct": 0.03813601762820513,
+      "static_no_lidar_pct": 0.1832718063186813,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_11_58_46_12_47_44_luka_1773051818700077000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_11_58_46_14_46_10_luka_1773057991300048000__000",
+      "camera": "left_fwd",
+      "z_ref": 8.148449897766113,
+      "static_pct": 0.4454427083333333,
+      "far_gate_pct": 0.6337456597222222,
+      "static_lidar_pct": 0.030315031828703702,
+      "static_no_lidar_pct": 0.4151276765046296,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_11_58_46_14_46_10_luka_1773057991300048000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_12_03_16_12_33_07_targi_1773050601200030000__000",
+      "camera": "right_bwd",
+      "z_ref": 5.177947998046875,
+      "static_pct": 0.19462106523722628,
+      "far_gate_pct": 0.5028067261633211,
+      "static_lidar_pct": 0.08250349281478102,
+      "static_no_lidar_pct": 0.11211757242244526,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_12_03_16_12_33_07_targi_1773050601200030000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_13_05_26_13_09_38_shelly_1773052599199893000__000",
+      "camera": "rear",
+      "z_ref": 11.833723068237305,
+      "static_pct": 0.26560149016203705,
+      "far_gate_pct": 0.48705692997685185,
+      "static_lidar_pct": 0.05459888599537037,
+      "static_no_lidar_pct": 0.21100260416666666,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_13_05_26_13_09_38_shelly_1773052599199893000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_13_05_26_13_09_38_shelly_1773052660899990000__000",
+      "camera": "front",
+      "z_ref": 20.804161071777344,
+      "static_pct": 0.3075921474358974,
+      "far_gate_pct": 0.46630322802197804,
+      "static_lidar_pct": 0.053893372252747256,
+      "static_no_lidar_pct": 0.2536987751831502,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_13_05_26_13_09_38_shelly_1773052660899990000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_13_05_26_14_10_38_shelly_1773055596299877000__000",
+      "camera": "left_bwd",
+      "z_ref": 28.371723175048828,
+      "static_pct": 0.4098468263507326,
+      "far_gate_pct": 0.5904482886904762,
+      "static_lidar_pct": 0.09765803857600733,
+      "static_no_lidar_pct": 0.31218878777472525,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_13_05_26_14_10_38_shelly_1773055596299877000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_13_05_26_14_39_24_shelly_1773057011399978000__000",
+      "camera": "left_bwd",
+      "z_ref": 18.412385940551758,
+      "static_pct": 0.3060325091575092,
+      "far_gate_pct": 0.4305334964514652,
+      "static_lidar_pct": 0.09248011103479853,
+      "static_no_lidar_pct": 0.21355239812271062,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_13_05_26_14_39_24_shelly_1773057011399978000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_13_42_50_13_57_58_badat_1773054163300035000__000",
+      "camera": "left_bwd",
+      "z_ref": 5.962404727935791,
+      "static_pct": 0.5060404829545454,
+      "far_gate_pct": 0.5950887784090909,
+      "static_lidar_pct": 0.045600142045454546,
+      "static_no_lidar_pct": 0.4604403409090909,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_13_42_50_13_57_58_badat_1773054163300035000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_15_13_05_15_32_31_crozby_1773060635299872000__000",
+      "camera": "front",
+      "z_ref": 9.558892250061035,
+      "static_pct": 0.33360877403846156,
+      "far_gate_pct": 0.5593807234432234,
+      "static_lidar_pct": 0.05080807864010989,
+      "static_no_lidar_pct": 0.2828006953983517,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_15_13_05_15_32_31_crozby_1773060635299872000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_15_13_05_15_32_31_crozby_1773060645300047000__000",
+      "camera": "right_fwd",
+      "z_ref": 6.545986652374268,
+      "static_pct": 0.2305796417124542,
+      "far_gate_pct": 0.5584059495192307,
+      "static_lidar_pct": 0.04001402243589743,
+      "static_no_lidar_pct": 0.19056561927655677,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_15_13_05_15_32_31_crozby_1773060645300047000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_15_13_05_16_05_34_crozby_1773063953599970000__000",
+      "camera": "rear",
+      "z_ref": 4.866357326507568,
+      "static_pct": 0.45609266493055556,
+      "far_gate_pct": 0.5974573206018519,
+      "static_lidar_pct": 0.04079861111111111,
+      "static_no_lidar_pct": 0.41529405381944445,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_15_13_05_16_05_34_crozby_1773063953599970000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_15_13_05_17_06_35_crozby_1773066210300016000__000",
+      "camera": "right_fwd",
+      "z_ref": 12.002764701843262,
+      "static_pct": 0.11209005837912088,
+      "far_gate_pct": 0.3670766082875458,
+      "static_lidar_pct": 0.009475875686813186,
+      "static_no_lidar_pct": 0.1026141826923077,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_15_13_05_17_06_35_crozby_1773066210300016000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_15_13_05_17_06_35_crozby_1773067831699981000__000",
+      "camera": "left_bwd",
+      "z_ref": 16.29445457458496,
+      "static_pct": 0.18140190972222223,
+      "far_gate_pct": 0.44463975694444446,
+      "static_lidar_pct": 0.019261791087962964,
+      "static_no_lidar_pct": 0.16214011863425926,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_15_13_05_17_06_35_crozby_1773067831699981000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_15_13_05_17_06_35_crozby_1773067865000046000__000",
+      "camera": "right_fwd",
+      "z_ref": 10.170536041259766,
+      "static_pct": 0.3431937528617216,
+      "far_gate_pct": 0.4685353708791209,
+      "static_lidar_pct": 0.031001387934981684,
+      "static_no_lidar_pct": 0.3121923649267399,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_15_13_05_17_06_35_crozby_1773067865000046000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_15_13_05_17_06_35_crozby_1773067875100031000__000",
+      "camera": "left_bwd",
+      "z_ref": 12.570540428161621,
+      "static_pct": 0.29453125,
+      "far_gate_pct": 0.5773184317129629,
+      "static_lidar_pct": 0.03128616898148148,
+      "static_no_lidar_pct": 0.2632450810185185,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_15_13_05_17_06_35_crozby_1773067875100031000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_16_25_16_17_30_08_hilma_1773066771899899000__000",
+      "camera": "front",
+      "z_ref": 11.88655948638916,
+      "static_pct": 0.18638521082261028,
+      "far_gate_pct": 0.3496793859145221,
+      "static_lidar_pct": 0.05545402975643382,
+      "static_no_lidar_pct": 0.13093118106617646,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_16_25_16_17_30_08_hilma_1773066771899899000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_16_25_16_17_30_08_hilma_1773066781899989000__000",
+      "camera": "right_fwd",
+      "z_ref": 5.937896728515625,
+      "static_pct": 0.17333441840277777,
+      "far_gate_pct": 0.31739185474537035,
+      "static_lidar_pct": 0.035534215856481484,
+      "static_no_lidar_pct": 0.1378002025462963,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_16_25_16_17_30_08_hilma_1773066781899989000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_16_25_16_18_33_02_hilma_1773071161799914000__000",
+      "camera": "front",
+      "z_ref": 11.818795204162598,
+      "static_pct": 0.11295453239889706,
+      "far_gate_pct": 0.3539697983685662,
+      "static_lidar_pct": 0.03088199391084559,
+      "static_no_lidar_pct": 0.08207253848805147,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_16_25_16_18_33_02_hilma_1773071161799914000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_16_25_16_18_33_02_hilma_1773071568200132000__000",
+      "camera": "left_fwd",
+      "z_ref": 8.642942428588867,
+      "static_pct": 0.20993019386574074,
+      "far_gate_pct": 0.432984302662037,
+      "static_lidar_pct": 0.025538917824074074,
+      "static_no_lidar_pct": 0.18439127604166666,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_16_25_16_18_33_02_hilma_1773071568200132000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_16_25_16_18_33_02_hilma_1773071578299877000__000",
+      "camera": "right_fwd",
+      "z_ref": 8.468433380126953,
+      "static_pct": 0.14496166087962964,
+      "far_gate_pct": 0.4859881365740741,
+      "static_lidar_pct": 0.02503616898148148,
+      "static_no_lidar_pct": 0.11992549189814815,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_16_25_16_18_33_02_hilma_1773071578299877000__000\\static_far.npz"
+    },
+    {
+      "sample_id": "2026-03-09_16_25_16_18_33_02_hilma_1773072237099907000__000",
+      "camera": "right_fwd",
+      "z_ref": 4.285152435302734,
+      "static_pct": 0.24065031828703703,
+      "far_gate_pct": 0.35476164641203706,
+      "static_lidar_pct": 0.08225188078703703,
+      "static_no_lidar_pct": 0.1583984375,
+      "path": "C:\\Users\\adel\\Downloads\\cv_dataset\\precomputed_static_far\\2026-03-09_16_25_16_18_33_02_hilma_1773072237099907000__000\\static_far.npz"
+    }
+  ]
+}

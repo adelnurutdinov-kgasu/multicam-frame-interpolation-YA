@@ -1,0 +1,36 @@
+{
+  "vehicle": "darron",
+  "camera": "rear",
+  "n_used": 8,
+  "n_available": 8,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.4603153935185185,
+  "bottom_frac": 0.7717886664361819,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.7368923611111111,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.49009693287037037,
+      "step_iou": 0.6650861899713355,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.38950376157407407,
+      "step_iou": 0.7947484169975351,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.4603153935185185,
+      "step_iou": 0.7871061959018513,
+      "mean_freq_in": 0.9626418266964202
+    }
+  ]
+}

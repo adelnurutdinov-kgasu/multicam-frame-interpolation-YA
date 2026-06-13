@@ -1,0 +1,24 @@
+{
+  "vehicle": "floi",
+  "camera": "right_fwd",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.16431568287037038,
+  "bottom_frac": 0.527624917455426,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.28098234953703705,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.16431568287037038,
+      "step_iou": 0.5847900522616688,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

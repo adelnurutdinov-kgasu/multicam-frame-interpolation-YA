@@ -1,0 +1,24 @@
+{
+  "vehicle": "darron",
+  "camera": "front",
+  "n_used": 3,
+  "n_available": 3,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.3070269574175824,
+  "bottom_frac": 0.9127344751252476,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.38747710622710624,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 3,
+      "coverage": 0.3070269574175824,
+      "step_iou": 0.7923744460856721,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

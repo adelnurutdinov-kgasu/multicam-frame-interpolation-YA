@@ -1,0 +1,20 @@
+{
+  "sample_id": "2025-10-12_11_30_56_12_10_38_anabel_1760263528700021000__000",
+  "target_camera": "left_bwd",
+  "n_sources": 6,
+  "coverage_total": 0.9011675715446472,
+  "visibility_max": 4,
+  "visibility_mean_in_covered": 2.4890941521716776,
+  "per_source_coverage": {
+    "left_bwd_t0": 0.2847784459590912,
+    "left_fwd_t0": 0.3847620487213135,
+    "rear_t0": 0.255126953125,
+    "left_bwd_t1": 0.6386772394180298,
+    "left_fwd_t1": 0.0,
+    "rear_t1": 0.6797463297843933
+  },
+  "tuned_built": true,
+  "confidence_mean": 0.15738540887832642,
+  "soft_coverage_mean": 0.48329028487205505,
+  "disagreement_mean_in_overlap": 0.05918211117386818
+}

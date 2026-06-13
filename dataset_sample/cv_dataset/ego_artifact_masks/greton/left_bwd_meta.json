@@ -1,0 +1,36 @@
+{
+  "vehicle": "greton",
+  "camera": "left_bwd",
+  "n_used": 8,
+  "n_available": 8,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.12862723214285715,
+  "bottom_frac": 0.5073697091050671,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.27684294871794873,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.18245621565934067,
+      "step_iou": 0.6590603679966922,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.06597699175824176,
+      "step_iou": 0.36160451711563346,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.12862723214285715,
+      "step_iou": 0.4430238726790451,
+      "mean_freq_in": 0.9165415206629958
+    }
+  ]
+}

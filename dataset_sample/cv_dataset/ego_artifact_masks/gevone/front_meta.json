@@ -1,0 +1,30 @@
+{
+  "vehicle": "gevone",
+  "camera": "front",
+  "n_used": 6,
+  "n_available": 6,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.13228831571691177,
+  "bottom_frac": 0.9757911306519025,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.3383573644301471,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.24677590762867646,
+      "step_iou": 0.729335115978014,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.13228831571691177,
+      "step_iou": 0.5360665754939331,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

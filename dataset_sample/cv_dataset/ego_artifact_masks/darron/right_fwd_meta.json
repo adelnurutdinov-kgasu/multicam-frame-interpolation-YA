@@ -1,0 +1,42 @@
+{
+  "vehicle": "darron",
+  "camera": "right_fwd",
+  "n_used": 9,
+  "n_available": 9,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.22437065972222223,
+  "bottom_frac": 0.7309217525872909,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.28702256944444443,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.2029441550925926,
+      "step_iou": 0.7070668884520389,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.13213252314814813,
+      "step_iou": 0.651078239173053,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.24946469907407406,
+      "step_iou": 0.524800554977454,
+      "mean_freq_in": 0.9386997622223511
+    },
+    {
+      "n": 9,
+      "coverage": 0.22437065972222223,
+      "step_iou": 0.8994084556051731,
+      "mean_freq_in": 0.9481252216526423
+    }
+  ]
+}

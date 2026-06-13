@@ -1,0 +1,20 @@
+{
+  "sample_id": "2025-10-01_18_29_52_19_31_28_kynde_1759339701900197000__000",
+  "target_camera": "right_bwd",
+  "n_sources": 6,
+  "coverage_total": 0.9006507992744446,
+  "visibility_max": 4,
+  "visibility_mean_in_covered": 2.445421664338487,
+  "per_source_coverage": {
+    "right_bwd_t0": 0.24621136486530304,
+    "right_fwd_t0": 0.41906827688217163,
+    "rear_t0": 0.22616510093212128,
+    "right_bwd_t1": 0.6107792258262634,
+    "right_fwd_t1": 0.0,
+    "rear_t1": 0.7002469897270203
+  },
+  "tuned_built": true,
+  "confidence_mean": 0.1745724231004715,
+  "soft_coverage_mean": 0.45789945125579834,
+  "disagreement_mean_in_overlap": 0.045780427753925323
+}

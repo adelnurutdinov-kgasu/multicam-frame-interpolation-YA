@@ -1,0 +1,36 @@
+{
+  "vehicle": "badat",
+  "camera": "front",
+  "n_used": 8,
+  "n_available": 8,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.13502223996350365,
+  "bottom_frac": 0.8558758314855875,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.24833913093065693,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.11933308622262774,
+      "step_iou": 0.4805246993312093,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.06329122947080291,
+      "step_iou": 0.5303745295979929,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.13502223996350365,
+      "step_iou": 0.4605732885342293,
+      "mean_freq_in": 0.9226784394467321
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "vehicle": "weel",
+  "camera": "right_fwd",
+  "n_used": 7,
+  "n_available": 7,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.09835069444444444,
+  "bottom_frac": 0.8823918799646955,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.1554470486111111,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.05863715277777778,
+      "step_iou": 0.3772162501745079,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.04809027777777778,
+      "step_iou": 0.8201332346410066,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 7,
+      "coverage": 0.09835069444444444,
+      "step_iou": 0.4889673433362754,
+      "mean_freq_in": 0.9260496784768628
+    }
+  ]
+}

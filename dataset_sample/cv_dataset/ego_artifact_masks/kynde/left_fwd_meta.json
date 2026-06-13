@@ -1,0 +1,30 @@
+{
+  "vehicle": "kynde",
+  "camera": "left_fwd",
+  "n_used": 6,
+  "n_available": 6,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.017708333333333333,
+  "bottom_frac": 0.9015522875816994,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.22284432870370371,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.03348524305555556,
+      "step_iou": 0.1502629357917289,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.017708333333333333,
+      "step_iou": 0.5288399222294232,
+      "mean_freq_in": 1.0
+    }
+  ]
+}

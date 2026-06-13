@@ -1,0 +1,42 @@
+{
+  "vehicle": "soan",
+  "camera": "left_bwd",
+  "n_used": 10,
+  "n_available": 10,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.030119619963369964,
+  "bottom_frac": 0.29643705463182896,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.2757411858974359,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.053478422619047616,
+      "step_iou": 0.1939442685901095,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.04483602335164835,
+      "step_iou": 0.8383946488294315,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 8,
+      "coverage": 0.060360863095238096,
+      "step_iou": 0.6156466322382156,
+      "mean_freq_in": 0.8986013986013986
+    },
+    {
+      "n": 10,
+      "coverage": 0.030119619963369964,
+      "step_iou": 0.498992532890838,
+      "mean_freq_in": 0.9147505938242282
+    }
+  ]
+}

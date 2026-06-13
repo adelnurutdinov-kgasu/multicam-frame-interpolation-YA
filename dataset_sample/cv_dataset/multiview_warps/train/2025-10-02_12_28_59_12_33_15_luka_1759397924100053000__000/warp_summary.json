@@ -1,0 +1,20 @@
+{
+  "sample_id": "2025-10-02_12_28_59_12_33_15_luka_1759397924100053000__000",
+  "target_camera": "rear",
+  "n_sources": 6,
+  "coverage_total": 0.9190447330474854,
+  "visibility_max": 6,
+  "visibility_mean_in_covered": 2.2495361032674466,
+  "per_source_coverage": {
+    "rear_t0": 0.34831634163856506,
+    "left_bwd_t0": 0.20155707001686096,
+    "right_bwd_t0": 0.19616428017616272,
+    "rear_t1": 0.8173611164093018,
+    "left_bwd_t1": 0.25475984811782837,
+    "right_bwd_t1": 0.24926576018333435
+  },
+  "tuned_built": true,
+  "confidence_mean": 0.21296043694019318,
+  "soft_coverage_mean": 0.6027625799179077,
+  "disagreement_mean_in_overlap": 0.058855991810560226
+}

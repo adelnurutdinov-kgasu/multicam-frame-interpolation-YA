@@ -1,0 +1,30 @@
+{
+  "vehicle": "hanna",
+  "camera": "left_fwd",
+  "n_used": 6,
+  "n_available": 6,
+  "converged": false,
+  "thresh": 0.85,
+  "coverage": 0.051403356481481484,
+  "bottom_frac": 0.6373487193920631,
+  "steps": [
+    {
+      "n": 2,
+      "coverage": 0.23441840277777778,
+      "step_iou": 1.0,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 4,
+      "coverage": 0.0913917824074074,
+      "step_iou": 0.3898660741837931,
+      "mean_freq_in": 1.0
+    },
+    {
+      "n": 6,
+      "coverage": 0.051403356481481484,
+      "step_iou": 0.5624505303150229,
+      "mean_freq_in": 1.0
+    }
+  ]
+}
