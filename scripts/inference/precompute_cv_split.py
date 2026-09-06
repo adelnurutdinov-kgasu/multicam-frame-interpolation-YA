@@ -84,7 +84,7 @@ def main() -> int:
     if "rife" in steps:
         cmd = [
             py,
-            str(REPO / "scripts" / "baselines" / "scripts/baselines/export_rife_batch.py"),
+            str(REPO / "scripts" / "baselines" / "export_rife_batch.py"),
             "--dataset-dir",
             str(args.dataset_dir),
             "--split",
