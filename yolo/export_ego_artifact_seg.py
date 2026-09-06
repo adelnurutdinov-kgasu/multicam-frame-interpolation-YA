@@ -36,6 +36,9 @@ from tqdm import tqdm
 REPO = Path(__file__).resolve().parents[1]
 if str(REPO) not in sys.path:
     sys.path.insert(0, str(REPO))
+_EGO = REPO / "scripts" / "ego"
+if str(_EGO) not in sys.path:
+    sys.path.append(str(_EGO))
 
 from import_manual_ego_masks import APPROVED_DIR, MEANS_DIR, ROOT as EGO_ROOT, collect_sample_paths
 from import_mask_picker_selections import (

@@ -26,6 +26,10 @@ from tqdm import tqdm
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+# ленивые импорты ниже берут модули из scripts/baselines
+_BASELINES = ROOT / "scripts" / "baselines"
+if str(_BASELINES) not in sys.path:
+    sys.path.append(str(_BASELINES))
 
 from analytics.stratified_metrics import (
     METHOD_KEYS,

@@ -1,4 +1,4 @@
-﻿"""Обучение Consensus V4: V3 pipeline, 7ch RGB (warp + trust + mean)."""
+"""Обучение Consensus V4: V3 pipeline, 7ch RGB (warp + trust + mean)."""
 from __future__ import annotations
 
 import argparse

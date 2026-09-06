@@ -30,6 +30,10 @@ def is_zero_mask_group_id(group_id: str) -> bool:
 
 def write_zero_approved_mask(approved_dir: Path, vehicle: str, camera: str) -> Path:
     """Пустая маска в разрешении mean (или 540×1024 fallback)."""
+    import sys as _sys
+    _ego = Path(__file__).resolve().parents[1] / "scripts" / "ego"
+    if str(_ego) not in _sys.path:
+        _sys.path.append(str(_ego))
     from import_manual_ego_masks import MEANS_DIR
 
     mean_path = MEANS_DIR / f"{vehicle}_{camera}.png"
