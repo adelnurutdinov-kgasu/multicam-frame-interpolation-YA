@@ -14,7 +14,7 @@
 ## Быстрый старт
 
 ```powershell
-cd C:\Users\adel\Documents\GitHub\YA-
+cd <корень репозитория>
 pip install -U -r requirements-yolo.txt
 
 python yolo/detect_dataset.py --dry-run

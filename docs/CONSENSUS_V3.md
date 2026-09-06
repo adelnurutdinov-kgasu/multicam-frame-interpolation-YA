@@ -43,7 +43,7 @@ python scripts/training/train_consensus_v3.py --continue-ckpt artifacts/checkpoi
 ## Запуск обучения
 
 ```powershell
-cd c:\Users\adel\Documents\GitHub\YA-
+cd <корень репозитория>
 python scripts/training/train_consensus_v3.py --epochs 80 --batch-size 8 --patch-h 416 --patch-w 768
 ```
 

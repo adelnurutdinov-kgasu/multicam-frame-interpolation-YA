@@ -9,7 +9,7 @@ GPU: RIFE + torch для карт MAE.
 ## Запуск
 
 ```powershell
-(colabus) cd C:\Users\adel\Documents\GitHub\YA-
+(colabus) cd <корень репозитория>
 
 # все train-сэмплы (долго; checkpoint каждые 50)
 python analytics/run_stratified_eval.py

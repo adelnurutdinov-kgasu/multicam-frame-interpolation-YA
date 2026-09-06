@@ -3,8 +3,8 @@
 Документ описывает end-to-end пайплайн прогона **test split (199 сэмплов, без GT)**:
 прекомпьюты → ego-маски → consensus U-Net → LiDAR-blend с RIFE → HTML-галерея.
 
-Корень репозитория: `C:\Users\adel\Documents\GitHub\YA-`  
-Корень датасета и артефактов: `C:\Users\adel\Downloads\cv_dataset\`
+Корень репозитория — папка с этим README.  
+Корень датасета и артефактов: `YA_CV_DATASET` (по умолчанию — см. `ya_paths.py`)
 
 ---
 

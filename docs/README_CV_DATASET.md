@@ -1,12 +1,12 @@
 # cv_dataset — команды для прогона и просмотра
 
-Датасет: `C:\Users\adel\Downloads\cv_dataset\final_dataset_v5_participants` (~19 002 jpg)  
+Датасет: `$YA_CV_DATASET/final_dataset_v5_participants` (~19 002 jpg)  
 Аннотации пишутся рядом, **картинки не копируются**.
 
 ## 1. Прогон YOLO (запустите сами)
 
 ```powershell
-cd C:\Users\adel\Documents\GitHub\YA-
+cd <корень репозитория>
 pip install -r requirements-yolo.txt
 
 python yolo/detect_dataset.py --config yolo/config_cv_dataset.yaml --dry-run
