@@ -6,7 +6,7 @@ Build v2/v3 mask variants and refresh approved masks per user review.
 
 Usage:
   python process_manual_mask_variants.py
-  python import_manual_ego_masks.py
+  python scripts/ego/import_manual_ego_masks.py
 """
 
 from __future__ import annotations

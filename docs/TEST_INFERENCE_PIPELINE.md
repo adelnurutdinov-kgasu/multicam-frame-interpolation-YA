@@ -50,17 +50,17 @@ final_dataset_v5_participants/test/<sample_id>/
 
 ## 3. Прекомпьюты (шаги 1–3)
 
-Оркестратор: **`precompute_cv_split.py`**
+Оркестратор: **`scripts/inference/precompute_cv_split.py`**
 
 ```bash
-python precompute_cv_split.py --split test
-python precompute_cv_split.py --split test --steps bake,rife,warps
+python scripts/inference/precompute_cv_split.py --split test
+python scripts/inference/precompute_cv_split.py --split test --steps bake,rife,warps
 ```
 
 | Шаг | Скрипт | Выход |
 |-----|--------|-------|
 | **bake** | `scripts/stage2/bake_refinement_assets.py` | `d1.npy`, `meta.json` в baked-папке |
-| **rife** | `export_rife_batch.py --allow-no-target` | `rife_predictions_v5/test/<id>.jpg` |
+| **rife** | `scripts/baselines/export_rife_batch.py --allow-no-target` | `rife_predictions_v5/test/<id>.jpg` |
 | **warps** | `scripts/stage2/multiview_warping.py` | `consensus_raw.npy`, `coverage.npy` |
 
 **Важно для warps:** `--rife-root` должен указывать на `rife_predictions_v5` (не на подпапку `test`), иначе `tuned_built: false`.
@@ -73,11 +73,11 @@ python precompute_cv_split.py --split test --steps bake,rife,warps
 
 | Скрипт | Назначение |
 |--------|------------|
-| `export_mask_composer.py --test-only` | Экспорт picker для test |
-| `serve_mask_picker.py` | HTTP-сервер (порт 8765), не открывать через `file://` |
-| `import_mask_picker_selections.py` | Применение выборов → `masks_approved/` |
+| `scripts/ego/export_mask_composer.py --test-only` | Экспорт picker для test |
+| `scripts/ego/serve_mask_picker.py` | HTTP-сервер (порт 8765), не открывать через `file://` |
+| `scripts/ego/import_mask_picker_selections.py` | Применение выборов → `masks_approved/` |
 | `ego_mask_policy.py` | Политика пустых масок |
-| `audit_pipeline_ego_masks.py` | Аудит масок в пайплайне |
+| `scripts/ego/audit_pipeline_ego_masks.py` | Аудит масок в пайплайне |
 
 **Пустые маски (ZERO):** `crozby_right_fwd`, `natelio_right_fwd`, `orvy_right_fwd` — через `ego_mask_policy.py`.
 
@@ -87,17 +87,17 @@ python precompute_cv_split.py --split test --steps bake,rife,warps
 
 ## 5. Consensus U-Net — инференс (шаг 4)
 
-Скрипт: **`run_test_consensus_inference.py`**
+Скрипт: **`scripts/inference/run_test_consensus_inference.py`**
 
 ```bash
 # Полный прогон
-python run_test_consensus_inference.py
+python scripts/inference/run_test_consensus_inference.py
 
 # Только пересобрать blend/маски (consensus не трогать)
-python run_test_consensus_inference.py --reblend-only
+python scripts/inference/run_test_consensus_inference.py --reblend-only
 
 # Принудительно пересчитать U-Net
-python run_test_consensus_inference.py --force-infer
+python scripts/inference/run_test_consensus_inference.py --force-infer
 ```
 
 ### Маршрутизация моделей
@@ -163,7 +163,7 @@ python run_test_consensus_inference.py --force-infer
 
 ### 7.1 Основной — `blend_lidar_rife.jpg`
 
-Скрипт: `run_test_consensus_inference.py`
+Скрипт: `scripts/inference/run_test_consensus_inference.py`
 
 ```
 где lidar_trust ≥ 0.12:
@@ -180,11 +180,11 @@ python run_test_consensus_inference.py --force-infer
 
 ### 7.2 Дополнительный — `blend_blur50.jpg`
 
-Скрипт: **`run_test_blend_blur.py`**
+Скрипт: **`scripts/inference/run_test_blend_blur.py`**
 
 ```bash
-python run_test_blend_blur.py
-python run_test_blend_blur.py --force   # перезаписать все
+python scripts/inference/run_test_blend_blur.py
+python scripts/inference/run_test_blend_blur.py --force   # перезаписать все
 ```
 
 | Параметр | Значение |
@@ -222,11 +222,11 @@ python run_test_blend_blur.py --force   # перезаписать все
 
 | Скрипт | Выход |
 |--------|-------|
-| **`build_test_outputs_gallery.py`** | `consensus_test_outputs/index.html` (все 199) |
-| `build_blend_preview_gallery.py` | `_preview_gallery.html` (по 1 сэмплу на камеру) |
+| **`scripts/inference/build_test_outputs_gallery.py`** | `consensus_test_outputs/index.html` (все 199) |
+| `scripts/inference/build_blend_preview_gallery.py` | `_preview_gallery.html` (по 1 сэмплу на камеру) |
 
 ```bash
-python build_test_outputs_gallery.py
+python scripts/inference/build_test_outputs_gallery.py
 ```
 
 Колонки: ref · consensus · RIFE · blend · **blend blur50** · lidar_trust · blend mask  
@@ -241,9 +241,9 @@ python build_test_outputs_gallery.py
 
 | Скрипт | Назначение |
 |--------|------------|
-| `flip_mirror_lidar_masks.py` | Быстрый горизонтальный flip LiDAR PNG для `left_fwd`/`right_bwd` (legacy fix) |
-| `run_lidar_alpha_val.py` | Перебор α на val (с кэшем) |
-| `audit_pipeline_ego_masks.py` | Отчёт по ego-маскам |
+| `scripts/inference/flip_mirror_lidar_masks.py` | Быстрый горизонтальный flip LiDAR PNG для `left_fwd`/`right_bwd` (legacy fix) |
+| `scripts/inference/run_lidar_alpha_val.py` | Перебор α на val (с кэшем) |
+| `scripts/ego/audit_pipeline_ego_masks.py` | Отчёт по ego-маскам |
 
 ---
 
@@ -269,7 +269,7 @@ python build_test_outputs_gallery.py
 | **`lidar_density_mask.py`** | LiDAR → trust, spread r3+blur, `blend_model_rife_lidar()` |
 | **`lidar_depth_map.py`** | Проекция LiDAR в image plane |
 | **`ego_mask_policy.py`** | ZERO-маски, политика групп |
-| **`export_rife_batch.py`** | Batch RIFE inference |
+| **`scripts/baselines/export_rife_batch.py`** | Batch RIFE inference |
 
 ---
 
@@ -277,20 +277,20 @@ python build_test_outputs_gallery.py
 
 ```bash
 # 1. Прекомпьюты test
-python precompute_cv_split.py --split test
+python scripts/inference/precompute_cv_split.py --split test
 
 # 2. Ego-маски (если обновляли picker)
-python import_mask_picker_selections.py
+python scripts/ego/import_mask_picker_selections.py
 
 # 3. U-Net + основной blend (или только reblend)
-python run_test_consensus_inference.py
-python run_test_consensus_inference.py --reblend-only
+python scripts/inference/run_test_consensus_inference.py
+python scripts/inference/run_test_consensus_inference.py --reblend-only
 
 # 4. Доп. blend blur50 + feather
-python run_test_blend_blur.py --force
+python scripts/inference/run_test_blend_blur.py --force
 
 # 5. Галерея
-python build_test_outputs_gallery.py
+python scripts/inference/build_test_outputs_gallery.py
 ```
 
 ---

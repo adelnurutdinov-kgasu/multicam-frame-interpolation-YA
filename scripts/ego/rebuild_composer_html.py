@@ -215,7 +215,7 @@ async function drawMaskRedOverlay(maskRel, fw, fh, alpha) {
   try {
     src = octx.getImageData(0, 0, fw, fh);
   } catch (e) {
-    throw new Error('маска: откройте через python serve_mask_picker.py (не file://)');
+    throw new Error('маска: откройте через python scripts/ego/serve_mask_picker.py (не file://)');
   }
   const imgData = octx.createImageData(fw, fh);
   const s = src.data;
@@ -323,7 +323,7 @@ async function saveSelection() {
     const msg = (e && e.message) ? String(e.message) : String(e);
     const hint = (location.protocol === 'file:')
       ? 'Откройте http://127.0.0.1:8765/composer_test.html (не file://)'
-      : 'Запустите: python serve_mask_picker.py';
+      : 'Запустите: python scripts/ego/serve_mask_picker.py';
     setSaveStatus(hint, false);
     showErr(hint + '\n' + msg);
   }
@@ -416,9 +416,9 @@ def build_html(payload: dict) -> str:
         )
     server_hint = (
         "Открывайте <b>http://127.0.0.1:8765/composer_test.html</b> "
-        "(python serve_mask_picker.py)"
+        "(python scripts/ego/serve_mask_picker.py)"
         if test_only
-        else "Открывайте через <b>python serve_mask_picker.py</b> → http://127.0.0.1:8765/composer.html"
+        else "Открывайте через <b>python scripts/ego/serve_mask_picker.py</b> → http://127.0.0.1:8765/composer.html"
     )
     gallery_link = (
         ""

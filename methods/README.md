@@ -20,6 +20,6 @@
 | 16 | `16_phase_blocks` | Phase correlation по блокам | testdeltadif.py |
 | 17 | `17_mega_parallax` | depth × semantic: warp каждого куска | mega_parallax.py |
 
-Экспорт: `python export_all_methods.py --num-samples 8`
+Экспорт: `python scripts/baselines/export_all_methods.py --num-samples 8`
 
 Результат: `methods_gallery/<метод>/<sample_id>.jpg` + `methods_gallery/_meta/` + `index.html`

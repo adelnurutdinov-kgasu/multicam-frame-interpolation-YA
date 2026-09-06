@@ -12,8 +12,8 @@ For masks_approved (one mask per vehicle+camera) we pick:
 ZERO_MASK_GROUPS (ego_mask_policy): пустая маска, picker игнорируется.
 
 Usage:
-  python import_mask_picker_selections.py
-  python import_mask_picker_selections.py --dry-run
+  python scripts/ego/import_mask_picker_selections.py
+  python scripts/ego/import_mask_picker_selections.py --dry-run
 """
 
 from __future__ import annotations

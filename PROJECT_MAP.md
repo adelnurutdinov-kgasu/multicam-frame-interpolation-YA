@@ -20,14 +20,14 @@ LiDAR нужно предсказать кадр целевой камеры в 
 RIFE (нейросетевая интерполяция), Ultralytics YOLO26 (детекция/сегментация/семантика),
 LiDAR-проекция и глубинные карты.
 
-Репозиторий прошёл реорганизацию (май 2026, см. `docs/REPO_LAYOUT.md`): код вынесен в
-`lib/` и `scripts/`, а в корне оставлены **тонкие shim/launcher** для обратной совместимости.
+Код разложен по `lib/` (переиспользуемые модули) и `scripts/` (CLI по этапам пайплайна);
+структура описана в `docs/REPO_LAYOUT.md`.
 
 ---
 
 ## 1. Очередность пайплайна (главное)
 
-Этапы по порядку. Для каждого — канонический код в `scripts/`/`lib/` и команда из корня (shim).
+Этапы по порядку. Для каждого — канонический код в `scripts/`/`lib/` и команда запуска.
 
 ### Этап 0 — Данные и пути
 - Формат сэмпла: `docs/README_CV_DATASET.md`; пример выборки: `dataset_sample/`.
@@ -37,10 +37,10 @@ LiDAR-проекция и глубинные карты.
 
 ### Этап A — Baseline-методы и их сравнение
 1. Прототипы оптического потока/блюра: `experiments/testdelta*.py`, `testblur.py`, `testconv.py`.
-2. Экспорт всех методов в галерею: `export_all_methods.py` → `scripts/baselines/export_all_methods.py`.
+2. Экспорт всех методов в галерею: `scripts/baselines/export_all_methods.py` → `methods_gallery/` (локальная папка, в снимок не входит).
    - Каталог методов 01–17 (от простого к сложному): см. **`methods/README.md`**.
    - Результат: `methods_gallery/<метод>/<sample>.jpg` + `methods_gallery/index.html`.
-3. RIFE батчем: `export_rife_batch.py`; сравнение: `compare_baselines.py`, `visualize_baselines.py`.
+3. RIFE батчем: `scripts/baselines/export_rife_batch.py`; сравнение: `scripts/baselines/compare_baselines.py`, `scripts/baselines/visualize_baselines.py`.
 4. Стратифицированная аналитика ошибок по глубине/семантике: `analytics/` (`run_stratified_eval.py` → `build_report.py` → `analytics/out/report.html`).
 
 ### Этап B — YOLO-аннотации (вспомогательные)
@@ -48,24 +48,24 @@ LiDAR-проекция и глубинные карты.
 - Конфиги: `yolo/config*.yaml`; документация: **`docs/README_YOLO.md`**.
 - Используются для ego-артефактов (см. этап D) и аналитики (этап A.4).
 
-### Этап C — Прекомпьюты (оркестратор `precompute_cv_split.py`)
-Команда: `python precompute_cv_split.py --split {train|test}` →
+### Этап C — Прекомпьюты (оркестратор `scripts/inference/precompute_cv_split.py`)
+Команда: `python scripts/inference/precompute_cv_split.py --split {train|test}` →
 `scripts/inference/precompute_cv_split.py`. Шаги:
 
 | Шаг | Скрипт | Выход (во внешнем cv_dataset) |
 |-----|--------|------|
 | bake (глубина) | `scripts/stage2/bake_refinement_assets.py` | `rife_refinement_baked/` (`d*.npy`, meta) |
-| rife | `export_rife_batch.py --allow-no-target` | `rife_predictions_v5/` |
+| rife | `scripts/baselines/export_rife_batch.py --allow-no-target` | `rife_predictions_v5/` |
 | warps | `scripts/stage2/multiview_warping.py` | `multiview_warps/` (`consensus_raw.npy`, `coverage.npy`, …) |
 | static/far | `scripts/tuning/precompute_static_masks.py`, `scripts/inference/precompute_lidar_trust_and_warp_mix.py` | `precomputed_static_far/`, lidar_trust |
 
 LiDAR-логика: `lib/lidar_depth_map.py` (проекция), `lib/lidar_density_mask.py` (trust r3+blur, blend).
 
 ### Этап D — Ego-маски (артефакты кузова)
-1. `export_mask_composer.py --test-only` — собрать picker.
-2. `serve_mask_picker.py` — локальный сервер (порт 8765), ручной выбор масок.
-3. `import_mask_picker_selections.py` — применить выбор → `methods_gallery/_ego_manual_masks/masks_approved/`.
-4. Политика пустых масок: `lib/ego_mask_policy.py`; аудит: `audit_pipeline_ego_masks.py`.
+1. `scripts/ego/export_mask_composer.py --test-only` — собрать picker.
+2. `scripts/ego/serve_mask_picker.py` — локальный сервер (порт 8765), ручной выбор масок.
+3. `scripts/ego/import_mask_picker_selections.py` — применить выбор → `methods_gallery/_ego_manual_masks/masks_approved/`.
+4. Политика пустых масок: `lib/ego_mask_policy.py`; аудит: `scripts/ego/audit_pipeline_ego_masks.py`.
 5. Обучение YOLO-сегментации ego-артефакта: `scripts/ego/*`, `yolo/train_ego_artifact_seg.py`.
 
 ### Этап E — Обучение Consensus U-Net
@@ -79,17 +79,17 @@ LiDAR-логика: `lib/lidar_depth_map.py` (проекция), `lib/lidar_dens
 Полное описание: **`docs/TEST_INFERENCE_PIPELINE.md`**. Порядок:
 
 ```
-python precompute_cv_split.py --split test        # этап C для test
-python run_test_consensus_inference.py            # U-Net + основной LiDAR-blend
-python run_test_blend_blur.py --force             # доп. blend (blur+feather)
-python export_submission_blend50.py               # финальный submission
-python build_test_outputs_gallery.py              # HTML-галерея 199 сэмплов
+python scripts/inference/precompute_cv_split.py --split test        # этап C для test
+python scripts/inference/run_test_consensus_inference.py            # U-Net + основной LiDAR-blend
+python scripts/inference/run_test_blend_blur.py --force             # доп. blend (blur+feather)
+python scripts/inference/export_submission_blend50.py               # финальный submission
+python scripts/inference/build_test_outputs_gallery.py              # HTML-галерея 199 сэмплов
 ```
 - Маршрутизация моделей: front/rear → `consensus`, side → `consensus_side` (+ mirror canonical для `left_fwd`/`right_bwd`).
-- Доп. экспорт: `export_submission_v4.py`, `scripts/inference/export_submission_v3_v4_blend.py`.
+- Доп. экспорт: `scripts/inference/export_submission_v4.py`, `scripts/inference/export_submission_v3_v4_blend.py`.
 
 ### Этап G — Тюнинг (по необходимости, влияет на C/F)
-- `scripts/tuning/`: `tune_layered_alpha.py`, `tune_layered_blur.py`, `tune_static_mask.py`,
+- `scripts/tuning/`: `scripts/tuning/tune_layered_alpha.py`, `scripts/tuning/tune_layered_blur.py`, `scripts/tuning/tune_static_mask.py`,
   `sweep_far_boundary.py`, `benchmark_far_static.py`.
 - Результаты тюнинга: `configs/tuning/*.json` (alpha/blur/static_mask/far_boundary).
 
@@ -106,7 +106,7 @@ python build_test_outputs_gallery.py              # HTML-галерея 199 сэ
 | `README.md` | Индекс + быстрый старт |
 | `PROJECT_MAP.md` | Этот файл |
 | `ya_paths.py` | Единые пути (REPO + внешний cv_dataset) |
-| `docs/` | Документация: `REPO_LAYOUT.md`, `TEST_INFERENCE_PIPELINE.md`, `README_CV_DATASET.md`, `README_YOLO.md`, `CONSENSUS_V3.md`, `archive/` (дампы) |
+| `docs/` | Документация: `REPO_LAYOUT.md`, `TEST_INFERENCE_PIPELINE.md`, `README_CV_DATASET.md`, `README_YOLO.md`, `CONSENSUS_V3.md` |
 | `configs/` | `dataset.yaml` (пути), `tuning/` (JSON параметры) |
 | `lib/` | Переиспользуемые модули: `consensus_kit`, `consensus_v3/v4_*`, `lidar_depth_map`, `lidar_density_mask`, `layered_parallax`, `mega_parallax`, `static_mask`, `ego_mask_*` |
 | `scripts/inference/` | Test-пайплайн, submission, галереи, precompute |
@@ -117,25 +117,24 @@ python build_test_outputs_gallery.py              # HTML-галерея 199 сэ
 | `scripts/tuning/` | tune_*, static/far, sweep |
 | `notebooks/training/` | Обучающие ноутбуки consensus/lidar |
 | `notebooks/stage2/` | `rife_depth_refinement_starter.ipynb` |
-| `tools/` | Генераторы и патчеры ноутбуков, миграция layout (`apply_repo_layout.py`, …) |
+| `tools/` | Генераторы обучающих ноутбуков (`build_*_notebook.py`) |
 | `experiments/` | Прототипы optical-flow/blur (`testdelta*`, `testblur`, …) |
 | `methods/` | `README.md` — нумерация методов 01–17 |
-| `methods_gallery/` | Экспорт методов 01–16, ego-артефакты, preview, статические маски, `index.html` |
+| `methods_gallery/` | *(локально, не в снимке)* экспорт методов 01–16, ego-артефакты, preview, `index.html` |
 | `yolo/` | YOLO26 детекция/сегментация/семантика + конфиги |
 | `analytics/` | Стратифицированная оценка ошибок (depth/semantic) + HTML-отчёт |
 | `viewer/` | Локальный веб-просмотрщик результатов |
-| `artifacts/` | `checkpoints/` (веса U-Net, в .gitignore), `preview/`, eval JSON |
-| `baseline_files/` | RIFE-сабмодуль (ECCV2022-RIFE) + train_log |
+| `artifacts/` | *(локально, не в снимке)* `checkpoints/` — веса U-Net, `preview/`, eval JSON |
+| `baseline_files/` | *(локально, не в снимке)* RIFE (ECCV2022-RIFE) + train_log |
 | `dataset_sample/` | Маленькая выборка датасета (6 сэмплов + прекомпьюты) для GitHub/демо |
 | `tests/` | `test_mega_parallax.py` |
 | `data/` | `dataset/.gitkeep` — плейсхолдер (содержимое в .gitignore) |
 
-### Корневые скрипты = shim/launcher
-~30 файлов в корне (`run_test_*.py`, `export_*.py`, `precompute_*.py`, `consensus_kit.py`,
-`ego_mask_*.py`, `lidar_*.py`, `tune_*.py`, …) — это **тонкие обёртки**, перенаправляющие
-на реальный код в `lib/`/`scripts/` (примеры: `precompute_cv_split.py` → `runpy` на
-`scripts/inference/...`; `ego_mask_extract.py` → реэкспорт `lib.ego_mask_extract`).
-Нужны, чтобы старые команды из корня продолжали работать.
+### Корневые модули = реэкспорт из `lib/`
+В корне лежат 8 файлов по ~300 байт (`consensus_kit.py`, `lidar_*.py`, `layered_parallax.py`,
+`mega_parallax.py`, `static_mask.py`, `ego_mask_*.py`) — тонкие реэкспорты соответствующих
+модулей `lib/`. Нужны, чтобы работал короткий `from consensus_kit import ...` из скриптов
+и ноутбуков. Реализация — только в `lib/`.
 
 ### Внешние данные/артефакты (НЕ в git)
 Задаются в `ya_paths.py`: `CV_ROOT=…/cv_dataset`, `DATASET_ROOT`, `BAKED_ROOT`,
@@ -143,20 +142,7 @@ python build_test_outputs_gallery.py              # HTML-галерея 199 сэ
 
 ---
 
-## 3. Скратч/легаси (локальные, не часть пайплайна)
-
-| Путь | Статус |
-|------|--------|
-| `Второй этап/` (кириллица, ~189 МБ) | **Легаси-дубликат** — всё перенесено в `scripts/stage2/` + `notebooks/stage2/` (см. его README). Содержит старые `.pt`. |
-| `depth_out/`, `layered_parallax_out/`, `baseline_viz/`, `sanity_consensus/` | Локальный scratch/превью |
-| `runs/` | Логи YOLO (в .gitignore) |
-| `__pycache__/`, `.ipynb_checkpoints/`, `.DS_Store`, `blur_tune_cache.pkl` | Технический мусор |
-| `*.pt` в корне (`yolo26*.pt`) | Предобученные веса YOLO (в .gitignore) |
-| `missing_warps.txt`, `precompute_*_log.txt`, `run_alpha_log.txt` | Логи прогонов |
-
----
-
-## 4. Документация-источники
+## 3. Документация-источники
 `README.md`, `docs/REPO_LAYOUT.md`, `docs/TEST_INFERENCE_PIPELINE.md`,
 `docs/README_CV_DATASET.md`, `docs/README_YOLO.md`, `docs/CONSENSUS_V3.md`,
 `methods/README.md`, `analytics/README.md`, `dataset_sample/README.md`.

@@ -6,8 +6,8 @@
 Читает готовые файлы из consensus_test_outputs, без U-Net / LiDAR rebuild.
 
 Usage:
-  python run_test_blend_blur.py
-  python run_test_blend_blur.py --limit 10 --force
+  python scripts/inference/run_test_blend_blur.py
+  python scripts/inference/run_test_blend_blur.py --limit 10 --force
 """
 
 from __future__ import annotations

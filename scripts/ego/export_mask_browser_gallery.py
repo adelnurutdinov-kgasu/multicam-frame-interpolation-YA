@@ -9,8 +9,8 @@ Outputs:
   methods_gallery/_ego_manual_masks/browser_gallery/overlays/{vehicle}_{camera}/...
 
 Usage:
-  python export_mask_browser_gallery.py
-  python export_mask_browser_gallery.py --max-extra 4
+  python scripts/ego/export_mask_browser_gallery.py
+  python scripts/ego/export_mask_browser_gallery.py --max-extra 4
 """
 
 from __future__ import annotations

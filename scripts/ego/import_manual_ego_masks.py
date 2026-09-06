@@ -10,8 +10,8 @@ Exports:
   manual_masks_manifest.json            — status per group + alignment score
 
 Usage:
-  python import_manual_ego_masks.py
-  python import_manual_ego_masks.py --validate --dataset .../train
+  python scripts/ego/import_manual_ego_masks.py
+  python scripts/ego/import_manual_ego_masks.py --validate --dataset .../train
 """
 
 from __future__ import annotations

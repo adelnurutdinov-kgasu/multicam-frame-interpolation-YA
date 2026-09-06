@@ -6,8 +6,8 @@ Expected filenames:
   {vehicle}_{camera}_composed.png
 
 Usage:
-  python import_composed_masks.py
-  python import_composed_masks.py --also-update-selected
+  python scripts/ego/import_composed_masks.py
+  python scripts/ego/import_composed_masks.py --also-update-selected
 """
 
 from __future__ import annotations

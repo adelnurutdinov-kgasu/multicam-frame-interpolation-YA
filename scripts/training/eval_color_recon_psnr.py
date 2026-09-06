@@ -17,6 +17,12 @@ import cv2
 import numpy as np
 from PIL import Image
 
+import sys as _sys
+from pathlib import Path as _Path
+_REPO = _Path(__file__).resolve().parents[2]
+if str(_REPO) not in _sys.path:
+    _sys.path.insert(0, str(_REPO))
+
 from ya_paths import DATASET_ROOT
 
 

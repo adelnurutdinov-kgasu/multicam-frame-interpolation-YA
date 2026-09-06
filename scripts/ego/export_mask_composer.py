@@ -8,9 +8,9 @@ Exports:
   browser_gallery/frames/{group}/*.jpg  — raw target frames (no overlay)
 
 Usage:
-  python export_mask_composer.py
+  python scripts/ego/export_mask_composer.py
   # save downloaded PNG to masks_composed/{vehicle}_{camera}.png
-  python import_composed_masks.py
+  python scripts/ego/import_composed_masks.py
 """
 
 from __future__ import annotations
@@ -476,7 +476,7 @@ def main() -> int:
     print(f"Mask picker: {HTML_PATH}")
     print(f"  groups={len(groups)}  candidates={n_cand}")
     print(f"Save PNG to: {COMPOSED_DIR}")
-    print("Then: python import_composed_masks.py")
+    print("Then: python scripts/ego/import_composed_masks.py")
     return 0
 
 

@@ -1,7 +1,7 @@
 """
 Local server for mask picker UI (fixes file:// fetch/canvas issues).
 
-  python serve_mask_picker.py
+  python scripts/ego/serve_mask_picker.py
 
 Open: http://127.0.0.1:8765/composer.html
 
@@ -90,7 +90,7 @@ def main() -> int:
     try:
         httpd = ReuseHTTPServer(("127.0.0.1", PORT), Handler)
     except OSError as e:
-        print(f"Порт {PORT} занят. Закройте старые serve_mask_picker.py: {e}")
+        print(f"Порт {PORT} занят. Закройте старые scripts/ego/serve_mask_picker.py: {e}")
         return 1
     print(f"Mask picker (train): http://127.0.0.1:{PORT}/composer.html")
     if (GALLERY / "composer_test.html").is_file():

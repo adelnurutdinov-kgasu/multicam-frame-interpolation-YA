@@ -64,3 +64,8 @@ baseline_files/baseline_ensemble/ECCV2022-RIFE/
 /artifacts/
 /baseline_files/
 /dataset_sample/cv_dataset/
+
+# ───────────────────────── Чтобы не возвращалось ────────────────
+**/Untitled*.ipynb
+**/*_corrupt_backup.ipynb
+analytics/out/*checkpoint*.json

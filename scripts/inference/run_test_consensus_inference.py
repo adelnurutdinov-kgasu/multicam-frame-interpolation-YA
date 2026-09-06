@@ -8,8 +8,8 @@
 Опционально: blend model + RIFE по LiDAR-маске.
 
 Usage:
-  python run_test_consensus_inference.py --limit 5
-  python run_test_consensus_inference.py --blend-alpha 0.55
+  python scripts/inference/run_test_consensus_inference.py --limit 5
+  python scripts/inference/run_test_consensus_inference.py --blend-alpha 0.55
 """
 
 from __future__ import annotations
